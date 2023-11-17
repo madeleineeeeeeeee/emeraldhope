@@ -1930,6 +1930,10 @@ Cry_Jirachi::
 Cry_Deoxys::
 	.incbin "sound/direct_sound_samples/cries/deoxys.bin"
 
+	.align 2
+Cry_Galladin::
+	.incbin "sound/direct_sound_samples/cries/galladin.bin"
+
 .if P_GEN_4_POKEMON == TRUE
 	.align 2
 Cry_Turtwig::

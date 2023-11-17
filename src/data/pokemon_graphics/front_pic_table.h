@@ -387,6 +387,11 @@ const struct CompressedSpriteSheet gMonFrontPicTable[NUM_SPECIES + 1] =
     SPECIES_SPRITE(JIRACHI, gMonFrontPic_Jirachi),
     SPECIES_SPRITE(DEOXYS, gMonFrontPic_Deoxys),
     SPECIES_SPRITE(CHIMECHO, gMonFrontPic_Chimecho),
+
+    //maddie mons
+
+    SPECIES_SPRITE(GALLADIN, gMonFrontPic_Galladin),
+
 #if P_GEN_4_POKEMON == TRUE
     SPECIES_SPRITE(TURTWIG, gMonFrontPic_Turtwig),
     SPECIES_SPRITE(GROTLE, gMonFrontPic_Grotle),
@@ -597,7 +602,7 @@ const struct CompressedSpriteSheet gMonFrontPicTable[NUM_SPECIES + 1] =
     SPECIES_SPRITE(AMOONGUSS, gMonFrontPic_Amoonguss),
     SPECIES_SPRITE(FRILLISH, gMonFrontPic_Frillish),
     SPECIES_SPRITE(JELLICENT, gMonFrontPic_Jellicent),
-    SPECIES_SPRITE(ALOMOMOLA, gMonFrontPic_Alomomola),
+    SPECIES_SPRITE(ALOMomOLA, gMonFrontPic_Alomomola),
     SPECIES_SPRITE(JOLTIK, gMonFrontPic_Joltik),
     SPECIES_SPRITE(GALVANTULA, gMonFrontPic_Galvantula),
     SPECIES_SPRITE(FERROSEED, gMonFrontPic_Ferroseed),
@@ -1325,7 +1330,7 @@ const struct CompressedSpriteSheet gMonFrontPicTable[NUM_SPECIES + 1] =
 
     SPECIES_SPRITE(URSHIFU_RAPID_STRIKE_STYLE, gMonFrontPic_UrshifuRapidStrikeStyle),
 
-    SPECIES_SPRITE(ZARUDE_DADA, gMonFrontPic_ZarudeDada),
+    SPECIES_SPRITE(ZARUDE_DadA, gMonFrontPic_ZarudeDada),
 
     SPECIES_SPRITE(CALYREX_ICE_RIDER, gMonFrontPic_CalyrexIceRider),
     SPECIES_SPRITE(CALYREX_SHADOW_RIDER, gMonFrontPic_CalyrexShadowRider),

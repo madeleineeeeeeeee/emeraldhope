@@ -515,6 +515,11 @@ extern const u32 gMonFrontPic_Groudon[];
 extern const u32 gMonFrontPic_Rayquaza[];
 extern const u32 gMonFrontPic_Jirachi[];
 extern const u32 gMonFrontPic_Deoxys[];
+
+//maddie mons
+
+extern const u32 gMonFrontPic_Galladin[];
+
 #if P_GEN_4_POKEMON == TRUE
 extern const u32 gMonFrontPic_Turtwig[];
 extern const u32 gMonFrontPic_Grotle[];
@@ -1807,6 +1812,12 @@ extern const u32 gMonBackPic_Groudon[];
 extern const u32 gMonBackPic_Rayquaza[];
 extern const u32 gMonBackPic_Jirachi[];
 extern const u32 gMonBackPic_Deoxys[];
+
+//maddie mons
+
+extern const u32 gMonBackPic_Galladin[];
+
+
 #if P_GEN_4_POKEMON == TRUE
 extern const u32 gMonBackPic_Turtwig[];
 extern const u32 gMonBackPic_Grotle[];
@@ -3033,6 +3044,11 @@ extern const u32 gMonPalette_Groudon[];
 extern const u32 gMonPalette_Rayquaza[];
 extern const u32 gMonPalette_Jirachi[];
 extern const u32 gMonPalette_Deoxys[];
+
+//maddiemons
+
+extern const u32 gMonPalette_Galladin[];
+
 #if P_GEN_4_POKEMON == TRUE
 extern const u32 gMonPalette_Turtwig[];
 extern const u32 gMonPalette_Grotle[];
@@ -4266,6 +4282,11 @@ extern const u32 gMonShinyPalette_Groudon[];
 extern const u32 gMonShinyPalette_Rayquaza[];
 extern const u32 gMonShinyPalette_Jirachi[];
 extern const u32 gMonShinyPalette_Deoxys[];
+
+//maddie mons
+
+extern const u32 gMonShinyPalette_Galladin[];
+
 #if P_GEN_4_POKEMON == TRUE
 extern const u32 gMonShinyPalette_Turtwig[];
 extern const u32 gMonShinyPalette_Grotle[];
@@ -5491,6 +5512,11 @@ extern const u8 gMonIcon_Groudon[];
 extern const u8 gMonIcon_Rayquaza[];
 extern const u8 gMonIcon_Jirachi[];
 extern const u8 gMonIcon_Deoxys[];
+
+//maddie mons
+
+extern const u8 gMonIcon_Galladin[];
+
 #if P_GEN_4_POKEMON == TRUE
 extern const u8 gMonIcon_Turtwig[];
 extern const u8 gMonIcon_Grotle[];
@@ -6712,6 +6738,11 @@ extern const u8 gMonFootprint_Latios[];
 extern const u8 gMonFootprint_Jirachi[];
 extern const u8 gMonFootprint_Deoxys[];
 extern const u8 gMonFootprint_Chimecho[];
+
+//maddie mons
+
+extern const u8 gMonFootprint_Galladin[];
+
 #if P_GEN_4_POKEMON == TRUE
 extern const u8 gMonFootprint_Turtwig[];
 extern const u8 gMonFootprint_Grotle[];
@@ -8994,6 +9025,22 @@ extern const u32 gItemIcon_Gem[];
 extern const u32 gItemIconPalette_Ruby[];
 extern const u32 gItemIconPalette_Sapphire[];
 
+// Start Pokevial Branch
+extern const u32 gItemIcon_Pokevial0[];
+extern const u32 gItemIcon_Pokevial1[];
+extern const u32 gItemIcon_Pokevial2[];
+extern const u32 gItemIcon_Pokevial3[];
+extern const u32 gItemIcon_Pokevial4[];
+extern const u32 gItemIcon_Pokevial5[];
+extern const u32 gItemIcon_Pokevial6[];
+extern const u32 gItemIcon_Pokevial7[];
+extern const u32 gItemIcon_Pokevial8[];
+extern const u32 gItemIcon_Pokevial9[];
+extern const u32 gItemIcon_Pokevial[];
+
+extern const u32 gItemIconPalette_Pokevial[];
+// End Pokevial Branch
+
 // GEN IX ITEMS
 extern const u32 gItemIcon_AbilityShield[];
 extern const u32 gItemIconPalette_AbilityShield[];
@@ -9057,6 +9104,12 @@ extern const u32 gItemIcon_LustrousGlobe[];
 extern const u32 gItemIconPalette_LustrousGlobe[];
 extern const u32 gItemIcon_BerserkGene[];
 extern const u32 gItemIconPalette_BerserkGene[];
+
+//maddie items
+
+
+extern const u32 gItemIcon_FallenWings[];
+extern const u32 gItemIconPalette_FallenWings[];
 
 extern const u32 gItemIcon_ReturnToFieldArrow[];
 extern const u32 gItemIconPalette_ReturnToFieldArrow[];
@@ -10181,6 +10234,11 @@ extern const u32 gBattleAnimSpriteGfx_Teapot[];
 extern const u32 gBattleAnimSpritePal_Teapot[];
 extern const u32 gBattleAnimSpriteGfx_WoodHammerHammer[];
 extern const u32 gBattleAnimSpritePal_WoodHammerHammer[];
+
+//maddie anims
+
+extern const u32 gBattleAnimSpriteGfx_ArrowProjectile[];
+extern const u32 gBattleAnimSpritePal_ArrowProjectile[];
 
 extern const u32 gBattleAnimBgImage_Dark[];
 extern const u32 gBattleAnimBgImage_Ghost[];

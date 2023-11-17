@@ -255,7 +255,7 @@
       "x": 4,
       "y": 5,
       "elevation": 3,
-      "item": "ITEM_ICE_HEAL",
+      "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_LAVARIDGE_TOWN_ICE_HEAL"
     }
   ]

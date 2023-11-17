@@ -604,7 +604,11 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_JIRACHI]                      = BACK_ANIM_CONVEX_DOUBLE_ARC,
     [SPECIES_DEOXYS]                       = BACK_ANIM_SHRINK_GROW_VIBRATE,
     [SPECIES_CHIMECHO]                     = BACK_ANIM_CONVEX_DOUBLE_ARC,
-    
+
+    //maddie mons
+
+    [SPECIES_GALLADIN]                      = BACK_ANIM_H_VIBRATE,
+
         // Gen 4
     [SPECIES_TURTWIG]                      = BACK_ANIM_H_SLIDE,
     [SPECIES_GROTLE]                       = BACK_ANIM_H_SLIDE,
@@ -851,7 +855,7 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_AMOONGUSS]                    = BACK_ANIM_GROW_STUTTER,
     [SPECIES_FRILLISH]                     = BACK_ANIM_CONVEX_DOUBLE_ARC,
     [SPECIES_JELLICENT]                    = BACK_ANIM_GROW_STUTTER,
-    [SPECIES_ALOMOMOLA]                    = BACK_ANIM_CONVEX_DOUBLE_ARC,
+    [SPECIES_ALOMomOLA]                    = BACK_ANIM_CONVEX_DOUBLE_ARC,
     [SPECIES_JOLTIK]                       = BACK_ANIM_H_SLIDE,
     [SPECIES_GALVANTULA]                   = BACK_ANIM_SHAKE_FLASH_YELLOW,
     [SPECIES_FERROSEED]                    = BACK_ANIM_H_SHAKE,

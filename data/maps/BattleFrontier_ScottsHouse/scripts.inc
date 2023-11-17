@@ -254,7 +254,7 @@ BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
 	.string "I'm expecting great things from you!$"
 
 BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
-	.string "SCOTT: Every TRAINER is an individual.\n"
+	.string "SCOTT: Every Trainer is an individual.\n"
 	.string "They all lead lives of their own.\p"
 	.string "But when they're in a battle,\n"
 	.string "it doesn't matter who they are.\p"
@@ -281,7 +281,7 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
 	.string "I think I remember you working on\n"
 	.string "a POKéDEX as well.\p"
 	.string "Well, guess what?\p"
-	.string "You may run into wild POKéMON in\n"
+	.string "You may run into wild Pokémon in\n"
 	.string "the BATTLE FRONTIER somewhere…\l"
 	.string "Fufufu!$"
 
@@ -317,7 +317,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
 	.string "I must say I have the gift of knowing\n"
-	.string "a good TRAINER when I see one.\p"
+	.string "a good Trainer when I see one.\p"
 	.string "I'm so glad I had the foresight to\n"
 	.string "bring you here!$"
 

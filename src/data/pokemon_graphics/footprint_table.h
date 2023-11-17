@@ -387,6 +387,11 @@ const u8 *const gMonFootprintTable[NUM_SPECIES + 1] =
     [SPECIES_JIRACHI] = gMonFootprint_Jirachi,
     [SPECIES_DEOXYS] = gMonFootprint_Deoxys,
     [SPECIES_CHIMECHO] = gMonFootprint_Chimecho,
+
+    //maddie mons
+
+    [SPECIES_GALLADIN] = gMonFootprint_Galladin,
+
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_TURTWIG] = gMonFootprint_Turtwig,
     [SPECIES_GROTLE] = gMonFootprint_Grotle,
@@ -597,7 +602,7 @@ const u8 *const gMonFootprintTable[NUM_SPECIES + 1] =
     [SPECIES_AMOONGUSS] = gMonFootprint_Amoonguss,
     [SPECIES_FRILLISH] = gMonFootprint_Frillish,
     [SPECIES_JELLICENT] = gMonFootprint_Jellicent,
-    [SPECIES_ALOMOMOLA] = gMonFootprint_Alomomola,
+    [SPECIES_ALOMomOLA] = gMonFootprint_Alomomola,
     [SPECIES_JOLTIK] = gMonFootprint_Joltik,
     [SPECIES_GALVANTULA] = gMonFootprint_Galvantula,
     [SPECIES_FERROSEED] = gMonFootprint_Ferroseed,

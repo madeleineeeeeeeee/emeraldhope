@@ -5,7 +5,7 @@ const u8 gEasyChatWord_Approved[] = _("APPROVED");
 const u8 gEasyChatWord_Has[] = _("HAS");
 const u8 gEasyChatWord_Good[] = _("GOOD");
 const u8 gEasyChatWord_Less[] = _("LESS");
-const u8 gEasyChatWord_Momentum[] = _("MOMENTUM");
+const u8 gEasyChatWord_Momentum[] = _("MomENTUM");
 const u8 gEasyChatWord_Going[] = _("GOING");
 const u8 gEasyChatWord_Weird[] = _("WEIRD");
 const u8 gEasyChatWord_Busy[] = _("BUSY");
@@ -111,7 +111,7 @@ const struct EasyChatWordInfo gEasyChatGroup_Conditions[] = {
         .alphabeticalOrder = 50,
         .enabled = TRUE,
     },
-    [EC_INDEX(EC_WORD_MOMENTUM)] =
+    [EC_INDEX(EC_WORD_MomENTUM)] =
     {
         .text = gEasyChatWord_Momentum,
         .alphabeticalOrder = 14,

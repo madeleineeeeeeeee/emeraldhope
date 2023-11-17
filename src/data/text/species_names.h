@@ -31,7 +31,7 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_NIDORAN_F] = _("Nidoran♀"),
     [SPECIES_NIDORINA] = _("Nidorina"),
     [SPECIES_NIDOQUEEN] = _("Nidoqueen"),
-    [SPECIES_NIDORAN_M] = _("Nidoran♂"),
+    [SPECIES_NIDORAN_M] = _("Nidoran"),
     [SPECIES_NIDORINO] = _("Nidorino"),
     [SPECIES_NIDOKING] = _("Nidoking"),
     [SPECIES_CLEFAIRY] = _("Clefairy"),
@@ -596,7 +596,7 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_AMOONGUSS] = _("Amoonguss"),
     [SPECIES_FRILLISH] = _("Frillish"),
     [SPECIES_JELLICENT] = _("Jellicent"),
-    [SPECIES_ALOMOMOLA] = _("Alomomola"),
+    [SPECIES_ALOMomOLA] = _("Alomomola"),
     [SPECIES_JOLTIK] = _("Joltik"),
     [SPECIES_GALVANTULA] = _("Galvantula"),
     [SPECIES_FERROSEED] = _("Ferroseed"),
@@ -914,6 +914,11 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_SNEASLER] = _("Sneasler"),
     [SPECIES_OVERQWIL] = _("Overqwil"),
     [SPECIES_ENAMORUS] = _("Enamorus"),
+
+    //maddie mons
+
+    [SPECIES_GALLADIN] = _("Galladin"),
+
 #endif
 
     // Megas
@@ -951,7 +956,7 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_CAMERUPT_MEGA] = _("Camerupt"),
     [SPECIES_ALTARIA_MEGA] = _("Altaria"),
     [SPECIES_BANETTE_MEGA] = _("Banette"),
-    [SPECIES_ABSOL_MEGA] = _("Absol"),
+    [SPECIES_ABSOL_MEGA] = _("Archsol"),
     [SPECIES_GLALIE_MEGA] = _("Glalie"),
     [SPECIES_SALAMENCE_MEGA] = _("Salamence"),
     [SPECIES_METAGROSS_MEGA] = _("Metagross"),
@@ -959,7 +964,7 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_LATIOS_MEGA] = _("Latios"),
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_LOPUNNY_MEGA] = _("Lopunny"),
-    [SPECIES_GARCHOMP_MEGA] = _("Garchomp"),
+    [SPECIES_GARCHOMP_MEGA] = _("Panzrchomp"),
     [SPECIES_LUCARIO_MEGA] = _("Lucario"),
     [SPECIES_ABOMASNOW_MEGA] = _("Abomasnow"),
     [SPECIES_GALLADE_MEGA] = _("Gallade"),
@@ -1048,7 +1053,7 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_PIKACHU_BELLE] = _("Pikachu"),
     [SPECIES_PIKACHU_POP_STAR] = _("Pikachu"),
     [SPECIES_PIKACHU_PH_D] = _("Pikachu"),
-    [SPECIES_PIKACHU_LIBRE] = _("Pikachu"),
+    [SPECIES_PIKACHU_LIBRE] = _("Pika Libre"),
     // Cap Pikachu
     [SPECIES_PIKACHU_ORIGINAL_CAP] = _("Pikachu"),
     [SPECIES_PIKACHU_HOENN_CAP] = _("Pikachu"),
@@ -1332,7 +1337,7 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     // Urshifu
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = _("Urshifu"),
     // Zarude
-    [SPECIES_ZARUDE_DADA] = _("Zarude"),
+    [SPECIES_ZARUDE_DadA] = _("Zarude"),
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = _("Calyrex"),
     [SPECIES_CALYREX_SHADOW_RIDER] = _("Calyrex"),

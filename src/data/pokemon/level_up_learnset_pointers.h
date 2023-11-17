@@ -387,6 +387,11 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_JIRACHI] = sJirachiLevelUpLearnset,
     [SPECIES_DEOXYS] = sDeoxysLevelUpLearnset,
     [SPECIES_CHIMECHO] = sChimechoLevelUpLearnset,
+
+    //maddie mons
+
+    [SPECIES_GALLADIN] = sGalladinLevelUpLearnset,
+
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_TURTWIG] = sTurtwigLevelUpLearnset,
     [SPECIES_GROTLE] = sGrotleLevelUpLearnset,
@@ -597,7 +602,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_AMOONGUSS] = sAmoongussLevelUpLearnset,
     [SPECIES_FRILLISH] = sFrillishLevelUpLearnset,
     [SPECIES_JELLICENT] = sJellicentLevelUpLearnset,
-    [SPECIES_ALOMOMOLA] = sAlomomolaLevelUpLearnset,
+    [SPECIES_ALOMomOLA] = sAlomomolaLevelUpLearnset,
     [SPECIES_JOLTIK] = sJoltikLevelUpLearnset,
     [SPECIES_GALVANTULA] = sGalvantulaLevelUpLearnset,
     [SPECIES_FERROSEED] = sFerroseedLevelUpLearnset,
@@ -1045,7 +1050,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_PIKACHU_BELLE] = sPikachuLevelUpLearnset,
     [SPECIES_PIKACHU_POP_STAR] = sPikachuLevelUpLearnset,
     [SPECIES_PIKACHU_PH_D] = sPikachuLevelUpLearnset,
-    [SPECIES_PIKACHU_LIBRE] = sPikachuLevelUpLearnset,
+    [SPECIES_PIKACHU_LIBRE] = sPikachuLibreLevelUpLearnset,
     // Cap Pikachu
     [SPECIES_PIKACHU_ORIGINAL_CAP] = sPikachuLevelUpLearnset,
     [SPECIES_PIKACHU_HOENN_CAP] = sPikachuLevelUpLearnset,
@@ -1328,7 +1333,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     // Urshifu
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = sUrshifuRapidStrikeStyleLevelUpLearnset,
     // Zarude
-    [SPECIES_ZARUDE_DADA] = sZarudeLevelUpLearnset,
+    [SPECIES_ZARUDE_DadA] = sZarudeLevelUpLearnset,
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexIceRiderLevelUpLearnset,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexShadowRiderLevelUpLearnset,

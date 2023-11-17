@@ -387,6 +387,11 @@ const struct CompressedSpritePalette gMonPaletteTable[NUM_SPECIES + 1] =
     SPECIES_PAL(JIRACHI, gMonPalette_Jirachi),
     SPECIES_PAL(DEOXYS, gMonPalette_Deoxys),
     SPECIES_PAL(CHIMECHO, gMonPalette_Chimecho),
+
+    //maddie mons
+
+    SPECIES_PAL(GALLADIN, gMonPalette_Galladin),
+
 #if P_GEN_4_POKEMON == TRUE
     SPECIES_PAL(TURTWIG, gMonPalette_Turtwig),
     SPECIES_PAL(GROTLE, gMonPalette_Grotle),
@@ -597,7 +602,7 @@ const struct CompressedSpritePalette gMonPaletteTable[NUM_SPECIES + 1] =
     SPECIES_PAL(AMOONGUSS, gMonPalette_Amoonguss),
     SPECIES_PAL(FRILLISH, gMonPalette_Frillish),
     SPECIES_PAL(JELLICENT, gMonPalette_Jellicent),
-    SPECIES_PAL(ALOMOMOLA, gMonPalette_Alomomola),
+    SPECIES_PAL(ALOMomOLA, gMonPalette_Alomomola),
     SPECIES_PAL(JOLTIK, gMonPalette_Joltik),
     SPECIES_PAL(GALVANTULA, gMonPalette_Galvantula),
     SPECIES_PAL(FERROSEED, gMonPalette_Ferroseed),
@@ -1326,7 +1331,7 @@ const struct CompressedSpritePalette gMonPaletteTable[NUM_SPECIES + 1] =
 
     SPECIES_PAL(URSHIFU_RAPID_STRIKE_STYLE, gMonPalette_UrshifuRapidStrikeStyle),
 
-    SPECIES_PAL(ZARUDE_DADA, gMonPalette_ZarudeDada),
+    SPECIES_PAL(ZARUDE_DadA, gMonPalette_ZarudeDada),
 
     SPECIES_PAL(CALYREX_ICE_RIDER, gMonPalette_CalyrexIceRider),
     SPECIES_PAL(CALYREX_SHADOW_RIDER, gMonPalette_CalyrexShadowRider),

@@ -1710,6 +1710,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
             break;
         case EFFECT_TRICK:
         case EFFECT_KNOCK_OFF:
+        case EFFECT_THIEF:
             if (aiData->abilities[battlerDef] == ABILITY_STICKY_HOLD)
                 score -= 10;
             break;
@@ -1842,8 +1843,12 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
             if (aiData->abilities[battlerAtk] != ABILITY_MAGIC_GUARD && AI_GetMoveAccuracy(battlerAtk, battlerDef, move) < 75)
                 score -= 6;
             break;
-        case EFFECT_RECOIL_25:
-            if (aiData->abilities[battlerAtk] != ABILITY_MAGIC_GUARD && aiData->abilities[battlerAtk] != ABILITY_ROCK_HEAD)
+        case EFFECT_RECOIL_20:
+        case EFFECT_RECOIL_DROP_ATK:
+        case EFFECT_RECOIL_DROP_SPATK:
+            if (aiData->abilities[battlerAtk] != ABILITY_MAGIC_GUARD 
+            && aiData->abilities[battlerAtk] != ABILITY_ROCK_HEAD
+            && aiData->abilities[battlerAtk] != ABILITY_BIG_PECKS)
             {
                 u32 recoilDmg = max(1, aiData->simulatedDmg[battlerAtk][battlerDef][AI_THINKING_STRUCT->movesetIndex] / 4);
                 if (!ShouldUseRecoilMove(battlerAtk, battlerDef, recoilDmg, AI_THINKING_STRUCT->movesetIndex))
@@ -1851,9 +1856,11 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                 break;
             }
             break;
-        case EFFECT_RECOIL_33:
-        case EFFECT_RECOIL_33_STATUS:
-            if (aiData->abilities[battlerAtk] != ABILITY_MAGIC_GUARD && aiData->abilities[battlerAtk] != ABILITY_ROCK_HEAD)
+        case EFFECT_RECOIL_25:
+        case EFFECT_RECOIL_25_STATUS:
+            if (aiData->abilities[battlerAtk] != ABILITY_MAGIC_GUARD 
+            && aiData->abilities[battlerAtk] != ABILITY_ROCK_HEAD
+            && aiData->abilities[battlerAtk] != ABILITY_BIG_PECKS)
             {
                 u32 recoilDmg = max(1, aiData->simulatedDmg[battlerAtk][battlerDef][AI_THINKING_STRUCT->movesetIndex] / 3);
                 if (!ShouldUseRecoilMove(battlerAtk, battlerDef, recoilDmg, AI_THINKING_STRUCT->movesetIndex))
@@ -1861,8 +1868,10 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                 break;
             }
             break;
-        case EFFECT_RECOIL_50:
-            if (aiData->abilities[battlerAtk] != ABILITY_MAGIC_GUARD && aiData->abilities[battlerAtk] != ABILITY_ROCK_HEAD)
+        case EFFECT_RECOIL_33:
+            if (aiData->abilities[battlerAtk] != ABILITY_MAGIC_GUARD 
+            && aiData->abilities[battlerAtk] != ABILITY_ROCK_HEAD
+            && aiData->abilities[battlerAtk] != ABILITY_BIG_PECKS)
             {
                 u32 recoilDmg = max(1, aiData->simulatedDmg[battlerAtk][battlerDef][AI_THINKING_STRUCT->movesetIndex] / 2);
                 if (!ShouldUseRecoilMove(battlerAtk, battlerDef, recoilDmg, AI_THINKING_STRUCT->movesetIndex))
@@ -2943,6 +2952,13 @@ static s32 AI_DoubleBattle(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                         RETURN_SCORE_PLUS(1);
                     }
                     break;
+                case ABILITY_RIVALRY:
+                    if (IsStatLoweringEffect(effect)
+                      && BattlerStatCanRise(battlerAtkPartner, atkPartnerAbility, STAT_SPEED))
+                    {
+                        RETURN_SCORE_PLUS(1);
+                    }
+                    break;
                 }
             } // ability checks
         } // move power check
@@ -3867,6 +3883,22 @@ static s32 AI_CheckViability(u32 battlerAtk, u32 battlerDef, u32 move, s32 score
                     break;
                 }
             }
+            if (CanKnockOffItem(battlerDef, aiData->items[battlerDef]))
+            {
+            switch (aiData->holdEffects[battlerDef])
+                {
+                case HOLD_EFFECT_IRON_BALL:
+                    if (HasMoveEffect(battlerDef, EFFECT_FLING))
+                        score += 8;
+                    break;
+                case HOLD_EFFECT_LAGGING_TAIL:
+                case HOLD_EFFECT_STICKY_BARB:
+                    break;
+                default:
+                    score += 5;
+                    break;
+                }
+            }
             break;
         }
         break;
@@ -4435,13 +4467,13 @@ static s32 AI_CheckViability(u32 battlerAtk, u32 battlerDef, u32 move, s32 score
             {
             case HOLD_EFFECT_IRON_BALL:
                 if (HasMoveEffect(battlerDef, EFFECT_FLING))
-                    score += 4;
+                    score += 8;
                 break;
             case HOLD_EFFECT_LAGGING_TAIL:
             case HOLD_EFFECT_STICKY_BARB:
                 break;
             default:
-                score += 3;
+                score += 5;
                 break;
             }
         }
@@ -5146,7 +5178,7 @@ static s32 AI_PreferBatonPass(u32 battlerAtk, u32 battlerDef, u32 move, s32 scor
     case EFFECT_BATON_PASS:
         for (i = STAT_ATK; i < NUM_BATTLE_STATS; i++)
         {
-            IncreaseStatUpScore(battlerAtk, battlerDef, i, &score);
+            //IncreaseStatUpScore(battlerAtk, battlerDef, i, &score);
         }
         if (gStatuses3[battlerAtk] & (STATUS3_ROOTED | STATUS3_AQUA_RING))
             score += 2;

@@ -92,7 +92,7 @@
 #define MAX_STAT_STAGE    12
 
 // Shiny odds
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS (50 + (GAME_STAT_POKEMON_CAPTURES)) // Actual probability is SHINY_ODDS/65536
 
 // Ribbon IDs used by TV and Pokénav
 #define CHAMPION_RIBBON       0
@@ -165,7 +165,7 @@
 #define LEVEL_UP_MOVE_LV   0xFE00
 #define LEVEL_UP_END       0xFFFF
 
-#define MAX_LEVEL_UP_MOVES       20
+#define MAX_LEVEL_UP_MOVES       60
 
 #define MON_MALE       0x00
 #define MON_FEMALE     0xFE
@@ -206,7 +206,7 @@
 #else
 #define MAX_PER_STAT_EVS 255
 #endif
-#define MAX_TOTAL_EVS 510
+#define MAX_TOTAL_EVS 636
 #if I_VITAMIN_EV_CAP >= GEN_8
 #define EV_ITEM_RAISE_LIMIT MAX_PER_STAT_EVS
 #else
@@ -328,6 +328,6 @@
 #define SPECIES_FLAG_CANNOT_BE_TRADED   (1 << 9)
 #define SPECIES_FLAG_ULTRA_BURST        (1 << 10)
 
-#define LEGENDARY_PERFECT_IV_COUNT 3
+#define LEGENDARY_PERFECT_IV_COUNT 6
 
 #endif // GUARD_CONSTANTS_POKEMON_H

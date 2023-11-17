@@ -413,6 +413,11 @@ const u8 *const gMonIconTable[NUM_SPECIES + 1] =
     [SPECIES_JIRACHI] = gMonIcon_Jirachi,
     [SPECIES_DEOXYS] = gMonIcon_Deoxys,
     [SPECIES_CHIMECHO] = gMonIcon_Chimecho,
+
+    //maddie mons
+
+    [SPECIES_GALLADIN] = gMonIcon_Galladin,
+
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_TURTWIG] = gMonIcon_Turtwig,
     [SPECIES_GROTLE] = gMonIcon_Grotle,
@@ -623,7 +628,7 @@ const u8 *const gMonIconTable[NUM_SPECIES + 1] =
     [SPECIES_AMOONGUSS] = gMonIcon_Amoonguss,
     [SPECIES_FRILLISH] = gMonIcon_Frillish,
     [SPECIES_JELLICENT] = gMonIcon_Jellicent,
-    [SPECIES_ALOMOMOLA] = gMonIcon_Alomomola,
+    [SPECIES_ALOMomOLA] = gMonIcon_Alomomola,
     [SPECIES_JOLTIK] = gMonIcon_Joltik,
     [SPECIES_GALVANTULA] = gMonIcon_Galvantula,
     [SPECIES_FERROSEED] = gMonIcon_Ferroseed,
@@ -1289,7 +1294,7 @@ const u8 *const gMonIconTable[NUM_SPECIES + 1] =
     [SPECIES_ZAMAZENTA_CROWNED_SHIELD] = gMonIcon_ZamazentaCrownedShield,
     [SPECIES_ETERNATUS_ETERNAMAX] = gMonIcon_EternatusEternamax,
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = gMonIcon_Urshifu,
-    [SPECIES_ZARUDE_DADA] = gMonIcon_ZarudeDada,
+    [SPECIES_ZARUDE_DadA] = gMonIcon_ZarudeDada,
     [SPECIES_CALYREX_ICE_RIDER] = gMonIcon_CalyrexIceRider,
     [SPECIES_CALYREX_SHADOW_RIDER] = gMonIcon_CalyrexShadowRider,
     [SPECIES_ENAMORUS_THERIAN] = gMonIcon_EnamorusTherian,
@@ -1703,6 +1708,11 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_JIRACHI] = 0,
     [SPECIES_DEOXYS] = 0,
     [SPECIES_CHIMECHO] = 0,
+
+    //maddie mons
+
+    [SPECIES_GALLADIN] = 3,
+
     [SPECIES_TURTWIG] = 1,
     [SPECIES_GROTLE] = 1,
     [SPECIES_TORTERRA] = 1,
@@ -1910,7 +1920,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_AMOONGUSS] = 1,
     [SPECIES_FRILLISH] = 0,
     [SPECIES_JELLICENT] = 0,
-    [SPECIES_ALOMOMOLA] = 0,
+    [SPECIES_ALOMomOLA] = 0,
     [SPECIES_JOLTIK] = 0,
     [SPECIES_GALVANTULA] = 2,
     [SPECIES_FERROSEED] = 1,
@@ -2523,7 +2533,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_ZAMAZENTA_CROWNED_SHIELD] = 2,
     [SPECIES_ETERNATUS_ETERNAMAX] = 0,
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = 2,
-    [SPECIES_ZARUDE_DADA] = 1,
+    [SPECIES_ZARUDE_DadA] = 1,
     [SPECIES_CALYREX_ICE_RIDER] = 0,
     [SPECIES_CALYREX_SHADOW_RIDER] = 0,
     [SPECIES_ENAMORUS_THERIAN] = 1,

@@ -1341,6 +1341,7 @@ gCryTable::
 	cry Cry_Sneasler
 	cry Cry_Overqwil
 	cry Cry_Enamorus
+	cry Cry_Galladin @maddie mons
 .else
 	cry Cry_Unown
 	cry Cry_Unown
@@ -2512,6 +2513,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Rayquaza
 	cry_reverse Cry_Jirachi
 	cry_reverse Cry_Deoxys
+
+	cry_reverse Cry_Galladin
 .if P_GEN_4_POKEMON == TRUE
 	cry_reverse Cry_Turtwig
 	cry_reverse Cry_Grotle

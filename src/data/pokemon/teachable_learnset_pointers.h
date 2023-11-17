@@ -387,6 +387,11 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_JIRACHI] = sJirachiTeachableLearnset,
     [SPECIES_DEOXYS] = sDeoxysTeachableLearnset,
     [SPECIES_CHIMECHO] = sChimechoTeachableLearnset,
+
+    //maddie mons
+
+    [SPECIES_GALLADIN] = sGalladinTeachableLearnset,
+
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_TURTWIG] = sTurtwigTeachableLearnset,
     [SPECIES_GROTLE] = sGrotleTeachableLearnset,
@@ -597,7 +602,7 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_AMOONGUSS] = sAmoongussTeachableLearnset,
     [SPECIES_FRILLISH] = sFrillishTeachableLearnset,
     [SPECIES_JELLICENT] = sJellicentTeachableLearnset,
-    [SPECIES_ALOMOMOLA] = sAlomomolaTeachableLearnset,
+    [SPECIES_ALOMomOLA] = sAlomomolaTeachableLearnset,
     [SPECIES_JOLTIK] = sJoltikTeachableLearnset,
     [SPECIES_GALVANTULA] = sGalvantulaTeachableLearnset,
     [SPECIES_FERROSEED] = sFerroseedTeachableLearnset,
@@ -1045,7 +1050,7 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_PIKACHU_BELLE] = sPikachuTeachableLearnset,
     [SPECIES_PIKACHU_POP_STAR] = sPikachuTeachableLearnset,
     [SPECIES_PIKACHU_PH_D] = sPikachuTeachableLearnset,
-    [SPECIES_PIKACHU_LIBRE] = sPikachuTeachableLearnset,
+    [SPECIES_PIKACHU_LIBRE] = sPikachuLibreTeachableLearnset,
     // Cap Pikachu
     [SPECIES_PIKACHU_ORIGINAL_CAP] = sPikachuTeachableLearnset,
     [SPECIES_PIKACHU_HOENN_CAP] = sPikachuTeachableLearnset,
@@ -1328,7 +1333,7 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     // Urshifu
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = sUrshifuRapidStrikeStyleTeachableLearnset,
     // Zarude
-    [SPECIES_ZARUDE_DADA] = sZarudeTeachableLearnset,
+    [SPECIES_ZARUDE_DadA] = sZarudeTeachableLearnset,
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexIceRiderTeachableLearnset,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexShadowRiderTeachableLearnset,

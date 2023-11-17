@@ -13,10 +13,8 @@ LavaridgeTown_HerbShop_EventScript_Clerk::
 
 	.align 2
 LavaridgeTown_HerbShop_Pokemart:
-	.2byte ITEM_ENERGY_POWDER
-	.2byte ITEM_ENERGY_ROOT
-	.2byte ITEM_HEAL_POWDER
-	.2byte ITEM_REVIVAL_HERB
+	
+	.2byte ITEM_LEFTOVERS
 	.2byte ITEM_NONE
 	release
 	end
@@ -55,12 +53,12 @@ LavaridgeTown_HerbShop_Text_ExplainCharcoal:
 	.string "That CHARCOAL I gave you, it's used\n"
 	.string "for making herbal medicine.\p"
 	.string "It also does wonders when held by\n"
-	.string "a POKéMON.\p"
+	.string "a Pokémon.\p"
 	.string "It intensifies the power of FIRE-type\n"
 	.string "moves.$"
 
 LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike:
 	.string "Herbal medicine works impressively well.\n"
-	.string "But your POKéMON will dislike you for it.\l"
+	.string "But your Pokémon will dislike you for it.\l"
 	.string "It must be horribly bitter!$"
 

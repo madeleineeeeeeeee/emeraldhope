@@ -7131,7 +7131,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_ALOMOMOLA] =
+    [NATIONAL_DEX_ALOMomOLA] =
     {
         .categoryName = _("Caring"),
         .height = 12,
@@ -10875,6 +10875,31 @@ const struct PokedexEntry gPokedexEntries[] =
         .height = 16,
         .weight = 480,
         .description = gEnamorusPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
+
+/*
+   [NATIONAL_DEX_PIKACHU_LIBRE] =
+    {
+        .categoryName = _("Wrestler"),
+        .height = 4,
+        .weight = 60,
+        .description = gPikachuLibrePokedexText,
+        .pokemonScale = 479,
+        .pokemonOffset = 19,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+*/
+    [NATIONAL_DEX_GALLADIN] =
+    {
+        .categoryName = _("Spellbreaker"),
+        .height = 16,
+        .weight = 520,
+        .description = gGalladinPokedexText,
         .pokemonScale = 259,
         .pokemonOffset = 1,
         .trainerScale = 296,

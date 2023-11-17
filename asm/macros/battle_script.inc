@@ -1366,6 +1366,11 @@
 	.byte \battler
 	.endm
 
+	.macro applyteleportvuln battler:req
+	callnative BS_ApplyTeleportVuln
+	.byte \battler
+	.endm
+
 	.macro setzeffect
 	callnative BS_SetZEffect
 	.endm

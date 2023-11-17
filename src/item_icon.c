@@ -5,6 +5,7 @@
 #include "malloc.h"
 #include "sprite.h"
 #include "constants/items.h"
+#include "pokevial.h" // Pokevial Branch
 
 // EWRAM vars
 EWRAM_DATA u8 *gItemIconDecompressionBuffer = NULL;
@@ -165,4 +166,10 @@ const void *GetItemIconPicOrPalette(u16 itemId, u8 which)
         itemId = 0;
 
     return gItemIconTable[itemId][which];
+
+     // Start Pokevial Branch
+    if (itemId == ITEM_POKEVIAL && which == 0)
+        return PokevialGetDoseIcon();
+    // End Pokevial Branch
+
 }

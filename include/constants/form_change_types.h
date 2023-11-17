@@ -101,4 +101,7 @@
 // param1: item to hold.
 #define FORM_CHANGE_BATTLE_ULTRA_BURST          16
 
+
+#define FORM_CHANGE_BATTLE_STATUS               17
+
 #endif // GUARD_CONSTANTS_FORM_CHANGE_TYPES_H

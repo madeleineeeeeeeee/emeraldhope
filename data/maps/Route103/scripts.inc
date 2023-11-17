@@ -1,4 +1,5 @@
 .set LOCALID_RIVAL, 2
+.set LOCALID_ZORUA, 21
 
 Route103_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route103_OnTransition
@@ -12,12 +13,220 @@ Route103_OnTransition:
 
 Route103_OnLoad:
 	call_if_set FLAG_SYS_GAME_CLEAR, Route103_EventScript_OpenAlteringCave
+	setvar VAR_UNUSED_0x40FF, 0
+	setvar VAR_UNUSED_0x404E, 0
+	setvar VAR_UNUSED_0x4083, 0
 	end
 
 Route103_EventScript_OpenAlteringCave::
 	setmetatile 45, 5, METATILE_General_CaveEntrance_Top, TRUE
 	setmetatile 45, 6, METATILE_General_CaveEntrance_Bottom, FALSE
 	return
+
+Route103_EventScript_WildSet1Trigger::
+	setvar VAR_ROUTE103_WILD_SET, 0
+	releaseall
+	return
+
+Route103_EventScript_WildSet2Trigger::
+	setvar VAR_ROUTE103_WILD_SET, 1
+	releaseall
+	end
+
+Route103_BlockForest::
+	call_if_unset FLAG_ADVENTURE_STARTED, Route103_EventScript_BlockPlayer
+	call Route103_EventScript_WildSet1Trigger
+	end
+
+Route103_EventScript_BlockPlayer::
+	lockall
+	msgbox Route103_EventScript_BlockPlayer_Text_0
+	applymovement OBJ_EVENT_ID_PLAYER, BlockPlayer
+	waitmessage
+	waitmovement 0
+	releaseall
+	end
+
+
+BlockPlayer:
+	walk_down
+	step_end
+
+Route103_EventScript_BlockPlayer_Text_0:
+	.string "...\n"
+	.string "I hear lots of scary Pokémon.\p"
+	.string "Maybe this should wait.$"
+
+
+Route103_EventScript_OddForest_Check_1::
+	compare VAR_UNUSED_0x40FF, 0
+	goto_if_eq Route103_EventScript_OddForest_1
+	setobjectxy LOCALID_ZORUA, 22, 3
+	releaseall
+	end
+
+Route103_EventScript_OddForest_1::
+	lockall
+	msgbox Route103_EventScript_OddForest_Text_1
+	setvar VAR_UNUSED_0x40FF, 1
+	waitmessage
+	call_if_set FLAG_ODD_FOREST_ENTER, Route103_EventScript_OddForest_BeenHere
+	waitmessage
+	releaseall
+	end
+
+Route103_EventScript_OddForest_Text_1:
+	.string "...\n"
+	.string "Something about this forest is odd.$"
+
+
+Route103_EventScript_OddForest_Check_2::
+	compare VAR_UNUSED_0x404E, 0 
+	goto_if_eq Route103_EventScript_OddForest_2
+	releaseall
+	end
+
+Route103_EventScript_OddForest_2::
+	lockall
+	msgbox Route103_EventScript_OddForest_Text_2
+	waitmessage
+	setvar VAR_UNUSED_0x404E, 1
+	releaseall
+	end
+
+Route103_EventScript_OddForest_Text_2:
+	.string "...It feels like...\p"
+	.string "It feels like my sense of time is...\p"
+	.string "...Wrong, almost?$"
+
+Route103_EventScript_OddForest_BeenHere:
+	lockall
+	msgbox Route103_EventScript_OddForest_BeenHere_Text
+	waitmessage
+	releaseall
+	end
+
+Route103_EventScript_OddForest_BeenHere_Text:
+	.string "...\p"
+	.string "Have I been here before?\n"
+	.string "I can't recall.$"
+
+Route103_EventScript_Zorua::
+	lockall
+	call_if_set FLAG_ODD_FOREST_ENTER, Route103_EventScript_MetZorua
+	msgbox Route103_EventScript_Zorua_Text_0
+	waitmessage
+	applymovement LOCALID_ZORUA, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_ZORUA, Common_Movement_FacePlayer
+	waitmovement 0
+	applymovement LOCALID_ZORUA, Common_Movement_Delay48
+	waitmovement 0
+	playmoncry SPECIES_ZORUA, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	msgbox Route103_EventScript_Zorua_Text_1
+	waitmessage
+	setwildbattle SPECIES_ZORUA, 12, ITEM_NONE
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq Route103_EventScript_Zorua_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq Route103_EventScript_Zorua_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq Route103_EventScript_Zorua_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq Route103_EventScript_Zorua_5
+Route103_EventScript_Zorua_1:
+	setflag FLAG_ODD_FOREST_ENTER
+	@msgbox caughtZorua_Text_0
+	waitmessage
+	fadescreen(FADE_TO_BLACK)
+	removeobject 21
+	delay(90)
+	msgbox caughtZorua_Text_0
+	waitmessage
+	warp MAP_ROUTE103, 7, 19
+	delay(180)
+	fadescreen(FADE_FROM_BLACK)
+	
+	waitmessage
+	return
+	releaseall
+	end
+
+Route103_EventScript_Zorua_2:
+	@call caughtZorua
+	goto Route103_EventScript_Zorua_1
+
+Route103_EventScript_Zorua_3:
+	@call won
+	goto Route103_EventScript_Zorua_1
+
+Route103_EventScript_Zorua_4:
+	@call fled
+	goto Route103_EventScript_Zorua_1
+
+Route103_EventScript_Zorua_5:
+	@call fled
+	goto Route103_EventScript_Zorua_1
+
+
+caughtZorua::
+	fadescreen(FADE_TO_BLACK)
+	removeobject 21
+	warp MAP_ROUTE103, 7, 19
+	delay(180)
+	fadescreen(FADE_FROM_BLACK)
+	msgbox caughtZorua_Text_0
+	waitmessage
+	return
+
+
+won::
+	fadescreen(FADE_TO_BLACK)
+	removeobject 21
+	warp MAP_ROUTE103, 7, 19
+	delay(180)
+	fadescreen(FADE_FROM_BLACK)
+	msgbox won_Text_0
+	waitmessage
+	return
+
+
+fled::
+	fadescreen(FADE_TO_BLACK)
+	playmoncry SPECIES_ZORUA, CRY_MODE_ENCOUNTER
+	removeobject 21
+	warp MAP_ROUTE103, 7, 19
+	delay(180)
+	fadescreen(FADE_FROM_BLACK)
+	msgbox won_Text_0
+	waitmessage
+	return
+
+
+Route103_EventScript_Zorua_Text_0:
+	.string "{PLAYER}: Who... are you?$"
+
+Route103_EventScript_Zorua_Text_1:
+	.string "...!! It was a Pokémon?!$"
+
+caughtZorua_Text_0:
+	.string "What just happened...?$"
+
+won_Text_0:
+	.string "What just happened...?$"
+
+Route103_EventScript_MetZorua:
+	msgbox Route103_EventScript_Zorua_Text_2
+	waitmessage
+	return
+
+
+Route103_EventScript_Zorua_Text_2:
+	.string "{PLAYER}: You seem familiar...$"
 
 Route103_EventScript_Rival::
 	lockall
@@ -289,67 +498,67 @@ Route103_EventScript_Isabelle::
 	end
 
 Route103_Text_MayRoute103Pokemon:
-	.string "MAY: Let's see… The POKéMON found\n"
+	.string "May: Let's see… The Pokémon found\n"
 	.string "on ROUTE 103 include…$"
 
 Route103_Text_MayLetsBattle:
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
 	.string "…Oh, I see, my dad gave you\n"
-	.string "a POKéMON as a gift.\p"
+	.string "a Pokémon as a gift.\p"
 	.string "Since we're here, let's have a quick\n"
 	.string "battle!\p"
 	.string "I'll give you a taste of what being\n"
-	.string "a TRAINER is like.$"
+	.string "a Trainer is like.$"
 
 Route103_Text_MayDefeated:
 	.string "Wow! That's great!\n"
 	.string "{PLAYER}{KUN}, you're pretty good!$"
 
 Route103_Text_MayTimeToHeadBack:
-	.string "MAY: I think I know why my dad has\n"
+	.string "May: I think I know why my dad has\n"
 	.string "an eye out for you now.\p"
-	.string "I mean, you just got that POKéMON,\n"
+	.string "I mean, you just got that Pokémon,\n"
 	.string "but it already likes you.\p"
 	.string "You might be able to befriend any\n"
-	.string "kind of POKéMON easily.\p"
+	.string "kind of Pokémon easily.\p"
 	.string "Well, it's time to head back to\n"
-	.string "the LAB.$"
+	.string "the Lab.$"
 
 Route103_Text_BrendanRoute103Pokemon:
-	.string "BRENDAN: Okay, so it's this one and\n"
+	.string "Brendan: Okay, so it's this one and\n"
 	.string "that one that live on ROUTE 103…$"
 
 Route103_Text_BrendanLetsBattle:
 	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
+	.string "…Oh, yeah, Dad gave you a Pokémon.\p"
 	.string "Since we're here, how about a little\n"
 	.string "battle?\p"
-	.string "I'll teach you what being a TRAINER's\n"
+	.string "I'll teach you what being a Trainer's\n"
 	.string "about!$"
 
 Route103_Text_BrendanDefeated:
 	.string "Huh, {PLAYER}, you're not too shabby.$"
 
 Route103_Text_BrendanTimeToHeadBack:
-	.string "BRENDAN: I think I get it.\n"
+	.string "Brendan: I think I get it.\n"
 	.string "I think I know why my dad has his eye\l"
 	.string "out for you now.\p"
-	.string "Look, your POKéMON already likes you,\n"
+	.string "Look, your Pokémon already likes you,\n"
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.$"
+	.string "could befriend any Pokémon with ease.\p"
+	.string "We should head back to the Lab.$"
 
 Route103_Text_ShouldHaveBroughtPotion:
-	.string "My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION…$"
+	.string "My Pokémon is staggeringly tired…\n"
+	.string "I need a Pokévial…$"
 
 Route103_Text_ShortcutToOldale:
 	.string "If you cross the sea from here,\n"
-	.string "it'll be a shortcut to OLDALE TOWN.\p"
+	.string "it'll be a shortcut to OLDALE Town.\p"
 	.string "Fufufu, that's useful, isn't it?$"
 
 Route103_Text_RouteSign:
 	.string "ROUTE 103\n"
-	.string "{DOWN_ARROW} OLDALE TOWN$"
+	.string "{DOWN_ARROW} OLDALE Town$"
 

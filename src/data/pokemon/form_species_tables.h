@@ -48,8 +48,8 @@ static const u16 sPikachuFormSpeciesIdTable[] = {
     SPECIES_PIKACHU_BELLE,
     SPECIES_PIKACHU_POP_STAR,
     SPECIES_PIKACHU_PH_D,
-    SPECIES_PIKACHU_LIBRE,
     SPECIES_PIKACHU_ORIGINAL_CAP,
+    //SPECIES_PIKACHU_LIBRE,
     SPECIES_PIKACHU_HOENN_CAP,
     SPECIES_PIKACHU_SINNOH_CAP,
     SPECIES_PIKACHU_UNOVA_CAP,
@@ -1128,7 +1128,7 @@ static const u16 sUrshifuFormSpeciesIdTable[] = {
 
 static const u16 sZarudeFormSpeciesIdTable[] = {
     SPECIES_ZARUDE,
-    SPECIES_ZARUDE_DADA,
+    SPECIES_ZARUDE_DadA,
     FORM_SPECIES_END,
 };
 

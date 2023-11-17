@@ -5398,4 +5398,16 @@ const u8 gEnamorusPokedexText[] = _(
     "winter. According to legend, this\n"
     "Pokémon's love gives rise to the\n"
     "budding of fresh life across the land.");
+
+    //maddie mons
+
+const u8 gPikachuLibrePokedexText[] = _(
+    "Wrestling superstar used to\n"
+    "fighting in tournaments\n"
+    "and rowdy streets.\n");
+
+const u8 gGalladinPokedexText[] = _(
+    "Constructed Pokémon of\n"
+    "mysterious origins.\n"
+    "Seemingly hates magical energy.\n");
 #endif

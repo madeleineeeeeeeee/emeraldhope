@@ -158,6 +158,7 @@ extern const u8 BattleScript_RainDishActivates[];
 extern const u8 BattleScript_SandstreamActivates[];
 extern const u8 BattleScript_ShedSkinActivates[];
 extern const u8 BattleScript_IntimidateActivates[];
+extern const u8 BattleScript_IlluminateActivates[];
 extern const u8 BattleScript_DroughtActivates[];
 extern const u8 BattleScript_TookAttack[];
 extern const u8 BattleScript_SturdyPreventsOHKO[];
@@ -478,6 +479,9 @@ extern const u8 BattleScript_UltraBurst[];
 extern const u8 BattleScript_SelectingNotAllowedCurrentMove[];
 extern const u8 BattleScript_SelectingNotAllowedCurrentMoveInPalace[];
 extern const u8 BattleScript_SaltCureExtraDamage[];
+extern const u8 BattleScript_AtkDown2[];
+extern const u8 BattleScript_SPDRemoveProtect[];
+extern const u8 BattleScript_TeleportSetUp[];
 
 // zmoves
 extern const u8 BattleScript_ZMoveActivateDamaging[];

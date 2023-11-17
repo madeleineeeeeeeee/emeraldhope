@@ -453,7 +453,7 @@
 #define MUS_RG_SILPH                519 // MUS_RG_SHIRUHU
 #define MUS_RG_FUCHSIA              520 // MUS_RG_HANADA
 #define MUS_RG_CELADON              521 // MUS_RG_TAMAMUSI
-#define MUS_RG_VICTORY_TRAINER      522 // MUS_RG_WIN_TRE       // Identical to MUS_VICTORY_TRAINER.
+#define MUS_RG_VICTORY_TRAINER      522 // MUS_RG_WIN_TRE       // Identical to MUS_VICTORY_Trainer.
 #define MUS_RG_VICTORY_WILD         523 // MUS_RG_WIN_YASEI     // Identical to MUS_VICTORY_WILD.
 #define MUS_RG_VICTORY_GYM_LEADER   524 // MUS_RG_WIN_GYM       // Identical to MUS_VICTORY_GYM_LEADER.
 #define MUS_RG_VERMILLION           525 // MUS_RG_KUCHIBA

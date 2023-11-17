@@ -272,9 +272,7 @@ static const u16 sQuizLadyPrizes[] =
     ITEM_GLITTER_MAIL,
     ITEM_BEAD_MAIL,
     ITEM_TROPIC_MAIL,
-    ITEM_MAX_ETHER,
-    ITEM_MAX_ETHER,
-    ITEM_MAX_ETHER,
+    ITEM_CHERISH_BALL,
     ITEM_WATMEL_BERRY,
     ITEM_BELUE_BERRY,
     ITEM_DURIN_BERRY,
@@ -303,15 +301,9 @@ static const u16 sFavorLadyAcceptedItems_Slippery[] =
     ITEM_REPEL,
     ITEM_SUPER_REPEL,
     ITEM_MAX_REPEL,
-    ITEM_ANTIDOTE,
-    ITEM_PARALYZE_HEAL,
-    ITEM_BURN_HEAL,
+    
     ITEM_BELUE_BERRY,
-    ITEM_AWAKENING,
-    ITEM_ICE_HEAL,
-    ITEM_REVIVE,
-    ITEM_MAX_REVIVE,
-    ITEM_ENERGY_POWDER,
+    
     ITEM_NONE
 };
 
@@ -338,14 +330,10 @@ static const u16 sFavorLadyAcceptedItems_Roundish[] =
 
 static const u16 sFavorLadyAcceptedItems_Whamish[] =
 {
-    ITEM_REVIVAL_HERB,
-    ITEM_POTION,
-    ITEM_FRESH_WATER,
-    ITEM_SODA_POP,
-    ITEM_LEMONADE,
+    
     ITEM_HARD_STONE,
     ITEM_LIGHT_BALL,
-    ITEM_LAVA_COOKIE,
+    
     ITEM_CHESTO_BERRY,
     ITEM_NANAB_BERRY,
     ITEM_WEPEAR_BERRY,
@@ -357,10 +345,7 @@ static const u16 sFavorLadyAcceptedItems_Whamish[] =
 
 static const u16 sFavorLadyAcceptedItems_Shiny[] =
 {
-    ITEM_HEAL_POWDER,
-    ITEM_X_SPEED,
-    ITEM_X_ATTACK,
-    ITEM_X_DEFENSE,
+    
     ITEM_BLUE_FLUTE,
     ITEM_YELLOW_FLUTE,
     ITEM_RED_FLUTE,
@@ -382,12 +367,7 @@ static const u16 sFavorLadyAcceptedItems_Shiny[] =
 
 static const u16 sFavorLadyAcceptedItems_Sticky[] =
 {
-    ITEM_ENERGY_ROOT,
-    ITEM_FULL_RESTORE,
-    ITEM_MAX_POTION,
-    ITEM_DIRE_HIT,
-    ITEM_X_ACCURACY,
-    ITEM_GUARD_SPEC,
+    
     ITEM_WATMEL_BERRY,
     ITEM_LEFTOVERS,
     ITEM_TINY_MUSHROOM,

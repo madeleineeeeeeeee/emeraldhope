@@ -22,6 +22,8 @@
 #include "constants/songs.h"
 #include "constants/rgb.h"
 
+#include "pokedex.h"
+
 // iwram
 u32 gMonShrinkDuration;
 u16 gMonShrinkDelta;

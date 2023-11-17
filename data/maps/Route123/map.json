@@ -809,7 +809,7 @@
       "x": 12,
       "y": 1,
       "elevation": 3,
-      "item": "ITEM_REVIVE",
+      "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_123_REVIVE"
     },
     {
@@ -817,7 +817,7 @@
       "x": 91,
       "y": 15,
       "elevation": 3,
-      "item": "ITEM_HYPER_POTION",
+      "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_123_HYPER_POTION"
     },
     {

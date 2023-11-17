@@ -370,7 +370,7 @@
       "x": 16,
       "y": 23,
       "elevation": 3,
-      "item": "ITEM_REVIVE",
+      "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_109_REVIVE"
     },
     {
@@ -394,7 +394,7 @@
       "x": 28,
       "y": 20,
       "elevation": 3,
-      "item": "ITEM_ETHER",
+      "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_109_ETHER"
     },
     {

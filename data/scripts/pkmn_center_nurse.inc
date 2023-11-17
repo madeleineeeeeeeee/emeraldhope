@@ -1,6 +1,9 @@
 Common_EventScript_PkmnCenterNurse::
 	lock
 	faceplayer
+	checkitem ITEM_POKEVIAL, 1
+    compare VAR_RESULT, 1
+    goto_if_eq EventScript_PkmnCenterNurseHasVial
 	setvar VAR_0x8004, 0
 	specialvar VAR_RESULT, CountPlayerTrainerStars
 	goto_if_eq VAR_RESULT, 4, EventScript_PkmnCenterNurse_GoldCard
@@ -8,6 +11,18 @@ Common_EventScript_PkmnCenterNurse::
 	goto_if_eq VAR_RESULT, YES, EventScript_PkmnCenterNurse_HealPkmn
 	goto_if_eq VAR_RESULT, NO, EventScript_PkmnCenterNurse_Goodbye
 	end
+
+EventScript_PkmnCenterNurseHasVial::
+    setvar VAR_0x8004, 0
+    specialvar VAR_RESULT, CountPlayerTrainerStars
+    compare VAR_RESULT, 4
+    goto_if_eq EventScript_PkmnCenterNurse_GoldCard
+    msgbox gText_WouldYouLikeToRestYourPkmn, MSGBOX_YESNO
+    compare VAR_RESULT, YES
+    goto_if_eq EventScript_PkmnCenterNurse_HealPkmn
+    compare VAR_RESULT, NO
+    goto_if_eq EventScript_PkmnCenterNurse_Goodbye
+    end
 
 EventScript_PkmnCenterNurse_Goodbye::
 	message gText_WeHopeToSeeYouAgain
@@ -40,6 +55,7 @@ EventScript_PkmnCenterNurse_TakeAndHealPkmn::
 	applymovement VAR_0x800B, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	special HealPlayerParty
+	special PokevialRefill
 	return
 
 EventScript_PkmnCenterNurse_CheckTrainerHillAndUnionRoom::

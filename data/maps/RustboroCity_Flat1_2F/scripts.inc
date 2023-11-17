@@ -1,4 +1,4 @@
-.set LOCALID_WALDAS_DAD, 6
+.set LOCALID_WALDAS_Dad, 6
 
 RustboroCity_Flat1_2F_MapScripts::
 	.byte 0
@@ -53,7 +53,7 @@ RustboroCity_Flat1_2F_EventScript_WaldaLikesPhrase::
 	msgbox RustboroCity_Flat1_2F_Text_LetsGiveItATry2, MSGBOX_DEFAULT
 	call RustboroCity_Flat1_2F_EventScript_WaldasDadFaceWalda
 	msgbox RustboroCity_Flat1_2F_Text_OhShesLaughing, MSGBOX_DEFAULT
-	applymovement LOCALID_WALDAS_DAD, Common_Movement_FacePlayer
+	applymovement LOCALID_WALDAS_Dad, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper, MSGBOX_DEFAULT
 	release
@@ -67,7 +67,7 @@ RustboroCity_Flat1_2F_EventScript_WaldaDoesntLikePhrase::
 	end
 
 RustboroCity_Flat1_2F_EventScript_WaldasDadFaceWalda::
-	turnobject LOCALID_WALDAS_DAD, DIR_EAST
+	turnobject LOCALID_WALDAS_Dad, DIR_EAST
 	return
 
 RustboroCity_Flat1_2F_EventScript_WaldasMom::
@@ -167,12 +167,12 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 	.string "for you?\p"
 	.string "I know, I'll add some new wallpaper\n"
 	.string "patterns for the BOXES in the PC\l"
-	.string "POKéMON Storage System.\p"
+	.string "Pokémon Storage System.\p"
 	.string "In the wallpaper pattern menu,\n"
 	.string "select “FRIENDS.”\p"
 	.string "That will give you access to the new\n"
 	.string "wallpaper patterns.$"
 
 RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll:
-	.string "It's a POKéMON plush DOLL!$"
+	.string "It's a Pokémon plush DOLL!$"
 

@@ -86,7 +86,8 @@ static const struct FormChange sHeracrossFormChangeTable[] = {
 };
 
 static const struct FormChange sHoundoomFormChangeTable[] = {
-    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_HOUNDOOM_MEGA, ITEM_HOUNDOOMINITE},
+    {FORM_CHANGE_BATTLE_STATUS,    SPECIES_HOUNDOOM,      STATUS1_NONE},
+    {FORM_CHANGE_BATTLE_STATUS,    SPECIES_HOUNDOOM_MEGA, STATUS1_BURN},
     {FORM_CHANGE_TERMINATOR},
 };
 
@@ -151,7 +152,8 @@ static const struct FormChange sAltariaFormChangeTable[] = {
 };
 
 static const struct FormChange sAbsolFormChangeTable[] = {
-    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_ABSOL_MEGA, ITEM_ABSOLITE},
+    {FORM_CHANGE_ITEM_HOLD,    SPECIES_ABSOL, ITEM_NONE},
+    {FORM_CHANGE_ITEM_HOLD,    SPECIES_ABSOL_MEGA, ITEM_FALLEN_WINGS},
     {FORM_CHANGE_TERMINATOR},
 };
 
@@ -169,9 +171,13 @@ static const struct FormChange sCastformFormChangeTable[] = {
     {FORM_CHANGE_BATTLE_WEATHER,                SPECIES_CASTFORM, ~(B_WEATHER_SUN | B_WEATHER_RAIN | B_WEATHER_HAIL | B_WEATHER_SNOW)},
     {FORM_CHANGE_BATTLE_WEATHER,                SPECIES_CASTFORM, B_WEATHER_NONE},
 #endif
+    /*
     {FORM_CHANGE_BATTLE_SWITCH,                 SPECIES_CASTFORM},
     {FORM_CHANGE_FAINT,                         SPECIES_CASTFORM},
-    {FORM_CHANGE_END_BATTLE,                    SPECIES_CASTFORM},
+    {FORM_CHANGE_END_BATTLE,                    SPECIES_CASTFORM},*/
+    {FORM_CHANGE_ITEM_USE,                      SPECIES_CASTFORM_SUNNY, ITEM_HEAT_ROCK},
+    {FORM_CHANGE_ITEM_USE,                      SPECIES_CASTFORM_RAINY, ITEM_DAMP_ROCK},
+    {FORM_CHANGE_ITEM_USE,                      SPECIES_CASTFORM_SNOWY, ITEM_ICY_ROCK},
     {FORM_CHANGE_TERMINATOR},
 };
 
@@ -186,7 +192,8 @@ static const struct FormChange sAggronFormChangeTable[] = {
 };
 
 static const struct FormChange sGardevoirFormChangeTable[] = {
-    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_GARDEVOIR_MEGA, ITEM_GARDEVOIRITE},
+    {FORM_CHANGE_ITEM_HOLD,    SPECIES_GARDEVOIR, ITEM_NONE},
+    {FORM_CHANGE_ITEM_HOLD,    SPECIES_GARDEVOIR_MEGA, ITEM_EVIOLITE},
     {FORM_CHANGE_TERMINATOR},
 };
 
@@ -275,7 +282,8 @@ static const struct FormChange sAbomasnowFormChangeTable[] = {
 };
 
 static const struct FormChange sGalladeFormChangeTable[] = {
-    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_GALLADE_MEGA, ITEM_GALLADITE},
+    {FORM_CHANGE_ITEM_HOLD,    SPECIES_GALLADE, ITEM_NONE},
+    {FORM_CHANGE_ITEM_HOLD,    SPECIES_GALLADE_MEGA, ITEM_EVIOLITE},
     {FORM_CHANGE_TERMINATOR},
 };
 
@@ -369,6 +377,8 @@ static const struct FormChange sDarmanitanGalarianFormChangeTable[] = {
 };
 
 static const struct FormChange sMeloettaFormChangeTable[] = {
+    {FORM_CHANGE_ITEM_HOLD, SPECIES_MELOETTA,             ITEM_NONE},
+    {FORM_CHANGE_ITEM_HOLD, SPECIES_MELOETTA_PIROUETTE,   ITEM_EVIOLITE},
     {FORM_CHANGE_FAINT,         SPECIES_MELOETTA},
     {FORM_CHANGE_END_BATTLE,    SPECIES_MELOETTA},
     {FORM_CHANGE_TERMINATOR},
@@ -429,9 +439,11 @@ static const struct FormChange sXerneasFormChangeTable[] = {
 };
 
 static const struct FormChange sZygardePowerConstructFormChangeTable[] = {
-    {FORM_CHANGE_BATTLE_HP_PERCENT, SPECIES_ZYGARDE_COMPLETE, ABILITY_POWER_CONSTRUCT, HP_LOWER_EQ_THAN, 50},
-    {FORM_CHANGE_FAINT},
-    {FORM_CHANGE_END_BATTLE},
+
+    {FORM_CHANGE_ITEM_HOLD, SPECIES_ZYGARDE,             ITEM_NONE},
+    {FORM_CHANGE_ITEM_HOLD, SPECIES_ZYGARDE_10,          ITEM_NONE},
+    {FORM_CHANGE_ITEM_HOLD, SPECIES_ZYGARDE_COMPLETE, ITEM_EVIOLITE},
+    
     {FORM_CHANGE_TERMINATOR},
 };
 

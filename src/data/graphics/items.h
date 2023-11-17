@@ -1940,6 +1940,23 @@ const u32 gItemIconPalette_Ruby[] = INCBIN_U32("graphics/items/icon_palettes/rub
 
 const u32 gItemIconPalette_Sapphire[] = INCBIN_U32("graphics/items/icon_palettes/sapphire.gbapal.lz");
 
+
+// Start Pokevial Branch
+const u32 gItemIcon_Pokevial0[] = INCBIN_U32("graphics/items/icons/pokevial0.4bpp.lz");
+const u32 gItemIcon_Pokevial1[] = INCBIN_U32("graphics/items/icons/pokevial1.4bpp.lz");
+const u32 gItemIcon_Pokevial2[] = INCBIN_U32("graphics/items/icons/pokevial2.4bpp.lz");
+const u32 gItemIcon_Pokevial3[] = INCBIN_U32("graphics/items/icons/pokevial3.4bpp.lz");
+const u32 gItemIcon_Pokevial4[] = INCBIN_U32("graphics/items/icons/pokevial4.4bpp.lz");
+const u32 gItemIcon_Pokevial5[] = INCBIN_U32("graphics/items/icons/pokevial5.4bpp.lz");
+const u32 gItemIcon_Pokevial6[] = INCBIN_U32("graphics/items/icons/pokevial6.4bpp.lz");
+const u32 gItemIcon_Pokevial7[] = INCBIN_U32("graphics/items/icons/pokevial7.4bpp.lz");
+const u32 gItemIcon_Pokevial8[] = INCBIN_U32("graphics/items/icons/pokevial8.4bpp.lz");
+const u32 gItemIcon_Pokevial9[] = INCBIN_U32("graphics/items/icons/pokevial9.4bpp.lz");
+const u32 gItemIcon_Pokevial[] = INCBIN_U32("graphics/items/icons/pokevial.4bpp.lz");
+
+const u32 gItemIconPalette_Pokevial[] = INCBIN_U32("graphics/items/icon_palettes/pokevial.gbapal.lz");
+//End Pokevial Branch
+
 const u32 gItemIcon_AbilityShield[] = INCBIN_U32("graphics/items/icons/ability_shield.4bpp.lz");
 const u32 gItemIconPalette_AbilityShield[] = INCBIN_U32("graphics/items/icon_palettes/ability_shield.gbapal.lz");
 
@@ -2023,3 +2040,8 @@ const u32 gItemIconPalette_LustrousGlobe[] = INCBIN_U32("graphics/items/icon_pal
 
 const u32 gItemIcon_BerserkGene[] = INCBIN_U32("graphics/items/icons/berserk_gene.4bpp.lz");
 const u32 gItemIconPalette_BerserkGene[] = INCBIN_U32("graphics/items/icon_palettes/berserk_gene.gbapal.lz");
+
+//maddie items
+
+const u32 gItemIcon_FallenWings[] = INCBIN_U32("graphics/items/icons/fallen_wings.4bpp.lz");
+const u32 gItemIconPalette_FallenWings[] = INCBIN_U32("graphics/items/icon_palettes/fallen_wings.gbapal.lz");

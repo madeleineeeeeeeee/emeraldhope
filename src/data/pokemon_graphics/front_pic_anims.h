@@ -186,9 +186,9 @@ static const union AnimCmd sAnim_Pidgeotto_1[] =
 
 static const union AnimCmd sAnim_Pidgeot_1[] =
 {
-    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
@@ -1506,6 +1506,8 @@ static const union AnimCmd sAnim_Magmar_1[] =
 {
     ANIMCMD_FRAME(1, 40),
     ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
 
@@ -1922,23 +1924,16 @@ static const union AnimCmd sAnim_Ariados_1[] =
 
 static const union AnimCmd sAnim_Crobat_1[] =
 {
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    
     ANIMCMD_END,
 };
 
@@ -2731,9 +2726,9 @@ static const union AnimCmd sAnim_Elekid_1[] =
 
 static const union AnimCmd sAnim_Magby_1[] =
 {
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 30),
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
@@ -4506,6 +4501,22 @@ static const union AnimCmd sAnim_Deoxys_2[] =
     ANIMCMD_FRAME(2, 20),
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
+    ANIMCMD_END,
+};
+
+//maddie mons
+
+static const union AnimCmd sAnim_Galladin_1[] =
+{
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
 
@@ -10920,6 +10931,10 @@ DOUBLE_ANIMATION(Latias);
 DOUBLE_ANIMATION(Latios);
 DOUBLE_ANIMATION(Jirachi);
 DOUBLE_ANIMATION(Deoxys);
+//maddie mons
+
+SINGLE_ANIMATION(Galladin);
+
 SINGLE_ANIMATION(Chimecho);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
@@ -12042,6 +12057,11 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[NUM_SPECIES + 1] =
     [SPECIES_LATIOS]      = sAnims_Latios,
     [SPECIES_JIRACHI]     = sAnims_Jirachi,
     [SPECIES_DEOXYS]      = sAnims_Deoxys,
+
+    //maddie mons
+
+    [SPECIES_GALLADIN]     = sAnims_Galladin,
+
     [SPECIES_CHIMECHO]    = sAnims_Chimecho,
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_TURTWIG] = sAnims_Turtwig,
@@ -12253,7 +12273,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[NUM_SPECIES + 1] =
     [SPECIES_AMOONGUSS] = sAnims_Amoonguss,
     [SPECIES_FRILLISH] = sAnims_Frillish,
     [SPECIES_JELLICENT] = sAnims_Jellicent,
-    [SPECIES_ALOMOMOLA] = sAnims_Alomomola,
+    [SPECIES_ALOMomOLA] = sAnims_Alomomola,
     [SPECIES_JOLTIK] = sAnims_Joltik,
     [SPECIES_GALVANTULA] = sAnims_Galvantula,
     [SPECIES_FERROSEED] = sAnims_Ferroseed,
@@ -12919,7 +12939,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[NUM_SPECIES + 1] =
     [SPECIES_ZAMAZENTA_CROWNED_SHIELD] = sAnims_Zamazenta,
     [SPECIES_ETERNATUS_ETERNAMAX] = sAnims_Eternatus,
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = sAnims_Urshifu,
-    [SPECIES_ZARUDE_DADA] = sAnims_Zarude,
+    [SPECIES_ZARUDE_DadA] = sAnims_Zarude,
     [SPECIES_CALYREX_ICE_RIDER] = sAnims_Calyrex,
     [SPECIES_CALYREX_SHADOW_RIDER] = sAnims_Calyrex,
     [SPECIES_ENAMORUS_THERIAN] = sAnims_EnamorusTherian,
