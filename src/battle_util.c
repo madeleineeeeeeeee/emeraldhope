@@ -3571,25 +3571,28 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
                     gBattleMons[gBattlerAttacker].status2 -= STATUS2_CONFUSION_TURN(1);
                 if (gBattleMons[gBattlerAttacker].status2 & STATUS2_CONFUSION)
                 {
-                     // confusion dmg
+                    
+                     // confusion dmg 
+                     /*
                 #if B_CONFUSION_SELF_DMG_CHANCE >= GEN_7
                     if (RandomWeighted(RNG_CONFUSION, 2, 1))
                 #else
                     if (RandomWeighted(RNG_CONFUSION, 1, 1))
                 #endif
-                    {
+                */
+                    //{
                         gBattleCommunication[MULTISTRING_CHOOSER] = TRUE;
                         gBattlerTarget = gBattlerAttacker;
                         gBattleMoveDamage = CalculateMoveDamage(MOVE_NONE, gBattlerAttacker, gBattlerAttacker, TYPE_MYSTERY, 40, FALSE, FALSE, TRUE);
                         gProtectStructs[gBattlerAttacker].confusionSelfDmg = TRUE;
-                        gHitMarker |= HITMARKER_UNABLE_TO_USE_MOVE;
-                    }
+                        //gHitMarker |= HITMARKER_UNABLE_TO_USE_MOVE;
+                    /*}
                     else
                     {
                         gBattleCommunication[MULTISTRING_CHOOSER] = FALSE;
                         BattleScriptPushCursor();
                     }
-                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfused;
+                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfused;*/
                 }
                 else // snapped out of confusion
                 {
@@ -6522,7 +6525,8 @@ bool32 CanBeConfused(u32 battler)
 {
     if (GetBattlerAbility(battler) == ABILITY_OWN_TEMPO
       || gBattleMons[battler].status2 & STATUS2_CONFUSION
-      || IsBattlerTerrainAffected(battler, STATUS_FIELD_MISTY_TERRAIN))
+      || IsBattlerTerrainAffected(battler, STATUS_FIELD_MISTY_TERRAIN)
+      || (gBattleMons[battler].type1 == TYPE_BUG))
         return FALSE;
     return TRUE;
 }

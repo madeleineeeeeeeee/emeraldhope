@@ -2911,7 +2911,8 @@ bool32 AI_CanBeConfused(u32 battler, u32 ability)
 {
     if ((gBattleMons[battler].status2 & STATUS2_CONFUSION)
       || (ability == ABILITY_OWN_TEMPO)
-      || (IsBattlerGrounded(battler) && (gFieldStatuses & STATUS_FIELD_MISTY_TERRAIN)))
+      || (IsBattlerGrounded(battler) && (gFieldStatuses & STATUS_FIELD_MISTY_TERRAIN))
+      || (gBattleMons[battler].type1 == TYPE_BUG))
         return FALSE;
     return TRUE;
 }

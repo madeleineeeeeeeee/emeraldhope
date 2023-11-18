@@ -14665,12 +14665,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_BUG_CRUSHER] =
     {
-        .effect = EFFECT_CLOSE_COMBAT,
+        .effect = EFFECT_CONFUSE_HIT,
         .power = 100,
         .type = TYPE_BUG,
         .accuracy = 100,
-        .pp = 16,
-        .secondaryEffectChance = 100,
+        .pp = 8,
+        .secondaryEffectChance = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .split = SPLIT_PHYSICAL,
