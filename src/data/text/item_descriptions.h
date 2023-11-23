@@ -3185,7 +3185,7 @@ static const u8 sTM38Desc[] = _(
 
 static const u8 sTM39Desc[] = _(
     "Contains the move\n"
-    "Rock Slide.");
+    "Rock Tomb.");
 
 static const u8 sTM40Desc[] = _(
     "Contains the move\n"
@@ -3297,7 +3297,7 @@ static const u8 sTM66Desc[] = _( // Todo
 
 static const u8 sTM67Desc[] = _( // Todo
     "Contains the move\n"
-    "Bullet Seed.");
+    "Energy Ball.");
 
 static const u8 sTM68Desc[] = _( // Todo
     "Contains the move\n"
@@ -3392,31 +3392,40 @@ static const u8 sTM90Desc[] = _( // Todo
     "Pursuit.");
 
 static const u8 sTM91Desc[] = _( // Todo
-    "?????");
+    "Contains the move\n"
+    "Body Slam.");
 
 static const u8 sTM92Desc[] = _( // Todo
-    "?????");
+    "Contains the move\n"
+    "Grass Knot.");
 
 static const u8 sTM93Desc[] = _( // Todo
-    "?????");
+    "Contains the move\n"
+    "Psyshock.");
 
 static const u8 sTM94Desc[] = _( // Todo
-    "?????");
+    "Contains the move\n"
+    "Whirlwind.");
 
 static const u8 sTM95Desc[] = _( // Todo
-    "?????");
+    "Contains the move\n"
+    "Dragon Tail.");
 
 static const u8 sTM96Desc[] = _( // Todo
-    "?????");
+    "Contains the move\n"
+    "Rock Slide.");
 
 static const u8 sTM97Desc[] = _( // Todo
-    "?????");
+    "Contains the move\n"
+    "Gyro Ball.");
 
 static const u8 sTM98Desc[] = _( // Todo
-    "?????");
+    "Contains the move\n"
+    "Low Sweep.");
 
 static const u8 sTM99Desc[] = _( // Todo
-    "?????");
+    "Contains the move\n"
+    "Snarl.");
 
 static const u8 sTM100Desc[] = _( // Todo
     "?????");

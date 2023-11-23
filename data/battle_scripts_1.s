@@ -9152,7 +9152,7 @@ BattleScript_TargetsStatWasMaxedOut::
 	statbuffchange STAT_CHANGE_NOT_PROTECT_AFFECTED | MOVE_EFFECT_CERTAIN, NULL
 	setgraphicalstatchangevalues
 	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
-	printstring STRINGID_TARGETSSTATWASMAXEDOUT
+	printstring STRINGID_ABILITYRAISEDSTATDRASTICALLY
 	waitmessage B_WAIT_TIME_LONG
 	return
 

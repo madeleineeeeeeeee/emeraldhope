@@ -941,7 +941,7 @@ static const u8 sSweetScentDescription[] = _(
 
 static const u8 sIronTailDescription[] = _(
     "Attacks with a rock-hard\n"
-    "tail. May lower Defense.");
+    "tail. May raise Defense.");
 
 static const u8 sMetalClawDescription[] = _(
     "A claw attack that may\n"

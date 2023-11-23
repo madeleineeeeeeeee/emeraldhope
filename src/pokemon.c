@@ -8576,7 +8576,7 @@ u8 GetLevelCap(void)
     u16 currentBadge = getHighestBadge();
 
     
-    static const u8 levelCapsMore[] =     {16, 25, 38, 50,  54,  70,  85,  92,  95, 101};
+    static const u8 levelCapsMore[] =     {19, 29, 39, 49,  59,  69,  79,  89,  99, 101};
     
 
 
