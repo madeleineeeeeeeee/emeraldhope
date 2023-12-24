@@ -159,7 +159,7 @@ LilycoveCity_House3_Text_LikeMixingAtRecordCorner:
 
 LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender:
 	.string "We're going to make super {POKEBLOCK}S\n"
-	.string "with a BERRY BLENDER!$"
+	.string "with a Berry BLENDER!$"
 
 LilycoveCity_House3_Text_GoingToEnterContest:
 	.string "I want to brag about how tough my\n"

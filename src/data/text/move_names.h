@@ -834,7 +834,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
 
     //maddy moves
 
-    [MOVE_MOLD_CLOUD] = _("Mold CLoud"),
+    [MOVE_MOLD_CLOUD] = _("Mold Cloud"),
     [MOVE_PLAGUE_BITE] = _("Plague Bite"),
     [MOVE_UNSEELIE_TRICK] = _("Unseelie Trick"),
     [MOVE_VOID_TOUCH] = _("Void Touch"),

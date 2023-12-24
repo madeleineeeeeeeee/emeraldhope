@@ -218,8 +218,8 @@ CableClub_Text_ReturnsToPreviousStep:
 	.string "Returns to the previous step.$"
 
 CableClub_Text_NeedBerryForBerryCrush:
-	.string "To use the BERRY CRUSH service,\n"
-	.string "you must have at least one BERRY.$"
+	.string "To use the Berry CRUSH service,\n"
+	.string "you must have at least one Berry.$"
 
 CableClub_Text_NeedTwoMonsForUnionRoom:
 	.string "To enter the UNION ROOM, you must\n"

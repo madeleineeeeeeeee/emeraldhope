@@ -91,7 +91,7 @@ FortreeCity_Text_SawGiganticPokemonInSky:
 	.string "No one believes me, but I saw this\n"
 	.string "gigantic Pokémon in the sky.\p"
 	.string "It seemed to squirm as it flew toward\n"
-	.string "ROUTE 131.\p"
+	.string "Route 131.\p"
 	.string "By the way… Sniff…\n"
 	.string "Um… You, uh…smell singed.\p"
 	.string "Were you at a volcano or something?$"

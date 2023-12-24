@@ -244,8 +244,8 @@ LilycoveCity_EventScript_May::
 	goto_if_eq VAR_RESULT, NO, LilycoveCity_EventScript_DeclineMayBattle
 	msgbox LilycoveCity_Text_MayWontBeBeaten, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, LilycoveCity_EventScript_BattleMayTreecko
-	case 1, LilycoveCity_EventScript_BattleMayTorchic
+	case 0, LilycoveCity_EventScript_BattleMayMudkip
+	case 1, LilycoveCity_EventScript_BattleMayMudkip
 	case 2, LilycoveCity_EventScript_BattleMayMudkip
 	end
 
@@ -272,9 +272,9 @@ LilycoveCity_EventScript_Brendan::
 	goto_if_eq VAR_RESULT, NO, LilycoveCity_EventScript_DeclineBrendanBattle
 	msgbox LilycoveCity_Text_BrendanWontBeBeaten, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, LilycoveCity_EventScript_BattleBrendanTreecko
+	case 0, LilycoveCity_EventScript_BattleBrendanTorchic
 	case 1, LilycoveCity_EventScript_BattleBrendanTorchic
-	case 2, LilycoveCity_EventScript_BattleBrendanMudkip
+	case 2, LilycoveCity_EventScript_BattleBrendanTorchic
 	end
 
 LilycoveCity_EventScript_BrendanAskToBattleAgain::
@@ -442,7 +442,7 @@ LilycoveCity_Text_MayWontBeBeaten:
 LilycoveCity_Text_MayDefeat:
 	.string "… … … … … … … …\p"
 	.string "I remember the battle I had with you,\n"
-	.string "{PLAYER}{KUN}, on ROUTE 103.\p"
+	.string "{PLAYER}{KUN}, on Route 103.\p"
 	.string "That battle helped you become this\n"
 	.string "strong, {PLAYER}{KUN}, didn't it?$"
 
@@ -450,7 +450,7 @@ LilycoveCity_Text_MayGoingBackToLittleroot:
 	.string "May: I'm thinking of going back to\n"
 	.string "LITTLEROOT soon.\p"
 	.string "I've caught a decent group of Pokémon,\n"
-	.string "and my POKéDEX is coming along, so\l"
+	.string "and my PokéDex is coming along, so\l"
 	.string "I'm going home to show my dad.$"
 
 LilycoveCity_Text_MayYouGoingToCollectBadges:
@@ -459,7 +459,7 @@ LilycoveCity_Text_MayYouGoingToCollectBadges:
 	.string "the Pokémon LEAGUE challenge?\p"
 	.string "Well, while you're collecting BADGES,\n"
 	.string "{PLAYER}{KUN}, I'm going to work on my\l"
-	.string "POKéDEX. I'll complete it before you!\p"
+	.string "PokéDex. I'll complete it before you!\p"
 	.string "See you!$"
 
 LilycoveCity_Text_MayYouGoingToPokemonLeague:
@@ -467,9 +467,9 @@ LilycoveCity_Text_MayYouGoingToPokemonLeague:
 	.string "Are you taking the Pokémon LEAGUE\n"
 	.string "challenge?\p"
 	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
+	.string "PokéDex?\p"
 	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my POKéDEX before you!\p"
+	.string "but I'll finish my PokéDex before you!\p"
 	.string "See you!$"
 
 LilycoveCity_Text_MayYouGoingToBattleFrontier:
@@ -477,9 +477,9 @@ LilycoveCity_Text_MayYouGoingToBattleFrontier:
 	.string "Are you taking the BATTLE FRONTIER\n"
 	.string "challenge?\p"
 	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
+	.string "PokéDex?\p"
 	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my POKéDEX before you!\p"
+	.string "but I'll finish my PokéDex before you!\p"
 	.string "See you!$"
 
 LilycoveCity_Text_BrendanShoppingLetsBattle:
@@ -512,7 +512,7 @@ LilycoveCity_Text_BrendanGoingBackToLittleroot:
 	.string "Brendan: I…\n"
 	.string "I plan on going home to Littleroot.\p"
 	.string "You know I'm helping out my dad on his\n"
-	.string "POKéDEX. It's coming together pretty\l"
+	.string "PokéDex. It's coming together pretty\l"
 	.string "decently, so I should go show him.$"
 
 LilycoveCity_Text_BrendanYouGoingToCollectBadges:
@@ -536,7 +536,7 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 	.string "Are you taking the BATTLE FRONTIER\n"
 	.string "challenge?\p"
 	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
+	.string "PokéDex?\p"
 	.string "Since you're that strong, you should\n"
 	.string "consider the BATTLE FRONTIER.\p"
 	.string "Heh, if I train my Pokémon a bit more,\n"

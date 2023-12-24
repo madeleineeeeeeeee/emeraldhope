@@ -133,6 +133,8 @@ static const s8 sAiAbilityRatings[ABILITIES_COUNT] =
     [ABILITY_KLUTZ] = -1,
     [ABILITY_LEAF_GUARD] = 2,
     [ABILITY_LEVITATE] = 7,
+    [ABILITY_GRAVE_WARDEN] = 6,
+    [ABILITY_NIGHT_WARRIOR] = 6,
     [ABILITY_LIGHT_METAL] = 2,
     [ABILITY_LIGHTNING_ROD] = 7,
     [ABILITY_LIMBER] = 3,
@@ -2587,6 +2589,14 @@ bool32 ShouldPivot(u32 battlerAtk, u32 battlerDef, u32 defAbility, u32 move, u32
 
     if (PartyBattlerShouldAvoidHazards(battlerAtk, battlerToSwitch))
         return DONT_PIVOT;
+    //should switch if mon is asleep so as to not bleed momentum
+        if ((gBattleMons[battlerAtk].status1 & STATUS1_SLEEP) 
+        && ((gBattleMons[battlerAtk].ability != ABILITY_COMATOSE) && (gBattleMons[battlerAtk].ability != ABILITY_EARLY_BIRD) 
+        && (gBattleMons[battlerAtk].ability != ABILITY_SHED_SKIN)))
+        {
+            return CAN_TRY_PIVOT;
+        }
+
 
     if (!IsDoubleBattle())
     {

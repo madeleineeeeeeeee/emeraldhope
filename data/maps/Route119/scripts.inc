@@ -74,8 +74,8 @@ Route119_EventScript_PlayBrendanMusic::
 Route119_EventScript_BattleMay::
 	msgbox Route119_Text_MayIntro, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, Route119_EventScript_BattleMayTreecko
-	case 1, Route119_EventScript_BattleMayTorchic
+	case 0, Route119_EventScript_BattleMayMudkip
+	case 1, Route119_EventScript_BattleMayMudkip
 	case 2, Route119_EventScript_BattleMayMudkip
 	end
 
@@ -104,9 +104,9 @@ Route119_EventScript_DefeatedMay::
 Route119_EventScript_BattleBrendan::
 	msgbox Route119_Text_BrendanIntro, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, Route119_EventScript_BattleBrendanTreecko
+	case 0, Route119_EventScript_BattleBrendanTorchic
 	case 1, Route119_EventScript_BattleBrendanTorchic
-	case 2, Route119_EventScript_BattleBrendanMudkip
+	case 2, Route119_EventScript_BattleBrendanTorchic
 	end
 
 Route119_EventScript_BattleBrendanTreecko::
@@ -598,7 +598,7 @@ Route119_Text_CanYourMonMakeSecretBase:
 	.string "SECRET BASE?$"
 
 Route119_Text_RouteSignFortree:
-	.string "ROUTE 119\n"
+	.string "Route 119\n"
 	.string "{RIGHT_ARROW} FORTREE City$"
 
 Route119_Text_WeatherInstitute:

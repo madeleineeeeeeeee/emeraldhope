@@ -664,6 +664,26 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon, MSGBOX_SIGN
 	end
 
+LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf1::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_Bookshelf1, MSGBOX_SIGN
+	end
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf2::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_Bookshelf2, MSGBOX_SIGN
+	end
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf3::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_Bookshelf3, MSGBOX_SIGN
+	end
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf4::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_Bookshelf4, MSGBOX_SIGN
+	end
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf5::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_Bookshelf5, MSGBOX_SIGN
+	end
+
 LittlerootTown_ProfessorBirchsLab_EventScript_Book::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead, MSGBOX_SIGN
 	end
@@ -678,19 +698,19 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 	.string "Hunh? Prof. Birch?\p"
-	.string "The PROF's away on fieldwork.\n"
+	.string "The Prof's away on fieldwork.\n"
 	.string "Ergo, he isn't here.\p"
 	.string "Oh, let me explain what fieldwork is.\p"
 	.string "It is to study things in the natural\n"
 	.string "environment, like fields and mountains,\l"
 	.string "instead of a laboratory.\p"
-	.string "The PROF isn't one for doing desk work.\n"
+	.string "The Prof isn't one for doing desk work.\n"
 	.string "He's the type of person who would\l"
 	.string "rather go outside and experience\l"
 	.string "things than read about them here.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
-	.string "The PROF isn't one for doing desk work.\n"
+	.string "The Prof isn't one for doing desk work.\n"
 	.string "He's the type of person who would\l"
 	.string "rather go outside and experience\l"
 	.string "things than read about them here.$"
@@ -698,7 +718,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "Prof. Birch is studying the habitats\n"
 	.string "and distribution of Pokémon.\p"
-	.string "The PROF enjoys {RIVAL}'s help, too.\n"
+	.string "The Prof enjoys {RIVAL}'s help, too.\n"
 	.string "There's a lot of love there.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
@@ -760,18 +780,23 @@ LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "them.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
-	.string "{PLAYER} received the POKéDEX!$"
+	.string "{PLAYER} received the PokéDex!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-	.string "Prof. Birch: The POKéDEX is a high-tech\n"
+	.string "Prof. Birch: The PokéDex is a high-tech\n"
 	.string "tool that automatically makes a record\l"
 	.string "of any Pokémon you meet or catch.\p"
 	.string "My kid, {RIVAL}, goes everywhere\n"
 	.string "with it.\p"
 	.string "Whenever my kid catches a rare Pokémon\n"
-	.string "and records its data in the POKéDEX,\l"
+	.string "and records its data in the PokéDex,\l"
 	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
+	.string "doing fieldwork, and shows me.\p"
+	.string "They also helped me catalog the recent\n"
+	.string "changes to Pokémon Type interactions!\p"
+	.string "I've detailed them in a book series;\n"
+	.string "you can find them on the shelves\l"
+	.string "around the lab!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "Prof. Birch: Countless Pokémon\n"
@@ -781,7 +806,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 	.string "May: Oh, wow, {PLAYER}{KUN}!\n"
-	.string "You got a POKéDEX, too!\p"
+	.string "You got a PokéDex, too!\p"
 	.string "That's great! Just like me!\n"
 	.string "I've got something for you, too!$"
 
@@ -791,10 +816,10 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 	.string "I'm going to look all over the place\n"
 	.string "because I want different Pokémon.\p"
 	.string "If I find any cute Pokémon, I'll catch\n"
-	.string "them with POKé BALLS!$"
+	.string "them with Poké Balls!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
-	.string "Oh? Your BAG's full.$"
+	.string "Oh? Your Bag's full.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
 	.string "May: I wonder where I should go look\n"
@@ -802,20 +827,26 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
 	.string "Brendan: Huh…\n"
-	.string "So you got a POKéDEX, too.\p"
+	.string "So you got a PokéDex, too.\p"
 	.string "Well then, here.\n"
 	.string "I'll give you these.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "Brendan: You know it's more fun to\n"
 	.string "have a whole bunch of Pokémon.\p"
+	.string "In fact, that Shiny Charm my dad\n"
+	.string "gave you…\p"
+	.string "As you catch more Pokémon, especially\n"
+	.string "Pokémon that you haven't caught before,\l"
+	.string "It'll increase your odds of finding\l"
+	.string "Shiny Pokémon!\p"
 	.string "I'm going to explore all over the place\n"
 	.string "to find different Pokémon.\p"
 	.string "If I find any cool Pokémon, you bet\n"
-	.string "I'll try to get them with POKé BALLS.$"
+	.string "I'll try to get them with Poké Balls.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
-	.string "Hey, your BAG's full.$"
+	.string "Hey, your Bag's full.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
 	.string "Brendan: Where should I look for\n"
@@ -841,20 +872,20 @@ LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
 	.string "of you help me study Pokémon.\p"
 	.string "Thanks to your help, new facts\n"
 	.string "are coming to light.\p"
-	.string "It appears that in the Hoennregion,\n"
+	.string "It appears that in the Hoenn region,\n"
 	.string "there are also Pokémon from other\l"
 	.string "regions.\p"
 	.string "It goes to show how rich and varied\n"
 	.string "the natural environments of HOENN\l"
 	.string "happen to be.\p"
 	.string "That's why I think it's necessary for\n"
-	.string "me to upgrade your POKéDEX to\l"
-	.string "the NATIONAL Mode.\p"
-	.string "Here, let me see your POKéDEX units.$"
+	.string "me to upgrade your PokéDex to\l"
+	.string "the National Mode.\p"
+	.string "Here, let me see your PokéDex units.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
 	.string "May: Eheheh!\p"
-	.string "It's so cool that even my POKéDEX\n"
+	.string "It's so cool that even my PokéDex\n"
 	.string "is getting updated!\p"
 	.string "It's because you went out and caught\n"
 	.string "so many Pokémon, {PLAYER}{KUN}!$"
@@ -863,15 +894,15 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
 	.string "Brendan: I went out all over HOENN\n"
 	.string "and checked out Pokémon.\p"
 	.string "You can thank me for getting\n"
-	.string "the NATIONAL Mode POKéDEX.\p"
+	.string "the National Mode PokéDex.\p"
 	.string "Yep, you're lucky, {PLAYER}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
 	.string "Prof. Birch: Okay, all done!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
-	.string "{PLAYER}'s POKéDEX was upgraded\n"
-	.string "to the NATIONAL Mode!$"
+	.string "{PLAYER}'s PokéDex was upgraded\n"
+	.string "to the National Mode!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 	.string "Prof. Birch: But listen.\n"
@@ -896,12 +927,12 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 	.string "Prof. Birch: Oh, {PLAYER}{KUN}!\n"
-	.string "Let's have a look at your POKéDEX.\p"
+	.string "Let's have a look at your PokéDex.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "Yes, there's no doubt about it.\p"
 	.string "You really have completed the HOENN\n"
-	.string "region's POKéDEX.\p"
+	.string "region's PokéDex.\p"
 	.string "That's more than just impressive.\p"
 	.string "I have a gift for you.\p"
 	.string "Consider it my show of appreciation\n"
@@ -956,7 +987,7 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "Prof. Birch: Listen, {PLAYER}{KUN}.\n"
-	.string "You've completed the HoennPOKéDEX,\l"
+	.string "You've completed the Hoenn PokéDex,\l"
 	.string "but your Pokémon journey isn't over.\p"
 	.string "There is no end to the road\n"
 	.string "that is Pokémon.\p"
@@ -978,7 +1009,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
 	.string "Are you going to keep battling\n"
 	.string "and sharpening your skills?\p"
 	.string "Or are you going to try filling\n"
-	.string "the NATIONAL POKéDEX?\p"
+	.string "the National PokéDex?\p"
 	.string "I'm staying here to help the PROF.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
@@ -1012,3 +1043,132 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "we meet. I'll be waiting!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
+
+LittlerootTown_ProfessorBirchsLab_Text_Bookshelf1:
+	.string "It's a shelf crammed with books.\n"
+	.string "You pick one out at random…\p"
+	.string "“EVOLVING TYPES: RESISTS, VOL. 1”\n"
+	.string "“Written by Prof. Birch”\p"
+	.string "It's a book on Pokémon types!\n"
+	.string "You thumb to an interesting chapter…\l"
+	.string "“Ice and Water”\p"
+	.string "It reads…\p"
+	.string "“Pokémon of the Ice Type seem to have\n"
+	.string "grown a greater defensive profile, and\l"
+	.string "are now resisting attacks from Ground\l"
+	.string "and Water Types.\p"
+	.string "In contrast, Water Pokémon have an\n"
+	.string "emerging weakness to both Poison and\l"
+	.string "Ice Type attacks, but interestingly\l"
+	.string "found a new resistance to Rock Type\l"
+	.string "attacks instead.\p"
+	.string "These are very curious developments - \n"
+	.string "we hope to have more to share soon, so\l"
+	.string "keep an eye out for Volume Two!”$"
+
+LittlerootTown_ProfessorBirchsLab_Text_Bookshelf2:
+	.string "It's a shelf crammed with books.\n"
+	.string "You pick one out at random…\p"
+	.string "“EVOLVING TYPES: RESISTS, VOL. 2”\n"
+	.string "“Written by Prof. Birch”\p"
+	.string "It's a book on Pokémon types!\n"
+	.string "You thumb to an interesting chapter…\l"
+	.string "“Steel and Grass”\p"
+	.string "It reads…\p"
+	.string "Pokémon are adapting to combat Steel\n"
+	.string "Type Pokémon, and have surpassed its\l"
+	.string "resistances to Rock, Grass, and Ice\l"
+	.string "Type attacks. However, Fighting Types\l"
+	.string "have fallen behind, and can only hit\l"
+	.string "Steel Pokémon neutrally.\p"
+	.string "Grass Pokémon have strengthened\n"
+	.string "defensively, and now resist Fairy Type\l"
+	.string "attacks. They've also developed a\l"
+	.string "Flying Type neutrality.\p"
+	.string "As new evolutions are discovered, so\n"
+	.string "too are new Type interactions! Look out\l"
+	.string "for Volume Three!”$"
+
+LittlerootTown_ProfessorBirchsLab_Text_Bookshelf3:
+	.string "It's a shelf crammed with books.\n"
+	.string "You pick one out at random…\p"
+	.string "“EVOLVING TYPES: RESISTS, VOL. 3”\n"
+	.string "“Written by Prof. Birch”\p"
+	.string "It's a book on Pokémon types!\n"
+	.string "You thumb to an interesting chapter…\l"
+	.string "“Fairy, Bug, Fighting, and Poison”\p"
+	.string "It reads…\p"
+	.string "Fairy Type Pokémon are struggling in\n"
+	.string "nature, and now merely resist Dragons.\p"
+	.string "They've also grown weak to Fire Type\n"
+	.string "attacks, while Bug Pokémon have\l"
+	.string "overcome Fairy's resistance to them.\p"
+	.string "On the other side of this interaction,\n"
+	.string "Fairies are suffering even further\l"
+	.string "as Bug Types now resist their attacks.\p"
+	.string "To continue with Bug Types, they have\n"
+	.string "grown a resistance to Poison attacks.\p"
+	.string "Curiously, Bug and Fighting Types now\n"
+	.string "simply share neutrality to each other.\p"
+	.string "To conclude this Volume, Poison Type\n"
+	.string "Pokémon have developed stronger\l"
+	.string "antivenom, and no longer resist other\l"
+	.string "Poison Pokémon's attacks.\p"
+	.string "We hope to have more to share soon, so\n"
+	.string "watch the shelves for Volume Four!”$"
+
+LittlerootTown_ProfessorBirchsLab_Text_Bookshelf4:
+	.string "It's a shelf crammed with books.\n"
+	.string "You pick one out at random…\p"
+	.string "“EVOLVING TYPES: RESISTS, VOL. 4”\n"
+	.string "“Written by Prof. Birch”\p"
+	.string "It's a book on Pokémon types!\n"
+	.string "You thumb to an interesting chapter…\l"
+	.string "“Ghost, Dark, and Rock”\p"
+	.string "It reads…\p"
+	.string "“Ghost Type Pokémon are seeing\n"
+	.string "interesting changes, as they no longer\l"
+	.string "resist Bug attacks, but have\l"
+	.string "started to resist attacks from Ice\l"
+	.string "Type Pokémon instead.\p"
+	.string "Even more interesting is how Dark Types\n"
+	.string "have begun to share this resistance!\p"
+	.string "This change seems to have cost them\n"
+	.string "their immunity to Psychic, as they now\l"
+	.string "appear to merely resist the Type.\p"
+	.string "Following up with Ghost Types, we've\n"
+	.string "observed that Rock Types now resist\l"
+	.string "Ghost attacks!\p"
+	.string "To finish with Rock Types, resists to\n"
+	.string "Bug attacks have also emerged in our\l"
+	.string "latest studies.\p"
+	.string "We have more exciting findings to share,\n"
+	.string "so keep your eyes peeled for our\l"
+	.string "final discoveries in Volume Five!”$"
+
+LittlerootTown_ProfessorBirchsLab_Text_Bookshelf5:
+	.string "It's a shelf crammed with books.\n"
+	.string "You pick one out at random…\p"
+	.string "“EVOLVING TYPES: RESISTS, VOL. 5”\n"
+	.string "“Written by Prof. Birch”\p"
+	.string "It's a book on Pokémon types!\n"
+	.string "You thumb to an interesting chapter…\l"
+	.string "“Flying and Normal”\p"
+	.string "It reads…\p"
+	.string "“Flying Type Pokémon are adapting to\n"
+	.string "higher altitudes and colder climates,\l"
+	.string "thusly shedding their Ice weakness.\p"
+	.string "However, they have also shed their\n"
+	.string "resist to Grass Type attacks.\p"
+	.string "Now, we are exceedingly happy to share\n"
+	.string "the LAST of our findings on the ongoing\l"
+	.string "evolution of Pokémon Types!\p"
+	.string "Normal Type Pokémon have significantly\n"
+	.string "altered their Type interactions!\p"
+	.string "New resistances to Dragon and Fairy have\n"
+	.string "emerged in studies, as well as an\l"
+	.string "exciting neutrality to Fighting Types!\p"
+	.string "This concludes ALL of our research on\n"
+	.string "the evolution of Type resistances!\p"
+	.string "Thank you for reading!\p"
+	.string "- Professor Birch, Littleroot Town.”$"	

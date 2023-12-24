@@ -17,7 +17,7 @@ BerryBlender_Text_TooBusyNowIsee:
 
 BerryBlender_Text_BlendMasterNoBerries:
 	.string "Hmmm!\p"
-	.string "You haven't got a single BERRY!\p"
+	.string "You haven't got a single Berry!\p"
 	.string "I shall be here all day!\n"
 	.string "Hurry back with some BERRIES!$"
 
@@ -41,7 +41,7 @@ BerryBlender_Text_BlendMasterLetsBerryBlender:
 	.string "Fine!\p"
 	.string "Let's get started, then!\p"
 	.string "All together with the BLEND MASTER,\n"
-	.string "let's BERRY BLENDER!$"
+	.string "let's Berry BLENDER!$"
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
 	.string "Hmmm!\p"

@@ -360,14 +360,14 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_BUG_MANIAC, 15},
     {TRAINER_CLASS_PSYCHIC, 6},
     {TRAINER_CLASS_GENTLEMAN, 20},
-    {TRAINER_CLASS_ELITE_FOUR, 25},
-    {TRAINER_CLASS_LEADER, 25},
+    {TRAINER_CLASS_ELITE_FOUR, 75},
+    {TRAINER_CLASS_LEADER, 60},
     {TRAINER_CLASS_SCHOOL_KID, 5},
     {TRAINER_CLASS_SR_AND_JR, 4},
     {TRAINER_CLASS_POKEFAN, 20},
     {TRAINER_CLASS_EXPERT, 10},
     {TRAINER_CLASS_YOUNGSTER, 4},
-    {TRAINER_CLASS_CHAMPION, 50},
+    {TRAINER_CLASS_CHAMPION, 100},
     {TRAINER_CLASS_FISHERMAN, 10},
     {TRAINER_CLASS_TRIATHLETE, 10},
     {TRAINER_CLASS_DRAGON_TAMER, 12},
@@ -3150,6 +3150,7 @@ void SwitchInClearSetData(u32 battler)
             }
         }
     //}
+    /*
     if (gBattleMoves[gCurrentMove].effect == EFFECT_BATON_PASS)
     {
         gBattleMons[battler].status2 &= (STATUS2_CONFUSION | STATUS2_FOCUS_ENERGY | STATUS2_SUBSTITUTE | STATUS2_ESCAPE_PREVENTION | STATUS2_CURSED);
@@ -3169,13 +3170,13 @@ void SwitchInClearSetData(u32 battler)
         }
         if (gStatuses3[battler] & STATUS3_POWER_TRICK)
             SWAP(gBattleMons[battler].attack, gBattleMons[battler].defense, i);
-    }
-    else
-    {
+    }*/
+    //else
+    //{
         gBattleMons[battler].status2 = 0;
         gStatuses3[battler] = 0;
         gStatuses4[battler] = 0;
-    }
+    //}
 
     for (i = 0; i < gBattlersCount; i++)
     {

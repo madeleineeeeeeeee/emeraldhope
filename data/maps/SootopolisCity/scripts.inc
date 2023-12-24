@@ -1624,7 +1624,7 @@ SootopolisCity_Text_KyogreCalmDown:
 SootopolisCity_Text_TryingMeaninglessToPokemon:
 	.string "ARCHIE: KYOGRE and GROUDON both\n"
 	.string "flew off to who knows where.\p"
-	.string "The weather in Hoennhas returned\n"
+	.string "The weather in Hoenn has returned\n"
 	.string "to its normal state…\p"
 	.string "Haha…\n"
 	.string "Hahaha…\p"

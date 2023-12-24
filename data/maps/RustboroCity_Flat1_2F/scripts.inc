@@ -70,13 +70,27 @@ RustboroCity_Flat1_2F_EventScript_WaldasDadFaceWalda::
 	turnobject LOCALID_WALDAS_Dad, DIR_EAST
 	return
 
+
 RustboroCity_Flat1_2F_EventScript_WaldasMom::
-	msgbox RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_set FLAG_RUSTBORO_BELL, RustboroCity_Flat1_2F_EventScript_ExplainCut
+	msgbox RustboroCity_Flat1_2F_Text_YouCanPutThisHMToGoodUse, MSGBOX_DEFAULT
+	giveitem ITEM_SOOTHE_BELL
+	setflag FLAG_RUSTBORO_BELL
+	msgbox RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard, MSGBOX_DEFAULT
+	release
 	end
 
-RustboroCity_Flat1_2F_EventScript_PokeDoll::
-	msgbox RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll, MSGBOX_SIGN
+RustboroCity_Flat1_2F_EventScript_ExplainCut::
+	msgbox RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard, MSGBOX_DEFAULT
+	release
 	end
+
+RustboroCity_Flat1_2F_Text_YouCanPutThisHMToGoodUse:
+	.string "We got this bell for our daughter,\n"
+	.string "but she doesn't like the jingles.\p"
+	.string "Maybe you'd make better use of it?$"
 
 RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard:
 	.string "Oh, it's so hard every day…\p"
@@ -86,6 +100,10 @@ RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard:
 	.string "make for meals every day.\p"
 	.string "It really isn't easy coming up with\n"
 	.string "meals every day.$"
+
+RustboroCity_Flat1_2F_EventScript_PokeDoll::
+	msgbox RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll, MSGBOX_SIGN
+	end
 
 RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 	.string "Oh, hello!\n"

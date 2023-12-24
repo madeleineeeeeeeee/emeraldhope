@@ -69,7 +69,6 @@ Route115_EventScript_RegisterNob::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route115_Text_NobRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_NOB_1
 	release
 	end
 
@@ -90,7 +89,6 @@ Route115_EventScript_RegisterCyndy::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route115_Text_CyndyRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_CYNDY_1
 	release
 	end
 
@@ -136,7 +134,7 @@ Route115_Text_NeverKnowWhenCavePokemonWillAppear:
 	.string "appear. It's full of suspense.$"
 
 Route115_Text_RouteSignRustboro:
-	.string "ROUTE 115\n"
+	.string "Route 115\n"
 	.string "{DOWN_ARROW} RUSTBORO City$"
 
 Route115_Text_MeteorFallsSign:

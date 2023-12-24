@@ -21,9 +21,15 @@ RustboroCity_Mart_Pokemart_Basic:
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
-	.2byte ITEM_ESCAPE_ROPE
-	.2byte ITEM_REPEL
 	
+	.2byte ITEM_REPEL
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_CHARCOAL
+	.2byte ITEM_MYSTIC_WATER
+	.2byte ITEM_MIRACLE_SEED
+	.2byte ITEM_SILK_SCARF
 	.2byte ITEM_NONE
 	release
 	end
@@ -36,14 +42,20 @@ RustboroCity_Mart_EventScript_PokemartExpanded::
 
 	.align 2
 RustboroCity_Mart_Pokemart_Expanded:
-	.2byte ITEM_POKE_BALL
-	.2byte ITEM_TIMER_BALL
+	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_NEST_BALL
 	.2byte ITEM_REPEAT_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
-	.2byte ITEM_ESCAPE_ROPE
-	.2byte ITEM_REPEL
 	
+	.2byte ITEM_REPEL
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_CHARCOAL
+	.2byte ITEM_MYSTIC_WATER
+	.2byte ITEM_MIRACLE_SEED
+	.2byte ITEM_SILK_SCARF
 	.2byte ITEM_NONE
 	release
 	end
@@ -77,4 +89,5 @@ RustboroCity_Mart_Text_GettingEscapeRopeJustInCase:
 	.string "case I get lost in a cave.\p"
 	.string "I just need to use it to get back to\n"
 	.string "the entrance.$"
+
 

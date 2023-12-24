@@ -1,7 +1,7 @@
 gBirchDexRatingText_AreYouCurious::
 	.string "Prof. Birch: Ah, {PLAYER}{KUN}!\p"
 	.string "Are you curious about how your\n"
-	.string "POKéDEX is coming along?$"
+	.string "PokéDex is coming along?$"
 
 gBirchDexRatingText_Cancel::
 	.string "Hm? Oh, you haven't caught enough\n"
@@ -28,7 +28,7 @@ gBirchDexRatingText_LessThan30::
 gBirchDexRatingText_LessThan40::
 	.string "Well, it could use more quantity,\n"
 	.string "but this is looking more like\l"
-	.string "a POKéDEX now.$"
+	.string "a PokéDex now.$"
 
 gBirchDexRatingText_LessThan50::
 	.string "This is coming along pretty good.\n"
@@ -44,7 +44,7 @@ gBirchDexRatingText_LessThan70::
 
 gBirchDexRatingText_LessThan80::
 	.string "This is going to be a fantastic\n"
-	.string "POKéDEX.\l"
+	.string "PokéDex.\l"
 	.string "That's the feeling I'm getting.$"
 
 gBirchDexRatingText_LessThan90::
@@ -59,7 +59,7 @@ gBirchDexRatingText_LessThan100::
 gBirchDexRatingText_LessThan110::
 	.string "You've finally reached\n"
 	.string "the 100-kind mark.\p"
-	.string "This is an impressive POKéDEX!$"
+	.string "This is an impressive PokéDex!$"
 
 gBirchDexRatingText_LessThan120::
 	.string "There might be Pokémon that can be\n"
@@ -87,8 +87,8 @@ gBirchDexRatingText_LessThan160::
 
 gBirchDexRatingText_LessThan170::
 	.string "One can get a very good idea about\n"
-	.string "the Pokémon of the Hoennregion\l"
-	.string "by looking through your POKéDEX.$"
+	.string "the Pokémon of the Hoenn region\l"
+	.string "by looking through your PokéDex.$"
 
 gBirchDexRatingText_LessThan180::
 	.string "I would say you already qualify as\n"
@@ -96,17 +96,17 @@ gBirchDexRatingText_LessThan180::
 	.string "one, too!$"
 
 gBirchDexRatingText_LessThan190::
-	.string "With a POKéDEX this complete,\n"
+	.string "With a PokéDex this complete,\n"
 	.string "you're a real professional at this!$"
 
 gBirchDexRatingText_LessThan200::
 	.string "You're very close to completing\n"
-	.string "this POKéDEX.\l"
+	.string "this PokéDex.\l"
 	.string "I can feel it in my bones!$"
 
 gBirchDexRatingText_DexCompleted::
 	.string "Congratulations!\n"
-	.string "Your POKéDEX is complete!$"
+	.string "Your PokéDex is complete!$"
 
 gBirchDexRatingText_OnANationwideBasis::
 	.string "Hmhm…\n"

@@ -405,8 +405,8 @@ Route110_EventScript_PlayBrendanMusic::
 Route110_EventScript_MayBattle::
 	msgbox Route110_Text_MayLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, Route110_EventScript_MayBattleTreecko
-	case 1, Route110_EventScript_MayBattleTorchic
+	case 0, Route110_EventScript_MayBattleMudkip
+	case 1, Route110_EventScript_MayBattleMudkip
 	case 2, Route110_EventScript_MayBattleMudkip
 	end
 
@@ -435,9 +435,9 @@ Route110_EventScript_MayDefeated::
 Route110_EventScript_BrendanBattle::
 	msgbox Route110_Text_BrendanLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, Route110_EventScript_BrendanBattleTreecko
+	case 0, Route110_EventScript_BrendanBattleTorchic
 	case 1, Route110_EventScript_BrendanBattleTorchic
-	case 2, Route110_EventScript_BrendanBattleMudkip
+	case 2, Route110_EventScript_BrendanBattleTorchic
 	end
 
 Route110_EventScript_BrendanBattleTreecko::
@@ -914,7 +914,7 @@ Route110_Text_AcroBikesDoNotQualify:
 	.string "They are easy to turn, so it's not fair.$"
 
 Route110_Text_SlateportCitySign:
-	.string "ROUTE 110\n"
+	.string "Route 110\n"
 	.string "{DOWN_ARROW} SLATEPORT City$"
 
 Route110_Text_CyclingRoadSign:
@@ -928,15 +928,15 @@ Route110_Text_AquaWasHere:
 	.string "says now.$"
 
 Route110_Text_Route103Sign:
-	.string "ROUTE 110\n"
-	.string "{LEFT_ARROW} ROUTE 103$"
+	.string "Route 110\n"
+	.string "{LEFT_ARROW} Route 103$"
 
 Route110_Text_SeasideParkingSign:
 	.string "SEASIDE PARKING$"
 
 Route110_Text_MauvilleCitySign:
-	.string "ROUTE 110\n"
-	.string "{UP_ARROW} MAUVILLE City$"
+	.string "Route 110\n"
+	.string "{UP_ARROW} Mauville City$"
 
 Route110_Text_TrainerTipsPrlzSleep:
 	.string "TRAINER TIPS\p"
@@ -947,12 +947,12 @@ Route110_Text_TrainerTipsPrlzSleep:
 
 Route110_Text_TrainerTipsRegisterItems:
 	.string "TRAINER TIPS\p"
-	.string "The items in the BAG can be reorganized\n"
+	.string "The items in the Bag can be reorganized\n"
 	.string "by pressing SELECT.$"
 
 Route110_Text_TrickHouseSign:
 	.string "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
-	.string "to reach the wondrous TRICK House.”$"
+	.string "to reach the wondrous Trick House.”$"
 
 Route110_Text_BestRecord:
 	.string "THE BEST RECORD TO DATE…\p"
@@ -978,7 +978,7 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "Well, then, I should register you in\n"
 	.string "my POKéNAV as well.\p"
 	.string "That way, even when we're apart,\n"
-	.string "I can rate your POKéDEX anytime.\p"
+	.string "I can rate your PokéDex anytime.\p"
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:

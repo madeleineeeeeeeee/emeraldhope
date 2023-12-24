@@ -42,9 +42,9 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
+#define FLAG_RUSTBORO_BELL   0x20 // Unused Flag
+#define FLAG_TM_ROOST        0x21 // Unused Flag
+#define FLAG_RECEIVEDROPE    0x22 // Unused Flag
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag
 #define FLAG_UNUSED_0x025    0x25 // Unused Flag
@@ -950,7 +950,7 @@
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0x389
-#define FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST                      0x38A
+#define FLAG_HIDE_FLORIST                      0x38A
 #define FLAG_HIDE_FALLARBOR_AZURILL                                 0x38B
 #define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_ATTENDANT                   0x38C
 #define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR                      0x38D
@@ -1502,8 +1502,8 @@
 
 #define FLAG_RECEIVED_POKEDEX_FROM_BIRCH            (SYSTEM_FLAGS + 0x84)
 
-#define FLAG_UNUSED_0x8E5                           (SYSTEM_FLAGS + 0x85) // Unused Flag
-#define FLAG_UNUSED_0x8E6                           (SYSTEM_FLAGS + 0x86) // Unused Flag
+#define FLAG_LITTLEROOT_LUMBERRY                    (SYSTEM_FLAGS + 0x85) // Unused Flag
+#define FLAG_LITTLEROOT_ORANBERRY                   (SYSTEM_FLAGS + 0x86) // Unused Flag
 #define FLAG_UNUSED_0x8E7                           (SYSTEM_FLAGS + 0x87) // Unused Flag
 #define FLAG_UNUSED_0x8E8                           (SYSTEM_FLAGS + 0x88) // Unused Flag
 #define FLAG_UNUSED_0x8E9                           (SYSTEM_FLAGS + 0x89) // Unused Flag

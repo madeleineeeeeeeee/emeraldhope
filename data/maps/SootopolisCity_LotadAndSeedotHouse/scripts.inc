@@ -129,7 +129,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion1:
 
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1:
 	.string "Hunh?\n"
-	.string "Your BAG is crammed full.$"
+	.string "Your Bag is crammed full.$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot:
 	.string "{STR_VAR_2} inches, is it?\p"
@@ -177,7 +177,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion2:
 
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2:
 	.string "Hunh?\n"
-	.string "Your BAG is crammed full.$"
+	.string "Your Bag is crammed full.$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad:
 	.string "{STR_VAR_2} inches?\p"

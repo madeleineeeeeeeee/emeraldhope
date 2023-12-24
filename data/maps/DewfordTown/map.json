@@ -128,7 +128,17 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "DewfordTown_EventScript_LeaveGymTrainerReset"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -169,6 +179,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "DewfordTown_EventScript_HallSign"
+    },
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "DewfordTown_EventScript_MartSign"
     }
   ]
 }

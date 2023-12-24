@@ -24,7 +24,7 @@ BerryBlender_Text_KnowHowToMakePokeblocks:
 
 BerryBlender_Text_LetsBerryBlender:
 	.string "Let's get started, then!\p"
-	.string "Let's BERRY BLENDER!$"
+	.string "Let's Berry BLENDER!$"
 
 BerryBlender_Text_ExplainBerryBlending:
 	.string "Okay, a little explanation, then.\p"
@@ -45,7 +45,7 @@ BerryBlender_Text_CanHaveOneOfMyBerries:
 	.string "If you don't mind leftovers, you can\n"
 	.string "have one of my BERRIES.\p"
 	.string "That way, we could make some {POKEBLOCK}S\n"
-	.string "together using the BERRY BLENDER.$"
+	.string "together using the Berry BLENDER.$"
 
 BerryBlender_Text_DontHaveAnyBerriesToSpare:
 	.string "If I had some BERRIES left over,\n"
@@ -88,7 +88,7 @@ BerryBlender_Text_KnowHowToMakePokeblocks2:
 
 BerryBlender_Text_LetsBerryBlender2:
 	.string "Let's get started, then!\p"
-	.string "Let's BERRY BLENDER!$"
+	.string "Let's Berry BLENDER!$"
 
 BerryBlender_Text_ExplainBerryBlending2:
 	.string "Okay!\n"
@@ -138,7 +138,7 @@ BerryBlender_Text_KnowHowToMakePokeblocks3:
 BerryBlender_Text_LetsBerryBlender3:
 	.string "Okay, dear!\n"
 	.string "Let's get started!\p"
-	.string "Let's BERRY BLENDER!$"
+	.string "Let's Berry BLENDER!$"
 
 BerryBlender_Text_ExplainBerryBlending3:
 	.string "Oh, dear!\p"
@@ -155,7 +155,7 @@ BerryBlender_Text_DontHaveAnyBerries3:
 	.string "you can't make any {POKEBLOCK}S.\p"
 	.string "We'll always be making {POKEBLOCK}S here,\n"
 	.string "so let's make some together when\l"
-	.string "you get a BERRY or two.$"
+	.string "you get a Berry or two.$"
 
 BerryBlender_Text_PokeblockCaseIsFull3:
 	.string "Your {POKEBLOCK} CASE is full,\n"
@@ -184,7 +184,7 @@ BerryBlender_Text_MakeDeliciousPokeblocks:
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink:
 	.string "{POKEBLOCK}S will be made with your friends \n"
-	.string "from BERRIES in the BERRY BLENDER.\p"
+	.string "from BERRIES in the Berry BLENDER.\p"
 	.string "Is it okay to save the game before\n"
 	.string "linking with your friends?$"
 
@@ -204,15 +204,15 @@ BerryBlender_Text_AllPlayersArrived:
 
 BerryBlender_Text_NoBerriesLink:
 	.string "You have no BERRIES.\n"
-	.string "The BERRY BLENDER can't be used.$"
+	.string "The Berry BLENDER can't be used.$"
 
 BerryBlender_Text_PokeblockCaseIsFullLink:
 	.string "Your {POKEBLOCK} CASE is full.\n"
-	.string "The BERRY BLENDER can't be used.$"
+	.string "The Berry BLENDER can't be used.$"
 
 BerryBlender_Text_DontHavePokeblockCaseLink:
 	.string "You don't have a {POKEBLOCK} CASE.\n"
-	.string "The BERRY BLENDER can't be used.$"
+	.string "The Berry BLENDER can't be used.$"
 
 BerryBlender_Text_LoveMakingPokeblocks:
 	.string "I love making {POKEBLOCK}S.\p"
@@ -232,7 +232,7 @@ BerryBlender_Text_DontHaveAnyBerriesHaveOne:
 
 BerryBlender_Text_UseItToMakePokeblocksTogether:
 	.string "We'll use it to make {POKEBLOCK}S together\n"
-	.string "using the BERRY BLENDER.$"
+	.string "using the Berry BLENDER.$"
 
 BerryBlender_Text_DontHaveAnyBerriesNoneToSpare:
 	.string "Oh?\n"

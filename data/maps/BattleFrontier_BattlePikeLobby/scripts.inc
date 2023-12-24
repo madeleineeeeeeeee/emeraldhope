@@ -416,12 +416,12 @@ BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
 	.string "Which heading do you want to read?$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
-	.string "The BAG and POKéNAV may not be used\n"
+	.string "The Bag and POKéNAV may not be used\n"
 	.string "during a Battle Choice challenge.$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
 	.string "During a Battle Choice challenge,\n"
-	.string "any BERRY or HERB held by Pokémon\l"
+	.string "any Berry or HERB held by Pokémon\l"
 	.string "will be effective only once.$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:

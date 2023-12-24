@@ -17,6 +17,9 @@ MauvilleCity_Mart_Pokemart:
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_LUM_BERRY
 	.2byte ITEM_NONE
 	release
 	end

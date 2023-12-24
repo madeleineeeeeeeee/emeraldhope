@@ -2301,19 +2301,21 @@ static void Task_HandleReplaceMoveInput(u8 taskId)
             }
             else if (JOY_NEW(A_BUTTON))
             {
+                /*
                 if (CanReplaceMove() == TRUE)
-                {
+                {*/
                     StopPokemonAnimations();
                     PlaySE(SE_SELECT);
                     sMoveSlotToReplace = sMonSummaryScreen->firstMoveIndex;
                     gSpecialVar_0x8005 = sMoveSlotToReplace;
                     BeginCloseSummaryScreen(taskId);
+                    /*
                 }
                 else
                 {
                     PlaySE(SE_FAILURE);
                     ShowCantForgetHMsWindow(taskId);
-                }
+                }*/
             }
             else if (JOY_NEW(B_BUTTON))
             {
@@ -2327,6 +2329,7 @@ static void Task_HandleReplaceMoveInput(u8 taskId)
     }
 }
 
+/*
 static bool8 CanReplaceMove(void)
 {
     if (sMonSummaryScreen->firstMoveIndex == MAX_MON_MOVES
@@ -2334,6 +2337,13 @@ static bool8 CanReplaceMove(void)
         return TRUE; //|| IsMoveHM(sMonSummaryScreen->summary.moves[sMonSummaryScreen->firstMoveIndex]) != TRUE)
     else
         return FALSE;
+}
+
+*/
+
+static bool8 CanReplaceMove(void)
+{
+    return TRUE;
 }
 
 static void ShowCantForgetHMsWindow(u8 taskId)

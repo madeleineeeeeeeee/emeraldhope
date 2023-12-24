@@ -25,11 +25,11 @@ Route104_OnTransition:
 Route104_EventScript_ShowOrHideWhiteHerbFlorist::
 	goto_if_unset FLAG_MET_PRETTY_PETAL_SHOP_OWNER, Route104_EventScript_HideWhiteHerbFlorist
 	goto_if_unset FLAG_BADGE03_GET, Route104_EventScript_HideWhiteHerbFlorist
-	clearflag FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST
+	clearflag FLAG_HIDE_FLORIST
 	return
 
 Route104_EventScript_HideWhiteHerbFlorist::
-	setflag FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST
+	setflag FLAG_HIDE_FLORIST
 	return
 
 Route104_EventScript_TrySetRivalPos::
@@ -146,8 +146,8 @@ Route104_EventScript_MayAskToBattle::
 Route104_EventScript_BattleMay::
 	msgbox Route104_Text_MayIntro, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, Route104_EventScript_BattleMayTreecko
-	case 1, Route104_EventScript_BattleMayTorchic
+	case 0, Route104_EventScript_BattleMayMudkip
+	case 1, Route104_EventScript_BattleMayMudkip
 	case 2, Route104_EventScript_BattleMayMudkip
 	end
 
@@ -218,9 +218,9 @@ Route104_EventScript_BrendanAskToBattle::
 Route104_EventScript_BattleBrendan::
 	msgbox Route104_Text_BrendanIntro, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, Route104_EventScript_BattleBrendanTreecko
+	case 0, Route104_EventScript_BattleBrendanTorchic
 	case 1, Route104_EventScript_BattleBrendanTorchic
-	case 2, Route104_EventScript_BattleBrendanMudkip
+	case 2, Route104_EventScript_BattleBrendanTorchic
 	end
 
 Route104_EventScript_BrendanDefeated::
@@ -998,6 +998,16 @@ Route104_EventScript_Darian::
 	msgbox Route104_Text_DarianPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route104_EventScript_WildSet1Trigger::
+	setvar VAR_ROUTE104_WILD_SET, 0
+	releaseall
+	return
+
+Route104_EventScript_WildSet2Trigger::
+	setvar VAR_ROUTE104_WILD_SET, 1
+	releaseall
+	end
+
 Route104_Text_BrineyLivesInSeasideCottage:
 	.string "That seaside cottage is where\n"
 	.string "MR. BRINEY lives.\p"
@@ -1010,7 +1020,7 @@ Route104_Text_WhatsItLikeAtBottomOfSea:
 	.string "of the sea?$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon:
-	.string "If you're going to throw a POKé BALL,\n"
+	.string "If you're going to throw a Poké Ball,\n"
 	.string "weaken the wild Pokémon first.\p"
 	.string "It will be easier to catch if it's been\n"
 	.string "poisoned, burned, or lulled to sleep.$"
@@ -1018,7 +1028,7 @@ Route104_Text_ThrowBallAtWeakenedPokemon:
 Route104_Text_OnlyThrowBallAtWildPokemon:
 	.string "You're a thief if you try to steal\n"
 	.string "someone else's Pokémon.\p"
-	.string "You should throw POKé BALLS only at\n"
+	.string "You should throw Poké Balls only at\n"
 	.string "wild Pokémon.$"
 
 Route104_Text_ImNotATrainer:
@@ -1060,11 +1070,11 @@ Route104_Text_MrBrineysCottage:
 	.string "MR. BRINEY'S COTTAGE$"
 
 Route104_Text_RouteSignPetalburg:
-	.string "ROUTE 1O4\n"
+	.string "Route 1O4\n"
 	.string "{RIGHT_ARROW} Petalburg City$"
 
 Route104_Text_RouteSignRustboro:
-	.string "ROUTE 1O4\n"
+	.string "Route 1O4\n"
 	.string "{UP_ARROW} RUSTBORO City$"
 
 Route104_Text_PrettyPetalFlowShop:
@@ -1072,7 +1082,7 @@ Route104_Text_PrettyPetalFlowShop:
 
 Route104_Text_TrainerTipsDoubleBattles:
 	.string "TRAINER TIPS\p"
-	.string "In the Hoennregion there are pairs\n"
+	.string "In the Hoenn region there are pairs\n"
 	.string "of TRAINERS who challenge others\l"
 	.string "for 2-on-2 Pokémon battles called\l"
 	.string "DOUBLE BATTLES.\p"
@@ -1094,7 +1104,7 @@ Route104_Text_RegisteredMay:
 
 Route104_Text_MayHowsYourPokedex:
 	.string "May: Oh, by the way, {PLAYER}{KUN},\n"
-	.string "how's your POKéDEX coming along?$"
+	.string "how's your PokéDex coming along?$"
 
 Route104_Text_MayMinesDecentLetsBattle:
 	.string "Mine's looking pretty decent.\n"
@@ -1139,7 +1149,7 @@ Route104_Text_RegisteredBrendan:
 	.string "in the POKéNAV.$"
 
 Route104_Text_BrendanHowsYourPokedex:
-	.string "Brendan: {PLAYER}, how's your POKéDEX?\n"
+	.string "Brendan: {PLAYER}, how's your PokéDex?\n"
 	.string "Have you filled in any pages yet?$"
 
 Route104_Text_BrendanDoingGreatLetsBattle:

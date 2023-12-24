@@ -31,7 +31,7 @@ FortreeCity_PokemonCenter_1F_EventScript_Boy::
 
 FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
 	.string "Listen, kid, are you working\n"
-	.string "on a POKéDEX?\p"
+	.string "on a PokéDex?\p"
 	.string "Hmm… Go to the SAFARI ZONE.\n"
 	.string "That's my suggestion.$"
 

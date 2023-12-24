@@ -58,14 +58,14 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
-      "x": 31,
-      "y": 24,
+      "x": 32,
+      "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "7",
+      "trainer_sight_or_berry_tree_id": "2",
       "script": "Route104_EventScript_Haley",
       "flag": "0"
     },
@@ -314,12 +314,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route104_EventScript_WhiteHerbFlorist",
-      "flag": "FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST"
+      "flag": "FLAG_HIDE_FLORIST"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 27,
-      "y": 15,
+      "x": 2,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -331,8 +331,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 28,
-      "y": 15,
+      "x": 3,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -344,27 +344,27 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
-      "x": 21,
-      "y": 25,
+      "x": 18,
+      "y": 2,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_ROTATE_COUNTERCLOCKWISE",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_sight_or_berry_tree_id": "4",
       "script": "Route104_EventScript_Winston",
       "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
-      "x": 11,
-      "y": 44,
+      "x": 21,
+      "y": 54,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_sight_or_berry_tree_id": "6",
       "script": "Route104_EventScript_Cindy",
       "flag": "0"
     },
@@ -384,11 +384,11 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 18,
-      "y": 67,
+      "y": 55,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_RIGHT_UP_LEFT",
-      "movement_range_x": 5,
-      "movement_range_y": 6,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 60,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route104_EventScript_Billy",
@@ -422,8 +422,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 5,
-      "y": 8,
+      "x": 3,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -540,6 +540,132 @@
       "var": "VAR_ROUTE104_STATE",
       "var_value": "1",
       "script": "Route104_EventScript_RivalTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 27,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet2Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 27,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet2Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 1,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet2Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 1,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet2Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 1,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet2Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 1,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet2Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 69,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 29,
+      "y": 69,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 52,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 41,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 41,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 34,
+      "y": 62,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 34,
+      "y": 63,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route104_EventScript_WildSet1Trigger"
     }
   ],
   "bg_events": [
@@ -601,16 +727,16 @@
     },
     {
       "type": "hidden_item",
-      "x": 14,
-      "y": 55,
+      "x": 17,
+      "y": 57,
       "elevation": 3,
       "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_POTION"
     },
     {
       "type": "hidden_item",
-      "x": 16,
-      "y": 72,
+      "x": 22,
+      "y": 70,
       "elevation": 3,
       "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_ANTIDOTE"

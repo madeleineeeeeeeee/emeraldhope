@@ -1058,7 +1058,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES + 1] =
     [SPECIES_BRAVIARY_HISUIAN]             = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  7 },
 #endif
 #if P_GEN_6_POKEMON == TRUE
-    [SPECIES_SLIGGOO_HISUIAN]              = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
+    [SPECIES_SLIGGOO_HISUIAN]              = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  2 },
     [SPECIES_GOODRA_HISUIAN]               = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  0 },
     [SPECIES_AVALUGG_HISUIAN]              = { .size = MON_COORDS_SIZE(64, 32), .y_offset = 16 },
 #endif

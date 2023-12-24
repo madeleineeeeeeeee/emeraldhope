@@ -118,7 +118,7 @@ Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
 Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
 	.string "On the 2nd floor of the INSTITUTE,\n"
 	.string "we study the weather patterns over\l"
-	.string "the Hoennregion.\p"
+	.string "the Hoenn region.\p"
 	.string "We've been noticing temporary and\n"
 	.string "isolated cases of droughts and\l"
 	.string "heavy rain lately…$"

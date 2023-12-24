@@ -247,8 +247,8 @@ Route103_EventScript_RivalMay::
 	waitmovement 0
 	msgbox Route103_Text_MayLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, Route103_EventScript_StartMayBattleTreecko
-	case 1, Route103_EventScript_StartMayBattleTorchic
+	case 0, Route103_EventScript_StartMayBattleMudkip
+	case 1, Route103_EventScript_StartMayBattleMudkip
 	case 2, Route103_EventScript_StartMayBattleMudkip
 	end
 
@@ -264,9 +264,9 @@ Route103_EventScript_RivalBrendan::
 	waitmovement 0
 	msgbox Route103_Text_BrendanLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, Route103_EventScript_StartBrendanBattleTreecko
+	case 0, Route103_EventScript_StartBrendanBattleTorchic
 	case 1, Route103_EventScript_StartBrendanBattleTorchic
-	case 2, Route103_EventScript_StartBrendanBattleMudkip
+	case 2, Route103_EventScript_StartBrendanBattleTorchic
 	end
 
 Route103_EventScript_StartMayBattleTreecko::
@@ -499,7 +499,12 @@ Route103_EventScript_Isabelle::
 
 Route103_Text_MayRoute103Pokemon:
 	.string "May: Let's see… The Pokémon found\n"
-	.string "on ROUTE 103 include…$"
+	.string "on each route number…\l"
+	.string "About ten per route?\p"
+	.string "But the Pokémon in that forest\n"
+	.string "are different than the Pokémon\l"
+	.string "outside of it!\p"
+	.string "Maybe it's ten per section…$"
 
 Route103_Text_MayLetsBattle:
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
@@ -525,8 +530,13 @@ Route103_Text_MayTimeToHeadBack:
 	.string "the Lab.$"
 
 Route103_Text_BrendanRoute103Pokemon:
-	.string "Brendan: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…$"
+	.string "Brendan: Let's see… The Pokémon found\n"
+	.string "on each route number…\l"
+	.string "About ten per route?\p"
+	.string "But the Pokémon in that forest\n"
+	.string "are different than the Pokémon\l"
+	.string "outside of it!\p"
+	.string "Maybe it's ten per section…$"
 
 Route103_Text_BrendanLetsBattle:
 	.string "Hey, it's {PLAYER}!\p"
@@ -559,6 +569,6 @@ Route103_Text_ShortcutToOldale:
 	.string "Fufufu, that's useful, isn't it?$"
 
 Route103_Text_RouteSign:
-	.string "ROUTE 103\n"
+	.string "Route 103\n"
 	.string "{DOWN_ARROW} OLDALE Town$"
 

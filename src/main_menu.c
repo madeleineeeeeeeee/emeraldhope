@@ -459,7 +459,8 @@ static const struct MenuAction sMenuActions_Gender[] = {
 };
 
 static const u8 *const sMalePresetNames[] = {
-    gText_DefaultNameStu,
+    gText_DefaultNameStu
+    /*
     gText_DefaultNameMilton,
     gText_DefaultNameTom,
     gText_DefaultNameKenny,
@@ -478,11 +479,12 @@ static const u8 *const sMalePresetNames[] = {
     gText_DefaultNameLandon,
     gText_DefaultNameCollin,
     gText_DefaultNameStanley,
-    gText_DefaultNameQuincy
+    gText_DefaultNameQuincy*/
 };
 
 static const u8 *const sFemalePresetNames[] = {
-    gText_DefaultNameKimmy,
+    gText_DefaultNameKimmy
+    /*
     gText_DefaultNameTiara,
     gText_DefaultNameBella,
     gText_DefaultNameJayla,
@@ -501,7 +503,7 @@ static const u8 *const sFemalePresetNames[] = {
     gText_DefaultNameLillie,
     gText_DefaultNameTerra,
     gText_DefaultNameLucy,
-    gText_DefaultNameHalie
+    gText_DefaultNameHalie*/
 };
 
 // The number of male vs. female names is assumed to be the same.

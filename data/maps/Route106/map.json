@@ -52,28 +52,15 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
-      "x": 51,
-      "y": 14,
+      "graphics_id": "OBJ_EVENT_GFX_HIKER",
+      "x": 49,
+      "y": 17,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "4",
-      "script": "Route106_EventScript_Elliot",
-      "flag": "0"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
-      "x": 65,
-      "y": 14,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
       "script": "Route106_EventScript_Ned",
       "flag": "0"
     },
@@ -89,6 +76,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route106_EventScript_ItemProtein",
       "flag": "FLAG_ITEM_ROUTE_106_PROTEIN"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
+      "x": 63,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route106_EventScript_Elliot",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -98,16 +98,25 @@
       "elevation": 0,
       "dest_map": "MAP_GRANITE_CAVE_1F",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_GRANITE_CAVE_1F",
+      "dest_warp_id": "4"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "hidden_item",
       "x": 41,
       "y": 11,
       "elevation": 3,
-      "item": "ITEM_POKE_BALL",
+      "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_106_POKE_BALL"
     },
     {

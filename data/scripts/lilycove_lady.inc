@@ -604,7 +604,7 @@ LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt:
 	.string "Oh, you can't have it if you don't have\n"
 	.string "the space for it.\p"
 	.string "Please come see me when you get\n"
-	.string "your BAG organized…$"
+	.string "your Bag organized…$"
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheQuizLady:
 	.string "I'm the QUIZ LADY!\n"
@@ -658,7 +658,7 @@ LilycoveCity_PokemonCenter_1F_Text_XReceivedOneY:
 	.string "one {STR_VAR_2}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp:
-	.string "Oh? Your BAG is filled up!\n"
+	.string "Oh? Your Bag is filled up!\n"
 	.string "Come see me when you have room.$"
 
 LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs:

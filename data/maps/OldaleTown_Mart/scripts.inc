@@ -32,6 +32,9 @@ OldaleTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_LUM_BERRY
 	.2byte ITEM_NONE
 	release
 	end
@@ -55,10 +58,10 @@ OldaleTown_Mart_EventScript_Boy::
 
 OldaleTown_Mart_Text_PokeBallsAreSoldOut:
 	.string "The clerk says they're all sold out.\n"
-	.string "I can't buy any POKé BALLS.$"
+	.string "I can't buy any Poké Balls.$"
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls:
-	.string "I'm going to buy a bunch of POKé BALLS\n"
+	.string "I'm going to buy a bunch of Poké Balls\n"
 	.string "and catch a bunch of Pokémon!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion:

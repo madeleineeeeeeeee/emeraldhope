@@ -625,7 +625,6 @@ const u16 gEggMoves[] = {
         MOVE_CURSE,
         MOVE_CRUSH_CLAW,
         MOVE_DRAGON_RUSH,
-        MOVE_ICE_FANG,
         MOVE_FIRE_FANG,
         MOVE_THUNDER_FANG,
         MOVE_SKULL_BASH,
@@ -1022,7 +1021,6 @@ const u16 gEggMoves[] = {
         MOVE_PECK,
         MOVE_FORESIGHT,
         MOVE_FUTURE_SIGHT,
-        MOVE_NASTY_PLOT,
         MOVE_PSYCHO_SHIFT,
         MOVE_LUCKY_CHANT,
         MOVE_EXTRASENSORY,
@@ -1251,7 +1249,6 @@ const u16 gEggMoves[] = {
         MOVE_FEINT,
         MOVE_NIGHT_SLASH,
         MOVE_CROSS_POISON,
-        MOVE_POWER_TRICK,
         MOVE_ROCK_CLIMB,
         MOVE_POISON_TAIL),
 
@@ -1313,7 +1310,6 @@ const u16 gEggMoves[] = {
         MOVE_FORESIGHT,
         MOVE_BITE,
         MOVE_CRUSH_CLAW,
-        MOVE_FAKE_OUT,
         MOVE_DOUBLE_HIT,
         MOVE_PUNISHMENT,
         MOVE_PURSUIT,
@@ -2822,7 +2818,6 @@ const u16 gEggMoves[] = {
         MOVE_TICKLE,
         MOVE_AGILITY,
         MOVE_BRINE,
-        MOVE_AURORA_BEAM,
         MOVE_SIGNAL_BEAM,
         MOVE_CONFUSE_RAY),
 
@@ -2915,7 +2910,6 @@ const u16 gEggMoves[] = {
         MOVE_PURSUIT,
         MOVE_FIRE_FANG,
         MOVE_THUNDER_FANG,
-        MOVE_ICE_FANG,
         MOVE_AFTER_YOU,
         MOVE_PSYCHIC_FANGS),
 
@@ -2977,11 +2971,9 @@ const u16 gEggMoves[] = {
         MOVE_SECRET_POWER,
         MOVE_BARRIER,
         MOVE_MAGIC_COAT,
-        MOVE_HELPING_HAND,
         MOVE_BATON_PASS,
         MOVE_SWIFT,
         MOVE_CURSE,
-        MOVE_SONIC_BOOM,
         MOVE_HEALING_WISH),
 
     egg_moves(PIDOVE,
@@ -3094,7 +3086,6 @@ const u16 gEggMoves[] = {
         ),
 
     egg_moves(VENIPEDE,
-        MOVE_TWINEEDLE,
         MOVE_PIN_MISSILE,
         MOVE_TOXIC_SPIKES,
         MOVE_SPIKES,
@@ -3231,7 +3222,6 @@ const u16 gEggMoves[] = {
         MOVE_KNOCK_OFF,
         MOVE_ROCK_THROW,
         MOVE_SLAM,
-        MOVE_IRON_DEFENSE,
         MOVE_FLAIL,
         MOVE_WHIRLPOOL,
         MOVE_BODY_SLAM,
@@ -3509,7 +3499,6 @@ const u16 gEggMoves[] = {
         MOVE_SUCKER_PUNCH,
         MOVE_PURSUIT,
         MOVE_HEADBUTT,
-        MOVE_STEALTH_ROCK,
         MOVE_PSYCHO_CUT,
         MOVE_MEAN_LOOK,
         MOVE_QUICK_GUARD),
@@ -3559,7 +3548,6 @@ const u16 gEggMoves[] = {
     egg_moves(DEINO,
         MOVE_FIRE_FANG,
         MOVE_THUNDER_FANG,
-        MOVE_ICE_FANG,
         MOVE_DOUBLE_HIT,
         MOVE_ASTONISH,
         MOVE_EARTH_POWER,
@@ -3591,11 +3579,8 @@ const u16 gEggMoves[] = {
         MOVE_POWER_UP_PUNCH),
 
     egg_moves(FENNEKIN,
-        MOVE_WISH,
-        MOVE_HYPNOSIS,
         MOVE_HEAT_WAVE,
-        MOVE_MAGIC_COAT,
-        MOVE_PSYCHIC_TERRAIN),
+        MOVE_MAGIC_COAT),
 
     egg_moves(FROAKIE,
         MOVE_BESTOW,
@@ -3628,7 +3613,7 @@ const u16 gEggMoves[] = {
         MOVE_FIRE_SPIN,
         MOVE_FLARE_BLITZ),
 
-    egg_moves(FLABEBE,
+    egg_moves(FLOETTE,
         MOVE_COPYCAT,
         MOVE_CAPTIVATE,
         MOVE_CAMOUFLAGE,
@@ -3727,8 +3712,7 @@ const u16 gEggMoves[] = {
         MOVE_HAZE,
         MOVE_BARRIER,
         MOVE_MIRROR_COAT,
-        MOVE_MAGNET_RISE,
-        MOVE_DISCHARGE),
+        MOVE_MAGNET_RISE),
 
     egg_moves(HAWLUCHA,
         MOVE_AGILITY,
@@ -4089,7 +4073,6 @@ const u16 gEggMoves[] = {
     egg_moves(YAMPER,
         MOVE_DOUBLE_EDGE,
         MOVE_SAND_ATTACK,
-        MOVE_FLAME_CHARGE,
         MOVE_DISCHARGE,
         MOVE_HOWL),
 
@@ -4145,7 +4128,6 @@ const u16 gEggMoves[] = {
 
     egg_moves(HATENNA,
         MOVE_AROMATIC_MIST,
-        MOVE_NUZZLE,
         MOVE_AFTER_YOU,
         MOVE_QUASH),
 

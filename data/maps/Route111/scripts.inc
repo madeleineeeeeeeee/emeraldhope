@@ -648,7 +648,7 @@ Route111_Text_WinstrateFamilyDestroyedMe:
 	.string "going… They destroyed me.$"
 
 Route111_Text_RouteSignMauville:
-	.string "ROUTE 111\n"
+	.string "Route 111\n"
 	.string "{DOWN_ARROW} MAUVILLE City$"
 
 Route111_Text_WinstrateHouseSign:
@@ -656,11 +656,11 @@ Route111_Text_WinstrateHouseSign:
 	.string "THE WINSTRATE'S House$"
 
 Route111_Text_RouteSign112:
-	.string "ROUTE 111\n"
+	.string "Route 111\n"
 	.string "{LEFT_ARROW} ROUTE 112$"
 
 Route111_Text_RouteSign113:
-	.string "ROUTE 111\n"
+	.string "Route 111\n"
 	.string "{LEFT_ARROW} ROUTE 113$"
 
 Route111_Text_OldLadysRestStopSign:
@@ -718,7 +718,7 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 	.string "Oh, no!\p"
 	.string "My uncle in MAUVILLE told me to take\n"
 	.string "ROCK SMASH with me if I was going to\l"
-	.string "ROUTE 111!\p"
+	.string "Route 111!\p"
 	.string "My uncle? He lives across from\n"
 	.string "the bike shop in MAUVILLE.$"
 

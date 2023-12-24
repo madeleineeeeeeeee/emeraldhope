@@ -67,6 +67,7 @@ static const struct MenuAction MultichoiceList_StatusInfo[] =
     {gText_Slp},
     {gText_Brn},
     {gText_Frz},
+    {gText_Cfn},
     {gText_Exit},
 };
 

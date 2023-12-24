@@ -839,7 +839,7 @@ Common_EventScript_PlayerHandedOverTheItem::
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
 	.string "“Selected items for your convenience!”\n"
-	.string "Pokémon MART$"
+	.string "Pokémon Mart$"
 
 gText_PokemonCenterSign::
 	.string "“Rejuvenate your tired partners!”\n"
@@ -859,7 +859,7 @@ gText_SandstormIsVicious::
 	.string "It's impossible to keep going.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "An item in the BAG can be\n"
+	.string "An item in the Bag can be\n"
 	.string "registered to SELECT for easy use.$"
 
 gText_PokemonTrainerSchoolEmail::

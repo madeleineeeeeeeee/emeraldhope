@@ -228,7 +228,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "for short.\p"
 	.string "It's an indispensable tool for any\n"
 	.string "TRAINER on an adventure.\p"
-	.string "It has a map of the Hoennregion.\p"
+	.string "It has a map of the Hoenn region.\p"
 	.string "You can check the locations of\n"
 	.string "DEWFORD and SLATEPORT easily!\p"
 	.string "By the way, I've heard that sinister\n"
@@ -252,7 +252,7 @@ RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
 	.string "MR. STONE: A Pokémon holding that\n"
-	.string "EXP. SHARE will be given some of the\l"
+	.string "Exp. Share will be given some of the\l"
 	.string "EXP Points from battle.\p"
 	.string "It will get EXP Points even if it didn't\n"
 	.string "actually battle.\p"

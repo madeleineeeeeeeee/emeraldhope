@@ -81,6 +81,10 @@ DewfordTown_EventScript_HallSign::
 	msgbox DewfordTown_Text_HallSign, MSGBOX_SIGN
 	end
 
+DewfordTown_EventScript_MartSign::
+	msgbox DewfordTown_Text_MartSign, MSGBOX_SIGN
+	end
+
 DewfordTown_EventScript_OldRodFisherman::
 	lock
 	faceplayer
@@ -638,6 +642,11 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 	release
 	end
 
+DewfordTown_EventScript_LeaveGymTrainerReset::
+	call EventScript_CheckReset_DewfordGym
+	releaseall
+
+
 DewfordTown_Text_TinyIslandCommunity:
 	.string "DEWFORD is a tiny island community.\n"
 	.string "If something gets trendy here,\l"
@@ -655,6 +664,10 @@ DewfordTown_Text_GymSign:
 DewfordTown_Text_HallSign:
 	.string "DEWFORD HALL\n"
 	.string "“Everyone's information exchange!”$"
+
+DewfordTown_Text_MartSign:
+	.string "Dewford Mart\n"
+	.string "“Definitely not a monopoly!”$"	
 
 Route104_Text_LandedInDewfordDeliverLetter:
 	.string "MR. BRINEY: Ahoy!\n"

@@ -419,7 +419,7 @@ RusturfTunnel_Movement_PeekoExit:
 	step_end
 
 RusturfTunnel_EventScript_Mike::
-	trainerbattle_single TRAINER_MIKE_2, RusturfTunnel_Text_MikeIntro, RusturfTunnel_Text_MikeDefeat
+	trainerbattle_single TRAINER_MIKE_1, RusturfTunnel_Text_MikeIntro, RusturfTunnel_Text_MikeDefeat
 	msgbox RusturfTunnel_Text_MikePostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -477,7 +477,7 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "Why can't they keep digging?\n"
 	.string "Is the bedrock too hard?\p"
 	.string "My beloved awaits me in VERDANTURF\n"
-	.string "TOWN just beyond here…\p"
+	.string "Town just beyond here…\p"
 	.string "If RUSTBORO and VERDANTURF were\n"
 	.string "joined by this tunnel, I could visit\l"
 	.string "her every day…\p"

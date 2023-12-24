@@ -4,8 +4,9 @@ Route102_Text_CalvinIntro:
 	.string "You can't say no to my challenge!$"
 
 Route102_Text_CalvinDefeated:
-	.string "Arrgh, I lost…\n"
-	.string "I should have trained mine more…$"
+	.string "Arrgh, I lost…\p"
+	.string "But I'll keep on fighting you\n"
+	.string "until you beat my sister too!$"
 
 Route102_Text_CalvinPostBattle:
 	.string "Listen, you. If you're strong,\n"
@@ -47,27 +48,31 @@ Route102_Text_AllenPostBattle:
 	.string "I wish I would win soon…$"
 
 Route102_Text_RickIntro:
-	.string "Hahah! Our eyes met!\n"
-	.string "I'll take you on with my BUG Pokémon!$"
+	.string "Hahah! Our eyes met!\p"
+	.string "Since I'm not blocking your path,\n"
+	.string "I'll rematch you every time you\l"
+	.string "visit a PokéCenter!$"
 
 Route102_Text_RickDefeated:
 	.string "Ow! Down and out!$"
 
 Route102_Text_RickPostBattle:
-	.string "If you lock eyes with a Trainer,\n"
-	.string "you have to challenge! It's a rule!$"
+	.string "What can I say?\n"
+	.string "I just like to help people train!$"
 
 Route102_Text_TianaIntro:
-	.string "I'm going to keep winning and aim\n"
-	.string "to be the best Trainer.\p"
-	.string "Help me further my career!$"
+	.string "If you can beat me…\n"
+	.string "I'll tell my friends to lay off you!$"
 
 Route102_Text_TianaDefeated:
-	.string "I ended up furthering your career…$"
+	.string "Alright, alright! I'll tell them!$"
 
 Route102_Text_TianaPostBattle:
-	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more Pokémon.$"
+	.string "Almost every group of trainers has a\n"
+	.string "boss just like me.\p"
+	.string "If you give them time to heal,\n"
+	.string "they'll keep fighting 'til you clear\l"
+	.string "the group!$"
 
 Route103_Text_DaisyIntro:
 	.string "Did you feel the tug of our\n"
@@ -2938,7 +2943,7 @@ Route119_Text_RachelDefeat:
 
 Route119_Text_RachelPostBattle:
 	.string "You're asking if my parasol is heavy?\n"
-	.string "Your BAG is filled with more junk than\l"
+	.string "Your Bag is filled with more junk than\l"
 	.string "I ever carry around.$"
 
 Route120_Text_ColinIntro:
@@ -3300,7 +3305,7 @@ Route121_Text_CalePostBattle:
 	.string "I bought too much stuff at\n"
 	.string "the LILYCOVE DEPT. STORE.\p"
 	.string "It's up the road from here.\n"
-	.string "I wish I had a BAG like yours.$"
+	.string "I wish I had a Bag like yours.$"
 
 Route121_Text_MylesIntro:
 	.string "There's nothing I love more than\n"
@@ -3370,7 +3375,7 @@ Route123_Text_VioletDefeat:
 	.string "I smell the bitter scent of misery…$"
 
 Route123_Text_VioletPostBattle:
-	.string "The BERRY MASTER's garden is filled\n"
+	.string "The Berry MASTER's garden is filled\n"
 	.string "with uplifting fragrances.$"
 
 Route123_Text_CameronIntro:

@@ -6752,7 +6752,6 @@ BattleScript_DamagingWeatherLoop::
 	hitanimation BS_ATTACKER
 	goto BattleScript_DamagingWeatherHpChange
 BattleScript_DamagingWeatherHeal:
-	call BattleScript_AbilityPopUp
 	printstring STRINGID_ICEBODYHPGAIN
 	waitmessage B_WAIT_TIME_LONG
 BattleScript_DamagingWeatherHpChange:
@@ -8139,8 +8138,7 @@ BattleScript_ThrashConfuses::
 
 BattleScript_MoveUsedIsConfused::
 	printstring STRINGID_PKMNISCONFUSED
-	waitmessage B_WAIT_TIME_LONG
-	status2animation BS_ATTACKER, STATUS2_CONFUSION
+	waitmessage B_WAIT_TIME_SHORT
 	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, FALSE, BattleScript_MoveUsedIsConfusedRet
 BattleScript_DoSelfConfusionDmg::
 	cancelmultiturnmoves BS_ATTACKER
@@ -8156,7 +8154,7 @@ BattleScript_DoSelfConfusionDmg::
 	resultmessage
 	waitmessage B_WAIT_TIME_LONG
 	tryfaintmon BS_ATTACKER
-	goto BattleScript_MoveEnd
+	return
 BattleScript_MoveUsedIsConfusedRet::
 	return
 
@@ -10456,7 +10454,6 @@ BattleScript_EffectSnow::
 	goto BattleScript_MoveWeatherChange
 
 BattleScript_EffectFurretWalk:
-	jumpifnoally BS_ATTACKER, BattleScript_EffectAttackUp
 	attackcanceler
 	attackstring
 	ppreduce

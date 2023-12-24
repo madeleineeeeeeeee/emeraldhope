@@ -69,7 +69,8 @@ static const u8 sSwordsDanceDescription[] = _(
     "sharply raises Attack.");
 
 static const u8 sCutDescription[] = _(
-    "Critical slicing attack.");
+    "Slicing attack which always\n"
+    "lands a critical hit.");
 
 static const u8 sGustDescription[] = _(
     "Strikes the foe with a gust\n"
@@ -645,7 +646,7 @@ static const u8 sRestDescription[] = _(
 
 static const u8 sRockSlideDescription[] = _(
     "Large boulders are hurled.\n"
-    "May cause flinching.");
+    "May drop speed.");
 
 static const u8 sHyperFangDescription[] = _(
     "Attacks with sharp fangs.\n"

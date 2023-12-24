@@ -24,7 +24,7 @@ Route109_SeashoreHouse_EventScript_AlreadyGaveIntroduction::
 
 Route109_SeashoreHouse_EventScript_DefeatedTrainers::
 	msgbox Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles, MSGBOX_DEFAULT
-	giveitem ITEM_SODA_POP, 6
+	giveitem ITEM_TM61
 	goto_if_eq VAR_RESULT, FALSE, Route109_SeashoreHouse_EventScript_BagFull
 	setflag FLAG_RECEIVED_6_SODA_POP
 	release
@@ -45,14 +45,14 @@ Route109_SeashoreHouse_EventScript_AlreadyReceivedSodaPop::
 	end
 
 Route109_SeashoreHouse_EventScript_BuySodaPop::
-	checkmoney 300
+	checkmoney 5000
 	goto_if_eq VAR_RESULT, FALSE, Route109_SeashoreHouse_EventScript_NotEnoughMoney
-	checkitemspace ITEM_SODA_POP
+	checkitemspace ITEM_TM85
 	goto_if_eq VAR_RESULT, FALSE, Route109_SeashoreHouse_EventScript_NotEnoughSpace
 	msgbox Route109_SeashoreHouse_Text_HereYouGo, MSGBOX_DEFAULT
-	removemoney 300
+	removemoney 5000
 	updatemoneybox
-	giveitem ITEM_SODA_POP
+	giveitem ITEM_TM85
 	hidemoneybox
 	release
 	end
@@ -97,17 +97,17 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 	end
 
 Route109_SeashoreHouse_Text_SeashoreHouseIntro:
-	.string "I'm the owner of the SEASHORE House.\n"
-	.string "But you can call me MR. SEA!\p"
+	.string "I'm the owner of the Seashore House.\n"
+	.string "But you can call me Mr. Sea!\p"
 	.string "What I love above all is to see hot\n"
 	.string "Pokémon battles.\p"
 	.string "Let me see that your heart burns hot!\p"
-	.string "If you can defeat all the TRAINERS\n"
+	.string "If you can defeat all the Trainers\n"
 	.string "here, I'll reward your efforts.$"
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
 	.string "Show me some hot matches!\p"
-	.string "I run this SEASHORE House just for\n"
+	.string "I run this Seashore House just for\n"
 	.string "that reason alone!$"
 
 Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
@@ -115,18 +115,19 @@ Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
 	.string "Those battles blazed!\l"
 	.string "I'm more than just satisfied!\p"
 	.string "As thanks for showing me your hot\n"
-	.string "streak, I want you to take these.\p"
-	.string "It's half a dozen bottles of SODA POP!$"
+	.string "streak, I want you to take this.\p"
+	.string "It's the TM for Liquidation!$"
 
 Route109_SeashoreHouse_Text_BagFull:
-	.string "Oh, but hey, your BAG's jammed full.\n"
+	.string "Oh, but hey, your Bag's jammed full.\n"
 	.string "I'll hang on to these for you.$"
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop:
-	.string "Want to buy some SODA POP?\n"
-	.string "Pokémon love it!\p"
-	.string "Just ¥300 a bottle!\n"
-	.string "Buy some!$"
+	.string "I have another TM laying around.\n"
+	.string "My daughter uses it to get the word\l"
+	.string "out about the Seashore House!\p"
+	.string "Wanna buy it?\p"
+	.string "Just ¥5000 and it's yours!$"
 
 Route109_SeashoreHouse_Text_HereYouGo:
 	.string "Here you go!$"
@@ -140,7 +141,7 @@ Route109_SeashoreHouse_Text_ThatsTooBad:
 
 Route109_SeashoreHouse_Text_DwayneIntro:
 	.string "If you're looking for a battle in the\n"
-	.string "SEASHORE House, you'll find no\l"
+	.string "Seashore House, you'll find no\l"
 	.string "hotter Trainer than me, matey!$"
 
 Route109_SeashoreHouse_Text_DwayneDefeated:
@@ -148,20 +149,20 @@ Route109_SeashoreHouse_Text_DwayneDefeated:
 	.string "I can accept that loss, matey!$"
 
 Route109_SeashoreHouse_Text_DwaynePostBattle:
-	.string "Whenever I'm in SLATEPORT, I enjoy\n"
-	.string "hot battles and ice-cold SODA POP!$"
+	.string "Whenever I'm in Slateport, I enjoy\n"
+	.string "hot battles and ice-cold Soda Pop!$"
 
 Route109_SeashoreHouse_Text_JohannaIntro:
 	.string "Boring battles aren't worth the effort.\p"
 	.string "Fiery hot battles are what toughen up\n"
-	.string "TRAINERS and Pokémon!$"
+	.string "Trainers and Pokémon!$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated:
 	.string "That's hot!$"
 
 Route109_SeashoreHouse_Text_JohannaPostBattle:
 	.string "Whew, I'm all thirsty.\n"
-	.string "Maybe I'll have a SODA POP.$"
+	.string "Maybe I'll have a Soda Pop.$"
 
 Route109_SeashoreHouse_Text_SimonIntro:
 	.string "I'm going to show you how great\n"

@@ -851,6 +851,7 @@ RustboroCity_EventScript_MayEncounter::
 	msgbox RustboroCity_Text_MayPassedBrineyWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
 	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleMay
 	call RustboroCity_EventScript_RestoreBgm
 	releaseall
 	end
@@ -860,15 +861,13 @@ RustboroCity_EventScript_MayAskToBattle::
 	msgbox RustboroCity_Text_MayWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
 	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleMay
 	releaseall
 	end
 
 RustboroCity_EventScript_BattleMay::
 	msgbox RustboroCity_Text_MayImNotGoingToLose, MSGBOX_DEFAULT
-	switch VAR_STARTER_MON
-	case 0, RustboroCity_EventScript_BattleMayTreecko
-	case 1, RustboroCity_EventScript_BattleMayTorchic
-	case 2, RustboroCity_EventScript_BattleMayMudkip
+	goto RustboroCity_EventScript_BattleMayTreecko
 	end
 
 RustboroCity_EventScript_MayBrineyHint::
@@ -918,6 +917,7 @@ RustboroCity_EventScript_BrendanEncounter::
 	msgbox RustboroCity_Text_BrendanPassedBrineyWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleBrendan
 	msgbox RustboroCity_Text_BrendanNoConfidenceInPokemon, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleBrendan
 	call RustboroCity_EventScript_RestoreBgm
 	releaseall
 	end
@@ -926,15 +926,13 @@ RustboroCity_EventScript_BrendanAskToBattle::
 	msgbox RustboroCity_Text_BrendanWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleBrendan
 	msgbox RustboroCity_Text_BrendanNoConfidenceInPokemon, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleBrendan
 	releaseall
 	end
 
 RustboroCity_EventScript_BattleBrendan::
 	msgbox RustboroCity_Text_BrendanIWontGoEasy, MSGBOX_DEFAULT
-	switch VAR_STARTER_MON
-	case 0, RustboroCity_EventScript_BattleBrendanTreecko
-	case 1, RustboroCity_EventScript_BattleBrendanTorchic
-	case 2, RustboroCity_EventScript_BattleBrendanMudkip
+	goto RustboroCity_EventScript_BattleBrendanMudkip
 	end
 
 RustboroCity_EventScript_BrendanBrineyHint::
@@ -1020,6 +1018,10 @@ RustboroCity_Movement_RivalApproachPlayer7:
 RustboroCity_EventScript_Boy1::
 	msgbox RustboroCity_Text_YouCanHave2On2Battle, MSGBOX_NPC
 	end
+
+RustboroCity_EventScript_LeaveGymTrainerReset::
+	call EventScript_CheckReset_RustboroGym
+	releaseall
 
 RustboroCity_Text_WeShortenItToDevon:
 	.string "The DEVON CORPORATION…\n"
@@ -1151,7 +1153,7 @@ RustboroCity_Text_MayPassedBrineyWantToBattle:
 	.string "MR. BRINEY in Petalburg WOODS.\p"
 	.string "I guess he's on his way home to his\n"
 	.string "cottage by the sea.\p"
-	.string "How's your POKéDEX coming along,\n"
+	.string "How's your PokéDex coming along,\n"
 	.string "{PLAYER}{KUN}? Mine's looking pretty decent!\p"
 	.string "So…\n"
 	.string "How about a little battle?$"
@@ -1160,7 +1162,8 @@ RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
 	.string "May: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
 	.string "Pokémon very much?\p"
-	.string "That's not very good for a Trainer!$"
+	.string "That's not very good for a Trainer,\n"
+	.string "so why don't we fix that!$"
 
 RustboroCity_Text_MayWantToBattle:
 	.string "May: So, what do you think?\n"
@@ -1198,7 +1201,7 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle:
 	.string "by MR. BRINEY in Petalburg WOODS.\p"
 	.string "I bet he was on his way home to his\n"
 	.string "cottage by the sea.\p"
-	.string "{PLAYER}, how's your POKéDEX?\n"
+	.string "{PLAYER}, how's your PokéDex?\n"
 	.string "Have you filled in any pages yet?\p"
 	.string "Mine rules.\p"
 	.string "Want to have a battle to test how\n"
@@ -1206,7 +1209,10 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle:
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon:
 	.string "Brendan: What's the matter? Don't have\n"
-	.string "any confidence in your Pokémon?$"
+	.string "any confidence in your Pokémon?\p"
+	.string "That's no attitude for a League-\n"
+	.string "conquering trainer to have!\p"
+	.string "Come on, let's battle.$"
 
 RustboroCity_Text_BrendanWantToBattle:
 	.string "Brendan: What's up?\n"
@@ -1297,3 +1303,5 @@ RustboroCity_Text_YouCanHave2On2Battle:
 	.string "they'll both challenge you.\p"
 	.string "Don't you think it'd be cool if you\n"
 	.string "could beat two TRAINERS by yourself?$"
+
+

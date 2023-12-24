@@ -990,7 +990,7 @@ LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase:
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
 	.string "Make {POKEBLOCK}S and put them in there.\p"
 	.string "When you make a {POKEBLOCK}, everyone\n"
-	.string "has to put in a different BERRY.$"
+	.string "has to put in a different Berry.$"
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 	.string "Congratulations!\p"

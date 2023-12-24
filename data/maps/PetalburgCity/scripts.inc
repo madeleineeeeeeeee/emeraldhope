@@ -705,14 +705,14 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-	.string "Where has our WALLY gone?\p"
-	.string "We have to leave for VERDANTURF Town\n"
+	.string "Where has our Wally gone?\p"
+	.string "We have to leave for Verdanturf Town\n"
 	.string "very soon…$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
 	.string "Hiya! Are you maybe…\n"
 	.string "A rookie Trainer?\p"
-	.string "Do you know what Pokémon TRAINERS\n"
+	.string "Do you know what Pokémon Trainers\n"
 	.string "do when they reach a new town?\p"
 	.string "They first check what kind of Gym\n"
 	.string "is in the town.$"
@@ -734,20 +734,20 @@ PetalburgCity_Text_WaterReflection:
 PetalburgCity_Text_FullPartyExplanation:
 	.string "Let's say you have six Pokémon.\n"
 	.string "If you catch another one…\p"
-	.string "It is automatically sent to a STORAGE\n"
+	.string "It is automatically sent to a Storage\n"
 	.string "BOX over a PC connection.$"
 
 PetalburgCity_Text_GymSign:
-	.string "PETALBURG City Pokémon Gym\n"
-	.string "LEADER: NORMAN\l"
+	.string "Petalburg City Pokémon Gym\n"
+	.string "Leader: Norman\l"
 	.string "“A man in pursuit of power!”$"
 
 PetalburgCity_Text_CitySign:
-	.string "PETALBURG City\n"
+	.string "Petalburg City\n"
 	.string "“Where people mingle with nature.”$"
 
 PetalburgCity_Text_WallyHouseSign:
-	.string "WALLY'S House$"
+	.string "Wally's House$"
 
 PetalburgCity_Text_AreYouATrainer:
 	.string "Excuse me!\p"
@@ -763,5 +763,5 @@ PetalburgCity_Text_WellMaybeNot:
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
-	.string "talented TRAINERS.\p"
+	.string "talented Trainers.\p"
 	.string "I'm sorry to have taken your time.$"

@@ -1854,8 +1854,8 @@ static const u8 sWeatherNames[22][24] = {
     [WEATHER_DOWNPOUR]           = _("DOWNPOUR"),
     [WEATHER_UNDERWATER_BUBBLES] = _("UNDERWATER BUBBLES"),
     [WEATHER_ABNORMAL]           = _("ABNORMAL(NOT WORKING)"),
-    [WEATHER_ROUTE119_CYCLE]     = _("ROUTE119 CYCLE"),
-    [WEATHER_ROUTE123_CYCLE]     = _("ROUTE123 CYCLE"),
+    [WEATHER_ROUTE119_CYCLE]     = _("Route119 CYCLE"),
+    [WEATHER_ROUTE123_CYCLE]     = _("Route123 CYCLE"),
 };
 static const u8 sText_WeatherNotDefined[] = _("NOT DEFINED!!!");
 static void DebugAction_Util_Weather(u8 taskId)

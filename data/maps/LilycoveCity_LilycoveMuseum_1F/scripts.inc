@@ -229,7 +229,7 @@ LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica:
 	.string "It depicts an ancient BIRD Pokémon.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
-	.string "It's a big POKé BALL carved from\n"
+	.string "It's a big Poké Ball carved from\n"
 	.string "a black stone.\p"
 	.string "It was apparently used in festivals\n"
 	.string "in the olden days.$"
@@ -288,7 +288,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
 	.string "The ART MUSEUM has become a favorite\n"
 	.string "tourist destination.\p"
 	.string "It's great for LILYCOVE…\n"
-	.string "No, great for the Hoennregion!\p"
+	.string "No, great for the Hoenn region!\p"
 	.string "This is what I've heard--a lone TRAINER\n"
 	.string "procured all the paintings upstairs.$"
 

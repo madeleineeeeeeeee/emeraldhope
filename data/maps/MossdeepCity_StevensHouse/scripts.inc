@@ -90,7 +90,7 @@ MossdeepCity_StevensHouse_EventScript_GiveBeldum::
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, MossdeepCity_StevensHouse_EventScript_SendBeldumParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, MossdeepCity_StevensHouse_EventScript_SendBeldumPC
 	goto Common_EventScript_NoMoreRoomForPokemon
-	end
+	return
 
 MossdeepCity_StevensHouse_EventScript_SendBeldumParty::
 	call MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare
@@ -99,7 +99,7 @@ MossdeepCity_StevensHouse_EventScript_SendBeldumParty::
 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
 	goto MossdeepCity_StevensHouse_EventScript_ReceivedBeldum
-	end
+	return
 
 MossdeepCity_StevensHouse_EventScript_SendBeldumPC::
 	call MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare
@@ -107,12 +107,12 @@ MossdeepCity_StevensHouse_EventScript_SendBeldumPC::
 	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC
 	call Common_EventScript_NameReceivedBoxMon
 	goto MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC
-	end
+	return
 
 MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC::
 	call Common_EventScript_TransferredToPC
 	goto MossdeepCity_StevensHouse_EventScript_ReceivedBeldum
-	end
+	return
 
 MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare::
 	bufferspeciesname STR_VAR_2, SPECIES_BELDUM
@@ -128,7 +128,7 @@ MossdeepCity_StevensHouse_EventScript_ReceivedBeldum::
 	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL
 	setflag FLAG_RECEIVED_BELDUM
 	releaseall
-	end
+	return
 
 MossdeepCity_StevensHouse_EventScript_RockDisplay::
 	msgbox MossdeepCity_StevensHouse_Text_CollectionOfRareRocks, MSGBOX_SIGN
@@ -178,10 +178,10 @@ MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
 	.string "found in his submarine.$"
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
-	.string "{PLAYER} checked the POKé BALL.\p"
+	.string "{PLAYER} checked the Poké Ball.\p"
 	.string "It contained the Pokémon\n"
 	.string "BELDUM.\p"
-	.string "Take the POKé BALL?$"
+	.string "Take the Poké Ball?$"
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
 	.string "{PLAYER} obtained a BELDUM.$"
@@ -191,7 +191,7 @@ MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon:
 	.string "There is no space for another Pokémon.$"
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
-	.string "{PLAYER} left the POKé BALL where\n"
+	.string "{PLAYER} left the Poké Ball where\n"
 	.string "it was.$"
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven:
@@ -203,7 +203,7 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 	.string "I don't plan to return home for some\n"
 	.string "time.\p"
 	.string "I have a favor to ask of you.\p"
-	.string "I want you to take the POKé BALL on\n"
+	.string "I want you to take the Poké Ball on\n"
 	.string "the desk.\p"
 	.string "Inside it is a BELDUM, my favorite\n"
 	.string "Pokémon.\p"

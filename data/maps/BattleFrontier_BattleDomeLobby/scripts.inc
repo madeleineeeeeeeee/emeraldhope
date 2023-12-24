@@ -525,8 +525,8 @@ BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
-	.string "Oh, your BAG appears to be full.\p"
-	.string "Please make room in your BAG, then come\n"
+	.string "Oh, your Bag appears to be full.\p"
+	.string "Please make room in your Bag, then come\n"
 	.string "see me.$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:

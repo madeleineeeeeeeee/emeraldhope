@@ -1,12 +1,12 @@
 PetalburgCity_Gym_Text_GiveEnigmaBerry:
 	.string "Dad: Hi, {PLAYER}!\p"
-	.string "I just received a very rare BERRY.\n"
+	.string "I just received a very rare Berry.\n"
 	.string "I'd like you to have it.$"
 
 Route104_Text_PlantBerriesInSoilTakeThis:
 	.string "If you see BERRIES growing in loamy\n"
 	.string "soil, feel free to take them.\p"
-	.string "But make sure you plant a BERRY in the\n"
+	.string "But make sure you plant a Berry in the\n"
 	.string "same spot. That's common courtesy.\p"
 	.string "Here, I'll share this with you.$"
 
@@ -35,16 +35,16 @@ Route111_Text_WhatColorBerriesToLookForToday:
 	.string "for today?$"
 
 Route114_Text_LoveUsingBerryCrushShareBerry:
-	.string "I love using the BERRY CRUSH machine,\n"
+	.string "I love using the Berry CRUSH machine,\n"
 	.string "so I'm collecting BERRIES.\p"
 	.string "I'll share one with you, if you'd like.$"
 
 Route114_Text_TryBerryCrushWithFriends:
-	.string "You should try the BERRY CRUSH\n"
+	.string "You should try the Berry CRUSH\n"
 	.string "machine with your friends.$"
 
 Route114_Text_FunToThinkAboutBerries:
-	.string "Which BERRY should be planted?\n"
+	.string "Which Berry should be planted?\n"
 	.string "Should you use or hoard BERRIES?\p"
 	.string "It's fun to think about.$"
 
@@ -65,18 +65,18 @@ Route120_Text_MakeYourOwnImpressions:
 	.string "You can have this.$"
 
 Route120_Text_BerryIsRareRaiseItWithCare:
-	.string "I think that BERRY is rare.\n"
+	.string "I think that Berry is rare.\n"
 	.string "I hope you raise it with loving care.$"
 
 Route120_Text_IllGetMoreBerriesFromBerryMaster:
 	.string "I'll get more BERRIES from\n"
-	.string "the BERRY MASTER.$"
+	.string "the Berry MASTER.$"
 
 LilycoveCity_Text_BerrySuitsYou:
 	.string "When it gets right down to it…\p"
 	.string "The same way suits suit me perfectly,\n"
 	.string "a crisp breeze suits the sea.\p"
-	.string "And you, a BERRY suits you to a “T”…\p"
+	.string "And you, a Berry suits you to a “T”…\p"
 	.string "Why should that be so?$"
 
 LilycoveCity_Text_BecauseYoureTrainer:
@@ -89,7 +89,7 @@ LilycoveCity_Text_PokeblocksSuitPokemon:
 	.string "{POKEBLOCK}S perfectly suit Pokémon.$"
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry:
-	.string "You may call me the BERRY MASTER.\p"
+	.string "You may call me the Berry MASTER.\p"
 	.string "I dream of filling the world with\n"
 	.string "beautiful flowers, so I raise BERRIES\l"
 	.string "and hand them out to everyone.\p"
@@ -155,7 +155,7 @@ Route104_PrettyPetalFlowerShop_Text_BerriesExplanation:
 	.string "only in soft, loamy soil.\p"
 	.string "If you take some BERRIES, be sure to\n"
 	.string "plant one in the loamy soil again.\p"
-	.string "A planted BERRY will soon sprout,\n"
+	.string "A planted Berry will soon sprout,\n"
 	.string "grow into a plant, flower beautifully,\l"
 	.string "then grow BERRIES again.\p"
 	.string "I want to see the whole wide world\n"
@@ -176,7 +176,7 @@ Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
 	.string "of it. You can have this.$"
 
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
-	.string "While BERRY plants are growing,\n"
+	.string "While Berry plants are growing,\n"
 	.string "water them with the WAILMER PAIL.\p"
 	.string "Oh, another thing.\p"
 	.string "If you don't pick BERRIES for a while,\n"
@@ -192,7 +192,7 @@ Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
 	.string "It's for you!$"
 
 Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries:
-	.string "You can plant a BERRY and grow it big,\n"
+	.string "You can plant a Berry and grow it big,\n"
 	.string "or you can make a Pokémon hold it.\p"
 	.string "But now they have a machine that mixes\n"
 	.string "up different BERRIES and makes candies\l"
@@ -210,7 +210,7 @@ SootopolisCity_Text_NameIsKiriHaveOneOfThese:
 	.string "You can have one of these.$"
 
 SootopolisCity_Text_GiveYouThisBerryToo:
-	.string "KIRI will give you this BERRY, too!\n"
+	.string "KIRI will give you this Berry, too!\n"
 	.string "I really like it lots!$"
 
 SootopolisCity_Text_WhatKindOfWishInYourName:

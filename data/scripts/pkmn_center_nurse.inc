@@ -56,6 +56,12 @@ EventScript_PkmnCenterNurse_TakeAndHealPkmn::
 	waitmovement 0
 	special HealPlayerParty
 	special PokevialRefill
+	call EventScript_CheckReset_OptionalTrainers
+	call EventScript_CheckReset_Route102
+	call EventScript_CheckReset_Route104_PetalburgWoods
+	call EventScript_CheckReset_RustboroGym
+	call EventScript_CheckReset_Route116_RusturfTunnel
+	call EventScript_CheckReset_DewfordGym
 	return
 
 EventScript_PkmnCenterNurse_CheckTrainerHillAndUnionRoom::
@@ -136,3 +142,93 @@ Movement_PkmnCenterNurse_Bow:
 	nurse_joy_bow
 	delay_4
 	step_end
+
+EventScript_CheckReset_OptionalTrainers:
+	goto TrainerReset_OptionalTrainers
+	return
+
+EventScript_CheckReset_Route102:
+	checktrainerflag TRAINER_TIANA
+	goto_if 0, TrainerReset_Route102
+	return
+
+EventScript_CheckReset_Route104_PetalburgWoods:
+	checktrainerflag TRAINER_WINSTON_1
+	goto_if 0, TrainerReset_Route104_PetalburgWoods
+	return
+
+EventScript_CheckReset_RustboroGym:
+	checktrainerflag TRAINER_ROXANNE_1
+	goto_if 0, TrainerReset_RustboroGym
+	return
+
+EventScript_CheckReset_DewfordGym:
+	checktrainerflag TRAINER_BRAWLY_1
+	goto_if 0, TrainerReset_DewfordGym
+	return	
+
+EventScript_CheckReset_Route116_RusturfTunnel:
+	checktrainerflag TRAINER_MIKE_1
+	goto_if 0, TrainerReset_Route116_RusturfTunnel
+	return
+
+TrainerReset_OptionalTrainers:
+	cleartrainerflag TRAINER_DARIAN
+	cleartrainerflag TRAINER_IVAN
+	cleartrainerflag TRAINER_RICK
+	cleartrainerflag TRAINER_SARAH
+	cleartrainerflag TRAINER_DAWSON
+	cleartrainerflag TRAINER_JERRY_1
+	cleartrainerflag TRAINER_JANICE
+	cleartrainerflag TRAINER_CYNDY_1
+	cleartrainerflag TRAINER_NOB_1
+	cleartrainerflag TRAINER_HECTOR
+	cleartrainerflag TRAINER_MARLENE
+	cleartrainerflag TRAINER_ELLIOT_1
+	cleartrainerflag TRAINER_HUEY
+	cleartrainerflag TRAINER_HAILEY
+	cleartrainerflag TRAINER_RICKY_1
+	cleartrainerflag TRAINER_EDMOND
+	cleartrainerflag TRAINER_LOLA_1
+	cleartrainerflag TRAINER_HUEY
+	cleartrainerflag TRAINER_CHANDLER
+	cleartrainerflag TRAINER_EDMOND
+	return
+
+
+TrainerReset_Route102:
+	cleartrainerflag TRAINER_CALVIN_1
+	cleartrainerflag TRAINER_ALLEN
+	return
+	
+
+TrainerReset_RustboroGym:
+	cleartrainerflag TRAINER_MARC
+	cleartrainerflag TRAINER_TOMMY
+	cleartrainerflag TRAINER_JOSH
+	return
+	
+
+TrainerReset_Route104_PetalburgWoods:
+	cleartrainerflag TRAINER_CINDY_1
+	cleartrainerflag TRAINER_BILLY
+	cleartrainerflag TRAINER_LYLE
+	cleartrainerflag TRAINER_JAMES_1
+	cleartrainerflag TRAINER_HALEY_1
+	return
+
+TrainerReset_Route116_RusturfTunnel:
+	cleartrainerflag TRAINER_JOEY
+	cleartrainerflag TRAINER_KAREN_1
+	cleartrainerflag TRAINER_CLARK
+	cleartrainerflag TRAINER_DEVAN
+	return
+
+TrainerReset_DewfordGym:
+	cleartrainerflag TRAINER_TAKAO
+	cleartrainerflag TRAINER_BRENDEN
+	cleartrainerflag TRAINER_JOCELYN
+	cleartrainerflag TRAINER_LILITH
+	cleartrainerflag TRAINER_LAURA
+	cleartrainerflag TRAINER_CRISTIAN
+	return

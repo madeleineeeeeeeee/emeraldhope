@@ -12,7 +12,9 @@ gText_IllTakeYourPkmn::
 gText_RestoredPkmnToFullHealth::
 	.string "Thank you for waiting.\p"
 	.string "We've restored your Pokémon\n"
-	.string "to full health.$"
+	.string "to full health.\p"
+	.string "Incomplete trainer gauntlets have\n"
+	.string "also been reset.$"
 
 gText_WeHopeToSeeYouAgain::
 	.string "We hope to see you again!$"

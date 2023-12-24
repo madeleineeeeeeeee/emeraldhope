@@ -778,6 +778,11 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                 if (moveType == TYPE_FIRE)
                     RETURN_SCORE_MINUS(20);
                 break;
+            case ABILITY_GRAVE_WARDEN:
+            case ABILITY_NIGHT_WARRIOR:
+                if (moveType == TYPE_DARK)
+                    RETURN_SCORE_MINUS(20);
+                break;    
             case ABILITY_WONDER_GUARD:
                 if (effectiveness < AI_EFFECTIVENESS_x2)
                     return 0;
@@ -3648,6 +3653,7 @@ static s32 AI_CheckViability(u32 battlerAtk, u32 battlerDef, u32 move, s32 score
         if (aiData->abilities[battlerAtk] == ABILITY_SUPER_LUCK
           || aiData->abilities[battlerAtk] == ABILITY_SNIPER
           || aiData->holdEffects[battlerAtk] == HOLD_EFFECT_SCOPE_LENS
+          || aiData->abilities[battlerAtk] == ABILITY_STILETTO
           || HasHighCritRatioMove(battlerAtk))
             score += 2;
         break;
@@ -4001,7 +4007,7 @@ static s32 AI_CheckViability(u32 battlerAtk, u32 battlerDef, u32 move, s32 score
         if (aiData->abilities[battlerDef] == ABILITY_MAGIC_BOUNCE || CountUsablePartyMons(battlerDef) == 0)
             break;
         if (gDisableStructs[battlerAtk].isFirstTurn)
-            score += 2;
+            score += 4;
         //TODO - track entire opponent party data to determine hazard effectiveness
         break;
     case EFFECT_FORESIGHT:

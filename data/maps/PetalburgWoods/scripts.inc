@@ -394,7 +394,7 @@ PetalburgWoods_Text_ICouldntWin:
 
 PetalburgWoods_Text_ImOutOfPokeBalls:
 	.string "I caught a bunch of Pokémon.\n"
-	.string "Now I'm out of POKé BALLS.$"
+	.string "Now I'm out of Poké Balls.$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
 	.string "If you take BUG Pokémon to school,\n"

@@ -17,7 +17,7 @@ SlateportCity_Mart_Pokemart:
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
-	.2byte ITEM_ESCAPE_ROPE
+	
 	.2byte ITEM_REPEL
 	.2byte ITEM_HARBOR_MAIL
 	.2byte ITEM_NONE
@@ -36,10 +36,10 @@ SlateportCity_Mart_Text_SomeItemsOnlyAtMart:
 	.string "The MARKET does have some interesting\n"
 	.string "merchandise.\p"
 	.string "But there are some items you can only\n"
-	.string "get at a Pokémon MART.$"
+	.string "get at a Pokémon Mart.$"
 
 SlateportCity_Mart_Text_GreatBallIsBetter:
-	.string "A GREAT BALL is better than a POKé BALL\n"
+	.string "A GREAT BALL is better than a Poké Ball\n"
 	.string "at catching Pokémon.\p"
 	.string "With this, I should be able to get that\n"
 	.string "elusive Pokémon…$"

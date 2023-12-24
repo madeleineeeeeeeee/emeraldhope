@@ -279,7 +279,7 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
 	.string "SCOTT: You don't just train for battle,\n"
 	.string "right?\p"
 	.string "I think I remember you working on\n"
-	.string "a POKéDEX as well.\p"
+	.string "a PokéDex as well.\p"
 	.string "Well, guess what?\p"
 	.string "You may run into wild Pokémon in\n"
 	.string "the BATTLE FRONTIER somewhere…\l"
@@ -322,7 +322,7 @@ BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
 	.string "bring you here!$"
 
 BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
-	.string "Your BERRY POCKET seems to\n"
+	.string "Your Berry POCKET seems to\n"
 	.string "be stuffed.$"
 
 BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:

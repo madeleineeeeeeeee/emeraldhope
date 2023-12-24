@@ -76,6 +76,9 @@ OldaleTown_EventScript_GoToMartEast::
 OldaleTown_EventScript_ExplainPokemonMart::
 	msgbox OldaleTown_Text_ThisIsAPokemonMart, MSGBOX_DEFAULT
 	goto_if_eq VAR_RESULT, FALSE, OldaleTown_EventScript_BagIsFull
+	playfanfare MUS_OBTAIN_ITEM
+	giveitem ITEM_SITRUS_BERRY, 1
+	waitfanfare
 	msgbox OldaleTown_Text_PotionExplanation, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_POTION_OLDALE
 	fadedefaultbgm
@@ -348,21 +351,22 @@ OldaleTown_Text_SavingMyProgress:
 
 OldaleTown_Text_IWorkAtPokemonMart:
 	.string "Hi!\n"
-	.string "I work at a Pokémon MART.\p"
+	.string "I work at a Pokémon Mart.\p"
 	.string "Can I get you to come with me?$"
 
 OldaleTown_Text_ThisIsAPokemonMart:
-	.string "This is a Pokémon MART.\n"
+	.string "This is a Pokémon Mart.\n"
 	.string "Just look for our blue roof.\p"
 	.string "We sell a variety of goods including\n"
-	.string "POKé BALLS for catching Pokémon.\p"
+	.string "Poké Balls for catching Pokémon.\p"
 	.string "Here, I'd like you to have this as\n"
 	.string "a promotional item.$"
 
 OldaleTown_Text_PotionExplanation:
-	.string "That Pokévial will let you\n"
-	.string "heal anywhere, anytime!\l"
-	.string "...as long as you still have doses.$"
+	.string "That Sitrus Berry will let you\n"
+	.string "heal anywhere, anytime!\p"
+	.string "So long as a Pokémon is holding it\n"
+	.string "in battle, anyway.$"
 
 OldaleTown_Text_WaitDontComeInHere:
 	.string "Aaaaah! Wait!\n"
@@ -395,6 +399,6 @@ OldaleTown_Text_BrendanLetsGoBack:
 	.string "{PLAYER}, you should hustle back, too.$"
 
 OldaleTown_Text_TownSign:
-	.string "OLDALE Town\n"
+	.string "Oldale Town\n"
 	.string "“Where things start off scarce.”$"
 

@@ -16,7 +16,7 @@ FallarborTown_Mart_Pokemart:
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
-	.2byte ITEM_ESCAPE_ROPE
+	
 	.2byte ITEM_SUPER_REPEL
 	
 	.2byte ITEM_NONE

@@ -1076,6 +1076,22 @@ extern const u8 gText_Par[];
 extern const u8 gText_Slp[];
 extern const u8 gText_Brn[];
 extern const u8 gText_Frz[];
+extern const u8 gText_Cfn[];
+/*
+extern const u8 gText_Fairy[];
+extern const u8 gText_Water[];
+extern const u8 gText_Grass[];
+extern const u8 gText_Steel[];
+extern const u8 gText_Ghost[];
+extern const u8 gText_Poison[];
+extern const u8 gText_Ice[];
+extern const u8 gText_Bug[];
+extern const u8 gText_Fighting[];
+extern const u8 gText_Dark[];
+extern const u8 gText_Flying[];
+extern const u8 gText_Rock[];
+extern const u8 gText_Normal[];
+*/
 extern const u8 gText_Dewford[];
 extern const u8 gText_SawIt[];
 extern const u8 gText_NotYet[];

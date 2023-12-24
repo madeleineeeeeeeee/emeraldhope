@@ -311,7 +311,7 @@ Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
 
 Route119_WeatherInstitute_2F_Text_GroudonWeather:
 	.string "I track weather patterns over\n"
-	.string "the Hoennregion.\p"
+	.string "the Hoenn region.\p"
 	.string "Presently, a drought has been recorded\n"
 	.string "in {STR_VAR_1}.\p"
 	.string "Could that mean, somewhere near\n"
@@ -319,7 +319,7 @@ Route119_WeatherInstitute_2F_Text_GroudonWeather:
 
 Route119_WeatherInstitute_2F_Text_KyogreWeather:
 	.string "I track weather patterns over\n"
-	.string "the Hoennregion.\p"
+	.string "the Hoenn region.\p"
 	.string "Presently, heavy rainfall has been\n"
 	.string "recorded over {STR_VAR_1}.\p"
 	.string "Could that mean, somewhere near\n"

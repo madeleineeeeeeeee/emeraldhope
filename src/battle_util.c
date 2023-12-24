@@ -1138,7 +1138,7 @@ static const uq4_12_t sTypeEffectivenessTable[NUMBER_OF_MON_TYPES][NUMBER_OF_MON
     {X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(0.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0)}, // normal
     {X(1.0), X(1.0), X(0.5), X(0.5), X(1.0), X(2.0), X(1.0), X(0.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(2.0), X(1.0), X(2.0), X(0.5)}, // fight
     {X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(0.5), X(2.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0)}, // flying
-    {X(1.0), X(1.0), X(1.0), X(0.5), X(0.5), X(0.5), X(0.5), X(0.5), X(0.0), X(1.0), X(1.0), X(2.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0)}, // poison
+    {X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(0.5), X(0.5), X(0.5), X(0.0), X(1.0), X(1.0), X(2.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0)}, // poison
     {X(1.0), X(1.0), X(0.0), X(2.0), X(1.0), X(2.0), X(0.5), X(1.0), X(2.0), X(1.0), X(2.0), X(1.0), X(0.5), X(2.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0)}, // ground
     {X(1.0), X(0.5), X(2.0), X(1.0), X(0.5), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(2.0), X(0.5), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0)}, // rock
     {X(1.0), X(1.0), X(0.5), X(0.5), X(1.0), X(0.5), X(1.0), X(1.0), X(0.5), X(1.0), X(0.5), X(1.0), X(2.0), X(1.0), X(2.0), X(1.0), X(1.0), X(2.0), X(1.0)}, // bug
@@ -1155,7 +1155,7 @@ static const uq4_12_t sTypeEffectivenessTable[NUMBER_OF_MON_TYPES][NUMBER_OF_MON
     {X(1.0), X(1.0), X(2.0), X(1.0), X(0.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(0.5), X(0.5), X(1.0), X(0.5), X(0.5), X(1.0), X(1.0)}, // electric
     {X(1.0), X(2.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0), X(0.5), X(1.0)}, // psychic
     {X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0), X(0.5), X(2.0), X(2.0), X(1.0), X(1.0), X(0.5), X(2.0), X(0.5), X(1.0)}, // ice
-    {X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(0.0)}, // dragon
+    {X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(0.5)}, // dragon
     #if B_STEEL_RESISTANCES >= GEN_6
     {X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(0.5), X(0.5)}, // dark
     #else
@@ -3565,6 +3565,7 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
             gBattleStruct->atkCancellerTracker++;
             break;
         case CANCELLER_CONFUSED: // confusion
+            /*
             if (!gBattleStruct->isAtkCancelerForCalledMove && gBattleMons[gBattlerAttacker].status2 & STATUS2_CONFUSION)
             {
                 if (!(gStatuses4[gBattlerAttacker] & STATUS4_INFINITE_CONFUSION))
@@ -3573,26 +3574,32 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
                 {
                     
                      // confusion dmg 
-                     /*
+                     
                 #if B_CONFUSION_SELF_DMG_CHANCE >= GEN_7
                     if (RandomWeighted(RNG_CONFUSION, 2, 1))
                 #else
                     if (RandomWeighted(RNG_CONFUSION, 1, 1))
                 #endif
-                */
+                
                     //{
-                        gBattleCommunication[MULTISTRING_CHOOSER] = TRUE;
+                        
+                        
                         gBattlerTarget = gBattlerAttacker;
                         gBattleMoveDamage = CalculateMoveDamage(MOVE_NONE, gBattlerAttacker, gBattlerAttacker, TYPE_MYSTERY, 40, FALSE, FALSE, TRUE);
                         gProtectStructs[gBattlerAttacker].confusionSelfDmg = TRUE;
+                        
+                       
                         //gHitMarker |= HITMARKER_UNABLE_TO_USE_MOVE;
-                    /*}
+                    }
                     else
                     {
                         gBattleCommunication[MULTISTRING_CHOOSER] = FALSE;
                         BattleScriptPushCursor();
                     }
-                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfused;*/
+                    gBattleCommunication[MULTISTRING_CHOOSER] = TRUE;
+                    gBattleMons[gBattlerAttacker].hp -= gBattleMons[gBattlerAttacker].hp / 8;
+                    BattleScriptPushCursor();
+                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfused;
                 }
                 else // snapped out of confusion
                 {
@@ -3600,7 +3607,7 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
                     gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfusedNoMore;
                 }
                 effect = 1;
-            }
+            }*/
             gBattleStruct->atkCancellerTracker++;
             break;
         case CANCELLER_PARALYSED: // paralysis
@@ -9149,6 +9156,10 @@ u32 CalcMoveBasePowerAfterModifiers(u32 move, u32 battlerAtk, u32 battlerDef, u3
         if (moveType == TYPE_STEEL)
             modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
         break;
+    case ABILITY_DESERT_SPIRIT:
+        if (moveType == TYPE_GROUND)
+            modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
+        break;    
     case ABILITY_TRANSISTOR:
         if (moveType == TYPE_ELECTRIC)
             modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
@@ -9211,6 +9222,7 @@ u32 CalcMoveBasePowerAfterModifiers(u32 move, u32 battlerAtk, u32 battlerDef, u3
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_GINGA:
+    case ABILITY_STILETTO:
         if (gBattleMoves[move].kickingMove)
           modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
         break;
@@ -9867,8 +9879,8 @@ static inline u32 CalcDefenseStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 
     if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_ROCK) && weather & B_WEATHER_SANDSTORM && !usesDefStat)
         modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
     // snow def boost for ice types
-    if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_ICE) && weather & B_WEATHER_SNOW && usesDefStat)
-        modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.0));
+    //if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_ICE) && weather & B_WEATHER_SNOW && usesDefStat)
+        //modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.0));
 
     // The defensive stats of a Player's Pokémon are boosted by x1.1 (+10%) if they have the 5th badge and 7th badges.
     // Having the 5th badge boosts physical defense while having the 7th badge boosts special defense.
@@ -10042,6 +10054,7 @@ static inline uq4_12_t GetAttackerAbilitiesModifier(u32 battlerAtk, uq4_12_t typ
             return UQ_4_12(1.25);
         break;
     case ABILITY_SNIPER:
+    case ABILITY_STILETTO:
         if (isCrit)
             return UQ_4_12(1.5);
         break;

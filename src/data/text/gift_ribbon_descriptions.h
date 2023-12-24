@@ -1,14 +1,14 @@
 const u8 gGiftRibbonDescriptionPart1_2003RegionalTourney[] = _("2003 REGIONAL TOURNEY");
 const u8 gGiftRibbonDescriptionPart2_Champion[] = _("CHAMPION RIBBON");
-const u8 gGiftRibbonDescriptionPart1_2003NationalTourney[] = _("2003 NATIONAL TOURNEY");
+const u8 gGiftRibbonDescriptionPart1_2003NationalTourney[] = _("2003 National TOURNEY");
 const u8 gGiftRibbonDescriptionPart1_2003GlobalCup[] = _("2003 GLOBAL CUP");
 const u8 gGiftRibbonDescriptionPart2_RunnerUp[] = _("Runner-up RIBBON");
 const u8 gGiftRibbonDescriptionPart2_Semifinalist[] = _("Semifinalist RIBBON");
 const u8 gGiftRibbonDescriptionPart1_2004RegionalTourney[] = _("2004 REGIONAL TOURNEY");
-const u8 gGiftRibbonDescriptionPart1_2004NationalTourney[] = _("2004 NATIONAL TOURNEY");
+const u8 gGiftRibbonDescriptionPart1_2004NationalTourney[] = _("2004 National TOURNEY");
 const u8 gGiftRibbonDescriptionPart1_2004GlobalCup[] = _("2004 GLOBAL CUP");
 const u8 gGiftRibbonDescriptionPart1_2005RegionalTourney[] = _("2005 REGIONAL TOURNEY");
-const u8 gGiftRibbonDescriptionPart1_2005NationalTourney[] = _("2005 NATIONAL TOURNEY");
+const u8 gGiftRibbonDescriptionPart1_2005NationalTourney[] = _("2005 National TOURNEY");
 const u8 gGiftRibbonDescriptionPart1_2005GlobalCup[] = _("2005 GLOBAL CUP");
 const u8 gGiftRibbonDescriptionPart1_PokemonBattleCup[] = _("Pokémon BATTLE CUP");
 const u8 gGiftRibbonDescriptionPart2_Participation[] = _("Participation RIBBON");

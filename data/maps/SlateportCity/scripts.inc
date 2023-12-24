@@ -109,6 +109,32 @@ SlateportCity_EventScript_ScottScene::
 	releaseall
 	end
 
+SlateportCity_EventScript_WhistlingGrunt::
+	lockall
+	msgbox SlateportCity_Text_WhistlingGrunt, MSGBOX_DEFAULT
+	releaseall
+
+SlateportCity_Text_WhistlingGrunt:
+	.string "This Aqua Grunt is whistling so terribly\n"
+	.string "that it must be intentional.\p"
+	.string "Nothing you do to get their attention\n"
+	.string "seems to work.\p"
+	.string "Perhaps you should return later.$"
+
+SlateportCity_EventScript_ArguingHogs::
+	lockall
+	msgbox SlateportCity_Text_ArguingHogs, MSGBOX_DEFAULT
+	releaseall
+
+SlateportCity_Text_ArguingHogs:
+	.string "They're arguing about a large amount\n"
+	.string "of feral Lechonk, somewhere between\l"
+	.string "40 and 50 of them apparently.\p"
+	.string "Nothing you do to get their attention\n"
+	.string "seems to work.\p"
+	.string "Perhaps you should return later.$"	
+
+
 SlateportCity_Movement_PlayerFaceScott:
 	delay_16
 	delay_8
@@ -852,8 +878,8 @@ SlateportCity_EventScript_HPUp::
 	end
 
 SlateportCity_EventScript_PPUp::
-	bufferitemname STR_VAR_1, ITEM_PP_UP
-	setvar VAR_0x8008, ITEM_PP_UP
+	bufferitemname STR_VAR_1, ITEM_SITRUS_BERRY
+	setvar VAR_0x8008, ITEM_SITRUS_BERRY
 	setvar VAR_0x8009, 3000
 	goto SlateportCity_EventScript_TryBuyBerryPowderItem
 	end
@@ -1198,7 +1224,7 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery:
 	.string "We made a huge discovery on our last\n"
 	.string "seafloor exploration.\p"
 	.string "We found an underwater cavern on\n"
-	.string "ROUTE 128.\p"
+	.string "Route 128.\p"
 	.string "We think it's the habitat of a Pokémon\n"
 	.string "that's said to have been long extinct.$"
 
@@ -1301,13 +1327,13 @@ SlateportCity_Text_ExplainBerries:
 SlateportCity_Text_ExplainBerryPowder:
 	.string "I recently had machines installed at\n"
 	.string "Pokémon CenterS for crushing BERRIES.\p"
-	.string "The BERRY CRUSH machines are at\n"
+	.string "The Berry CRUSH machines are at\n"
 	.string "the DIRECT CORNER upstairs.\p"
 	.string "Did you know?\p"
-	.string "Could you make BERRY POWDER for\n"
+	.string "Could you make Berry POWDER for\n"
 	.string "me using those machines?\p"
 	.string "I can make you all sorts of medicine\n"
-	.string "if you bring me lots of BERRY POWDER.$"
+	.string "if you bring me lots of Berry POWDER.$"
 
 SlateportCity_Text_BroughtMeSomeBerryPowder:
 	.string "Have you brought me some\n"
@@ -1326,7 +1352,7 @@ SlateportCity_Text_DontHaveEnoughBerryPowder:
 	.string "BERRY POWDER.$"
 
 SlateportCity_Text_FineBerryPowderTradeSomethingElse:
-	.string "This is fine BERRY POWDER.\n"
+	.string "This is fine Berry POWDER.\n"
 	.string "It will make excellent medicine.\p"
 	.string "Would you like to trade more of your\n"
 	.string "BERRY POWDER for something else?$"

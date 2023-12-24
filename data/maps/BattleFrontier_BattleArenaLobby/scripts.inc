@@ -461,7 +461,7 @@ BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
 	.string "Oh?\n"
-	.string "Your BAG seems to be full.\p"
+	.string "Your Bag seems to be full.\p"
 	.string "I urge you to clear space and\n"
 	.string "return for your prize.$"
 

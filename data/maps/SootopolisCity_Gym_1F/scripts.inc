@@ -259,7 +259,7 @@ SootopolisCity_Gym_1F_Text_RegisteredJuan:
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
 	.string "The TRAINERS who have gathered all\n"
-	.string "the Gym BADGES of Hoennshould make\l"
+	.string "the Gym BADGES of Hoenn should make\l"
 	.string "way to the ultimate destination.\p"
 	.string "The Pokémon LEAGUE.\p"
 	.string "Travel to the easternmost reaches\n"

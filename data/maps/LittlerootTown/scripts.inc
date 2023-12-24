@@ -1028,7 +1028,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I knew there was something special\n"
 	.string "about you when I first saw you,\l"
 	.string "but I never expected this.\p"
-	.string "Oh, yes. Do you still have the POKéDEX\n"
+	.string "Oh, yes. Do you still have the PokéDex\n"
 	.string "I gave you?\p"
 	.string "I have something to show you.\n"
 	.string "Let's go to my Lab.$"

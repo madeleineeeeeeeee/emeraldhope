@@ -1072,10 +1072,8 @@ static const u16 sPickupItems[] =
     
     ITEM_RARE_CANDY,
     ITEM_PROTEIN,
-    
+    ITEM_LEFTOVERS,
     ITEM_HP_UP,
-    
-    ITEM_PP_UP,
     
 };
 
@@ -4167,7 +4165,9 @@ static void Cmd_getexp(void)
             #endif
 
             if (B_TRAINER_EXP_MULTIPLIER <= GEN_7 && gBattleTypeFlags & BATTLE_TYPE_TRAINER)
-                calculatedExp = (calculatedExp * 150) / 100;
+                calculatedExp = (calculatedExp * 220) / 100;
+            else
+                calculatedExp = (calculatedExp * 165) / 100;
 
             #if B_SPLIT_EXP < GEN_6
                 if (viaExpShare) // at least one mon is getting exp via exp share
@@ -5466,9 +5466,23 @@ static void Cmd_moveend(void)
                     gBattlescriptCurrInstr = BattleScript_MoveEffectRecoilWithStatus;
                     effect = TRUE;
                     break;
-                
                 }
             }
+            if ((gBattleMons[gBattlerAttacker].status2 & STATUS2_CONFUSION) 
+            && !(gHitMarker & HITMARKER_UNABLE_TO_USE_MOVE)
+            && IsBattlerAlive(gBattlerAttacker))
+            {
+                gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 8;
+                if (gBattleMoveDamage == 0)
+                    gBattleMoveDamage = 1;
+                BattleScriptPushCursor();
+                gBattleCommunication[MULTISTRING_CHOOSER] = TRUE;
+                gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfused;
+                effect = TRUE;
+                gBattleScripting.moveendState++;
+                break;
+            }
+
             gBattleScripting.moveendState++;
             break;
         case MOVEEND_SYNCHRONIZE_TARGET: // target synchronize
@@ -6160,7 +6174,7 @@ static void Cmd_moveend(void)
             gBattleStruct->hitSwitchTargetFailed = FALSE;
             gBattleStruct->isAtkCancelerForCalledMove = FALSE;
             gBattleScripting.moveendState++;
-            break;
+            break;   
         case MOVEEND_COUNT:
             break;
         }
@@ -7370,11 +7384,11 @@ static u32 GetTrainerMoneyToGive(u16 trainerId)
         }
 
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
-            moneyReward = 4 * lastMonLevel * gBattleStruct->moneyMultiplier * gTrainerMoneyTable[i].value;
+            moneyReward = 9 * lastMonLevel * gBattleStruct->moneyMultiplier * gTrainerMoneyTable[i].value;
         else if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE)
-            moneyReward = 4 * lastMonLevel * gBattleStruct->moneyMultiplier * 2 * gTrainerMoneyTable[i].value;
+            moneyReward = 9 * lastMonLevel * gBattleStruct->moneyMultiplier * 2 * gTrainerMoneyTable[i].value;
         else
-            moneyReward = 4 * lastMonLevel * gBattleStruct->moneyMultiplier * gTrainerMoneyTable[i].value;
+            moneyReward = 9 * lastMonLevel * gBattleStruct->moneyMultiplier * gTrainerMoneyTable[i].value;
     }
 
     return moneyReward;
@@ -12341,8 +12355,7 @@ static void Cmd_weatherdamage(void)
         }
         if (gBattleWeather & B_WEATHER_SNOW)
         {
-            if ((IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_ICE) 
-            || IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_STEEL)
+            if (!(IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_ICE)
             || IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_FIRE)
             || IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_GHOST)
             || IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_DARK))
@@ -12357,6 +12370,13 @@ static void Cmd_weatherdamage(void)
                 if (gBattleMoveDamage == 0)
                     gBattleMoveDamage = 1;
             }
+            else if (IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_ICE))
+                {
+                    gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 16;
+                    if (gBattleMoveDamage == 0)
+                    gBattleMoveDamage = 1;
+                    gBattleMoveDamage *= -1;
+                }
         }
     }
 

@@ -69,7 +69,7 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_MetScott::
 LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
 	.string "I'm the GAME DESIGNER.\p"
 	.string "Oh, is that right?\n"
-	.string "You're working on a POKéDEX?\p"
+	.string "You're working on a PokéDex?\p"
 	.string "It's tough trying to complete it,\n"
 	.string "but don't give up.\p"
 	.string "If you do complete it, please come\n"
@@ -78,7 +78,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
 LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
 	.string "Wow! That's awesome!\n"
 	.string "Yep, it's totally awesome!\p"
-	.string "This POKéDEX is completely filled!\n"
+	.string "This PokéDex is completely filled!\n"
 	.string "You really must love Pokémon!\p"
 	.string "I'm so impressed!\p"
 	.string "Let me give you something in\n"
@@ -92,7 +92,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
 	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
-	.string "Pokémon of Hoenninteresting?$"
+	.string "Pokémon of Hoenn interesting?$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
 	.string "The girl TUBERS, they're cute, hey?\n"

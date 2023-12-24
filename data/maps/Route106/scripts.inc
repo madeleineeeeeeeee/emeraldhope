@@ -27,7 +27,7 @@ Route106_EventScript_ElliotRegisterMatchCallAfterBattle::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route106_Text_ElliotRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_ELLIOT_1
+	
 	release
 	end
 
@@ -37,12 +37,40 @@ Route106_EventScript_ElliotRematch::
 	end
 
 Route106_EventScript_Ned::
-	trainerbattle_single TRAINER_NED, Route106_Text_NedIntro, Route106_Text_NedDefeated
-	msgbox Route106_Text_NedPostBattle, MSGBOX_AUTOCLOSE
+	lockall
+	faceplayer
+	goto_if_set FLAG_RECEIVEDROPE, Route106_EventScript_ExplainEscapeRope
+	msgbox Route106_Text_GiveEscapeRope, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVEDROPE
+	playfanfare MUS_OBTAIN_ITEM
+	giveitem ITEM_ESCAPE_ROPE
+	waitfanfare
+	msgbox Route106_Text_ExplainEscapeRope, MSGBOX_AUTOCLOSE
+	waitmessage
+	releaseall
 	end
+
+Route106_EventScript_ExplainEscapeRope::
+	msgbox Route106_Text_ExplainEscapeRope, MSGBOX_DEFAULT
+	releaseall
+	end
+
 
 Route106_Text_TrainerTips:
 	.string "TRAINER TIPS\p"
 	.string "Advice on catching Pokémon with a ROD:\n"
 	.string "Press the A Button if you get a bite.$"
 
+Route106_Text_ExplainEscapeRope:
+	.string "That's an Escape Rope; using it will\n"
+	.string "immediately return you to the entrace\l"
+	.string "of a dungeon.\p"
+	.string "You can use it as many times as you need.\n"
+	.string "Always make sure to be prepared!$"
+
+Route106_Text_GiveEscapeRope:
+	.string "Woah there trainer!\p"
+	.string "Something about you tells me you're\n"
+	.string "new to caving.\p"
+	.string "Well if that's the case, then please,\n"
+	.string "take one of these.$"

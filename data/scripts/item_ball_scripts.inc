@@ -1,5 +1,5 @@
 Route102_EventScript_ItemPotion::
-	finditem ITEM_CHERISH_BALL
+	finditem ITEM_RARE_CANDY
 	end
 
 Route103_EventScript_ItemGuardSpec::
@@ -7,11 +7,11 @@ Route103_EventScript_ItemGuardSpec::
 	end
 
 Route103_EventScript_ItemPPUp::
-	finditem ITEM_PP_UP
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route104_EventScript_ItemPPUp::
-	finditem ITEM_PP_UP
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route104_EventScript_ItemPokeBall::
@@ -19,7 +19,7 @@ Route104_EventScript_ItemPokeBall::
 	end
 
 Route104_EventScript_ItemXAccuracy::
-	finditem ITEM_PP_MAX
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route104_EventScript_ItemPotion::
@@ -39,7 +39,7 @@ Route108_EventScript_ItemStarPiece::
 	end
 
 Route109_EventScript_ItemPPUp::
-	finditem ITEM_PP_UP
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route109_EventScript_ItemPotion::
@@ -51,11 +51,11 @@ Route110_EventScript_ItemRareCandy::
 	end
 
 Route110_EventScript_ItemDireHit::
-	finditem ITEM_PP_MAX
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route110_EventScript_ItemElixir::
-	finditem ITEM_PP_MAX
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route111_EventScript_ItemTMSandstorm::
@@ -123,7 +123,7 @@ Route115_EventScript_ItemHealPowder::
 	end
 
 Route115_EventScript_ItemPPUp::
-	finditem ITEM_PP_UP
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route116_EventScript_ItemXSpecial::
@@ -235,7 +235,7 @@ Route123_EventScript_ItemElixir::
 	end
 
 Route123_EventScript_ItemPPUp::
-	finditem ITEM_PP_UP
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route123_EventScript_ItemRevivalHerb::
@@ -351,7 +351,7 @@ RusturfTunnel_EventScript_ItemMaxEther::
 	end
 
 GraniteCave_1F_EventScript_ItemEscapeRope::
-	finditem ITEM_ESCAPE_ROPE
+	finditem ITEM_CHERISH_BALL
 	end
 
 GraniteCave_B1F_EventScript_ItemPokeBall::
@@ -391,7 +391,7 @@ MeteorFalls_1F_1R_EventScript_ItemMoonStone::
 	end
 
 MeteorFalls_1F_1R_EventScript_ItemPPUP::
-	finditem ITEM_PP_UP
+	finditem ITEM_CHERISH_BALL
 	end
 
 MeteorFalls_B1F_2R_EventScript_ItemTMDragonClaw::
@@ -403,7 +403,7 @@ NewMauville_Inside_EventScript_ItemUltraBall::
 	end
 
 NewMauville_Inside_EventScript_ItemEscapeRope::
-	finditem ITEM_ESCAPE_ROPE
+	finditem ITEM_CHERISH_BALL
 	end
 
 NewMauville_Inside_EventScript_ItemThunderStone::
@@ -423,7 +423,7 @@ AbandonedShip_Rooms_1F_EventScript_ItemHarborMail::
 	end
 
 AbandonedShip_Rooms_B1F_EventScript_ItemEscapeRope::
-	finditem ITEM_ESCAPE_ROPE
+	finditem ITEM_CHERISH_BALL
 	end
 
 AbandonedShip_Rooms2_B1F_EventScript_ItemDiveBall::
@@ -607,7 +607,7 @@ VictoryRoad_1F_EventScript_ItemMaxElixir::
 	end
 
 VictoryRoad_1F_EventScript_ItemPPUp::
-	finditem ITEM_PP_UP
+	finditem ITEM_CHERISH_BALL
 	end
 
 VictoryRoad_B1F_EventScript_ItemTMPsychic::
@@ -647,7 +647,7 @@ MagmaHideout_3F_1R_EventScript_ItemNugget::
 	end
 
 MagmaHideout_3F_2R_EventScript_ItemPPMax::
-	finditem ITEM_PP_MAX
+	finditem ITEM_CHERISH_BALL
 	end
 
 MagmaHideout_4F_EventScript_ItemMaxRevive::
@@ -655,5 +655,14 @@ MagmaHideout_4F_EventScript_ItemMaxRevive::
 	end
 
 MagmaHideout_3F_3R_EventScript_ItemEscapeRope::
-	finditem ITEM_ESCAPE_ROPE
+	finditem ITEM_CHERISH_BALL
+	end
+
+LittleRoot_EventScript_ItemOranBerry::
+	finditem ITEM_ORAN_BERRY
+	end
+
+
+LittleRoot_EventScript_ItemLumBerry::
+	finditem ITEM_LUM_BERRY
 	end

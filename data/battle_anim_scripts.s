@@ -16238,7 +16238,6 @@ InfernalFlames:
 
 
 @Credits to Skeli
-Move_JAGGED_EDGE::
 Move_CEASELESS_EDGE::
 	loadspritegfx ANIM_TAG_SLASH
 	playsewithpan SE_M_JUMP_KICK, SOUND_PAN_ATTACKER
@@ -17434,8 +17433,6 @@ Move_FRIGID_TALONS::
 Move_HOWLING_BLAST::
 
 Move_LARK:
-	fadetobg BG_DARK
-	waitbgfadein
 	loadspritegfx ANIM_TAG_ITEM_BAG
 	loadspritegfx ANIM_TAG_SPEED_DUST
 	loadspritegfx ANIM_TAG_IMPACT
@@ -17479,8 +17476,6 @@ Move_LARK:
 	createvisualtask AnimTask_ShakeMonInPlace, 2, ANIM_TARGET, 4, 0, 7, 1
 	playsewithpan SE_M_MEGA_KICK2, +63
 	delay 10
-	restorebg
-	waitbgfadein
 	end
 	
 
@@ -20109,6 +20104,23 @@ Move_SUPER_FANG:
 
 Move_SLASH:
 	loadspritegfx ANIM_TAG_SLASH
+	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, -8, 0
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	delay 4
+	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, 8, 0
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 4, 0, 18, 1
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	waitforvisualfinish
+	end
+
+Move_JAGGED_EDGE::
+	loadspritegfx ANIM_TAG_SLASH
+	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, -8, 0
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	delay 4
+	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, 8, 0
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 4, 0, 18, 1
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
 	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, -8, 0
 	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
 	delay 4
