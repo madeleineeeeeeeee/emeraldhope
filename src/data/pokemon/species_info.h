@@ -8918,7 +8918,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_FEEBAS] =
     {
-        .baseHP        = 20,
+        .baseHP        = 50,
         .baseAttack    = 35,
         .baseDefense   = 20,
         .baseSpeed     = 80,
