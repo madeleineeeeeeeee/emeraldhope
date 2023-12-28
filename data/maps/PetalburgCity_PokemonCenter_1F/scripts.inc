@@ -30,8 +30,7 @@ PetalburgCity_PokemonCenter_1F_EventScript_Woman::
 	lock
 	faceplayer
 	msgbox PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon, MSGBOX_DEFAULT
-	specialvar VAR_RESULT, IsStarterInParty
-	goto_if_eq VAR_RESULT, TRUE, PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo
+	waitmessage
 	release
 	end
 
@@ -54,43 +53,53 @@ PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType::
 	msgbox PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType, MSGBOX_DEFAULT
 	return
 
-PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
+PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem: @ 8207A76
 	.string "That PC-based Pokémon Storage\n"
 	.string "System…\p"
 	.string "Whoever made it must be some kind\n"
 	.string "of a scientific wizard!$"
 
-PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP:
+PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP: @ 8207AD6
 	.string "When my Pokémon ate an\n"
-	.string "ORAN Berry, it regained HP!$"
+	.string "Oran Berry, it regained HP!$"
 
-PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:
+PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon: @ 8207B09
 	.string "There are many types of Pokémon.\p"
 	.string "All types have their strengths and\n"
 	.string "weaknesses against other types.\p"
 	.string "Depending on the types of Pokémon,\n"
-	.string "a battle could be easy or hard.$"
+	.string "a battle could be easy or hard.\l"
+	.string "Your Eevee is a Normal type, for example.\p"
+	.string "This means it resists Fairy and Dragon,\n"
+	.string "and is even fully immune to Ghost,\p"
+	.string "Fully unique to it, is that it has no\n"
+	.string "weaknesses to any type.\p"
+	.string "However it does less damage to Rock and\n"
+	.string "Steel types, cannot hit Ghosts at all,\l"
+	.string "and is simply neutral against the rest.\p"
+	.string "Make sure you have other Pokémon to\n"
+	.string "cover your other Pokémon's weaknesses.$"
 
-PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType:
-	.string "For example, your TREECKO\n"
+PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType: @ 8207BB0
+	.string "For example, your Eevee\n"
 	.string "is a GRASS type.\p"
-	.string "It's strong against the Water and\n"
+	.string "It's strong against the WATER and\n"
 	.string "GROUND types.\p"
 	.string "But, it's weak against FIRE-type\n"
-	.string "Pokémon.$"
+	.string "POKéMON.$"
 
-PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType:
-	.string "For example, your TORCHIC\n"
-	.string "is a FIRE type.\p"
-	.string "It's strong against the GRASS and\n"
-	.string "BUG types.\p"
+PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType: @ 8207C35
+	.string "For example, your Torchic\n"
+	.string "is a Fire type.\p"
+	.string "It's strong against the Grass and\n"
+	.string "Bug types.\p"
 	.string "But, it's weak against Water-type\n"
 	.string "Pokémon.$"
 
-PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType:
-	.string "For example, your MUDKIP\n"
+PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType: @ 8207CB7
+	.string "For example, your Mudkip\n"
 	.string "is a Water type.\p"
-	.string "It's strong against the FIRE type.\p"
-	.string "But, it's weak against GRASS-type\n"
-	.string "and ELECTRIC-type Pokémon.$"
+	.string "It's strong against the Fire type.\p"
+	.string "But, it's weak against Grass-type\n"
+	.string "and Electric-type Pokémon.$"
 

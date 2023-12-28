@@ -49,7 +49,7 @@ RustboroCity_House1_EventScript_Hiker::
 	msgbox RustboroCity_House1_Text_AllSortsOfPlaces, MSGBOX_NPC
 	end
 
-RustboroCity_House1_Text_IllTradeIfYouWant:
+RustboroCity_House1_Text_IllTradeIfYouWant: @ 82159E8
 	.string "Huh? My Pokémon is cute?\n"
 	.string "Sure, I knew that.\p"
 	.string "But if you really want, I'm willing\n"
@@ -69,7 +69,7 @@ RustboroCity_House1_Text_YouDontWantToThatsOkay:
 	.string "Oh, if you don't want to, that's okay.\n"
 	.string "But my Pokémon is cute, you know…$"
 
-RustboroCity_House1_Text_AnyPokemonCanBeCute:
+RustboroCity_House1_Text_AnyPokemonCanBeCute: @ 8215B17
 	.string "Any Pokémon can be cute if you raise\n"
 	.string "it with care and kindness.$"
 

@@ -308,7 +308,7 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "You couldn't tell it from looking now,\n"
 	.string "but I used to be one tough Trainer.\p"
 	.string "I had a reputation as the toughest\n"
-	.string "BEAUTY around, I tell you!\p"
+	.string "Beauty around, I tell you!\p"
 	.string "… … … … … …\p"
 	.string "What is it now?\n"
 	.string "You don't believe me.\p"
@@ -334,7 +334,7 @@ BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
 	.string "The move {STR_VAR_1}, is it?\n"
 	.string "That will be {STR_VAR_2} Battle Points, okay?$"
 
-BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
+BattleFrontier_Lounge7_Text_TeachMoveToWhichMon: @ 826595A
 	.string "Fine, fine, now pick the Pokémon\n"
 	.string "I should teach the move to.$"
 
@@ -357,7 +357,7 @@ BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "I know it's hard to see now, but I used\n"
 	.string "to be one fantastic Trainer.\p"
 	.string "I had a reputation as the most\n"
-	.string "invincible SWIMMER around, I tell you!\p"
+	.string "invincible Swimmer around, I tell you!\p"
 	.string "… … … … … …\p"
 	.string "What's wrong?\n"
 	.string "You don't believe me.\p"
@@ -382,10 +382,10 @@ BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
 	.string "But if that were true, they wouldn't\n"
 	.string "stay out here together, would they?$"
 
-BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
-	.string "When I was just a wee YOUNGSTER,\n"
+BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful: @ 8265D17
+	.string "When I was just a wee Youngster,\n"
 	.string "those ladies were strong and beautiful.\p"
-	.string "They were idols among us TRAINERS.\p"
+	.string "They were idols among us Trainers.\p"
 	.string "Even now, age hasn't dulled their\n"
 	.string "abilities.\p"
 	.string "In fact, their Pokémon moves have\n"
@@ -442,12 +442,12 @@ BattleFrontier_Lounge7_Text_ThunderWaveDesc::
 BattleFrontier_Lounge7_Text_SwordsDanceDesc::
 	.string "A fighting dance\n"
 	.string "that sharply\n"
-	.string "raises ATTACK.$"
+	.string "raises Attack.$"
 
 BattleFrontier_Lounge7_Text_DefenseCurlDesc::
 	.string "Curls up to con-\n"
 	.string "ceal weak spots\n"
-	.string "and raise DEFENSE.$"
+	.string "and raise Defense.$"
 
 BattleFrontier_Lounge7_Text_SnoreDesc::
 	.string "A loud attack\n"
@@ -467,7 +467,7 @@ BattleFrontier_Lounge7_Text_SwiftDesc::
 BattleFrontier_Lounge7_Text_IcyWindDesc::
 	.string "A chilling attack\n"
 	.string "that lowers the\n"
-	.string "foe's SPEED.$"
+	.string "foe's Speed.$"
 
 BattleFrontier_Lounge7_Text_EndureDesc::
 	.string "Endures any at-\n"

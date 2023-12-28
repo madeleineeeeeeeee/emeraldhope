@@ -9,10 +9,10 @@ RustboroCity_Flat1_1F_EventScript_Woman::
 	msgbox RustboroCity_Flat1_1F_Text_PokemonStrange, MSGBOX_NPC
 	end
 
-RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility:
+RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility: @ 82150E0
 	.string "Every Pokémon has a special ability\n"
 	.string "that it can use.$"
 
-RustboroCity_Flat1_1F_Text_PokemonStrange:
+RustboroCity_Flat1_1F_Text_PokemonStrange: @ 8215115
 	.string "Pokémon are such strange creatures.$"
 

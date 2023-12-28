@@ -500,11 +500,11 @@ Route103_EventScript_Isabelle::
 Route103_Text_MayRoute103Pokemon:
 	.string "May: Let's see… The Pokémon found\n"
 	.string "on each route number…\l"
-	.string "About ten per route?\p"
+	.string "About seven per route?\p"
 	.string "But the Pokémon in that forest\n"
 	.string "are different than the Pokémon\l"
 	.string "outside of it!\p"
-	.string "Maybe it's ten per section…$"
+	.string "Maybe it's seven per section…$"
 
 Route103_Text_MayLetsBattle:
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
@@ -532,11 +532,11 @@ Route103_Text_MayTimeToHeadBack:
 Route103_Text_BrendanRoute103Pokemon:
 	.string "Brendan: Let's see… The Pokémon found\n"
 	.string "on each route number…\l"
-	.string "About ten per route?\p"
+	.string "About seven per route?\p"
 	.string "But the Pokémon in that forest\n"
 	.string "are different than the Pokémon\l"
 	.string "outside of it!\p"
-	.string "Maybe it's ten per section…$"
+	.string "Maybe it's seven per section…$"
 
 Route103_Text_BrendanLetsBattle:
 	.string "Hey, it's {PLAYER}!\p"

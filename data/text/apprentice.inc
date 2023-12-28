@@ -86,7 +86,7 @@ gText_ApprenticeWhichLevelMode0::
 	.string "Oh… I'm sorry…\n"
 	.string "I'm so happy, I'm crying…\p"
 	.string "Um… Then please tell me!\n"
-	.string "It's about the BATTLE TOWER.\p"
+	.string "It's about the Battle Tower.\p"
 	.string "Which would be better for me: Level 50\n"
 	.string "or the Open Level?$"
 
@@ -117,7 +117,7 @@ gText_ApprenticeRejectTeaching1::
 gText_ApprenticeWhichLevelMode1::
 	.string "Yay! Great!\p"
 	.string "The first thing I wanted to ask you is\n"
-	.string "about the BATTLE TOWER!\p"
+	.string "about the Battle Tower!\p"
 	.string "The Level 50 and Open Level Rooms…\n"
 	.string "Which would be perfect for me?$"
 
@@ -139,13 +139,13 @@ gText_ApprenticePleaseTeach2::
 gText_ApprenticeRejectTeaching2::
 	.string "Oh, but…\p"
 	.string "I sincerely want to become a Pokémon\n"
-	.string "TRAINER!\p"
+	.string "Trainer!\p"
 	.string "Please, can you answer my questions?$"
 
 gText_ApprenticeWhichLevelMode2::
 	.string "Thank you!\n"
 	.string "Here's my first question right away!\p"
-	.string "The BATTLE TOWER has two levels,\n"
+	.string "The Battle Tower has two levels,\n"
 	.string "Level 50 and Open Level, right?\p"
 	.string "Which level do you think is more\n"
 	.string "suitable for me?$"
@@ -197,7 +197,7 @@ gText_ApprenticeWhichLevelMode3::
 	.string "I… I'm so happy…\p"
 	.string "What I want to ask you is really\n"
 	.string "trivial, but I can't decide…\p"
-	.string "At the BATTLE TOWER, they let you\n"
+	.string "At the Battle Tower, they let you\n"
 	.string "choose Level 50 or Open Level.\p"
 	.string "Which course do you think even I may\n"
 	.string "have a chance at?$"
@@ -218,9 +218,9 @@ gText_ApprenticePleaseTeach4::
 	.string "I'm {STR_VAR_1}!\n"
 	.string "I'll be your friend!\p"
 	.string "Did you know?\p"
-	.string "You can't win at the BATTLE FRONTIER\n"
+	.string "You can't win at the Battle Frontier\n"
 	.string "if all you know is what they teach at\l"
-	.string "the Trainer's SCHOOL.\p"
+	.string "the Trainer's School.\p"
 	.string "I'm willing to listen to your advice.\n"
 	.string "You'll agree, of course?$"
 
@@ -232,7 +232,7 @@ gText_ApprenticeRejectTeaching4::
 gText_ApprenticeWhichLevelMode4::
 	.string "Okay, so there is this something.\n"
 	.string "I want you to decide it for me.\p"
-	.string "You know that the BATTLE TOWER has\n"
+	.string "You know that the Battle Tower has\n"
 	.string "Level 50 and Open Level Rooms?\p"
 	.string "Which do you think would be good\n"
 	.string "for me, {PLAYER}{KUN}?$"
@@ -250,7 +250,7 @@ gText_ApprenticePleaseTeach5::
 	.string "Oh, hi, there! {PLAYER}{KUN}!\n"
 	.string "I know you because you're famous!\l"
 	.string "Call me {STR_VAR_1}! Glad to meet you!\p"
-	.string "I'm a TRIATHLETE, so I keep myself\n"
+	.string "I'm a Triathlete, so I keep myself\n"
 	.string "fit even while I raise Pokémon.\p"
 	.string "I'm also involved with other things\n"
 	.string "like work, napping, ballroom dancing…\p"
@@ -270,7 +270,7 @@ gText_ApprenticeRejectTeaching5::
 gText_ApprenticeWhichLevelMode5::
 	.string "Thank you! That's more like it!\n"
 	.string "So, let's start with an easy one!\p"
-	.string "You know about the BATTLE TOWER's\n"
+	.string "You know about the Battle Tower's\n"
 	.string "two courses, right?\l"
 	.string "You know, Level 50 and Open Level.\p"
 	.string "Me being a busy guy, which one should\n"
@@ -308,7 +308,7 @@ gText_ApprenticeWhichLevelMode6::
 	.string "…Oh, I thought of something!\p"
 	.string "Drum roll, please!\n"
 	.string "The question I have is…\p"
-	.string "If I were to take a BATTLE TOWER\n"
+	.string "If I were to take a Battle Tower\n"
 	.string "challenge, which way should I go?\p"
 	.string "Level 50 or Open Level?\n"
 	.string "Which suits me more?$"
@@ -348,7 +348,7 @@ gText_ApprenticeWhichLevelMode7::
 	.string "Oh… I'm delighted!\p"
 	.string "I don't wish to waste your time,\n"
 	.string "so please advise me on this.\p"
-	.string "I plan to take a BATTLE TOWER\n"
+	.string "I plan to take a Battle Tower\n"
 	.string "challenge soon.\p"
 	.string "However, there are two levels…\p"
 	.string "Which would be most suitable for me?\n"
@@ -388,7 +388,7 @@ gText_ApprenticeWhichLevelMode8::
 	.string "I won't be able to sleep tonight…\n"
 	.string "Thank you ever so much!\p"
 	.string "Then, here's my question!\p"
-	.string "At the BATTLE TOWER, what is right\n"
+	.string "At the Battle Tower, what is right\n"
 	.string "for me, Level 50 or Open Level?$"
 
 gText_ApprenticeLevelModeThanks8::
@@ -421,13 +421,13 @@ gText_ApprenticeWhichLevelMode9::
 	.string "Oh, yeah! That's a solid reply!\n"
 	.string "Excellent, I might add!\p"
 	.string "So how about a first piece of advice\n"
-	.string "on the BATTLE TOWER?\p"
+	.string "on the Battle Tower?\p"
 	.string "If I were to go, what would be better?\n"
 	.string "Level 50 or Open Level?$"
 
 gText_ApprenticeLevelModeThanks9::
 	.string "Uh-huh, {STR_VAR_1} it is!\n"
-	.string "OK, A-OK!\l"
+	.string "Ok, A-Ok!\l"
 	.string "I'll go show my mettle, like, jam!\p"
 	.string "All right, I'll look to you as my mentor!\n"
 	.string "Adios!$"
@@ -438,7 +438,7 @@ gText_ApprenticePleaseTeach10::
 	.string "… … …\n"
 	.string "Of course I'm lying!\p"
 	.string "Me, I'm {STR_VAR_1}. Despite the way\n"
-	.string "I look, I'm the Pokémon CHAMPION!\l"
+	.string "I look, I'm the Pokémon Champion!\l"
 	.string "…That's a lie, too!\p"
 	.string "This is no lie, though.\n"
 	.string "I'm not very good at battling.\p"
@@ -450,7 +450,7 @@ gText_ApprenticeRejectTeaching10::
 	.string "I'll show you what I'll do!\p"
 	.string "Waaah! Waaah! Waaah!\n"
 	.string "Hiccup!\p"
-	.string "Hahaha, that was my FAKE TEARS!\p"
+	.string "Hahaha, that was my Fake Tears!\p"
 	.string "Come on, will you please be\n"
 	.string "my Pokémon master?$"
 
@@ -460,7 +460,7 @@ gText_ApprenticeWhichLevelMode10::
 	.string "Of course I'm lying again!\n"
 	.string "But… Thank you, master!\p"
 	.string "You know how there's Level 50 and\n"
-	.string "Open Level at the BATTLE TOWER?\p"
+	.string "Open Level at the Battle Tower?\p"
 	.string "I'm having trouble deciding which\n"
 	.string "level I should challenge…\p"
 	.string "Can you decide for me, master?$"
@@ -476,7 +476,7 @@ gText_ApprenticeLevelModeThanks10::
 gText_ApprenticePleaseTeach11::
 	.string "A-H-O-Y!\n"
 	.string "And that spells ahoy, and it means hi!\p"
-	.string "I'm {STR_VAR_1}, the rappin' SAILOR\n"
+	.string "I'm {STR_VAR_1}, the rappin' Sailor\n"
 	.string "am I!\p"
 	.string "Your turn now, tell me a little about\n"
 	.string "yourself, give it a try!\p"
@@ -486,7 +486,7 @@ gText_ApprenticePleaseTeach11::
 	.string "And you're at a delicate age\n"
 	.string "when all the world's your stage!\p"
 	.string "Anyway, I just want to say,\n"
-	.string "that you're the tenth TRAINER\l"
+	.string "that you're the tenth Trainer\l"
 	.string "I've spoken to today.\p"
 	.string "Let's make that a celebration!\n"
 	.string "Become my mentor for commemoration!$"
@@ -502,7 +502,7 @@ gText_ApprenticeWhichLevelMode11::
 	.string "{PLAYER}, you've got the spirit!\p"
 	.string "So here's my first question\n"
 	.string "that begs your suggestion!\p"
-	.string "It's about the BATTLE TOWER,\n"
+	.string "It's about the Battle Tower,\n"
 	.string "and it hinges on my power!\p"
 	.string "Level 50 and Open Level there be,\n"
 	.string "which is the one that's good for me?$"
@@ -538,7 +538,7 @@ gText_ApprenticeRejectTeaching12::
 gText_ApprenticeWhichLevelMode12::
 	.string "Lucky, yeah, woohoo!\n"
 	.string "Should I pop a question to you?\p"
-	.string "Since we're near the BATTLE TOWER,\n"
+	.string "Since we're near the Battle Tower,\n"
 	.string "how about a question about its power?\p"
 	.string "Of the choices you see,\n"
 	.string "which is the right one for me?$"
@@ -561,7 +561,7 @@ gText_ApprenticePleaseTeach13::
 	.string "I decided I'll battle Pokémon and\n"
 	.string "toughen myself up.\p"
 	.string "You're {PLAYER}{KUN}, aren't you?\n"
-	.string "The Pokémon LEAGUE CHAMP?\p"
+	.string "The Pokémon League Champ?\p"
 	.string "Listen, can I get you to give me\n"
 	.string "advice?$"
 
@@ -574,7 +574,7 @@ gText_ApprenticeWhichLevelMode13::
 	.string "Thank you. Mighty good of you!\n"
 	.string "…Cough! Cough!\p"
 	.string "Oogh, I have to toughen up quick…\p"
-	.string "I'll be heading off to the BATTLE TOWER\n"
+	.string "I'll be heading off to the Battle Tower\n"
 	.string "right away, but what would be better\l"
 	.string "for me? Level 50 or Open Level?$"
 
@@ -593,9 +593,9 @@ gText_ApprenticePleaseTeach14::
 	.string "I'm really embarrassed to say this,\n"
 	.string "but I explore ancient ruins and such.\p"
 	.string "I'm even more embarrassed to admit\n"
-	.string "I'm interested in the BATTLE FRONTIER.\p"
+	.string "I'm interested in the Battle Frontier.\p"
 	.string "{PLAYER}{KUN}, you have a reputation as\n"
-	.string "a tough TRAINER…\p"
+	.string "a tough Trainer…\p"
 	.string "It's hard for me to say this,\n"
 	.string "but I want to ask something.\p"
 	.string "Could you become my teacher and\n"
@@ -613,7 +613,7 @@ gText_ApprenticeWhichLevelMode14::
 	.string "It makes me all flustered.\p"
 	.string "Please, answer me without looking\n"
 	.string "at my eyes.\p"
-	.string "At the BATTLE TOWER…\n"
+	.string "At the Battle Tower…\n"
 	.string "Which level should I attempt?$"
 
 gText_ApprenticeLevelModeThanks14::
@@ -650,7 +650,7 @@ gText_ApprenticeWhichLevelMode15::
 	.string "I don't wish to celebrate prematurely.\p"
 	.string "If it is true, I apologize.\n"
 	.string "But now, I need your advice.\p"
-	.string "If I were to enter the BATTLE TOWER,\n"
+	.string "If I were to enter the Battle Tower,\n"
 	.string "what would be worthy of me?\l"
 	.string "Level 50 or Open Level?$"
 
@@ -764,7 +764,7 @@ gText_ApprenticeWhatHeldItem3::
 	.string "{PLAYER}, please, could you decide\n"
 	.string "for me?$"
 
-gText_ApprenticeHoldNothing3::
+gText_ApprenticeHoldNothing3:: @ 82BA96B
 	.string "A Pokémon belonging to someone like me\n"
 	.string "would be better off without an item?$"
 
@@ -915,7 +915,7 @@ gText_ApprenticeWhatHeldItem7::
 	.string "It would please me if you could decide\n"
 	.string "what would be right for my Pokémon…$"
 
-gText_ApprenticeHoldNothing7::
+gText_ApprenticeHoldNothing7:: @ 82BB4C3
 	.string "In other words… My Pokémon has\n"
 	.string "no need to hold an item?$"
 
@@ -1010,7 +1010,7 @@ gText_ApprenticeWhatHeldItem10::
 	.string "{PLAYER}{KUN}, something unbelievable\n"
 	.string "has happened!\p"
 	.string "I woke up this morning, and my Pokémon\n"
-	.string "had 10 NUGGETS!\p"
+	.string "had 10 Nuggets!\p"
 	.string "Of course I'm lying!\n"
 	.string "Wahahaha!\p"
 	.string "This is no lie, though.\n"
@@ -1049,7 +1049,7 @@ gText_ApprenticeItemAlreadyRecommended10::
 gText_ApprenticeWhatHeldItem11::
 	.string "A-H-O-Y!\n"
 	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
+	.string "The rappin' Sailor am I!\n"
 	.string "I present to you a question\l"
 	.string "that's pretty fly!\p"
 	.string "It's an item question\n"
@@ -1412,7 +1412,7 @@ gText_ApprenticeWhichMonFirst9::
 
 gText_ApprenticeMonFirstThanks9::
 	.string "Uh-huh, my {STR_VAR_1} leads off!\n"
-	.string "OK, A-OK!\l"
+	.string "Ok, A-Ok!\l"
 	.string "I'll reorder the lineup, like, wham!\p"
 	.string "All right, thanks, as always!\n"
 	.string "Adios!$"
@@ -1441,7 +1441,7 @@ gText_ApprenticeMonFirstThanks10::
 gText_ApprenticeWhichMonFirst11::
 	.string "A-H-O-Y!\n"
 	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
+	.string "The rappin' Sailor am I!\n"
 	.string "I present to you a question\l"
 	.string "that's pretty fly!\p"
 	.string "It's a team lineup question\n"
@@ -1715,8 +1715,8 @@ gText_ApprenticeWhichMon9::
 
 gText_ApprenticeMonThanks9::
 	.string "Uh-huh, one {STR_VAR_1} it is!\n"
-	.string "OK, A-OK!\l"
-	.string "I'll get one in a BALL, like, cram!\p"
+	.string "Ok, A-Ok!\l"
+	.string "I'll get one in a Ball, like, cram!\p"
 	.string "All right, thanks, as always!\n"
 	.string "Adios!$"
 
@@ -1745,7 +1745,7 @@ gText_ApprenticeMonThanks10::
 gText_ApprenticeWhichMon11::
 	.string "A-H-O-Y!\n"
 	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
+	.string "The rappin' Sailor am I!\n"
 	.string "Surely you remember who am I?\p"
 	.string "Today, I have a Pokémon question\n"
 	.string "that begs your suggestion!\p"
@@ -2045,7 +2045,7 @@ gText_ApprenticeMoveThanks10::
 gText_ApprenticeWhichMove11::
 	.string "A-H-O-Y!\n"
 	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
+	.string "The rappin' Sailor am I!\n"
 	.string "I'm always with it, don't ask me why.\p"
 	.string "Today, I have a move question\n"
 	.string "that begs your suggestion!\p"
@@ -2294,7 +2294,7 @@ gText_ApprenticeWinSpeechThanks6::
 	.string "…Listen, I think I'm getting decent\n"
 	.string "at this, huh?\p"
 	.string "So, I'm thinking of challenging other\n"
-	.string "TRAINERS from now on.\p"
+	.string "Trainers from now on.\p"
 	.string "{PLAYER}, your advice really helped me.\p"
 	.string "Maybe one day, there'll be a time when\n"
 	.string "we battle!\p"
@@ -2369,7 +2369,7 @@ gText_ApprenticeWinSpeechThanks9::
 	.string "I'll try saying that, like, ham!\p"
 	.string "And now, it's time to say good-bye!\n"
 	.string "Thanks for all sorts of things!\p"
-	.string "Give me a battle one day, OK?\n"
+	.string "Give me a battle one day, Ok?\n"
 	.string "Adios!$"
 
 gText_ApprenticePickWinSpeech10::
@@ -2403,7 +2403,7 @@ gText_ApprenticeWinSpeechThanks10::
 gText_ApprenticePickWinSpeech11::
 	.string "A-H-O-Y!\n"
 	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
+	.string "The rappin' Sailor am I!\n"
 	.string "This will be my last question,\l"
 	.string "don't you cry!\p"
 	.string "It's a saying question\n"

@@ -150,10 +150,10 @@ BattleFrontier_Lounge1_EventScript_Boy2::
 	msgbox BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt, MSGBOX_NPC
 	end
 
-BattleFrontier_Lounge1_Text_PokemonBreederIntro:
+BattleFrontier_Lounge1_Text_PokemonBreederIntro: @ 825E95F
 	.string "For 70 years I have raised Pokémon!\n"
 	.string "I am the man they revere as\l"
-	.string "the legendary top Pokémon BREEDER!\p"
+	.string "the legendary top Pokémon Breeder!\p"
 	.string "If you ever become as seasoned as me,\n"
 	.string "you'll see the abilities of Pokémon\l"
 	.string "at a glance.\p"
@@ -189,23 +189,23 @@ BattleFrontier_Lounge1_Text_BestAspectHP:
 
 BattleFrontier_Lounge1_Text_BestAspectAtk:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its ATTACK…$"
+	.string "I would say, is its Attack…$"
 
 BattleFrontier_Lounge1_Text_BestAspectDef:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its DEFENSE…$"
+	.string "I would say, is its Defense…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpAtk:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL ATTACK…$"
+	.string "I would say, is its Special Attack…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpDef:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL DEFENSE…$"
+	.string "I would say, is its Special Defense…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpeed:
 	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPEED…$"
+	.string "I would say, is its Speed…$"
 
 BattleFrontier_Lounge1_Text_StatRelativelyGood:
 	.string "That stat is relatively good.\n"
@@ -235,7 +235,7 @@ BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending:
 	.string "I have business that needs tending!\n"
 	.string "Save it for next time!$"
 
-BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon:
+BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon: @ 825EEF6
 	.string "Ah, youngster! Do your Pokémon's\n"
 	.string "abilities intrigue you?\p"
 	.string "Here, here!\n"
@@ -247,11 +247,11 @@ BattleFrontier_Lounge1_Text_EvenICantTell:
 	.string "Show me a Pokémon!\n"
 	.string "A Pokémon is what I need to see!$"
 
-BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
+BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding: @ 825EFDD
 	.string "He said my Pokémon is outstanding!\n"
 	.string "I'm glad I raised it carefully!$"
 
-BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
+BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt: @ 825F020
 	.string "He said my Pokémon is outstanding!\n"
 	.string "But I didn't do anything special\l"
 	.string "raising it…$"

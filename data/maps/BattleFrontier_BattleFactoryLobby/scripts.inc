@@ -322,10 +322,10 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 	releaseall
 	end
 
-BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
-	.string "Where the intelligence of TRAINERS\n"
+BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle: @ 82588EE
+	.string "Where the intelligence of Trainers\n"
 	.string "is put to the test!\p"
-	.string "Welcome to the BATTLE FACTORY!\p"
+	.string "Welcome to the Battle Factory!\p"
 	.string "I am your guide to the Battle Swap\n"
 	.string "Single Tournament.$"
 
@@ -335,12 +335,12 @@ BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
 	.string "The Battle Swap Single Tournament\n"
-	.string "is a SINGLE BATTLE competition using\l"
+	.string "is a Single Battle competition using\l"
 	.string "only rental Pokémon.\p"
 	.string "First, you will be loaned three\n"
 	.string "Pokémon specifically for this event.\p"
 	.string "Using the supplied rental Pokémon,\n"
-	.string "you must conduct a SINGLE BATTLE.\p"
+	.string "you must conduct a Single Battle.\p"
 	.string "If you win, you are permitted to trade\n"
 	.string "one of your rental Pokémon.\p"
 	.string "Repeat this cycle of battling and\n"
@@ -363,7 +363,7 @@ BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge:
 	.string "I need to save the game. Is that okay?$"
 
 @ Unused
-BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping:
+BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping: @ 8258C6F
 	.string "Okay, I will hold your Pokémon for\n"
 	.string "safekeeping while you compete.$"
 
@@ -378,7 +378,7 @@ BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
 	.string "Please wait.$"
 
 @ Unused
-BattleFrontier_BattleFactoryLobby_Text_ReturnMons:
+BattleFrontier_BattleFactoryLobby_Text_ReturnMons: @ 8258D54
 	.string "I will return your Pokémon in exchange\n"
 	.string "for our rental Pokémon.$"
 
@@ -410,7 +410,7 @@ BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
 	.string "from your challenge.$"
 
 @ Unused
-BattleFrontier_BattleFactoryLobby_Text_WellReturnMons:
+BattleFrontier_BattleFactoryLobby_Text_WellReturnMons: @ 8258F55
 	.string "We'll return your personal Pokémon.$"
 
 @ Unused
@@ -418,10 +418,10 @@ BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"
 
-BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
-	.string "Where the intelligence of TRAINERS\n"
+BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle: @ 8258F93
+	.string "Where the intelligence of Trainers\n"
 	.string "is put to the test!\p"
-	.string "Welcome to the BATTLE FACTORY!\p"
+	.string "Welcome to the Battle Factory!\p"
 	.string "I am your guide to the Battle Swap\n"
 	.string "Double Tournament.$"
 
@@ -431,12 +431,12 @@ BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
 	.string "The Battle Swap Double Tournament\n"
-	.string "is a DOUBLE BATTLE competition using\l"
+	.string "is a Double Battle competition using\l"
 	.string "only rental Pokémon.\p"
 	.string "First, you will be loaned three\n"
 	.string "Pokémon specifically for this event.\p"
 	.string "Using the supplied rental Pokémon,\n"
-	.string "you must conduct a DOUBLE BATTLE.\p"
+	.string "you must conduct a Double Battle.\p"
 	.string "If you win, you are permitted to trade\n"
 	.string "one of your rental Pokémon.\p"
 	.string "Repeat this cycle of battling and\n"
@@ -449,7 +449,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
 	.string "Congratulations for defeating\n"
-	.string "the FACTORY HEAD and winning\l"
+	.string "the Factory Head and winning\l"
 	.string "seven matches in a row!$"
 
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
@@ -457,7 +457,7 @@ BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
 	.string "knowledge and keen intelligence,\l"
 	.string "we award you these Battle Point(s).$"
 
-BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
+BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave: @ 8259323
 	.string "Let me exchange your Pokémon\n"
 	.string "for our rental Pokémon.\p"
 	.string "I need to save the battle data,\n"
@@ -465,8 +465,8 @@ BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
 	.string "Would you like to record your last\n"
-	.string "BATTLE FACTORY match on your\l"
-	.string "FRONTIER PASS?$"
+	.string "Battle Factory match on your\l"
+	.string "Frontier Pass?$"
 
 BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
 	.string "Hi!\n"
@@ -480,7 +480,7 @@ BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
 	.string "about Pokémon and their moves,\l"
 	.string "it will be tough to keep winning.$"
 
-BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
+BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon: @ 82594E5
 	.string "I swapped for a weak Pokémon…\n"
 	.string "I thought it was a good kind to have…\p"
 	.string "They wiped the floor with us…$"
@@ -520,7 +520,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
 	.string "your team may not have two or more\l"
 	.string "of the same Pokémon.$"
 
-BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
+BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules: @ 82597FB
 	.string "You may swap Pokémon only with\n"
 	.string "the Trainer you have just defeated.\p"
 	.string "You may swap for only those Pokémon\n"
@@ -545,7 +545,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 	.string "This sequence remains unchanged\n"
 	.string "even when swaps are made.$"
 
-BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
+BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules: @ 8259A5E
 	.string "In the Open Level, the rental Pokémon\n"
-	.string "and the opposing TRAINERS' Pokémon\l"
+	.string "and the opposing Trainers' Pokémon\l"
 	.string "are all Level 100.$"

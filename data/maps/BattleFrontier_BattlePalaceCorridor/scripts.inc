@@ -121,21 +121,21 @@ BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom:
 	set_invisible
 	step_end
 
-BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
+BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame: @ 824F5DD
 	.string "People and Pokémon, they are but\n"
 	.string "the same…\p"
 	.string "Their individual nature makes them\n"
 	.string "good at certain things, and not good\l"
 	.string "at others.$"
 
-BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
+BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes: @ 824F65B
 	.string "Rather than trying to make a Pokémon\n"
 	.string "do what it dislikes, try to let it do\l"
 	.string "what it likes and is good at doing.\p"
 	.string "Put yourself in the Pokémon's position\n"
 	.string "and consider what moves it would like.$"
 
-BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered:
+BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered: @ 824F718
 	.string "A Pokémon's nature is a remarkable\n"
 	.string "thing…\p"
 	.string "Some Pokémon behave in a completely\n"
