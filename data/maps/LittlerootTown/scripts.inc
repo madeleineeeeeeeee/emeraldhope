@@ -947,7 +947,6 @@ LittlerootTown_Text_WearTheseRunningShoes:
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
 	.string "{PLAYER} switched shoes with the\n"
 	.string "Running Shoes.$"
-	.string "Running Shoes.$"
 
 LittlerootTown_Text_ExplainRunningShoes:
 	.string "There's an instruction booklet!\p"

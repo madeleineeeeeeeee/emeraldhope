@@ -1,40 +1,40 @@
-gContestHallPaintingCaption:: @ 827EA0C
+gContestHallPaintingCaption::
 	.string "{STR_VAR_1}\n"
 	.string "{STR_VAR_2}'s {STR_VAR_3}$"
 
 @ Unused
-gContestPaintingContest:: @ 827EA17
-	.string "Contest$"
+gContestPaintingContest::
+	.string "CONTEST$"
 
 gContestRankNormal::
-	.string "Normal Rank$"
+	.string "NORMAL RANK$"
 
 gContestRankSuper::
-	.string "Super Rank$"
+	.string "SUPER RANK$"
 
 gContestRankHyper::
-	.string "Hyper Rank$"
+	.string "HYPER RANK$"
 
 gContestRankMaster::
-	.string "Master Rank$"
+	.string "MASTER RANK$"
 
 gContestLink::
-	.string "Link$"
+	.string "LINK$"
 
 gContestCoolness::
-	.string "Coolness$"
+	.string "COOLNESS$"
 
 gContestBeauty::
-	.string "Beauty$"
+	.string "BEAUTY$"
 
 gContestCuteness::
-	.string "Cuteness$"
+	.string "CUTENESS$"
 
 gContestSmartness::
-	.string "Smartness$"
+	.string "SMARTNESS$"
 
 gContestToughness::
-	.string "Toughness$"
+	.string "TOUGHNESS$"
 
 gContestPaintingCool1::
 	.string "Nonstop supercool--\n"

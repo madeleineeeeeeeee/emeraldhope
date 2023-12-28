@@ -96,7 +96,7 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 	release
 	end
 
-Route109_SeashoreHouse_Text_SeashoreHouseIntro: @ 8269555
+Route109_SeashoreHouse_Text_SeashoreHouseIntro:
 	.string "I'm the owner of the Seashore House.\n"
 	.string "But you can call me Mr. Sea!\p"
 	.string "What I love above all is to see hot\n"

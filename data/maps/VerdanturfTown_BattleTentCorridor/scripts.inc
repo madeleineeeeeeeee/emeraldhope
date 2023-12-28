@@ -1,14 +1,14 @@
 .set LOCALID_ATTENDANT, 1
 
-VerdanturfTown_BattleTentCorridor_MapScripts:: @ 820208A
+VerdanturfTown_BattleTentCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentCorridor_OnFrame
 	.byte 0
 
-VerdanturfTown_BattleTentCorridor_OnFrame: @ 8202090
+VerdanturfTown_BattleTentCorridor_OnFrame:
 	map_script_2 VAR_TEMP_0, 0, VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor
 	.2byte 0
 
-VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor:: @ 820209A
+VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor::
 	lockall
 	setvar VAR_TEMP_0, 1
 	applymovement LOCALID_ATTENDANT, VerdanturfTown_BattleTentCorridor_Movement_WalkToDoor
@@ -22,21 +22,21 @@ VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor:: @ 820209A
 	closedoor 2, 1
 	waitdooranim
 	setvar VAR_0x8006, 0
-	warp MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM, 255, 6, 5
+	warp MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM, 6, 5
 	waitstate
 	releaseall
 	end
 
-VerdanturfTown_BattleTentCorridor_Movement_WalkToDoor: @ 82020DE
+VerdanturfTown_BattleTentCorridor_Movement_WalkToDoor:
 	walk_up
 	walk_up
 	walk_up
 	walk_up
 	step_end
 
-VerdanturfTown_BattleTentCorridor_Movement_PlayerEnterDoor: @ 82020E3
+VerdanturfTown_BattleTentCorridor_Movement_PlayerEnterDoor:
 	walk_up
-VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor: @ 82020E4
+VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor:
 	walk_up
 	set_invisible
 	step_end
@@ -44,33 +44,33 @@ VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor: @ 82020E4
 
 @ Leftover text from when this was a Contest Hall in R/S
 @ Unused
-VerdanturfTown_ContestHall_Text_WhichContestYouEntering: @ 82020E7
-	.string "Which Contest are you entering?\n"
+VerdanturfTown_ContestHall_Text_WhichContestYouEntering:
+	.string "Which CONTEST are you entering?\n"
 	.string "Want a piece of advice?\p"
-	.string "In any Contest, for example, a Cute\n"
-	.string "Contest, I don't think they judge you\l"
+	.string "In any CONTEST, for example, a CUTE\n"
+	.string "CONTEST, I don't think they judge you\l"
 	.string "only on cuteness in the first round.\p"
 	.string "You need to work out ways for raising\n"
 	.string "Pokémon better.$"
 
 @ Unused
-VerdanturfTown_ContestHall_Text_RaisedMonToBeCute: @ 82021C4
+VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
 	.string "I raised my Pokémon to be cute.\p"
 	.string "I found out you can put Pokémon in\n"
-	.string "a Contest for cuteness!\p"
+	.string "a CONTEST for cuteness!\p"
 	.string "I'm so glad I raised my Pokémon with\n"
 	.string "loving care…$"
 
 @ Unused
-VerdanturfTown_ContestHall_Text_MyMonRules: @ 8202251
+VerdanturfTown_ContestHall_Text_MyMonRules:
 	.string "My Pokémon rules!\p"
 	.string "It's cool, tough yet beautiful, cute,\n"
 	.string "and smart. It's complete!\p"
 	.string "I may as well go for wins in every\n"
-	.string "single Contest.$"
+	.string "single CONTEST.$"
 
 @ Unused
-VerdanturfTown_ContestHall_Text_NormalRankStage: @ 82022D6
-	.string "Pokémon Contests\n"
-	.string "Normal Rank Stage!$"
+VerdanturfTown_ContestHall_Text_NormalRankStage:
+	.string "Pokémon CONTESTS\n"
+	.string "NORMAL RANK STAGE!$"
 

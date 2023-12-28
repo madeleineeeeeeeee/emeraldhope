@@ -107,13 +107,13 @@ RustboroCity_Flat1_2F_EventScript_PokeDoll::
 
 RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 	.string "Oh, hello!\n"
-	.string "Welcome to the Pepper household.\p"
+	.string "Welcome to the PEPPER household.\p"
 	.string "I have a question for you.\n"
 	.string "Have you ever baby-sat?\p"
 	.string "You see, I'm a new father, so raising\n"
 	.string "a child is all new to me.\p"
 	.string "And I have a problem. My daughter\n"
-	.string "Walda doesn't laugh enough.\p"
+	.string "WALDA doesn't laugh enough.\p"
 	.string "I think she'd laugh for me if I told\n"
 	.string "her something funny.\p"
 	.string "Do you know of a funny word or\n"
@@ -152,7 +152,7 @@ RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll:
 	.string "{STR_VAR_1}.\n"
 	.string "{STR_VAR_1}.\p"
 	.string "Hmmm… She's not smiling at all.\n"
-	.string "Maybe Walda is one serious child…$"
+	.string "Maybe WALDA is one serious child…$"
 
 RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
 	.string "Oh, so you don't know any good words.\n"
@@ -165,7 +165,7 @@ RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2:
 	.string "{STR_VAR_1}.\n"
 	.string "{STR_VAR_1}.\p"
 	.string "Hmmm… She's not smiling at all.\n"
-	.string "Maybe Walda is one serious child…$"
+	.string "Maybe WALDA is one serious child…$"
 
 RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
 	.string "Oh, so you don't know any good words.\n"
@@ -176,21 +176,21 @@ RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
 
 RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 	.string "Thank you!\p"
-	.string "Thanks to you, my darling Walda\n"
+	.string "Thanks to you, my darling WALDA\n"
 	.string "laughed for me!\p"
 	.string "Actually, I may not look all that\n"
-	.string "special, but I'm one of Devon\l"
-	.string "Corporation's top researchers.\p"
+	.string "special, but I'm one of DEVON\l"
+	.string "CORPORATION's top researchers.\p"
 	.string "So, how about I do something in return\n"
 	.string "for you?\p"
 	.string "I know, I'll add some new wallpaper\n"
-	.string "patterns for the Boxes in the PC\l"
+	.string "patterns for the BOXES in the PC\l"
 	.string "Pokémon Storage System.\p"
 	.string "In the wallpaper pattern menu,\n"
-	.string "select “Friends.”\p"
+	.string "select “FRIENDS.”\p"
 	.string "That will give you access to the new\n"
 	.string "wallpaper patterns.$"
 
-RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll: @ 8215923
-	.string "It's a Pokémon plush Doll!$"
+RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll:
+	.string "It's a Pokémon plush DOLL!$"
 

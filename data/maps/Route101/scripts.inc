@@ -273,7 +273,7 @@ Route101_Text_DontLeaveMe:
 	.string "Wh-Where are you going?!\n"
 	.string "Don't leave me like this!$"
 
-Route101_Text_YouSavedMe: @ 81EBF12
+Route101_Text_YouSavedMe:
 	.string "Prof. Birch: Whew…\p"
 	.string "I was in the tall grass studying wild\n"
 	.string "Pokémon when I was jumped.\p"
@@ -284,19 +284,19 @@ Route101_Text_YouSavedMe: @ 81EBF12
 	.string "This is not the place to chat, so come\n"
 	.string "by my Pokémon Lab later, okay?$"
 
-Route101_Text_TakeTiredPokemonToPokeCenter: @ 81EBFDD
+Route101_Text_TakeTiredPokemonToPokeCenter:
 	.string "If Pokémon get tired, take them to\n"
 	.string "a Pokémon Center.\p"
 	.string "There's a Pokémon Center in Oldale\n"
 	.string "Town right close by.$"
 
-Route101_Text_WildPokemonInTallGrass: @ 81EC04A
+Route101_Text_WildPokemonInTallGrass:
 	.string "Wild Pokémon will jump out at you in\n"
 	.string "tall grass.\p"
 	.string "If you want to catch Pokémon, you have\n"
 	.string "to go into the tall grass and search.$"
 
-Route101_Text_RouteSign: @ 81EC0C8
+Route101_Text_RouteSign:
 	.string "Route 101\n"
 	.string "{UP_ARROW} Oldale Town$"
 

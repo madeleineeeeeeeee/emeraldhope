@@ -109,8 +109,6 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 	.string "If you keep training, you could even\n"
 	.string "become the Champion of the Pokémon\l"
 	.string "League one day. That's what I think.\p"
-	.string "become the Champion of the Pokémon\l"
-	.string "League one day. That's what I think.\p"
 	.string "I know, since we've gotten to know each\n"
 	.string "other, let's register one another in\l"
 	.string "our PokéNavs.\p"
@@ -118,13 +116,11 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
 	.string "Registered Steven\n"
-	.string "in the Pokénav.$"
+	.string "in the POKéNAV.$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
 	.string "Now, I've got to hurry along.$"
 
-GraniteCave_StevensRoom_Text_OhBagIsFull: @ 822DFAA
-	.string "Oh, your Bag is full…\n"
 GraniteCave_StevensRoom_Text_GiveBeldum:
 	.string "I've got one last thing for you.\p"
 	.string "It's an interesting and rare Pokémon,\n"

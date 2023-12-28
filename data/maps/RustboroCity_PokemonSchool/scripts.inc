@@ -221,7 +221,6 @@ RustboroCity_PokemonSchool_EventScript_ScottWatchStudents::
 RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges:
 	.string "The blackboard lists status changes\n"
 	.string "that may affect Pokémon in battle.$"
-	.string "that may affect Pokémon in battle.$"
 
 RustboroCity_PokemonSchool_Text_ReadWhichTopic:
 	.string "Which topic do you want to read?$"
@@ -245,7 +244,6 @@ RustboroCity_PokemonSchool_Text_ExplainParalysis:
 RustboroCity_PokemonSchool_Text_ExplainSleep:
 	.string "If a Pokémon falls asleep, it will be\n"
 	.string "unable to attack.\p"
-	.string "A Pokémon may wake up on its own,\n"
 	.string "A Pokémon may wake up on its own,\n"
 	.string "but if a battle ends while it is\l"
 	.string "sleeping, it will stay asleep.\p"
@@ -286,7 +284,6 @@ RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
 	.string "every turn.\p"
 	.string "There are many other items that are\n"
 	.string "meant to be held by Pokémon.\p"
-	.string "meant to be held by Pokémon.\p"
 	.string "Just those alone will give you many\n"
 	.string "topics to study!$"
 
@@ -318,7 +315,6 @@ RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
 	.string "A Pokémon holding a Berry will heal\n"
 	.string "itself…\p"
 	.string "There are many kinds of items that\n"
-	.string "Pokémon can hold…\p"
 	.string "Pokémon can hold…\p"
 	.string "Boy, it sure is hard taking notes\n"
 	.string "down…$"

@@ -1,8 +1,7 @@
-MysteryEventScript_VisitingTrainer:: @ 8674EC1
-	setvaddress MysteryEventScript_VisitingTrainer
+MysteryGiftScript_VisitingTrainer::
+	setvaddress MysteryGiftScript_VisitingTrainer
 	special ValidateEReaderTrainer
-	compare VAR_RESULT, 0
-	vgoto_if_eq MysteryEventScript_VisitingTrainerArrived
+	vgoto_if_eq VAR_RESULT, 0, MysteryGiftScript_VisitingTrainerArrived
 	lock
 	faceplayer
 	vmessage sText_MysteryGiftVisitingTrainerInstructions
@@ -11,7 +10,7 @@ MysteryEventScript_VisitingTrainer:: @ 8674EC1
 	release
 	end
 
-MysteryEventScript_VisitingTrainerArrived: @ 8674EDF
+MysteryGiftScript_VisitingTrainerArrived:
 	lock
 	faceplayer
 	vmessage sText_MysteryGiftVisitingTrainerArrived
@@ -21,29 +20,29 @@ MysteryEventScript_VisitingTrainerArrived: @ 8674EDF
 	end
 
 sText_MysteryGiftVisitingTrainerInstructions:
-	.string "Thank you for using the Mystery\n"
-	.string "Gift System.\p"
-	.string "By holding this Wonder Card, you\n"
+	.string "Thank you for using the MYSTERY\n"
+	.string "GIFT System.\p"
+	.string "By holding this WONDER CARD, you\n"
 	.string "may take part in a survey at a\l"
 	.string "Pokémon Mart.\p"
 	.string "Use these surveys to invite\n"
-	.string "Trainers to Sootopolis City.\p"
+	.string "TRAINERS to SOOTOPOLIS City.\p"
 	.string "…Let me give you a secret\n"
 	.string "password for a survey:\p"
-	.string "“Give Me\n"
-	.string "Awesome Trainer”\p"
+	.string "“GIVE ME\n"
+	.string "AWESOME TRAINER”\p"
 	.string "Write that in on a survey and send\n"
-	.string "it to the Wireless\l"
-	.string "Communication System.$"
+	.string "it to the WIRELESS\l"
+	.string "COMMUNICATION SYSTEM.$"
 
 sText_MysteryGiftVisitingTrainerArrived:
-	.string "Thank you for using the Mystery\n"
-	.string "Gift System.\p"
+	.string "Thank you for using the MYSTERY\n"
+	.string "GIFT System.\p"
 	.string "A Trainer has arrived in\n"
-	.string "Sootopolis City looking for you.\p"
+	.string "SOOTOPOLIS City looking for you.\p"
 	.string "We hope you will enjoy\n"
 	.string "battling the visiting Trainer.\p"
-	.string "You may invite other Trainers by\n"
+	.string "You may invite other TRAINERS by\n"
 	.string "entering other passwords.\p"
 	.string "Try looking for other passwords\n"
 	.string "that may work.$"

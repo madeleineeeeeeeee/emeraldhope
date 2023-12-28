@@ -287,7 +287,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals:
 	.string "Your final match is next.\n"
 	.string "Are you ready?$"
 
-BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons: @ 824B70C
+BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons:
 	.string "Please choose the two Pokémon\n"
 	.string "that are to appear in battle.$"
 
@@ -365,13 +365,13 @@ BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch:
 	.string "Should I record your last match\n"
-	.string "on your Frontier Pass?$"
+	.string "on your FRONTIER PASS?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
 	.string "Congratulations for advancing\n"
 	.string "to the final match.\p"
 	.string "For the final match, you will challenge\n"
-	.string "the Dome Ace Tucker.\p"
+	.string "the DOME ACE TUCKER.\p"
 	.string "Are you ready?$"
 
 @ Identical to ReadyForTuckerSilver
@@ -379,15 +379,15 @@ BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold:
 	.string "Congratulations for advancing\n"
 	.string "to the final match.\p"
 	.string "For the final match, you will challenge\n"
-	.string "the Dome Ace Tucker.\p"
+	.string "the DOME ACE TUCKER.\p"
 	.string "Are you ready?$"
 
-BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort: @ 824BC2A
-	.string "Your final battle against Tucker is\n"
+BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort:
+	.string "Your final battle against TUCKER is\n"
 	.string "next. Are you ready?$"
 
 @ Identical again
-BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort: @ 824BC63
-	.string "Your final battle against Tucker is\n"
+BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort:
+	.string "Your final battle against TUCKER is\n"
 	.string "next. Are you ready?$"
 

@@ -49,7 +49,7 @@ AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
 	.string "He says he's just sightseeing,\n"
 	.string "but I don't know about that.$"
 
-AbandonedShip_Rooms_1F_Text_ThaliaRegister: @ 8237C2A
+AbandonedShip_Rooms_1F_Text_ThaliaRegister:
 	.string "You're such a tough Trainer!\n"
 	.string "Let me register you as a memento!$"
 
