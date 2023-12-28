@@ -6,8 +6,6 @@ DewfordTown_House1_EventScript_Man::
 	faceplayer
 	goto_if_set FLAG_DELIVERED_STEVEN_LETTER, DewfordTown_Mart_EventScript_ExpandedItems
 	msgbox DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland, MSGBOX_DEFAULT
-	message gText_HowMayIServeYou
-	waitmessage
 	pokemart DewfordTown_Mart_Pokemart_Basic
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
