@@ -15,11 +15,14 @@ PetalburgCity_Mart_EventScript_Clerk::
 	.align 2
 PetalburgCity_Mart_Pokemart_Basic:
 	.2byte ITEM_POKE_BALL
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
-	
 	.2byte ITEM_REPEL
-	
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHESTO_BERRY
+	.2byte ITEM_CHERI_BERRY
 	.2byte ITEM_ORANGE_MAIL
 	.2byte ITEM_NONE
 	release
@@ -34,11 +37,15 @@ PetalburgCity_Mart_EventScript_ExpandedItems::
 	.align 2
 PetalburgCity_Mart_Pokemart_Expanded:
 	.2byte ITEM_POKE_BALL
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
 	.2byte ITEM_REPEL
-	
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHESTO_BERRY
+	.2byte ITEM_CHERI_BERRY
 	.2byte ITEM_ORANGE_MAIL
 	.2byte ITEM_NONE
 	release
@@ -68,9 +75,9 @@ PetalburgCity_Mart_Text_RepelIsUseful: @ 8207E60
 	.string "useful when you're in a hurry.$"
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou: @ 8207EB0
-	.string "Do you have any Antidotes with\n"
+	.string "Do you have any Pecha Berries with\n"
 	.string "you?\p"
-	.string "If you walk around with a poisoned\n"
-	.string "Pokémon, it will lose HP until it faints.\l"
-	.string "Take some Antidotes with you.$"
+	.string "A poisoned Pokémon will lose HP\n"
+	.string "every turn in battle until it faints.\l"
+	.string "Take some Pecha Berries with you.$"
 

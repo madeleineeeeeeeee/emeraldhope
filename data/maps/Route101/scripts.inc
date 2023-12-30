@@ -300,3 +300,15 @@ Route101_Text_RouteSign: @ 81EC0C8
 	.string "Route 101\n"
 	.string "{UP_ARROW} Oldale Town$"
 
+Route101_EventScript_TrainerTips::
+	msgbox Route101_Text_TrainerTips, MSGBOX_SIGN
+	end
+
+Route101_Text_TrainerTips: @ 81EC0C8
+	.string "Trainer Tips\p"
+	.string "Press L when hovering over a move in\n"
+	.string "battle to see concise information on\l"
+	.string "that move.\p"
+	.string "You can see further info on more than\n"
+	.string "just moves in the Summary screen!$"
+

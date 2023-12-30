@@ -15075,21 +15075,21 @@ static void Cmd_handleballthrow(void)
             case ITEM_ULTRA_BALL:
             case ITEM_CHERISH_BALL:
             case ITEM_PREMIER_BALL:
-                ballMultiplier = 400;
+                ballMultiplier = 450;
                 break;
         #if B_SPORT_BALL_MODIFIER <= GEN_7
             case ITEM_SPORT_BALL:
         #endif
             case ITEM_GREAT_BALL:
             case ITEM_SAFARI_BALL:
-                ballMultiplier = 200;
+                ballMultiplier = 250;
                 break;
             case ITEM_POKE_BALL:
-                ballMultiplier = 100;
+                ballMultiplier = 150;
             case ITEM_NET_BALL:
                 if (IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_WATER) || IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_BUG))
                 #if B_NET_BALL_MODIFIER >= GEN_7
-                    ballMultiplier = 600;
+                    ballMultiplier = 700;
                 #else
                     ballMultiplier = 300;
                 #endif
@@ -15100,7 +15100,7 @@ static void Cmd_handleballthrow(void)
                     || gIsFishingEncounter || gIsSurfingEncounter
                 #endif
                 )
-                    ballMultiplier = 600;
+                    ballMultiplier = 700;
                 break;
             case ITEM_NEST_BALL:
             #if B_NEST_BALL_MODIFIER >= GEN_6
@@ -15124,7 +15124,7 @@ static void Cmd_handleballthrow(void)
             case ITEM_REPEAT_BALL:
             if (GetSetPokedexFlag(SpeciesToNationalPokedexNum(gBattleMons[gBattlerTarget].species), FLAG_GET_CAUGHT))
                 #if B_REPEAT_BALL_MODIFIER >= GEN_7
-                    ballMultiplier = 1000;
+                    ballMultiplier = 1200;
                 #else
                     ballMultiplier = 300;
                 #endif
@@ -15142,7 +15142,7 @@ static void Cmd_handleballthrow(void)
                 RtcCalcLocalTime();
                 if ((gLocalTime.hours >= 20 && gLocalTime.hours <= 3) || gMapHeader.cave || gMapHeader.mapType == MAP_TYPE_UNDERGROUND)
                 #if B_DUSK_BALL_MODIFIER >= GEN_7
-                    ballMultiplier = 500;
+                    ballMultiplier = 550;
                 #else
                     ballMultiplier = 350;
                 #endif
@@ -15150,7 +15150,7 @@ static void Cmd_handleballthrow(void)
             case ITEM_QUICK_BALL:
                 if (gBattleResults.battleTurnCounter == 0)
                 #if B_QUICK_BALL_MODIFIER >= GEN_5
-                    ballMultiplier = 700;
+                    ballMultiplier = 750;
                 #else
                     ballMultiplier = 400;
                 #endif
@@ -15166,7 +15166,7 @@ static void Cmd_handleballthrow(void)
             case ITEM_LURE_BALL:
                 if (gIsFishingEncounter)
                 #if B_LURE_BALL_MODIFIER >= GEN_7
-                    ballMultiplier = 500;
+                    ballMultiplier = 700;
                 #else
                     ballMultiplier = 300;
                 #endif

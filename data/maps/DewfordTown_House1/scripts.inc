@@ -16,6 +16,7 @@ DewfordTown_House1_EventScript_Man::
 	.align 2
 DewfordTown_Mart_Pokemart_Basic:
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
 	.2byte ITEM_REPEL
@@ -36,6 +37,7 @@ DewfordTown_Mart_EventScript_ExpandedItems::
 	.align 2
 DewfordTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_PREMIER_BALL
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
 	.2byte ITEM_REPEL
