@@ -876,7 +876,6 @@ Route104_EventScript_TryRegisterHaleyAfterBattle::
 
 Route104_EventScript_RegisterHaleyAfterBattle::
 	msgbox Route104_Text_HaleyRegister2, MSGBOX_DEFAULT
-	register_matchcall TRAINER_HALEY_1
 	release
 	end
 
@@ -888,7 +887,6 @@ Route104_EventScript_TryRegisterHaley::
 
 Route104_EventScript_RegisterHaley::
 	msgbox Route104_Text_HaleyRegister1, MSGBOX_DEFAULT
-	register_matchcall TRAINER_HALEY_1
 	release
 	end
 
@@ -917,7 +915,6 @@ Route104_EventScript_TryRegisterWinstonAfterBattle::
 
 Route104_EventScript_RegisterWinstonAfterBattle::
 	msgbox Route104_Text_WinstonRegister2, MSGBOX_DEFAULT
-	register_matchcall TRAINER_WINSTON_1
 	release
 	end
 
@@ -929,7 +926,6 @@ Route104_EventScript_TryRegisterWinston::
 
 Route104_EventScript_RegisterWinston::
 	msgbox Route104_Text_WinstonRegister1, MSGBOX_DEFAULT
-	register_matchcall TRAINER_WINSTON_1
 	release
 	end
 
@@ -958,7 +954,6 @@ Route104_EventScript_TryRegisterCindyAfterBattle::
 
 Route104_EventScript_RegisterCindyAfterBattle::
 	msgbox Route104_Text_CindyRegister2, MSGBOX_DEFAULT
-	register_matchcall TRAINER_CINDY_1
 	release
 	end
 
@@ -970,7 +965,6 @@ Route104_EventScript_TryRegisterCindy::
 
 Route104_EventScript_RegisterCindy::
 	msgbox Route104_Text_CindyRegister1, MSGBOX_DEFAULT
-	register_matchcall TRAINER_CINDY_1
 	release
 	end
 

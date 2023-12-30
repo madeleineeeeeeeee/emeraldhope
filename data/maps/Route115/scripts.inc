@@ -43,7 +43,6 @@ Route115_EventScript_RegisterTimothy::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route115_Text_TimothyRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_TIMOTHY_1
 	release
 	end
 

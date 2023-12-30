@@ -86,7 +86,6 @@ Route121_EventScript_RegisterWalter::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route121_Text_WalterRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_WALTER_1
 	release
 	end
 
@@ -122,7 +121,6 @@ Route121_EventScript_RegisterJessica::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route121_Text_JessicaRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_JESSICA_1
 	release
 	end
 
@@ -163,7 +161,6 @@ Route121_EventScript_RegisterCristin::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route121_Text_CristinRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_CRISTIN_1
 	release
 	end
 

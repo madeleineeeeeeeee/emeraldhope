@@ -483,7 +483,6 @@ MtChimney_EventScript_DefeatedShelby::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox MtChimney_Text_ShelbyRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_SHELBY_1
 	release
 	end
 
@@ -524,7 +523,6 @@ MtChimney_EventScript_SawyerDefeated::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox MtChimney_Text_SawyerRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_SAWYER_1
 	release
 	end
 
