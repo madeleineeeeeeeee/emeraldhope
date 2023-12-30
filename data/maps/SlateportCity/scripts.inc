@@ -119,7 +119,13 @@ SlateportCity_Text_WhistlingGrunt:
 	.string "that it must be intentional.\p"
 	.string "Nothing you do to get their attention\n"
 	.string "seems to work.\p"
-	.string "Perhaps you should return later.$"
+	.string "Perhaps you should return later.\p"
+	.string "...\n"
+	.string "...\p"
+	.string "If you've beaten Brawly and found\n"
+	.string "Steven, then this marks the end of the\l"
+	.string "Emerald Hope demo release!\p"
+	.string "Thank you SO MUCH for playing!!$"
 
 SlateportCity_EventScript_ArguingHogs::
 	lockall
@@ -132,7 +138,13 @@ SlateportCity_Text_ArguingHogs:
 	.string "40 and 50 of them apparently.\p"
 	.string "Nothing you do to get their attention\n"
 	.string "seems to work.\p"
-	.string "Perhaps you should return later.$"	
+	.string "Perhaps you should return later.\p"
+	.string "...\n"
+	.string "...\p"
+	.string "If you've beaten Brawly and found\n"
+	.string "Steven, then this marks the end of the\l"
+	.string "Emerald Hope demo release!\p"
+	.string "Thank you SO MUCH for playing!!$"	
 
 
 SlateportCity_Movement_PlayerFaceScott:
