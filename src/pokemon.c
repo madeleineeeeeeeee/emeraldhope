@@ -3640,7 +3640,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
             u32 totalRerolls = 0;
             u32 rerollBonus = GetNationalPokedexCount(FLAG_GET_CAUGHT);
             rerollBonus /= 0.04;
-            
+
             if (CheckBagHasItem(ITEM_SHINY_CHARM, 1))
                 totalRerolls += rerollBonus;
             if (LURE_STEP_COUNT != 0)
@@ -7885,7 +7885,7 @@ const struct CompressedSpritePalette *GetMonSpritePalStructFromOtIdPersonality(u
     u32 shinyValue;
 
 
-    shinyValue = (GET_SHINY_VALUE(otId, personality) - (shinyMod));
+    shinyValue = GET_SHINY_VALUE(otId, personality);
 
     if (shinyValue < SHINY_ODDS)
     {
