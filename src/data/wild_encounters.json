@@ -2552,6 +2552,46 @@
         {
           "map": "MAP_ROUTE107",
           "base_label": "gRoute107",
+          "land_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 17,
+                "max_level": 23,
+                "species": "SPECIES_CROAGUNK"
+              },
+              {
+                "min_level": 18,
+                "max_level": 22,
+                "species": "SPECIES_OSHAWOTT"
+              },
+              {
+                "min_level": 17,
+                "max_level": 22,
+                "species": "SPECIES_SHELLOS_EAST_SEA"
+              },
+              {
+                "min_level": 19,
+                "max_level": 24,
+                "species": "SPECIES_COMBEE"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_TURTWIG"
+              },
+              {
+                "min_level": 19,
+                "max_level": 23,
+                "species": "SPECIES_POPPLIO"
+              },
+              {
+                "min_level": 18,
+                "max_level": 22,
+                "species": "SPECIES_GRUBBIN"
+              }
+            ]
+          },
           "water_mons": {
             "encounter_rate": 4,
             "mons": [
@@ -2629,46 +2669,6 @@
                 "min_level": 35,
                 "max_level": 45,
                 "species": "SPECIES_WAILMER"
-              }
-            ]
-          },
-          "land_mons": {
-            "encounter_rate": 20,
-            "mons": [
-              {
-                "min_level": 17,
-                "max_level": 23,
-                "species": "SPECIES_CROAGUNK"
-              },
-              {
-                "min_level": 18,
-                "max_level": 22,
-                "species": "SPECIES_OSHAWOTT"
-              },
-              {
-                "min_level": 17,
-                "max_level": 22,
-                "species": "SPECIES_SHELLOS_EAST_SEA"
-              },
-              {
-                "min_level": 19,
-                "max_level": 24,
-                "species": "SPECIES_COMBEE"
-              },
-              {
-                "min_level": 18,
-                "max_level": 21,
-                "species": "SPECIES_TURTWIG"
-              },
-              {
-                "min_level": 19,
-                "max_level": 23,
-                "species": "SPECIES_POPPLIO"
-              },
-              {
-                "min_level": 18,
-                "max_level": 22,
-                "species": "SPECIES_GRUBBIN"
               }
             ]
           }
