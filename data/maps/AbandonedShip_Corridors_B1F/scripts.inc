@@ -53,8 +53,8 @@ AbandonedShip_Corridors_B1F_EventScript_Duncan::
 	msgbox AbandonedShip_Corridors_B1F_Text_DuncanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-AbandonedShip_Corridors_B1F_Text_DuncanIntro:
-	.string "When we go out to sea, we SAILORS\n"
+AbandonedShip_Corridors_B1F_Text_DuncanIntro: @ 8237E2A
+	.string "When we go out to sea, we Sailors\n"
 	.string "always bring our Pokémon.\l"
 	.string "How about a quick battle?$"
 
@@ -73,12 +73,12 @@ AbandonedShip_Corridors_B1F_Text_YayItsAShip:
 
 AbandonedShip_Corridors_B1F_Text_DoorIsLocked:
 	.string "The door is locked.\p"
-	.string "“STORAGE” is painted on the door.$"
+	.string "“Storage” is painted on the door.$"
 
 AbandonedShip_Corridors_B1F_Text_InsertedStorageKey:
 	.string "{PLAYER} inserted and turned the\n"
-	.string "STORAGE KEY.\p"
-	.string "The inserted KEY stuck fast,\n"
+	.string "Storage Key.\p"
+	.string "The inserted Key stuck fast,\n"
 	.string "but the door opened.$"
 
 AbandonedShip_Text_TheDoorIsOpen:

@@ -244,10 +244,10 @@ Route118_EventScript_Deandre::
 	msgbox Route118_Text_DeandrePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route118_Text_StevenQuestions:
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "It's me, STEVEN!\n"
-	.string "We met in the cave near DEWFORD.\p"
+Route118_Text_StevenQuestions: @ 81F40BE
+	.string "Steven: Hi, {PLAYER}{KUN}!\p"
+	.string "It's me, Steven!\n"
+	.string "We met in the cave near Dewford.\p"
 	.string "Have you met many kinds of Pokémon\n"
 	.string "since I last saw you?\p"
 	.string "There are many, many kinds of Pokémon\n"
@@ -264,14 +264,14 @@ Route118_Text_StevenQuestions:
 
 Route118_Text_YouAgreeGoodRodIsGood:
 	.string "Hmm!\n"
-	.string "A GOOD ROD is really good!\p"
+	.string "A Good Rod is really good!\p"
 	.string "Wouldn't you agree?$"
 
 Route118_Text_IdenticalMindsTakeThis:
 	.string "Hmm!\n"
 	.string "We're of identical minds!\p"
 	.string "Hmm!\n"
-	.string "Take this GOOD ROD!$"
+	.string "Take this Good Rod!$"
 
 Route118_Text_TryYourLuckFishing:
 	.string "Wherever there's water, try your luck\n"
@@ -280,22 +280,22 @@ Route118_Text_TryYourLuckFishing:
 Route118_Text_DontYouLikeToFish:
 	.string "Don't you like to fish?$"
 
-Route118_Text_TryCatchingMonWithGoodRod:
+Route118_Text_TryCatchingMonWithGoodRod: @ 81F4331
 	.string "Try catching all sorts of Pokémon\n"
-	.string "with your GOOD ROD.$"
+	.string "with your Good Rod.$"
 
 Route118_Text_CanCrossRiversWithSurf:
 	.string "Even if there isn't a boat, you can\n"
 	.string "cross rivers and the sea if you have\l"
-	.string "a Pokémon that knows SURF.\p"
+	.string "a Pokémon that knows Surf.\p"
 	.string "Pokémon can be counted on to do so\n"
 	.string "much!$"
 
-Route118_Text_RouteSignMauville:
+Route118_Text_RouteSignMauville: @ 81F43F4
 	.string "Route 118\n"
-	.string "{LEFT_ARROW} MAUVILLE City$"
+	.string "{LEFT_ARROW} Mauville City$"
 
-Route118_Text_RouteSign119:
+Route118_Text_RouteSign119: @ 81F440E
 	.string "Route 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string "{UP_ARROW} Route 119$"
 

@@ -1,14 +1,14 @@
-Text_PictureBookShelf:
+Text_PictureBookShelf: @ 82A81E5
 	.string "There's a set of Pokémon picture books.$"
 
 Text_BookShelf:
 	.string "It's filled with all sorts of books.$"
 
-Text_PokemonCenterBookShelf:
+Text_PokemonCenterBookShelf: @ 82A8232
 	.string "Pokémon magazines!\n"
-	.string "Pokémon PAL…\p"
-	.string "Pokémon HANDBOOK…\n"
-	.string "ADORABLE Pokémon…$"
+	.string "Pokémon Pal…\p"
+	.string "Pokémon Handbook…\n"
+	.string "Adorable Pokémon…$"
 
 Text_Vase:
 	.string "This vase looks expensive…\n"

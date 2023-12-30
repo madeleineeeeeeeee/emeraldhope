@@ -73,7 +73,7 @@ Route102_EventScript_Allen::
 	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route102_Text_WatchMeCatchPokemon:
+Route102_Text_WatchMeCatchPokemon: @ 81EC1F8
 	.string "Wally: {PLAYER}…\n"
 	.string "Pokémon hide in tall grass like this,\l"
 	.string "don't they?\p"
@@ -81,7 +81,7 @@ Route102_Text_WatchMeCatchPokemon:
 	.string "catch one properly.\p"
 	.string "…Whoa!$"
 
-Route102_Text_WallyIDidIt:
+Route102_Text_WallyIDidIt: @ 81EC271
 	.string "Wally: I did it… It's my…\n"
 	.string "My Pokémon!$"
 

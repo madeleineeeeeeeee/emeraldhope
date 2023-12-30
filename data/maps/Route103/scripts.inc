@@ -500,11 +500,11 @@ Route103_EventScript_Isabelle::
 Route103_Text_MayRoute103Pokemon:
 	.string "May: Let's see… The Pokémon found\n"
 	.string "on each route number…\l"
-	.string "About ten per route?\p"
+	.string "About seven per route?\p"
 	.string "But the Pokémon in that forest\n"
 	.string "are different than the Pokémon\l"
 	.string "outside of it!\p"
-	.string "Maybe it's ten per section…$"
+	.string "Maybe it's seven per section…$"
 
 Route103_Text_MayLetsBattle:
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
@@ -519,7 +519,7 @@ Route103_Text_MayDefeated:
 	.string "Wow! That's great!\n"
 	.string "{PLAYER}{KUN}, you're pretty good!$"
 
-Route103_Text_MayTimeToHeadBack:
+Route103_Text_MayTimeToHeadBack: @ 81EC8AE
 	.string "May: I think I know why my dad has\n"
 	.string "an eye out for you now.\p"
 	.string "I mean, you just got that Pokémon,\n"
@@ -565,10 +565,10 @@ Route103_Text_ShouldHaveBroughtPotion:
 
 Route103_Text_ShortcutToOldale:
 	.string "If you cross the sea from here,\n"
-	.string "it'll be a shortcut to OLDALE Town.\p"
+	.string "it'll be a shortcut to Oldale Town.\p"
 	.string "Fufufu, that's useful, isn't it?$"
 
-Route103_Text_RouteSign:
+Route103_Text_RouteSign: @ 81ECC1A
 	.string "Route 103\n"
-	.string "{DOWN_ARROW} OLDALE Town$"
+	.string "{DOWN_ARROW} Oldale Town$"
 

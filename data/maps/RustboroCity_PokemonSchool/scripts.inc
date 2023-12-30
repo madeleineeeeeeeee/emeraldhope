@@ -284,6 +284,7 @@ RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
 	.string "every turn.\p"
 	.string "There are many other items that are\n"
 	.string "meant to be held by Pokémon.\p"
+	.string "meant to be held by Pokémon.\p"
 	.string "Just those alone will give you many\n"
 	.string "topics to study!$"
 

@@ -364,11 +364,11 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "Well, I've got things to do.\n"
 	.string "See you later, {PLAYER}!$"
 
-RivalsHouse_2F_Text_BrendanGettingReady:
+RivalsHouse_2F_Text_BrendanGettingReady: @ 81F9962
 	.string "Pokémon fully restored…\n"
 	.string "Items all packed, and…$"
 
-RivalsHouse_2F_Text_ItsRivalsPokeBall:
+RivalsHouse_2F_Text_ItsRivalsPokeBall: @ 81F9991
 	.string "It's {RIVAL}'s Poké Ball!\p"
 	.string "Better leave it right where it is.$"
 

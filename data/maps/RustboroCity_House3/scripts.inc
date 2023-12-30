@@ -33,5 +33,11 @@ RustboroCity_House3_Text_NamingPikachuPekachu:
 	.string "that's easy to understand, but…$"
 
 RustboroCity_House3_Text_Pekachu:
-	.string "Pekachu: …$"
+	.string "Pekachu: …\n"
+	.string "…\l"
+	.string "…\l"
+	.string "…\l"
+	.string "…\l"
+	.string "…\l"
+	.string ".$"
 

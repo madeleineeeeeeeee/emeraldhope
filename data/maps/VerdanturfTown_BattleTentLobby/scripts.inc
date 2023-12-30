@@ -332,7 +332,7 @@ VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves:
 	.string "a Pokémon will be reluctant to use it.\p"
 	.string "It doesn't matter how strong it is,\n"
 	.string "either.\p"
-	.string "For example, a Pokémon with a GENTLE\n"
+	.string "For example, a Pokémon with a Gentle\n"
 	.string "nature probably won't enjoy hurting\l"
 	.string "its opponents.\p"
 	.string "If it can't seem to live up to its\n"
@@ -346,7 +346,7 @@ VerdanturfTown_BattleTentLobby_Text_GentleMonsScaryIfAngry:
 	.string "I bet a gentle Pokémon will be scary\n"
 	.string "if it gets angry!$"
 
-VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep:
+VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep: @ 8201D9E
 	.string "My feelings toward my Pokémon…\n"
 	.string "The attraction runs deep…\p"
 	.string "Oh, hi, you didn't see that, did you?\n"
@@ -354,7 +354,7 @@ VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep:
 	.string "How would you like this TM for\n"
 	.string "your Pokémon?$"
 
-VerdanturfTown_BattleTentLobby_Text_AttractionMutual:
+VerdanturfTown_BattleTentLobby_Text_AttractionMutual: @ 8201E43
 	.string "My feelings toward my Pokémon…\n"
 	.string "I'm sure the attraction is mutual!\p"
 	.string "They battle exactly the way I want\n"
@@ -367,17 +367,17 @@ VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
 	.string "an advantage if they knew how to\l"
 	.string "heal or protect themselves.$"
 
-VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
-	.string "SCOTT: Hey there, {PLAYER}{KUN}!\n"
+VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers: @ 8201F3F
+	.string "Scott: Hey there, {PLAYER}{KUN}!\n"
 	.string "I thought I might see you here.\p"
-	.string "A BATTLE TENT's a place where\n"
-	.string "you can meet tough TRAINERS.\p"
+	.string "A Battle Tent's a place where\n"
+	.string "you can meet tough Trainers.\p"
 	.string "It doesn't matter what the rules are,\n"
 	.string "or how battles are waged, either.\p"
 	.string "{PLAYER}{KUN}, I expect you to do\n"
 	.string "the best you can!$"
 
-VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
-	.string "SCOTT: I visit here regularly in hopes\n"
-	.string "of seeing tough TRAINERS in action\l"
+VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly: @ 8202025
+	.string "Scott: I visit here regularly in hopes\n"
+	.string "of seeing tough Trainers in action\l"
 	.string "in whatever the situation.$"

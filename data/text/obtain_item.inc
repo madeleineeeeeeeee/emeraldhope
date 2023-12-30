@@ -1,12 +1,12 @@
 gText_ObtainedTheItem::
 	.string "Obtained the {STR_VAR_2}!$"
 
-gText_TheBagIsFull::
+gText_TheBagIsFull:: @ 8272A89
 	.string "The Bag is full…$"
 
 gText_PutItemInPocket::
 	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the {STR_VAR_3} POCKET.$"
+	.string "in the {STR_VAR_3} Pocket.$"
 
 gText_PlayerFoundOneItem::
 	.string "{PLAYER} found one {STR_VAR_2}!$"

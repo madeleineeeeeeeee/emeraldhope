@@ -225,12 +225,12 @@ BerryTree_Text_PickedTheBerry:
 
 BerryTree_Text_PutAwayBerry:
 	.string "{PLAYER} put away the {STR_VAR_1}\n"
-	.string "in the Bag's BERRIES POCKET.\p"
+	.string "in the Bag's Berries Pocket.\p"
 	.string "The soil returned to its soft and\n"
 	.string "loamy state.$"
 
-BerryTree_Text_BerryPocketFull:
-	.string "The Bag's BERRIES POCKET is full.\p"
+BerryTree_Text_BerryPocketFull: @ 827468F
+	.string "The Bag's Berries Pocket is full.\p"
 	.string "The {STR_VAR_1} couldn't be taken.$"
 
 BerryTree_Text_BerryLeftUnpicked:
@@ -239,7 +239,7 @@ BerryTree_Text_BerryLeftUnpicked:
 
 BerryTree_Text_WantToWater:
 	.string "Want to water the {STR_VAR_1} with the\n"
-	.string "WAILMER PAIL?$"
+	.string "Wailmer Pail?$"
 
 BerryTree_Text_WateredTheBerry:
 	.string "{PLAYER} watered the {STR_VAR_1}.$"

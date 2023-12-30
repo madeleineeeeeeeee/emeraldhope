@@ -210,21 +210,21 @@ Route119_WeatherInstitute_2F_EventScript_WeatherScientist::
 	goto Route119_WeatherInstitute_2F_EventScript_ReceiveCastform
 	end
 
-Route119_WeatherInstitute_2F_Text_Grunt2Intro:
-	.string "The INSTITUTE created a type of\n"
+Route119_WeatherInstitute_2F_Text_Grunt2Intro: @ 827019C
+	.string "The Institute created a type of\n"
 	.string "Pokémon that has something to do with\l"
 	.string "the weather. We're here to take them!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt2Defeat:
 	.string "Our plan's being spoiled by a kid?$"
 
-Route119_WeatherInstitute_2F_Text_Grunt2PostBattle:
+Route119_WeatherInstitute_2F_Text_Grunt2PostBattle: @ 827022B
 	.string "If the Pokémon they made here can\n"
 	.string "control the weather freely, then we of\l"
-	.string "TEAM AQUA definitely need it!$"
+	.string "Team Aqua definitely need it!$"
 
-Route119_WeatherInstitute_2F_Text_Grunt3Intro:
-	.string "We're TEAM AQUA!\n"
+Route119_WeatherInstitute_2F_Text_Grunt3Intro: @ 8270292
+	.string "We're Team Aqua!\n"
 	.string "We appear wherever anything rare is\l"
 	.string "found!$"
 
@@ -233,7 +233,7 @@ Route119_WeatherInstitute_2F_Text_Grunt3Defeat:
 
 Route119_WeatherInstitute_2F_Text_Grunt3PostBattle:
 	.string "You don't have any idea what we of\n"
-	.string "TEAM AQUA are working towards!\l"
+	.string "Team Aqua are working towards!\l"
 	.string "You stay out of our way!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Intro:
@@ -242,7 +242,7 @@ Route119_WeatherInstitute_2F_Text_Grunt5Intro:
 	.string "That's a no-no!\n"
 	.string "We were here to get it first!$"
 
-Route119_WeatherInstitute_2F_Text_Grunt5Defeat:
+Route119_WeatherInstitute_2F_Text_Grunt5Defeat: @ 827039F
 	.string "Oh, will you look at my Pokémon?$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
@@ -253,7 +253,7 @@ Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
 	.string "Ahahahaha!\p"
-	.string "You're going to meddle in TEAM AQUA's\n"
+	.string "You're going to meddle in Team Aqua's\n"
 	.string "affairs?\p"
 	.string "You're either absolutely fearless,\n"
 	.string "simply ignorant, or both!\p"
@@ -264,25 +264,25 @@ Route119_WeatherInstitute_2F_Text_ShellyDefeat:
 	.string "Ahahahaha!\n"
 	.string "You're disgustingly strong!$"
 
-Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
-	.string "It's bad enough to have TEAM MAGMA\n"
+Route119_WeatherInstitute_2F_Text_ShellyPostBattle: @ 82704E4
+	.string "It's bad enough to have Team Magma\n"
 	.string "blunder about, but now there's you!\p"
 	.string "What makes you want to sniff around\n"
 	.string "in our business, anyway?$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 	.string "We have a situation here!\p"
-	.string "A TEAM MAGMA mob just passed\n"
-	.string "the WEATHER INSTITUTE.\p"
+	.string "A Team Magma mob just passed\n"
+	.string "the Weather Institute.\p"
 	.string "They appear to be headed for\n"
-	.string "MT. PYRE!$"
+	.string "Mt. Pyre!$"
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "What?!\p"
 	.string "We can't waste any more time here!\n"
-	.string "We have to hurry to MT. PYRE, too!\p"
+	.string "We have to hurry to Mt. Pyre, too!\p"
 	.string "Ahahahaha!\n"
-	.string "TEAM MAGMA, just you wait!$"
+	.string "Team Magma, just you wait!$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
 	.string "Thanks!\n"
@@ -295,14 +295,14 @@ Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
 	.string "Hm? You don't seem to have any room\n"
 	.string "for this Pokémon.$"
 
-Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
-	.string "{PLAYER} received CASTFORM!$"
+Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform: @ 82706E8
+	.string "{PLAYER} received Castform!$"
 
-Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
+Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather: @ 82706FE
 	.string "That Pokémon changes shape according\n"
 	.string "to the weather conditions.\p"
 	.string "There're plenty of them in the\n"
-	.string "INSTITUTE--go ahead and take it.$"
+	.string "Institute--go ahead and take it.$"
 
 Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
 	.string "I've been researching rain for many\n"

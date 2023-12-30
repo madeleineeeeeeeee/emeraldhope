@@ -298,6 +298,7 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "{PLAYER}, your room is upstairs.\n"
 	.string "Go check it out, dear!\p"
 	.string "Dad bought you a new clock to mark\n"
+	.string "Dad bought you a new clock to mark\n"
 	.string "our move here.\l"
 	.string "Don't forget to set it!$"
 
@@ -327,6 +328,8 @@ PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "Oh, yes.\n"
 	.string "One of Dad's friends lives in town.\p"
 	.string "Prof. Birch is his name.\p"
+	.string "One of Dad's friends lives in town.\p"
+	.string "Prof. Birch is his name.\p"
 	.string "He lives right next door, so you should\n"
 	.string "go over and introduce yourself.$"
 
@@ -345,8 +348,8 @@ PlayersHouse_1F_Text_YouShouldRestABit:
 PlayersHouse_1F_Text_TakeCareHoney:
 	.string "Mom: Take care, honey!$"
 
-PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
-	.string "Mom: Oh? Did Dad give you that BADGE?\p"
+PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom: @ 81F7D73
+	.string "Mom: Oh? Did Dad give you that Badge?\p"
 	.string "Then here's something from your Mom!$"
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard:
@@ -354,16 +357,16 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard:
 	.string "You can always come home.\p"
 	.string "Go for it, honey!$"
 
-PlayersHouse_1F_Text_IsThatAPokenav:
-	.string "Mom: What is that, honey? A POKéNAV?\n"
-	.string "Someone from DEVON gave it to you?\p"
+PlayersHouse_1F_Text_IsThatAPokenav: @ 81F7E0E
+	.string "Mom: What is that, honey? A Pokénav?\n"
+	.string "Someone from Devon gave it to you?\p"
 	.string "Well, honey, how about registering\n"
 	.string "your mom?\p"
 	.string "… … …$"
 
-PlayersHouse_1F_Text_RegisteredMom:
+PlayersHouse_1F_Text_RegisteredMom: @ 81F7E89
 	.string "Registered Mom\n"
-	.string "in the POKéNAV.$"
+	.string "in the Pokénav.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
 	.string "Fugiiiiih!$"
@@ -371,8 +374,8 @@ PlayersHouse_1F_Text_Vigoroth1:
 PlayersHouse_1F_Text_Vigoroth2:
 	.string "Huggoh, uggo uggo…$"
 
-PlayersHouse_1F_Text_ReportFromPetalburgGym:
-	.string "INTERVIEWER: …We brought you this\n"
+PlayersHouse_1F_Text_ReportFromPetalburgGym: @ 81F7EC6
+	.string "Interviewer: …We brought you this\n"
 	.string "report from in front of Petalburg Gym.$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
@@ -389,7 +392,7 @@ PlayersHouse_1F_Text_RunningShoesManual:
 	.string "“Lace up your Running Shoes and hit\n"
 	.string "the road running!”$"
 
-PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
+PlayersHouse_1F_Text_TicketFromBrineyCameForYou: @ 81F800E
 	.string "Dad: Hm?\p"
 	.string "Hey, it's {PLAYER}!\p"
 	.string "It's been a while since I saw you,\n"
@@ -398,43 +401,43 @@ PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "But your old man hasn't given up yet!\p"
 	.string "Oh, yes, I have something for you.\n"
 	.string "This came to you from someone named\l"
-	.string "MR. BRINEY.$"
+	.string "Mr. Briney.$"
 
-PlayersHouse_1F_Text_PortsInSlateportLilycove:
-	.string "Dad: Hm, a TICKET for a ferry?\p"
+PlayersHouse_1F_Text_PortsInSlateportLilycove: @ 81F80FE
+	.string "Dad: Hm, a Ticket for a ferry?\p"
 	.string "If I recall, there are ferry ports in\n"
-	.string "SLATEPORT and LILYCOVE.$"
+	.string "Slateport and Lilycove.$"
 
-PlayersHouse_1F_Text_BetterGetBackToGym:
+PlayersHouse_1F_Text_BetterGetBackToGym: @ 81F815B
 	.string "I'd better get back to Petalburg Gym.\p"
 	.string "Mom, thanks for looking after the house\n"
 	.string "while I'm away.$"
 
-PlayersHouse_1F_Text_DadShouldStayLonger:
+PlayersHouse_1F_Text_DadShouldStayLonger: @ 81F81B9
 	.string "Mom: That Dad of yours…\p"
 	.string "He comes home for the first time in a\n"
 	.string "while, but all he talks about is Pokémon.\p"
 	.string "He should relax and stay a little longer.$"
 
-PlayersHouse_1F_Text_IsThatABreakingStory:
+PlayersHouse_1F_Text_IsThatABreakingStory: @ 81F824B
 	.string "Mom: Is that a breaking news story?$"
 
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 	.string "We bring you this emergency\n"
 	.string "news flash!\p"
 	.string "In various Hoenn locales, there have\n"
-	.string "been reports of a BZZT…colored\l"
+	.string "been reports of a Bzzt…colored\l"
 	.string "Pokémon in flight.\p"
 	.string "The identity of this Pokémon is\n"
 	.string "currently unknown.\p"
 	.string "We now return you to the regular\n"
 	.string "movie program.$"
 
-PlayersHouse_1F_Text_WhatColorDidTheySay:
+PlayersHouse_1F_Text_WhatColorDidTheySay: @ 81F8351
 	.string "Mom: {PLAYER}, did you catch that?\p"
 	.string "What color did the announcer say\n"
 	.string "that Pokémon was?$"
 
-PlayersHouse_1F_Text_StillUnknownPokemon:
+PlayersHouse_1F_Text_StillUnknownPokemon: @ 81F83A1
 	.string "Mom: Well, isn't that something!\n"
 	.string "There are still unknown Pokémon.$"

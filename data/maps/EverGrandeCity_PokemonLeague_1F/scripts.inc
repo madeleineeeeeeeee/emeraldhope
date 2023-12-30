@@ -122,19 +122,19 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	walk_in_place_faster_down
 	step_end
 
-EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
-	.string "Beyond this point, only those TRAINERS\n"
-	.string "who have collected all the Gym BADGES\l"
+EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges: @ 82296E8
+	.string "Beyond this point, only those Trainers\n"
+	.string "who have collected all the Gym Badges\l"
 	.string "are permitted to enter.\p"
-	.string "TRAINER, let us confirm that you have\n"
-	.string "all the Gym BADGES.$"
+	.string "Trainer, let us confirm that you have\n"
+	.string "all the Gym Badges.$"
 
-EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
-	.string "You haven't obtained all the BADGES.\p"
+EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges: @ 8229787
+	.string "You haven't obtained all the Badges.\p"
 	.string "If you're bound for the Pokémon\n"
-	.string "LEAGUE, you must return with them.$"
+	.string "League, you must return with them.$"
 
-EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-	.string "TRAINER! Believe in yourself and your\n"
+EverGrandeCity_PokemonLeague_1F_Text_GoForth: @ 82297EF
+	.string "Trainer! Believe in yourself and your\n"
 	.string "Pokémon, and go forth!$"
 

@@ -221,20 +221,20 @@ OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
 	.string "Naturally, that means you're welcome\n"
 	.string "to use it, too.$"
 
-OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
-	.string "Pokémon CenterS are great!\p"
+OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat: @ 81FC0CD
+	.string "Pokémon Centers are great!\p"
 	.string "You can use their services as much\n"
 	.string "as you like, and it's all for free.\l"
 	.string "You never have to worry!$"
 
-OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable:
-	.string "The Pokémon WIRELESS CLUB on\n"
+OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable: @ 81FC148
+	.string "The Pokémon Wireless Club on\n"
 	.string "the second floor was built recently.\p"
 	.string "But they say they're still making\n"
 	.string "adjustments.$"
 
-OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
-	.string "The Pokémon WIRELESS CLUB on\n"
+OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub: @ 81FC1B9
+	.string "The Pokémon Wireless Club on\n"
 	.string "the second floor was built recently.\p"
 	.string "I traded Pokémon right away.$"
 

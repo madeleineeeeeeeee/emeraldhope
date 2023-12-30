@@ -704,7 +704,7 @@ PetalburgCity_EventScript_GymBoy::
 	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC
 	end
 
-PetalburgCity_Text_WhereIsWally:
+PetalburgCity_Text_WhereIsWally: @ 81DC837
 	.string "Where has our Wally gone?\p"
 	.string "We have to leave for Verdanturf Town\n"
 	.string "very soon…$"
@@ -717,10 +717,10 @@ PetalburgCity_Text_AreYouRookieTrainer:
 	.string "They first check what kind of Gym\n"
 	.string "is in the town.$"
 
-PetalburgCity_Text_ThisIsPetalburgGym:
+PetalburgCity_Text_ThisIsPetalburgGym: @ 81DC91B
 	.string "See? This is Petalburg City's Gym.$"
 
-PetalburgCity_Text_ThisIsGymSign:
+PetalburgCity_Text_ThisIsGymSign: @ 81DC93E
 	.string "This is the Gym's sign. Look for it\n"
 	.string "whenever you're looking for a Gym.$"
 
@@ -731,22 +731,22 @@ PetalburgCity_Text_WaterReflection:
 	.string "struggling with fear…\p"
 	.string "What do you see reflected in your face?$"
 
-PetalburgCity_Text_FullPartyExplanation:
+PetalburgCity_Text_FullPartyExplanation: @ 81DCA30
 	.string "Let's say you have six Pokémon.\n"
 	.string "If you catch another one…\p"
 	.string "It is automatically sent to a Storage\n"
-	.string "BOX over a PC connection.$"
+	.string "Box over a PC connection.$"
 
-PetalburgCity_Text_GymSign:
+PetalburgCity_Text_GymSign: @ 81DCAAA
 	.string "Petalburg City Pokémon Gym\n"
 	.string "Leader: Norman\l"
 	.string "“A man in pursuit of power!”$"
 
-PetalburgCity_Text_CitySign:
+PetalburgCity_Text_CitySign: @ 81DCAF1
 	.string "Petalburg City\n"
 	.string "“Where people mingle with nature.”$"
 
-PetalburgCity_Text_WallyHouseSign:
+PetalburgCity_Text_WallyHouseSign: @ 81DCB23
 	.string "Wally's House$"
 
 PetalburgCity_Text_AreYouATrainer:

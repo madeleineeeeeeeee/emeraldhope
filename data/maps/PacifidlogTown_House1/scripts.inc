@@ -9,7 +9,7 @@ PacifidlogTown_House1_EventScript_Woman::
 	msgbox PacifidlogTown_House1_Text_SixDotsOpenThreeDoors, MSGBOX_NPC
 	end
 
-PacifidlogTown_House1_Text_RegiStory:
+PacifidlogTown_House1_Text_RegiStory: @ 820366F
 	.string "In the Hoenn region, there are three\n"
 	.string "Pokémon that represent the power of\l"
 	.string "rock, ice, and steel.\p"

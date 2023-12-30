@@ -67,7 +67,7 @@ MtPyre_3F_Text_GabrielleDefeat:
 	.string "That was amazing!\n"
 	.string "You're a very special Trainer.$"
 
-MtPyre_3F_Text_GabriellePostBattle:
+MtPyre_3F_Text_GabriellePostBattle: @ 823199B
 	.string "Pokémon no longer of this world.\n"
 	.string "Pokémon that are with you now.\p"
 	.string "And the Pokémon that you will meet\n"
@@ -75,10 +75,10 @@ MtPyre_3F_Text_GabriellePostBattle:
 	.string "They are all to be equally cherished.\n"
 	.string "Please remember that.$"
 
-MtPyre_3F_Text_GabrielleRegister:
+MtPyre_3F_Text_GabrielleRegister: @ 8231A49
 	.string "I would like to see your Pokémon\n"
 	.string "when they grow up some more…\p"
-	.string "Please, I need to see your POKéNAV.$"
+	.string "Please, I need to see your Pokénav.$"
 
 MtPyre_3F_Text_GabrielleRematchIntro:
 	.string "Oh, it's you…\p"
@@ -89,7 +89,7 @@ MtPyre_3F_Text_GabrielleRematchDefeat:
 	.string "How amazing!\n"
 	.string "You are a special person.$"
 
-MtPyre_3F_Text_GabriellePostRematch:
+MtPyre_3F_Text_GabriellePostRematch: @ 8231B0D
 	.string "Pokémon no longer of this world.\n"
 	.string "Pokémon that are with you now.\p"
 	.string "And the Pokémon that you will meet\n"

@@ -62,7 +62,7 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu::
 	release
 	end
 
-VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou:
+VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou: @ 82030ED
 	.string "Let me see your Pokémon.\n"
 	.string "I'll check to see how much it likes you.\p"
 	.string "Oh.\n"
@@ -99,6 +99,6 @@ VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
 	.string "Your Pokémon simply detests you.\n"
 	.string "Doesn't that make you uncomfortable?$"
 
-VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
-	.string "PIKACHU: Pika pika!$"
+VerdanturfTown_FriendshipRatersHouse_Text_Pikachu: @ 820334A
+	.string "Pikachu: Pika pika!$"
 

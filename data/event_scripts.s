@@ -843,28 +843,28 @@ gText_PokemartSign::
 
 gText_PokemonCenterSign::
 	.string "“Rejuvenate your tired partners!”\n"
-	.string "Pokémon Center$"
+	.string "POKéMON CENTER$"
 
 gText_MomOrDadMightLikeThisProgram::
 	.string "{STR_VAR_1} might like this program.\n"
 	.string "… … … … … … … … … … … … … … … …\p"
 	.string "Better get going!$"
 
-gText_WhichFloorWouldYouLike::
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.\p"
+gText_WhichFloorWouldYouLike:: @ 8272C1D
+	.string "Welcome to Lilycove Department Store.\p"
 	.string "Which floor would you like?$"
 
 gText_SandstormIsVicious::
 	.string "The sandstorm is vicious.\n"
 	.string "It's impossible to keep going.$"
 
-gText_SelectWithoutRegisteredItem::
+gText_SelectWithoutRegisteredItem:: @ 8272C98
 	.string "An item in the Bag can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "registered to Select for easy use.$"
 
-gText_PokemonTrainerSchoolEmail::
-	.string "There's an e-mail from Pokémon TRAINER\n"
-	.string "SCHOOL.\p"
+gText_PokemonTrainerSchoolEmail:: @ 8272CD5
+	.string "There's an e-mail from Pokémon Trainer\n"
+	.string "School.\p"
 	.string "… … … … … …\p"
 	.string "A Pokémon may learn up to four moves.\p"
 	.string "A Trainer's expertise is tested on the\n"
@@ -887,21 +887,21 @@ gText_PlayerWhitedOut::
 
 gText_RegisteredTrainerinPokeNav::
 	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéNAV.$"
+	.string "in the Pokénav.$"
 
-gText_ComeBackWithSecretPower::
-	.string "Do you know the TM SECRET POWER?\p"
-	.string "Our group, we love the TM SECRET\n"
-	.string "POWER.\p"
+gText_ComeBackWithSecretPower:: @ 8272E30
+	.string "Do you know the TM Secret Power?\p"
+	.string "Our group, we love the TM Secret\n"
+	.string "Power.\p"
 	.string "One of our members will give it to you.\n"
 	.string "Come back and show me if you get it.\p"
 	.string "We'll accept you as a member and sell\n"
 	.string "you good stuff in secrecy.$"
 
-gText_PokerusExplanation::
+gText_PokerusExplanation:: @ 8272F07
 	.string "Your Pokémon may be infected with\n"
-	.string "POKéRUS.\p"
-	.string "Little is known about the POKéRUS\n"
+	.string "Pokérus.\p"
+	.string "Little is known about the Pokérus\n"
 	.string "except that they are microscopic life-\l"
 	.string "forms that attach to Pokémon.\p"
 	.string "While infected, Pokémon are said to\n"
@@ -918,7 +918,7 @@ gText_BigHoleInTheWall::
 
 gText_SorryWirelessClubAdjustments::
 	.string "I'm terribly sorry.\n"
-	.string "The Pokémon WIRELESS CLUB is\l"
+	.string "The Pokémon Wireless Club is\l"
 	.string "undergoing adjustments now.$"
 
 gText_UndergoingAdjustments::
@@ -926,13 +926,13 @@ gText_UndergoingAdjustments::
 	.string "adjustments…$"
 
 @ Unused
-gText_SorryTradeCenterInspections::
-	.string "I'm terribly sorry. The TRADE Center\n"
+gText_SorryTradeCenterInspections:: @ 82730E5
+	.string "I'm terribly sorry. The Trade Center\n"
 	.string "is undergoing inspections.$"
 
 @ Unused
-gText_SorryRecordCornerPreparation::
-	.string "I'm terribly sorry. The RECORD CORNER\n"
+gText_SorryRecordCornerPreparation:: @ 8273125
+	.string "I'm terribly sorry. The Record Corner\n"
 	.string "is under preparation.$"
 
 gText_PlayerHandedOverTheItem::
@@ -941,7 +941,7 @@ gText_PlayerHandedOverTheItem::
 
 gText_ThankYouForAccessingMysteryGift::
 	.string "Thank you for accessing the\n"
-	.string "MYSTERY GIFT System.$"
+	.string "Mystery Gift System.$"
 
 gText_PlayerFoundOneTMHM::
 	.string "{PLAYER} found one {STR_VAR_1}\n"
@@ -949,7 +949,7 @@ gText_PlayerFoundOneTMHM::
 
 gText_Sudowoodo_Attacked::
 	.string "The weird tree doesn't like the\n"
-	.string "WAILMER PAIL!\p"
+	.string "Wailmer Pail!\p"
 	.string "The weird tree attacked!$"
 
 gText_LegendaryFlewAway::

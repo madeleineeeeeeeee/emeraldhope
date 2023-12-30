@@ -28,19 +28,19 @@ VictoryRoad_B1F_EventScript_Halle::
 
 VictoryRoad_B1F_Text_SamuelIntro:
 	.string "The thought that I'm getting closer to\n"
-	.string "the Pokémon LEAGUE…\p"
+	.string "the Pokémon League…\p"
 	.string "I'm getting stage fright…$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:
 	.string "I couldn't do a thing…$"
 
-VictoryRoad_B1F_Text_SamuelPostBattle:
-	.string "The Pokémon LEAGUE became distant\n"
+VictoryRoad_B1F_Text_SamuelPostBattle: @ 82365C4
+	.string "The Pokémon League became distant\n"
 	.string "again… What a letdown…$"
 
-VictoryRoad_B1F_Text_ShannonIntro:
+VictoryRoad_B1F_Text_ShannonIntro: @ 82365FD
 	.string "To win your way through the Pokémon\n"
-	.string "LEAGUE, you need the trust of your\l"
+	.string "League, you need the trust of your\l"
 	.string "Pokémon.$"
 
 VictoryRoad_B1F_Text_ShannonDefeat:
@@ -49,11 +49,11 @@ VictoryRoad_B1F_Text_ShannonDefeat:
 
 VictoryRoad_B1F_Text_ShannonPostBattle:
 	.string "By being together all the time, trust\n"
-	.string "grows between Pokémon and TRAINERS.$"
+	.string "grows between Pokémon and Trainers.$"
 
 VictoryRoad_B1F_Text_MichelleIntro:
 	.string "This isn't the goal. It's only a place\n"
-	.string "on the way to the Pokémon LEAGUE.$"
+	.string "on the way to the Pokémon League.$"
 
 VictoryRoad_B1F_Text_MichelleDefeat:
 	.string "That's the way!$"
@@ -62,7 +62,7 @@ VictoryRoad_B1F_Text_MichellePostBattle:
 	.string "You'll do fine, for sure!\n"
 	.string "Your Pokémon are all eager to go!$"
 
-VictoryRoad_B1F_Text_MitchellIntro:
+VictoryRoad_B1F_Text_MitchellIntro: @ 8236757
 	.string "My Pokémon are cosmically\n"
 	.string "awe inspiring!$"
 
@@ -82,8 +82,8 @@ VictoryRoad_B1F_Text_HalleDefeat:
 	.string "Whoa!\n"
 	.string "Wonderful!$"
 
-VictoryRoad_B1F_Text_HallePostBattle:
-	.string "Sure, this is VICTORY ROAD.\p"
+VictoryRoad_B1F_Text_HallePostBattle: @ 823684C
+	.string "Sure, this is Victory Road.\p"
 	.string "But it's not all that different from\n"
 	.string "the path you've taken so far.\p"
 	.string "Try to enjoy things the rest of\n"

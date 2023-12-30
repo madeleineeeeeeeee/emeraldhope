@@ -114,9 +114,9 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 	.string "our PokéNavs.\p"
 	.string "… … … … … …$"
 
-GraniteCave_StevensRoom_Text_RegisteredSteven:
+GraniteCave_StevensRoom_Text_RegisteredSteven: @ 822DF6A
 	.string "Registered Steven\n"
-	.string "in the POKéNAV.$"
+	.string "in the Pokénav.$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
 	.string "Now, I've got to hurry along.$"
