@@ -15,7 +15,7 @@ Route104_EventScript_ItemPPUp::
 	end
 
 Route104_EventScript_ItemPokeBall::
-	finditem ITEM_POKE_BALL
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route104_EventScript_ItemXAccuracy::
@@ -115,7 +115,7 @@ Route115_EventScript_ItemIron::
 	end
 
 Route115_EventScript_ItemGreatBall::
-	finditem ITEM_GREAT_BALL
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route115_EventScript_ItemHealPowder::
@@ -147,7 +147,7 @@ Route116_EventScript_ItemPotion::
 	end
 
 Route117_EventScript_ItemGreatBall::
-	finditem ITEM_GREAT_BALL
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route117_EventScript_ItemRevive::
@@ -227,7 +227,7 @@ Route123_EventScript_ItemCalcium::
 	end
 
 Route123_EventScript_ItemUltraBall::
-	finditem ITEM_ULTRA_BALL
+	finditem ITEM_CHERISH_BALL
 	end
 
 Route123_EventScript_ItemElixir::
@@ -331,7 +331,7 @@ PetalburgWoods_EventScript_ItemXAttack::
 	end
 
 PetalburgWoods_EventScript_ItemGreatBall::
-	finditem ITEM_GREAT_BALL
+	finditem ITEM_CHERISH_BALL
 	end
 
 PetalburgWoods_EventScript_ItemEther::
@@ -343,7 +343,7 @@ PetalburgWoods_EventScript_ItemParalyzeHeal::
 	end
 
 RusturfTunnel_EventScript_ItemPokeBall::
-	finditem ITEM_POKE_BALL
+	finditem ITEM_CHERISH_BALL
 	end
 
 RusturfTunnel_EventScript_ItemMaxEther::
@@ -355,7 +355,7 @@ GraniteCave_1F_EventScript_ItemEscapeRope::
 	end
 
 GraniteCave_B1F_EventScript_ItemPokeBall::
-	finditem ITEM_POKE_BALL
+	finditem ITEM_CHERISH_BALL
 	end
 
 GraniteCave_B2F_EventScript_ItemRepel::
@@ -395,11 +395,11 @@ MeteorFalls_1F_1R_EventScript_ItemPPUP::
 	end
 
 MeteorFalls_B1F_2R_EventScript_ItemTMDragonClaw::
-	finditem ITEM_TM_DRAGON_CLAW
+	finditem ITEM_TM51
 	end
 
 NewMauville_Inside_EventScript_ItemUltraBall::
-	finditem ITEM_ULTRA_BALL
+	finditem ITEM_CHERISH_BALL
 	end
 
 NewMauville_Inside_EventScript_ItemEscapeRope::
@@ -483,7 +483,7 @@ SafariZone_Southeast_EventScript_ItemBigPearl::
 	end
 
 MtPyre_2F_EventScript_ItemUltraBall::
-	finditem ITEM_ULTRA_BALL
+	finditem ITEM_CHERISH_BALL
 	end
 
 MtPyre_3F_EventScript_ItemSuperRepel::

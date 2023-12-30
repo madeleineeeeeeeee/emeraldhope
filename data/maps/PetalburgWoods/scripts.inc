@@ -253,7 +253,7 @@ PetalburgWoods_EventScript_Girl::
 	faceplayer
 	goto_if_set FLAG_RECEIVED_MIRACLE_SEED, PetalburgWoods_EventScript_ExplainMiracleSeed
 	msgbox PetalburgWoods_Text_TryUsingThisItem, MSGBOX_DEFAULT
-	giveitem ITEM_MIRACLE_SEED
+	giveitem ITEM_TM02
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_MIRACLE_SEED
 	release
@@ -443,16 +443,14 @@ PetalburgWoods_Text_HiddenItemsExplanation:
 PetalburgWoods_Text_TryUsingThisItem:
 	.string "Oh, neat!\n"
 	.string "That's the Badge from Rustboro Gym!\p"
-	.string "You must be a Trainer.\n"
-	.string "You should try using this item.$"
+	.string "You must be a strong Trainer.\n"
+	.string "You should try using this TM.$"
 
 PetalburgWoods_Text_MiracleSeedExplanation: @ 822EB63
-	.string "It's a Miracle Seed.\n"
-	.string "If a Pokémon holds that item, its\l"
-	.string "Grass-type moves become stronger.\p"
-	.string "Besides Miracle Seed, I think there are\n"
-	.string "other convenient items for Pokémon\l"
-	.string "to hold.$"
+	.string "It's the TM for Dragon Claw, a\n"
+	.string "very powerful Dragon type move.\p"
+	.string "Dragon types are slow growers, but\n"
+	.string "that TM should help you along!$"
 
 PetalburgWoods_Text_TrainerTipsExperience: @ 822EC10
 	.string "Trainer Tips\p"
