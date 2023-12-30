@@ -1,7 +1,7 @@
-VerdanturfTown_Mart_MapScripts:: @ 8202586
+VerdanturfTown_Mart_MapScripts::
 	.byte 0
 
-VerdanturfTown_Mart_EventScript_Clerk:: @ 8202587
+VerdanturfTown_Mart_EventScript_Clerk::
 	lock
 	faceplayer
 	message gText_HowMayIServeYou
@@ -12,49 +12,54 @@ VerdanturfTown_Mart_EventScript_Clerk:: @ 8202587
 	end
 
 	.align 2
-VerdanturfTown_Mart_Pokemart: @ 82025A0
+VerdanturfTown_Mart_Pokemart:
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_NEST_BALL
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
-	.2byte ITEM_BURN_HEAL
-	.2byte ITEM_ICE_HEAL
+	.2byte ITEM_ABILITY_CAPSULE
+	.2byte ITEM_ABILITY_PATCH
 	.2byte ITEM_REPEL
-	.2byte ITEM_X_SPECIAL
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_CHARCOAL
+	.2byte ITEM_MYSTIC_WATER
+	.2byte ITEM_MIRACLE_SEED
+	.2byte ITEM_SILK_SCARF
+	.2byte ITEM_HARD_STONE
+	.2byte ITEM_SOFT_SAND
+	.2byte ITEM_SHARP_BEAK
 	.2byte ITEM_FLUFFY_TAIL
 	.2byte ITEM_NONE
 	release
 	end
 
-VerdanturfTown_Mart_EventScript_Boy:: @ 82025BA
+VerdanturfTown_Mart_EventScript_Boy::
 	msgbox VerdanturfTown_Mart_Text_XSpecialIsCrucial, MSGBOX_NPC
 	end
 
-VerdanturfTown_Mart_EventScript_ExpertF:: @ 82025C3
+VerdanturfTown_Mart_EventScript_ExpertF::
 	msgbox VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent, MSGBOX_NPC
 	end
 
-VerdanturfTown_Mart_EventScript_Lass:: @ 82025CC
+VerdanturfTown_Mart_EventScript_Lass::
 	msgbox VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon, MSGBOX_NPC
 	end
 
-VerdanturfTown_Mart_Text_XSpecialIsCrucial: @ 82025D5
-	.string "For any Pokémon match, X Special\n"
+VerdanturfTown_Mart_Text_XSpecialIsCrucial:
+	.string "For any Pokémon match, X SPECIAL\n"
 	.string "is crucial.\p"
 	.string "It jacks up the power of some moves\n"
 	.string "even though it's only for one battle.$"
 
-VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent: @ 820264C
+VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
 	.string "They don't seem to sell any winning\n"
-	.string "strategy guides for the Battle Tent…\p"
+	.string "strategy guides for the BATTLE TENT…\p"
 	.string "It seems one must rely on one's\n"
 	.string "own wits after all…$"
 
-VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon: @ 82026C9
-	.string "The Nest Ball works better on\n"
+VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon:
+	.string "The NEST BALL works better on\n"
 	.string "weakened Pokémon.\p"
-	.string "Verdanturf is the only place you can\n"
+	.string "VERDANTURF is the only place you can\n"
 	.string "buy it.$"
 

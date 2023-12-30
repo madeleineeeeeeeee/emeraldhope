@@ -3,7 +3,6 @@ const struct PokedexEntry gPokedexEntries[] =
     [NATIONAL_DEX_NONE] =
     {
         .categoryName = _("Unknown"),
-        .categoryName = _("Unknown"),
         .height = 0,
         .weight = 0,
         .description = gDummyPokedexText,

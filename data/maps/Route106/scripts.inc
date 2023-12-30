@@ -57,11 +57,9 @@ Route106_EventScript_ExplainEscapeRope::
 
 
 Route106_Text_TrainerTips:
-	.string "Trainer Tips\p"
-	.string "Advice on catching Pokémon with a Rod:\n"
-	.string "Press the A Button if you get a bite.\p"
-	.string "There's three different Pokémon for\n"
-	.string "each kind of Rod available!$"
+	.string "TRAINER TIPS\p"
+	.string "Advice on catching Pokémon with a ROD:\n"
+	.string "Press the A Button if you get a bite.$"
 
 Route106_Text_ExplainEscapeRope:
 	.string "That's an Escape Rope; using it will\n"

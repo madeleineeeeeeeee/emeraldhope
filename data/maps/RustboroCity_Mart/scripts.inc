@@ -72,21 +72,21 @@ RustboroCity_Mart_EventScript_BugCatcher::
 	msgbox RustboroCity_Mart_Text_GettingEscapeRopeJustInCase, MSGBOX_NPC
 	end
 
-RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish: @ 8214F8F
-	.string "I'm buying some Cheri and\n"
-	.string "Pecha Berries.\p"
-	.string "Just in case I run into Shroomish\n"
-	.string "in Petalburg Woods.$"
+RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
+	.string "I'm buying some PARLYZ HEALS and\n"
+	.string "ANTIDOTES.\p"
+	.string "Just in case I run into SHROOMISH\n"
+	.string "in Petalburg WOODS.$"
 
-RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead: @ 8214FF1
+RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:
 	.string "My Pokémon evolved.\n"
 	.string "It has a lot of HP now.\p"
-	.string "I should buy Sitrus Berries for it\n"
-	.string "instead of Oran Berries.$"
+	.string "I should buy SUPER POTIONS for it\n"
+	.string "instead of ordinary POTIONS.$"
 
-RustboroCity_Mart_Text_GettingEscapeRopeJustInCase: @ 821505C
-	.string "Why don't they sell Escape Ropes\n"
-	.string "anymore?\p"
+RustboroCity_Mart_Text_GettingEscapeRopeJustInCase:
+	.string "I'm getting an ESCAPE ROPE just in\n"
+	.string "case I get lost in a cave.\p"
 	.string "I just need to use it to get back to\n"
 	.string "the entrance.$"
 

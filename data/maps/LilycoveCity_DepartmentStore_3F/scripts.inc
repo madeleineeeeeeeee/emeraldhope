@@ -58,19 +58,19 @@ LilycoveCity_DepartmentStore_3F_EventScript_Woman::
 	msgbox LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon, MSGBOX_NPC
 	end
 
-LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon: @ 821FCD1
+LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon:
 	.string "For quickly toughening up Pokémon,\n"
 	.string "items are the best.\p"
-	.string "Protein boosts Attack,\n"
-	.string "and Calcium raises Sp. Atk.$"
+	.string "PROTEIN boosts ATTACK,\n"
+	.string "and CALCIUM raises SP. ATK.$"
 
-LilycoveCity_DepartmentStore_3F_Text_WantMoreEndurance: @ 821FD3B
+LilycoveCity_DepartmentStore_3F_Text_WantMoreEndurance:
 	.string "I want my Pokémon to have more\n"
 	.string "endurance.\p"
 	.string "I'm trying to decide whether to raise\n"
-	.string "Defense with Iron, or Sp. Def with Zinc.$"
+	.string "DEFENSE with IRON, or SP. DEF with ZINC.$"
 
-LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon: @ 821FDB4
-	.string "I gave a Carbos to my Pokémon,\n"
-	.string "and its Speed went up.$"
+LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon:
+	.string "I gave a CARBOS to my Pokémon,\n"
+	.string "and its SPEED went up.$"
 

@@ -47,15 +47,15 @@ EventScript_CancelCut::
 
 Text_WantToCut:
 	.string "This tree looks like it can be\n"
-	.string "Cut down!\p"
-	.string "Would you like to Cut it?$"
+	.string "CUT down!\p"
+	.string "Would you like to CUT it?$"
 
 Text_MonUsedFieldMove:
 	.string "{STR_VAR_1} used {STR_VAR_2}!$"
 
 Text_CantCut:
 	.string "This tree looks like it can be\n"
-	.string "Cut down!$"
+	.string "CUT down!$"
 
 @ Interact with smashable rock
 EventScript_RockSmash::
@@ -115,9 +115,9 @@ EventScript_CancelSmash::
 
 Text_WantToSmash:
 	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use Rock Smash?$"
+	.string "Would you like to use ROCK SMASH?$"
 
-Text_CantSmash: @ 829087F
+Text_CantSmash:
 	.string "It's a rugged rock, but a Pokémon\n"
 	.string "may be able to smash it.$"
 
@@ -164,22 +164,22 @@ EventScript_CancelStrength::
 	releaseall
 	end
 
-Text_WantToStrength: @ 829092C
+Text_WantToStrength:
 	.string "It's a big boulder, but a Pokémon\n"
 	.string "may be able to push it aside.\p"
-	.string "Would you like to use Strength?$"
+	.string "Would you like to use STRENGTH?$"
 
-Text_MonUsedStrength: @ 829098C
-	.string "{STR_VAR_1} used Strength!\p"
-	.string "{STR_VAR_1}'s Strength made it\n"
+Text_MonUsedStrength:
+	.string "{STR_VAR_1} used STRENGTH!\p"
+	.string "{STR_VAR_1}'s STRENGTH made it\n"
 	.string "possible to move boulders around!$"
 
-Text_CantStrength: @ 82909D6
+Text_CantStrength:
 	.string "It's a big boulder, but a Pokémon\n"
 	.string "may be able to push it aside.$"
 
-Text_StrengthActivated: @ 8290A16
-	.string "Strength made it possible to move\n"
+Text_StrengthActivated:
+	.string "STRENGTH made it possible to move\n"
 	.string "boulders around.$"
 
 EventScript_UseWaterfall::
@@ -210,10 +210,10 @@ Text_CantWaterfall:
 
 Text_WantToWaterfall:
 	.string "It's a large waterfall.\n"
-	.string "Would you like to use Waterfall?$"
+	.string "Would you like to use WaterFALL?$"
 
-Text_MonUsedWaterfall: @ 8290AFC
-	.string "{STR_VAR_1} used Waterfall.$"
+Text_MonUsedWaterfall:
+	.string "{STR_VAR_1} used WaterFALL.$"
 
 EventScript_UseDive::
 	lockall
@@ -262,16 +262,16 @@ EventScript_EndSurface::
 	releaseall
 	end
 
-Text_CantDive: @ 8290BAA
+Text_CantDive:
 	.string "The sea is deep here. A Pokémon\n"
 	.string "may be able to go underwater.$"
 
 Text_WantToDive:
 	.string "The sea is deep here.\n"
-	.string "Would you like to use Dive?$"
+	.string "Would you like to use DIVE?$"
 
-Text_MonUsedDive: @ 8290C1A
-	.string "{STR_VAR_1} used Dive.$"
+Text_MonUsedDive:
+	.string "{STR_VAR_1} used DIVE.$"
 
 Text_CantSurface:
 	.string "Light is filtering down from above.\n"
@@ -279,7 +279,7 @@ Text_CantSurface:
 
 Text_WantToSurface:
 	.string "Light is filtering down from above.\n"
-	.string "Would you like to use Dive?$"
+	.string "Would you like to use DIVE?$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
