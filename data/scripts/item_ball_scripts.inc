@@ -666,3 +666,11 @@ LittleRoot_EventScript_ItemOranBerry::
 LittleRoot_EventScript_ItemLumBerry::
 	finditem ITEM_LUM_BERRY
 	end
+
+Route101_EventScript_GrassKnot::
+	finditem ITEM_TM92
+	end
+
+Route101_EventScript_EnergyBall::
+	finditem ITEM_TM67
+	end

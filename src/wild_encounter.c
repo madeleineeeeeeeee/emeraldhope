@@ -364,6 +364,10 @@ static u16 GetCurrentMapWildMonHeaderId(void)
         if (gWildMonHeaders[i].mapGroup == gSaveBlock1Ptr->location.mapGroup &&
             gWildMonHeaders[i].mapNum == gSaveBlock1Ptr->location.mapNum)
         {
+            if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE101) &&
+            gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE114))
+            i+= VarGet(VAR_ROUTE101_WILD_SET);
+            
             if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE103) &&
             gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE103))
             i+= VarGet(VAR_ROUTE103_WILD_SET);

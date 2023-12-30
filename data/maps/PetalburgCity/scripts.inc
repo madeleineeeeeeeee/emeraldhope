@@ -704,6 +704,46 @@ PetalburgCity_EventScript_GymBoy::
 	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC
 	end
 
+PetalburgCity_EventScript_MeadowSign::
+	msgbox PetalburgCity_Text_MeadowSign, MSGBOX_SIGN
+	end	
+
+PetalburgCity_EventScript_MeadowMart::
+	lock
+	faceplayer
+	msgbox PetalburgCity_Text_MeadowVendor
+	pokemart PetalburgCity_MeadowMart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+PetalburgCity_MeadowMart:
+	.2byte ITEM_HONEY
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHESTO_BERRY
+	.2byte ITEM_CHERI_BERRY
+	.2byte ITEM_POMEG_BERRY
+	.2byte ITEM_KELPSY_BERRY
+	.2byte ITEM_QUALOT_BERRY
+	.2byte ITEM_HONDEW_BERRY
+	.2byte ITEM_GREPA_BERRY
+	.2byte ITEM_TAMATO_BERRY
+	.2byte ITEM_GRACIDEA
+	.2byte ITEM_NONE
+	release
+	end	
+
+PetalburgCity_Text_MeadowSign:
+	.string "{DOWN_ARROW} Petalburg Meadow$"
+
+PetalburgCity_Text_MeadowVendor:
+	.string "This is the Petalburg Meadow!\p"
+	.string "We harvest honey, grow berries,\n"
+	.string "and pick flowers to sell.\p"
+	.string "Care to buy something?$"	
+
 PetalburgCity_Text_WhereIsWally: @ 81DC837
 	.string "Where has our Wally gone?\p"
 	.string "We have to leave for Verdanturf Town\n"

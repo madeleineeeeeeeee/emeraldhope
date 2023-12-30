@@ -111,6 +111,210 @@
                 "species": "SPECIES_BULBASAUR"
               }
             ]
+          },
+          "water_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_FEEBAS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 14,
+                "species": "SPECIES_BUIZEL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 13,
+                "species": "SPECIES_TIRTOUGA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 16,
+                "species": "SPECIES_SQUIRTLE"
+              },
+              {
+                "min_level": 30,
+                "max_level": 40,
+                "species": "SPECIES_MASQUERAIN"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 80,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 11,
+                "species": "SPECIES_SQUIRTLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 11,
+                "species": "SPECIES_FEEBAS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 11,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 5,
+                "max_level": 24,
+                "species": "SPECIES_DEWPIDER"
+              },
+              {
+                "min_level": 18,
+                "max_level": 24,
+                "species": "SPECIES_WARTORTLE"
+              },
+              {
+                "min_level": 19,
+                "max_level": 24,
+                "species": "SPECIES_CROCONAW"
+              },
+              {
+                "min_level": 24,
+                "max_level": 35,
+                "species": "SPECIES_WARTORTLE"
+              },
+              {
+                "min_level": 25,
+                "max_level": 35,
+                "species": "SPECIES_CROCONAW"
+              },
+              {
+                "min_level": 33,
+                "max_level": 39,
+                "species": "SPECIES_MILOTIC"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ROUTE101",
+          "base_label": "gRoute101_forest",
+          "land_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 8,
+                "max_level": 13,
+                "species": "SPECIES_FENNEKIN"
+              },
+              {
+                "min_level": 9,
+                "max_level": 14,
+                "species": "SPECIES_ROWLET"
+              },
+              {
+                "min_level": 8,
+                "max_level": 15,
+                "species": "SPECIES_TURTWIG"
+              },
+              {
+                "min_level": 9,
+                "max_level": 13,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 8,
+                "max_level": 14,
+                "species": "SPECIES_STARLY"
+              },
+              {
+                "min_level": 7,
+                "max_level": 15,
+                "species": "SPECIES_DEERLING"
+              },
+              {
+                "min_level": 9,
+                "max_level": 13,
+                "species": "SPECIES_PANCHAM"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 12,
+                "species": "SPECIES_FEEBAS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 14,
+                "species": "SPECIES_BUIZEL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 13,
+                "species": "SPECIES_TIRTOUGA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 16,
+                "species": "SPECIES_SQUIRTLE"
+              },
+              {
+                "min_level": 30,
+                "max_level": 40,
+                "species": "SPECIES_MASQUERAIN"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 80,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 11,
+                "species": "SPECIES_SQUIRTLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 11,
+                "species": "SPECIES_FEEBAS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 11,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 5,
+                "max_level": 24,
+                "species": "SPECIES_DEWPIDER"
+              },
+              {
+                "min_level": 18,
+                "max_level": 24,
+                "species": "SPECIES_WARTORTLE"
+              },
+              {
+                "min_level": 19,
+                "max_level": 24,
+                "species": "SPECIES_CROCONAW"
+              },
+              {
+                "min_level": 24,
+                "max_level": 35,
+                "species": "SPECIES_WARTORTLE"
+              },
+              {
+                "min_level": 25,
+                "max_level": 35,
+                "species": "SPECIES_CROCONAW"
+              },
+              {
+                "min_level": 33,
+                "max_level": 39,
+                "species": "SPECIES_MILOTIC"
+              }
+            ]
           }
         },
         {
@@ -1721,7 +1925,7 @@
             "mons": [
               {
                 "min_level": 5,
-                "max_level": 8,
+                "max_level": 11,
                 "species": "SPECIES_PINECO"
               },
               {
@@ -1736,7 +1940,7 @@
               },
               {
                 "min_level": 6,
-                "max_level": 8,
+                "max_level": 10,
                 "species": "SPECIES_SEWADDLE"
               },
               {
@@ -1746,8 +1950,8 @@
               },
               {
                 "min_level": 5,
-                "max_level": 8,
-                "species": "SPECIES_FENNEKIN"
+                "max_level": 11,
+                "species": "SPECIES_SLAKOTH"
               },
               {
                 "min_level": 6,
@@ -7500,6 +7704,46 @@
         {
           "map": "MAP_PETALBURG_CITY",
           "base_label": "gPetalburgCity",
+          "land_mons": {
+            "encounter_rate": 25,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_COMBEE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 8,
+                "species": "SPECIES_BULBASAUR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 7,
+                "species": "SPECIES_PETILIL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 8,
+                "species": "SPECIES_CHERUBI"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_BUNEARY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 8,
+                "species": "SPECIES_BUDEW"
+              },
+              {
+                "min_level": 5,
+                "max_level": 7,
+                "species": "SPECIES_SUNKERN"
+              }
+            ]
+          },
           "water_mons": {
             "encounter_rate": 1,
             "mons": [
