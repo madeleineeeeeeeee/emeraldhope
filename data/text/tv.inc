@@ -1046,7 +1046,7 @@ SmartShopper_Text_ClerkNormal::
 	.string "Why, just the other day a Trainer\n"
 	.string "named {STR_VAR_1} bought {STR_VAR_3}.$"
 
-gTVTodaysSmartShopperText02:: @ 08283C81
+SmartShopper_Text_RandomComment1:: @ 08283C81
 	.string "Interviewer: The Trainer bought\n"
 	.string "{STR_VAR_3} {STR_VAR_2}S? That's a haul!\p"
 	.string "If I may say so, {STR_VAR_1} must have\n"
