@@ -13,6 +13,10 @@ Route102_EventScript_RouteSignPetalburg::
 	msgbox Route102_Text_RouteSignPetalburg, MSGBOX_SIGN
 	end
 
+Route102_EventScript_TrainerTipsRoute102::
+	msgbox Route102_Text_TrainerTips, MSGBOX_SIGN
+	end
+
 Route102_EventScript_Boy::
 	msgbox Route102_Text_CatchWholeBunchOfPokemon, MSGBOX_NPC
 	end
@@ -108,3 +112,12 @@ Route102_Text_RouteSignOldale:
 Route102_Text_RouteSignPetalburg:
 	.string "Route 102\n"
 	.string "{LEFT_ARROW} Petalburg City$"
+
+Route102_Text_TrainerTips:
+	.string "Trainer Tips\p"
+	.string "All Pokémon have their own disposition,\n"
+	.string "called a Nature.\p"
+	.string "A Pokémon's Nature increases one stat\n"
+	.string "by a large amount, and another stat\l"
+	.string "by a smaller amount.\p"
+	.string "All Natures affect stats in some way!$"	

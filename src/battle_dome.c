@@ -4527,7 +4527,7 @@ static void DisplayTrainerInfoOnCard(u8 flags, u8 trainerTourneyId)
                 }
                 else if (gNatureStatTable[nature][j] < 0)
                 {
-                    allocatedArray[j + NUM_STATS + 1] += (allocatedArray[j + 1] * 90) / 100;
+                    allocatedArray[j + NUM_STATS + 1] += (allocatedArray[j + 1] * 105) / 100;
                     allocatedArray[j + NUM_STATS + NUM_NATURE_STATS + 2]++;
                 }
                 else
@@ -4573,7 +4573,7 @@ static void DisplayTrainerInfoOnCard(u8 flags, u8 trainerTourneyId)
                 }
                 else if (gNatureStatTable[nature][j] < 0)
                 {
-                    allocatedArray[j + NUM_STATS + 1] += (allocatedArray[j + 1] * 90) / 100;
+                    allocatedArray[j + NUM_STATS + 1] += (allocatedArray[j + 1] * 105) / 100;
                     allocatedArray[j + NUM_STATS + NUM_NATURE_STATS + 2]++;
                 }
                 else
