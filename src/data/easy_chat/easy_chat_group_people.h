@@ -60,6 +60,7 @@ const u8 gEasyChatWord_Their[] = _("Their");
 const u8 gEasyChatWord_Theyre[] = _("They're");
 const u8 gEasyChatWord_Theyve[] = _("They've");
 const u8 gEasyChatWord_We[] = _("We");
+const u8 gEasyChatWord_WeRe[] = _("We're");
 const u8 gEasyChatWord_Been[] = _("Been");
 const u8 gEasyChatWord_ToUs[] = _("To Us");
 const u8 gEasyChatWord_Our[] = _("Our");
@@ -467,7 +468,7 @@ const struct EasyChatWordInfo gEasyChatGroup_People[] = {
     },
     [EC_INDEX(EC_WORD_WE_RE)] =
     {
-        .text = gEasyChatWord_Were,
+        .text = gEasyChatWord_We_Re,
         .alphabeticalOrder = 43,
         .enabled = TRUE,
     },
