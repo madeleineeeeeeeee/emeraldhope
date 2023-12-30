@@ -409,7 +409,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 35,
+      "x": 34,
       "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -711,18 +711,18 @@
     },
     {
       "type": "hidden_item",
-      "x": 7,
-      "y": 6,
+      "x": 6,
+      "y": 5,
       "elevation": 3,
       "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_SUPER_POTION"
     },
     {
       "type": "hidden_item",
-      "x": 3,
-      "y": 9,
+      "x": 10,
+      "y": 0,
       "elevation": 3,
-      "item": "ITEM_POKE_BALL",
+      "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_POKE_BALL"
     },
     {

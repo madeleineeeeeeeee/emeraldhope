@@ -231,38 +231,20 @@
     {
       "type": "trigger",
       "x": 11,
-      "y": 14,
+      "y": 15,
       "elevation": 0,
       "var": "VAR_TEMP_MIXED_RECORDS",
       "var_value": "0",
-      "script": "NULL"
+      "script": "Route101_EventScript_WildSet1Trigger"
     },
     {
       "type": "trigger",
       "x": 12,
-      "y": 14,
+      "y": 15,
       "elevation": 0,
       "var": "VAR_TEMP_MIXED_RECORDS",
       "var_value": "0",
-      "script": "NULL"
-    },
-    {
-      "type": "trigger",
-      "x": 4,
-      "y": 22,
-      "elevation": 0,
-      "var": "VAR_TEMP_MIXED_RECORDS",
-      "var_value": "0",
-      "script": "NULL"
-    },
-    {
-      "type": "trigger",
-      "x": 5,
-      "y": 22,
-      "elevation": 0,
-      "var": "VAR_TEMP_MIXED_RECORDS",
-      "var_value": "0",
-      "script": "NULL"
+      "script": "Route101_EventScript_WildSet1Trigger"
     },
     {
       "type": "trigger",
@@ -271,7 +253,7 @@
       "elevation": 0,
       "var": "VAR_TEMP_MIXED_RECORDS",
       "var_value": "0",
-      "script": "NULL"
+      "script": "Route101_EventScript_WildSet2Trigger"
     },
     {
       "type": "trigger",
@@ -280,7 +262,75 @@
       "elevation": 0,
       "var": "VAR_TEMP_MIXED_RECORDS",
       "var_value": "0",
-      "script": "NULL"
+      "script": "Route101_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "weather",
+      "x": 12,
+      "y": 14,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 11,
+      "y": 14,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route101_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route101_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route101_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route101_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 37,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route101_EventScript_WildSet1Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 37,
+      "elevation": 0,
+      "var": "VAR_TEMP_MIXED_RECORDS",
+      "var_value": "0",
+      "script": "Route101_EventScript_WildSet1Trigger"
     },
     {
       "type": "trigger",
@@ -289,7 +339,7 @@
       "elevation": 0,
       "var": "VAR_TEMP_MIXED_RECORDS",
       "var_value": "0",
-      "script": "NULL"
+      "script": "Route101_EventScript_WildSet2Trigger"
     },
     {
       "type": "weather",
@@ -300,29 +350,15 @@
     },
     {
       "type": "weather",
-      "x": 11,
-      "y": 13,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 12,
-      "y": 13,
+      "x": 3,
+      "y": 6,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
       "x": 4,
-      "y": 21,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 5,
-      "y": 21,
+      "y": 5,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     }

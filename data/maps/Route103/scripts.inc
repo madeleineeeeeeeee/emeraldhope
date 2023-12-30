@@ -24,11 +24,15 @@ Route103_EventScript_OpenAlteringCave::
 	return
 
 Route103_EventScript_WildSet1Trigger::
+	setweather WEATHER_SUNNY
+	doweather
 	setvar VAR_ROUTE103_WILD_SET, 0
 	releaseall
 	return
 
 Route103_EventScript_WildSet2Trigger::
+	setweather WEATHER_SHADE
+	doweather
 	setvar VAR_ROUTE103_WILD_SET, 1
 	releaseall
 	end
@@ -147,7 +151,7 @@ Route103_EventScript_Zorua_1:
 	delay(90)
 	msgbox caughtZorua_Text_0
 	waitmessage
-	warp MAP_ROUTE103, 7, 19
+	warp MAP_ROUTE103, 7, 20
 	delay(180)
 	fadescreen(FADE_FROM_BLACK)
 	

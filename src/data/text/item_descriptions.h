@@ -3469,9 +3469,9 @@ static const u8 sOvalCharmDesc[] = _(
     "at the daycare.");
 
 static const u8 sShinyCharmDesc[] = _(
-    "Increases shiny odds\n"
-    "for every Pokémon\n"
-    "captured.");
+    "Increases shiny\n"
+    "odds for every\n"
+    "Pokémon captured.");
 
 static const u8 sCatchingCharmDesc[] = _(
     "A charm that raises\n"
@@ -3807,9 +3807,9 @@ static const u8 sSapphireDesc[] = _(
 
     //Start Pokevial Branch
 static const u8 sPokevialDesc[] = _(
-    "Restores all\n"
-    "Pokémon to full\n"
-    "health.");
+    "Make sure to\n"
+    "select first\n"
+    "Pokémon in party.");
 //End Pokevial Branch
 
 static const u8 sAbilityShieldDesc[] = _(

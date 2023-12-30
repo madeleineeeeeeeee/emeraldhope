@@ -626,7 +626,7 @@ static const u8 sAcidArmorDescription[] = _(
 
 static const u8 sCrabhammerDescription[] = _(
     "Hammers with a pincer. Has a\n"
-    "high critical-hit ratio.");
+    "chance to drop Defense.");
 
 static const u8 sExplosionDescription[] = _(
     "Brutal sacrificial attack\n"

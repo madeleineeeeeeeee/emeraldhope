@@ -3602,6 +3602,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
             // Choose random OT IDs until one that results in a non-shiny Pokémon
             value = Random32();
             shinyValue = GET_SHINY_VALUE(value, personality);
+            
         } while (shinyValue < SHINY_ODDS);
     }
     else if (otIdType == OT_ID_PRESET)
@@ -3637,10 +3638,13 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
 #endif
         {
             u32 totalRerolls = 0;
+            u32 rerollBonus = GetNationalPokedexCount(FLAG_GET_CAUGHT);
+            rerollBonus /= 0.04;
+            
             if (CheckBagHasItem(ITEM_SHINY_CHARM, 1))
-                totalRerolls +=  (.004 * (GetNationalPokedexCount(FLAG_GET_CAUGHT)));
+                totalRerolls += rerollBonus;
             if (LURE_STEP_COUNT != 0)
-                totalRerolls += 3;
+                totalRerolls *= 2;
 
             while (GET_SHINY_VALUE(value, personality) >= SHINY_ODDS && totalRerolls > 0)
             {
@@ -7846,6 +7850,8 @@ const u32 *GetMonSpritePalFromSpeciesAndPersonality(u16 species, u32 otId, u32 p
         return gMonPaletteTable[SPECIES_NONE].data;
 
     shinyValue = GET_SHINY_VALUE(otId, personality);
+
+
     if (shinyValue < SHINY_ODDS)
     {
         if (gMonShinyPaletteTableFemale[species].data != NULL && IsPersonalityFemale(species, personality))
@@ -7878,7 +7884,9 @@ const struct CompressedSpritePalette *GetMonSpritePalStructFromOtIdPersonality(u
 {
     u32 shinyValue;
 
-    shinyValue = GET_SHINY_VALUE(otId, personality);
+
+    shinyValue = (GET_SHINY_VALUE(otId, personality) - (shinyMod));
+
     if (shinyValue < SHINY_ODDS)
     {
         if (gMonShinyPaletteTableFemale[species].data != NULL && IsPersonalityFemale(species, personality))
@@ -8082,6 +8090,7 @@ bool8 IsShinyOtIdPersonality(u32 otId, u32 personality)
 {
     bool8 retVal = FALSE;
     u32 shinyValue = GET_SHINY_VALUE(otId, personality);
+
     if (shinyValue < SHINY_ODDS)
         retVal = TRUE;
     return retVal;

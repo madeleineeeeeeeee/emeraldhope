@@ -4283,7 +4283,7 @@ s8 GetSetPokedexFlag(u16 nationalDexNo, u8 caseID)
     return retVal;
 }
 
-u16 GetNationalPokedexCount(u8 caseID)
+u32 GetNationalPokedexCount(u8 caseID)
 {
     u16 count = 0;
     u16 i;

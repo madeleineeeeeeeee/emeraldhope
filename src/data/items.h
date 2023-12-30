@@ -8533,8 +8533,9 @@ const struct Item gItems[] =
     [ITEM_GRACIDEA] =
     {
         .name = _("Gracidea"),
-        .price = 0,
+        .price = 50000,
         .description = sGracideaDesc,
+        .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_FormChange,

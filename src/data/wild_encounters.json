@@ -108,7 +108,7 @@
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_BULBASAUR"
+                "species": "SPECIES_PICHU"
               }
             ]
           },
@@ -197,7 +197,7 @@
           "map": "MAP_ROUTE101",
           "base_label": "gRoute101_forest",
           "land_mons": {
-            "encounter_rate": 20,
+            "encounter_rate": 40,
             "mons": [
               {
                 "min_level": 8,
@@ -207,7 +207,7 @@
               {
                 "min_level": 9,
                 "max_level": 14,
-                "species": "SPECIES_ROWLET"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 8,
@@ -574,7 +574,7 @@
               {
                 "min_level": 4,
                 "max_level": 7,
-                "species": "SPECIES_TREECKO"
+                "species": "SPECIES_ROWLET"
               },
               {
                 "min_level": 3,
@@ -589,7 +589,7 @@
               {
                 "min_level": 4,
                 "max_level": 7,
-                "species": "SPECIES_WEEDLE"
+                "species": "SPECIES_SPINARAK"
               },
               {
                 "min_level": 4,
@@ -1951,7 +1951,7 @@
               {
                 "min_level": 5,
                 "max_level": 11,
-                "species": "SPECIES_SLAKOTH"
+                "species": "SPECIES_TREECKO"
               },
               {
                 "min_level": 6,
@@ -2782,7 +2782,7 @@
               {
                 "min_level": 18,
                 "max_level": 21,
-                "species": "SPECIES_TURTWIG"
+                "species": "SPECIES_PACHIRISU"
               },
               {
                 "min_level": 19,
@@ -7715,7 +7715,7 @@
               {
                 "min_level": 5,
                 "max_level": 8,
-                "species": "SPECIES_BULBASAUR"
+                "species": "SPECIES_CHIKORITA"
               },
               {
                 "min_level": 5,

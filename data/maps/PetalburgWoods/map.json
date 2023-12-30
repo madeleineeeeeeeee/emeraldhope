@@ -94,8 +94,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 4,
-      "y": 8,
+      "x": 41,
+      "y": 37,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -121,26 +121,26 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 6,
-      "y": 29,
+      "y": 12,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_sight_or_berry_tree_id": "2",
       "script": "PetalburgWoods_EventScript_Lyle",
       "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 10,
-      "y": 16,
+      "y": 27,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_sight_or_berry_tree_id": "2",
       "script": "PetalburgWoods_EventScript_James",
       "flag": "0"
     },
@@ -159,8 +159,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 4,
-      "y": 26,
+      "x": 7,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -259,8 +259,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 39,
-      "y": 35,
+      "x": 25,
+      "y": 34,
       "elevation": 3,
       "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_PETALBURG_WOODS_POTION"
@@ -286,7 +286,7 @@
       "x": 4,
       "y": 19,
       "elevation": 3,
-      "item": "ITEM_POKE_BALL",
+      "item": "ITEM_CHERISH_BALL",
       "flag": "FLAG_HIDDEN_ITEM_PETALBURG_WOODS_POKE_BALL"
     },
     {

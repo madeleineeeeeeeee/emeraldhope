@@ -2632,7 +2632,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_CRABHAMMER] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 100,
+            .power = 110,
             .accuracy = 90,
         #elif B_UPDATED_MOVE_DATA == GEN_5
             .power = 90,
@@ -2641,16 +2641,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
             .power = 90,
             .accuracy = 85,
         #endif
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_DEFENSE_DOWN_HIT,
         .type = TYPE_WATER,
         .pp = 16,
-        .secondaryEffectChance = 0,
+        .secondaryEffectChance = 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .split = SPLIT_PHYSICAL,
         .zMoveEffect = Z_EFFECT_NONE,
         .makesContact = TRUE,
-        .highCritRatio = TRUE,
+        .sheerForceBoost = TRUE,
     },
 
     [MOVE_EXPLOSION] =
@@ -6846,7 +6846,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_AQUA_TAIL] =
     {
         .effect = EFFECT_HIT,
-        .power = 90,
+        .power = 105,
         .type = TYPE_WATER,
         .accuracy = 90,
         .pp = 16,
