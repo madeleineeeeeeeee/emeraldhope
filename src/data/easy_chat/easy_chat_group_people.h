@@ -468,7 +468,7 @@ const struct EasyChatWordInfo gEasyChatGroup_People[] = {
     },
     [EC_INDEX(EC_WORD_WE_RE)] =
     {
-        .text = gEasyChatWord_We_Re,
+        .text = gEasyChatWord_WeRe,
         .alphabeticalOrder = 43,
         .enabled = TRUE,
     },
