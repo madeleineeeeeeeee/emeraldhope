@@ -208,7 +208,7 @@ BravoTrainerBattleTower_Text_LostFinal::
 	.string "We asked the Trainer for impressions\n"
 	.string "on battling the celebrity pair.$"
 
-gTVBravoTrainerBattleTowerText05:: @ 0827FE93
+BravoTrainerBattleTower_Text_Satisfied:: @ 0827FE93
 	.string "This is what the Trainer had to say:\n"
 	.string "“I'm satisfied!”\p"
 	.string "Now isn't that a refreshing reply?\n"
@@ -218,7 +218,7 @@ gTVBravoTrainerBattleTowerText05:: @ 0827FE93
 	.string "I found out exactly how satisfied\n"
 	.string "when I heard the Trainer say this:$"
 
-gTVBravoTrainerBattleTowerText06:: @ 0827FF89
+BravoTrainerBattleTower_Text_Unsatisfied:: @ 0827FF89
 	.string "This is what the Trainer had to say:\n"
 	.string "“I'm not satisfied…”\p"
 	.string "Our Trainer was obviously a little down\n"
