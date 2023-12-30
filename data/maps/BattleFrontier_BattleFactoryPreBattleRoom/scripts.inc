@@ -564,6 +564,11 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType: @ 825A8
 	.string "The Trainer is apparently skilled\n"
 	.string "in the handling of the Dark type.$"
 
+
+BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Fairy type.$"
+
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType: @ 825A84E
 	.string "The Trainer is apparently skilled\n"
 	.string "in the handling of the Steel type.$"
