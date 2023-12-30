@@ -3264,6 +3264,7 @@ BattleScript_EffectSleep::
 	waitanimation
 	setmoveeffect MOVE_EFFECT_SLEEP
 	seteffectprimary
+	setsafeguard BattleScript_FailedFromAtkString
 	goto BattleScript_MoveEnd
 
 BattleScript_TerrainPreventsEnd2::
@@ -5016,7 +5017,7 @@ BattleScript_EffectSafeguard::
 	attackcanceler
 	attackstring
 	ppreduce
-	setsafeguard
+	setsafeguard BattleScript_FailedFromAtkString
 	goto BattleScript_PrintReflectLightScreenSafeguardString
 
 BattleScript_EffectMagnitude::

@@ -2862,6 +2862,8 @@ u8 DoBattlerEndTurnEffects(void)
                     {
                         gBattleMons[gBattlerAttacker].status1 &= ~STATUS1_SLEEP;
                         gBattleMons[gBattlerAttacker].status2 &= ~STATUS2_NIGHTMARE;
+                        gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
+                        gSideTimers[gBattlerAttacker].sleepClause = 0;
                         gBattleCommunication[MULTISTRING_CHOOSER] = 1;
                         BattleScriptExecute(BattleScript_MonWokeUpInUproar);
                         BtlController_EmitSetMonData(gBattlerAttacker, BUFFER_A, REQUEST_STATUS_BATTLE, 0, 4, &gBattleMons[gBattlerAttacker].status1);
@@ -3412,6 +3414,9 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
             {
                 if (UproarWakeUpCheck(gBattlerAttacker))
                 {
+                    
+                    gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
+                    gSideTimers[gBattlerAttacker].sleepClause = 0;
                     gBattleMons[gBattlerAttacker].status1 &= ~STATUS1_SLEEP;
                     gBattleMons[gBattlerAttacker].status2 &= ~STATUS2_NIGHTMARE;
                     BattleScriptPushCursor();
@@ -3427,7 +3432,11 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
                     else
                         toSub = 1;
                     if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_SLEEP) < toSub)
+                    {
                         gBattleMons[gBattlerAttacker].status1 &= ~STATUS1_SLEEP;
+                        gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
+                        gSideTimers[gBattlerAttacker].sleepClause = 0;
+                    }
                     else
                         gBattleMons[gBattlerAttacker].status1 -= toSub;
                     if (gBattleMons[gBattlerAttacker].status1 & STATUS1_SLEEP)
@@ -3441,10 +3450,14 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
                     }
                     else
                     {
+                        gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
+                        gSideTimers[gBattlerAttacker].sleepClause = 0;
                         gBattleMons[gBattlerAttacker].status2 &= ~STATUS2_NIGHTMARE;
                         BattleScriptPushCursor();
                         gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_WOKE_UP;
                         gBattlescriptCurrInstr = BattleScript_MoveUsedWokeUp;
+                        
+                   
                         effect = 2;
                     }
                 }
@@ -4898,6 +4911,8 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                         StringCopy(gBattleTextBuff1, gStatusConditionString_PoisonJpn);
                     if (gBattleMons[battler].status1 & STATUS1_SLEEP)
                         StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
+                        gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+                        gSideTimers[battler].sleepClause = 0;
                     if (gBattleMons[battler].status1 & STATUS1_PARALYSIS)
                         StringCopy(gBattleTextBuff1, gStatusConditionString_ParalysisJpn);
                     if (gBattleMons[battler].status1 & STATUS1_BURN)
@@ -5926,6 +5941,8 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 {
                     gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                     StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
+                    gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+                    gSideTimers[battler].sleepClause = 0;
                     effect = 1;
                 }
                 break;
@@ -6435,17 +6452,13 @@ bool32 CanSleep(u32 battler)
       || ability == ABILITY_COMATOSE
       || ability == ABILITY_SINBEARER
       || gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_SAFEGUARD
+      || gSideTimers[GetBattlerSide(battler)].sleepClause >= 1
       || gBattleMons[battler].status1 & STATUS1_ANY
       || IsAbilityOnSide(battler, ABILITY_SWEET_VEIL)
       || IsAbilityStatusProtected(battler)
       || IsBattlerTerrainAffected(battler, STATUS_FIELD_ELECTRIC_TERRAIN | STATUS_FIELD_MISTY_TERRAIN))
         return FALSE;
 
-    for (i = 0; i < PARTY_SIZE; i++)
-    {
-        if ((GetMonData(&party[i], MON_DATA_STATUS) == STATUS1_SLEEP)) //sleep clause
-            return FALSE;
-    }
     return TRUE;
 }
 
@@ -7063,6 +7076,9 @@ static u8 ItemEffectMoveEnd(u32 battler, u16 holdEffect)
             gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
             BattleScriptPushCursor();
             gBattlescriptCurrInstr = BattleScript_BerryCureSlpRet;
+            gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+            gSideTimers[battler].sleepClause = 0;
+
             effect = ITEM_STATUS_CHANGE;
         }
         break;
@@ -7095,6 +7111,8 @@ static u8 ItemEffectMoveEnd(u32 battler, u16 holdEffect)
             {
                 gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                 StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
+                gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+                gSideTimers[battler].sleepClause = 0;
             }
 
             if (gBattleMons[battler].status1 & STATUS1_PARALYSIS)
@@ -7306,6 +7324,8 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
                 {
                     gBattleMons[battler].status1 &= ~STATUS1_SLEEP;
                     gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
+                    gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+                    gSideTimers[battler].sleepClause = 0;
                     BattleScriptExecute(BattleScript_BerryCureSlpEnd2);
                     effect = ITEM_STATUS_CHANGE;
                 }
@@ -7323,6 +7343,8 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
                     {
                         gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                         StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
+                        gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+                        gSideTimers[battler].sleepClause = 0;
                         i++;
                     }
                     if (gBattleMons[battler].status1 & STATUS1_PARALYSIS)
@@ -7614,6 +7636,8 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
                     gBattleMons[battler].status1 &= ~STATUS1_SLEEP;
                     gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                     BattleScriptExecute(BattleScript_BerryCureSlpEnd2);
+                    gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+                    gSideTimers[battler].sleepClause = 0;
                     effect = ITEM_STATUS_CHANGE;
                 }
                 break;
@@ -7638,6 +7662,8 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
                     {
                         gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                         StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
+                        gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+                        gSideTimers[battler].sleepClause = 0;
                         i++;
                     }
                     if (gBattleMons[battler].status1 & STATUS1_PARALYSIS)

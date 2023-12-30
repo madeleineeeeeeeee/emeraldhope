@@ -5593,6 +5593,8 @@ static void Cmd_moveend(void)
                         gBattlescriptCurrInstr = BattleScript_TargetPRLZHeal;
                         break;
                     case STATUS1_SLEEP:
+                        gSideStatuses[gBattlerTarget] |= SIDE_STATUS_SLEEP_CLAUSE;
+                        gSideTimers[gBattlerTarget].sleepClause = 0;
                         gBattlescriptCurrInstr = BattleScript_TargetWokeUp;
                         break;
                     case STATUS1_BURN:
@@ -13410,19 +13412,37 @@ static void Cmd_presentdamagecalculation(void)
 
 static void Cmd_setsafeguard(void)
 {
-    CMD_ARGS();
+    CMD_ARGS(const u8 *failInstr);
+    u8 targetSide = BATTLE_OPPOSITE(GetBattlerSide(gBattlerAttacker));
 
-    if (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_SAFEGUARD)
+    if (gBattleMoves[gBattlerAttacker].effect == EFFECT_SAFEGUARD)
     {
+        if (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_SAFEGUARD)
+        {
         gMoveResultFlags |= MOVE_RESULT_MISSED;
         gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SIDE_STATUS_FAILED;
+        }
+        else
+        {
+            gSideStatuses[GetBattlerSide(gBattlerAttacker)] |= SIDE_STATUS_SAFEGUARD;
+            gSideTimers[GetBattlerSide(gBattlerAttacker)].safeguardTimer = 5;
+            gSideTimers[GetBattlerSide(gBattlerAttacker)].safeguardBattlerId = gBattlerAttacker;
+            gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SET_SAFEGUARD;
+        }
     }
     else
     {
-        gSideStatuses[GetBattlerSide(gBattlerAttacker)] |= SIDE_STATUS_SAFEGUARD;
-        gSideTimers[GetBattlerSide(gBattlerAttacker)].safeguardTimer = 5;
-        gSideTimers[GetBattlerSide(gBattlerAttacker)].safeguardBattlerId = gBattlerAttacker;
-        gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SET_SAFEGUARD;
+        if (gSideTimers[targetSide].sleepClause >= 1)
+        {
+            gSpecialStatuses[gBattlerAttacker].ppNotAffectedByPressure = TRUE;
+            gBattlescriptCurrInstr = cmd->failInstr;
+        }
+        else
+        {
+            gSideStatuses[targetSide] |= SIDE_STATUS_SLEEP_CLAUSE;
+            gSideTimers[targetSide].sleepClause = 1;
+            gBattlescriptCurrInstr = BattleScript_MoveEnd;
+        }
     }
 
     gBattlescriptCurrInstr = cmd->nextInstr;
@@ -15229,7 +15249,7 @@ static void Cmd_handleballthrow(void)
             case ITEM_DREAM_BALL:
             #if B_DREAM_BALL_MODIFIER >= GEN_8
                 if (gBattleMons[gBattlerTarget].status1 & STATUS1_SLEEP || GetBattlerAbility(gBattlerTarget) == ABILITY_COMATOSE)
-                    ballMultiplier = 400;
+                    ballMultiplier = 700;
             #else
                 ballMultiplier = 100;
             #endif
@@ -16196,6 +16216,9 @@ void BS_ItemCureStatus(void)
 
     // Heal Status1 conditions.
     HealStatusConditions(&party[gBattleStruct->itemPartyIndex[gBattlerAttacker]], gBattleStruct->itemPartyIndex[gBattlerAttacker], GetItemStatus1Mask(gLastUsedItem), gBattlerAttacker);
+    
+    gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
+    gSideTimers[gBattlerAttacker].sleepClause = 0;
 
     // Heal Status2 conditions if battler is active.
     if (gBattleStruct->itemPartyIndex[gBattlerAttacker] == gBattlerPartyIndexes[gBattlerAttacker])
@@ -16211,6 +16234,7 @@ void BS_ItemCureStatus(void)
 
     if (GetItemStatus1Mask(gLastUsedItem) & STATUS1_SLEEP)
         gBattleMons[gBattlerAttacker].status2 &= ~STATUS2_NIGHTMARE;
+        
     if (GetItemStatus2Mask(gLastUsedItem) & STATUS2_CONFUSION)
         gStatuses4[gBattlerAttacker] &= ~STATUS4_INFINITE_CONFUSION;
 

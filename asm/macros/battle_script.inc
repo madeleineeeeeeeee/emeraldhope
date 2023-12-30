@@ -968,8 +968,9 @@
 	.byte 0xb7
 	.endm
 
-	.macro setsafeguard
+	.macro setsafeguard failInstr:req
 	.byte 0xb8
+	.4byte \failInstr
 	.endm
 
 	.macro magnitudedamagecalculation
@@ -2141,6 +2142,7 @@
 	.macro trytrainerslidemegaevolutionmsg battler:req
 	various \battler, VARIOUS_TRY_TRAINER_SLIDE_MSG_MEGA_EVOLUTION
 	.endm
+
 
 @ helpful macros
 	.macro setstatchanger stat:req, stages:req, down:req
