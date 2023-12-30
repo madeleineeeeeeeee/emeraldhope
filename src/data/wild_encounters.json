@@ -9180,38 +9180,38 @@
             "encounter_rate": 15,
             "mons": [
               {
-                "min_level": 7,
-                "max_level": 11,
+                "min_level": 11,
+                "max_level": 14,
                 "species": "SPECIES_MINCCINO"
               },
               {
-                "min_level": 8,
-                "max_level": 11,
+                "min_level": 11,
+                "max_level": 14,
                 "species": "SPECIES_MEOWTH"
               },
               {
-                "min_level": 7,
-                "max_level": 11,
+                "min_level": 12,
+                "max_level": 14,
                 "species": "SPECIES_LILLIPUP"
               },
               {
-                "min_level": 9,
-                "max_level": 11,
-                "species": "SPECIES_BAGON"
+                "min_level": 11,
+                "max_level": 14,
+                "species": "SPECIES_LITTEN"
               },
               {
-                "min_level": 8,
-                "max_level": 11,
+                "min_level": 13,
+                "max_level": 14,
                 "species": "SPECIES_KLINK"
               },
               {
-                "min_level": 7,
-                "max_level": 11,
+                "min_level": 11,
+                "max_level": 14,
                 "species": "SPECIES_MAGNEMITE"
               },
               {
-                "min_level": 9,
-                "max_level": 11,
+                "min_level": 12,
+                "max_level": 14,
                 "species": "SPECIES_GROWLITHE"
               }
             ]
