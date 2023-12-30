@@ -298,7 +298,6 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "{PLAYER}, your room is upstairs.\n"
 	.string "Go check it out, dear!\p"
 	.string "Dad bought you a new clock to mark\n"
-	.string "Dad bought you a new clock to mark\n"
 	.string "our move here.\l"
 	.string "Don't forget to set it!$"
 
