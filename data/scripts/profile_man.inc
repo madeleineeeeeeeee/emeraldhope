@@ -95,7 +95,7 @@ ProfileMan_Text_CollectTrainerProfiles:
 	.string "Hello there, Trainer!\n"
 	.string "You've got a wonderful smile, there.\p"
 	.string "I have a hobby--collecting the profiles\n"
-	.string "of Pokémon TRAINERS.$"
+	.string "of Pokémon Trainers.$"
 
 ProfileMan_Text_MayISeeYourProfile:
 	.string "So, how about it?\n"

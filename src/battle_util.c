@@ -9591,15 +9591,22 @@ static inline u32 CalcAttackStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 m
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_UMBRAL_MIRROR:
-            atkBaseSpeciesId = gBattleMons[battlerAtk].spAttack; //store special attack
 
-            gBattleMons[battlerAtk].spAttack = gBattleMons[battlerAtk].attack;
-            gBattleMons[battlerAtk].attack = atkBaseSpeciesId;
+            if (IS_MOVE_PHYSICAL(move))
+        {
+            atkStat = gBattleMons[battlerAtk].spAttack;
+            atkStage = gBattleMons[battlerAtk].statStages[STAT_SPATK];
+        }
+        else
+        {
+            atkStat = gBattleMons[battlerAtk].attack;
+            atkStage = gBattleMons[battlerAtk].statStages[STAT_ATK];
+        }
 
-            atkBaseSpeciesId = GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species); //restore species id
         break;
     case ABILITY_NASTY_TRICKS:
-        gBattleMons[battlerAtk].spAttack = gBattleMons[battlerAtk].attack;
+        atkStat = gBattleMons[battlerAtk].attack;
+        atkStage = gBattleMons[battlerAtk].statStages[STAT_ATK];
         break;
     case ABILITY_BLAZE:
     case ABILITY_IRON_FIST:

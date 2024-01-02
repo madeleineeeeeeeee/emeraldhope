@@ -1066,7 +1066,6 @@ static const u16 sPickupItems[] =
     
     ITEM_GREAT_BALL,
     ITEM_REPEL,
-    ITEM_ESCAPE_ROPE,
     
     ITEM_ULTRA_BALL,
     
@@ -3377,6 +3376,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 gBattleMons[gBattlerAttacker].status2 |= STATUS2_RAGE;
                 gBattlescriptCurrInstr++;
                 break;
+            /*
             case MOVE_EFFECT_STEAL_ITEM:
                 {
                     if (!CanStealItem(gBattlerAttacker, gBattlerTarget, gBattleMons[gBattlerTarget].item))
@@ -3430,7 +3430,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
                         gBattlescriptCurrInstr = BattleScript_ItemSteal;
                     }
                 }
-                break;
+                break;*/
             case MOVE_EFFECT_PREVENT_ESCAPE:
                 gBattleMons[gBattlerTarget].status2 |= STATUS2_ESCAPE_PREVENTION;
                 gDisableStructs[gBattlerTarget].battlerPreventingEscape = gBattlerAttacker;
@@ -3818,6 +3818,11 @@ static void Cmd_tryfaintmon(void)
         if (gHitMarker & HITMARKER_FAINTED(battler))
         {
             BattleScriptPop();
+            if (gBattleMons[battler].status1 == STATUS1_SLEEP)
+            {
+                gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+                gSideTimers[battler].sleepClause = 0;
+            }
             gBattlescriptCurrInstr = cmd->instr;
         }
         else
@@ -3841,6 +3846,13 @@ static void Cmd_tryfaintmon(void)
          && gBattleMons[battler].hp == 0)
         {
             gHitMarker |= HITMARKER_FAINTED(battler);
+
+            if (gBattleMons[battler].status1 == STATUS1_SLEEP)
+            {
+                gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
+                gSideTimers[battler].sleepClause = 0;
+            }
+
             BattleScriptPush(cmd->nextInstr);
             gBattlescriptCurrInstr = faintScript;
             if (GetBattlerSide(battler) == B_SIDE_PLAYER)
@@ -3916,6 +3928,8 @@ static void Cmd_cleareffectsonfaint(void)
             BtlController_EmitSetMonData(battler, BUFFER_A, REQUEST_STATUS_BATTLE, 0, sizeof(gBattleMons[battler].status1), &gBattleMons[battler].status1);
             MarkBattlerForControllerExec(battler);
         }
+
+
 
         FaintClearSetData(battler); // Effects like attractions, trapping, etc.
         gBattlescriptCurrInstr = cmd->nextInstr;
@@ -5553,10 +5567,65 @@ static void Cmd_moveend(void)
             break;
         case MOVEEND_MOVE_EFFECTS2: // For effects which should happen after target items, for example Knock Off after damage from Rocky Helmet.
         {
+            u8 side;
             switch (gBattleStruct->moveEffect2)
             {
             case MOVE_EFFECT_KNOCK_OFF:
             case MOVE_EFFECT_STEAL_ITEM:
+                if (gBattleMoves[gCurrentMove].effect == MOVE_EFFECT_STEAL_ITEM)
+                {
+                if (!CanStealItem(gBattlerAttacker, gBattlerTarget, gBattleMons[gBattlerTarget].item))
+                    {
+                        effect = TryKnockOffBattleScript(gBattlerTarget);
+                        break;
+                    }
+
+                    side = GetBattlerSide(gBattlerAttacker);
+                    if (GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT
+                        && !(gBattleTypeFlags &
+                            (BATTLE_TYPE_EREADER_TRAINER
+                            | BATTLE_TYPE_FRONTIER
+                            | BATTLE_TYPE_LINK
+                            | BATTLE_TYPE_RECORDED_LINK
+                            | BATTLE_TYPE_SECRET_BASE)))
+                    {
+                        gBattlescriptCurrInstr++;
+                    }
+                    else if (!(gBattleTypeFlags &
+                            (BATTLE_TYPE_EREADER_TRAINER
+                            | BATTLE_TYPE_FRONTIER
+                            | BATTLE_TYPE_LINK
+                            | BATTLE_TYPE_RECORDED_LINK
+                            | BATTLE_TYPE_SECRET_BASE))
+                        && (gWishFutureKnock.knockedOffMons[side] & gBitTable[gBattlerPartyIndexes[gBattlerAttacker]]))
+                    {
+                        gBattlescriptCurrInstr++;
+                    }
+                    else if (gBattleMons[gBattlerTarget].item
+                        && GetBattlerAbility(gBattlerTarget) == ABILITY_STICKY_HOLD)
+                    {
+                        BattleScriptPushCursor();
+                        gBattlescriptCurrInstr = BattleScript_NoItemSteal;
+
+                        gLastUsedAbility = gBattleMons[gBattlerTarget].ability;
+                        RecordAbilityBattle(gBattlerTarget, gLastUsedAbility);
+                    }
+                    else if (gBattleMons[gBattlerAttacker].item != ITEM_NONE
+                        || gBattleMons[gBattlerTarget].item == ITEM_ENIGMA_BERRY_E_READER
+                        || gBattleMons[gBattlerTarget].item == ITEM_NONE)
+                    {
+                        gBattlescriptCurrInstr++;
+                    }
+                    else
+                    {
+                        StealTargetItem(gBattlerAttacker, gBattlerTarget);  // Attacker steals target item
+                        gBattleMons[gBattlerAttacker].item = ITEM_NONE; // Item assigned later on with thief (see MOVEEND_CHANGED_ITEMS)
+                        gBattleStruct->changedItems[gBattlerAttacker] = gLastUsedItem; // Stolen item to be assigned later
+                        BattleScriptPush(gBattlescriptCurrInstr + 1);
+                        gBattlescriptCurrInstr = BattleScript_ItemSteal;
+                    }
+                }    
+                
                 effect = TryKnockOffBattleScript(gBattlerTarget);
                 break;
             case MOVE_EFFECT_STOCKPILE_WORE_OFF:
@@ -9924,9 +9993,9 @@ static void Cmd_various(void)
         {
             gSideStatuses[GetBattlerSide(battler)] |= SIDE_STATUS_AURORA_VEIL;
             if (GetBattlerHoldEffect(battler, TRUE) == HOLD_EFFECT_LIGHT_CLAY)
-                gSideTimers[GetBattlerSide(battler)].auroraVeilTimer = 8;
+                gSideTimers[GetBattlerSide(battler)].auroraVeilTimer = 6;
             else
-                gSideTimers[GetBattlerSide(battler)].auroraVeilTimer = 5;
+                gSideTimers[GetBattlerSide(battler)].auroraVeilTimer = 6;
             gSideTimers[GetBattlerSide(battler)].auroraVeilBattlerId = battler;
 
             if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE && CountAliveMonsInBattle(BATTLE_ALIVE_SIDE, gBattlerAttacker) == 2)
@@ -11108,9 +11177,9 @@ static void Cmd_setreflect(void)
     {
         gSideStatuses[GetBattlerSide(gBattlerAttacker)] |= SIDE_STATUS_REFLECT;
         if (GetBattlerHoldEffect(gBattlerAttacker, TRUE) == HOLD_EFFECT_LIGHT_CLAY)
-            gSideTimers[GetBattlerSide(gBattlerAttacker)].reflectTimer = 8;
+            gSideTimers[GetBattlerSide(gBattlerAttacker)].reflectTimer = 6;
         else
-            gSideTimers[GetBattlerSide(gBattlerAttacker)].reflectTimer = 5;
+            gSideTimers[GetBattlerSide(gBattlerAttacker)].reflectTimer = 6;
         gSideTimers[GetBattlerSide(gBattlerAttacker)].reflectBattlerId = gBattlerAttacker;
 
         if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE && CountAliveMonsInBattle(BATTLE_ALIVE_SIDE, gBattlerAttacker) == 2)
@@ -12173,9 +12242,9 @@ static void Cmd_setlightscreen(void)
     {
         gSideStatuses[GetBattlerSide(gBattlerAttacker)] |= SIDE_STATUS_LIGHTSCREEN;
         if (GetBattlerHoldEffect(gBattlerAttacker, TRUE) == HOLD_EFFECT_LIGHT_CLAY)
-            gSideTimers[GetBattlerSide(gBattlerAttacker)].lightscreenTimer = 8;
+            gSideTimers[GetBattlerSide(gBattlerAttacker)].lightscreenTimer = 6;
         else
-            gSideTimers[GetBattlerSide(gBattlerAttacker)].lightscreenTimer = 5;
+            gSideTimers[GetBattlerSide(gBattlerAttacker)].lightscreenTimer = 6;
         gSideTimers[GetBattlerSide(gBattlerAttacker)].lightscreenBattlerId = gBattlerAttacker;
 
         if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE && CountAliveMonsInBattle(BATTLE_ALIVE_SIDE, gBattlerAttacker) == 2)
@@ -13415,7 +13484,7 @@ static void Cmd_setsafeguard(void)
     CMD_ARGS(const u8 *failInstr);
     u8 targetSide = BATTLE_OPPOSITE(GetBattlerSide(gBattlerAttacker));
 
-    if (gBattleMoves[gBattlerAttacker].effect == EFFECT_SAFEGUARD)
+    if (gBattleMoves[gBattlerAttacker] == MOVE_SAFEGUARD)
     {
         if (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_SAFEGUARD)
         {

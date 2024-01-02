@@ -30,8 +30,6 @@ PetalburgCity_PokemonCenter_1F_EventScript_Woman::
 	lock
 	faceplayer
 	msgbox PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon, MSGBOX_DEFAULT
-	specialvar VAR_RESULT, IsStarterInParty
-	goto_if_eq VAR_RESULT, TRUE, PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo
 	release
 	end
 
@@ -68,8 +66,12 @@ PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon: @ 8207B09
 	.string "There are many types of Pokémon.\p"
 	.string "All types have their strengths and\n"
 	.string "weaknesses against other types.\p"
-	.string "Depending on the types of Pokémon,\n"
-	.string "a battle could be easy or hard.$"
+	.string "For example, your Eevee is a\n"
+	.string "Normal type.\p"
+	.string "It hits nothing with extra power,\n"
+	.string "but it resists Fairy and Dragon\l"
+	.string "and has no weaknesses, making it\l"
+	.string "a strong glue for a team.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType: @ 8207BB0
 	.string "For example, your Treecko\n"

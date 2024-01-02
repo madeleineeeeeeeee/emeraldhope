@@ -47,7 +47,7 @@
 #define FLAG_RECEIVEDROPE    0x22 // Unused Flag
 #define FLAG_GRASS_KNOT      0x23 // Unused Flag
 #define FLAG_ENERGY_BALL     0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
+#define FLAG_UPGRADE_MAN     0x25 // Unused Flag
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag

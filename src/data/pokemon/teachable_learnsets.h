@@ -11541,6 +11541,7 @@ static const u16 sTorchicTeachableLearnset[] = {
     MOVE_U_TURN,
     MOVE_WILL_O_WISP,
     MOVE_WORK_UP,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 
@@ -11599,6 +11600,7 @@ static const u16 sCombuskenTeachableLearnset[] = {
     MOVE_U_TURN,
     MOVE_WILL_O_WISP,
     MOVE_WORK_UP,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 
@@ -11662,6 +11664,7 @@ static const u16 sBlazikenTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_WORK_UP,
     MOVE_GIGA_IMPACT,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 
@@ -32263,10 +32266,8 @@ static const u16 sWimpodTeachableLearnset[] = {
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
-    MOVE_SURF,
     MOVE_TAUNT,
     MOVE_TOXIC,
-    MOVE_WATERFALL,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
@@ -33284,6 +33285,7 @@ static const u16 sPheromosaTeachableLearnset[] = {
     MOVE_U_TURN,
     MOVE_SPIKES,
     MOVE_ACROBATICS,
+    MOVE_LIQUIDATION,
     MOVE_UNAVAILABLE,
 };
 

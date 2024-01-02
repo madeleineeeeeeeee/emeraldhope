@@ -15229,14 +15229,6 @@ Move_WICKED_BLOW::
 	createsprite gSpriteTemplate_WickedBlowBlackStars, ANIM_TARGET, 2, 0xfff0, 0xfff8, 0xa0, 0xffe0
 	createsprite gSpriteTemplate_WickedBlowRedStars, ANIM_TARGET, 2, 0xfff0, 0xfff8, 0x1a0, 0xffda
 	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 0, 4, 10, 1
-	delay 20
-	createvisualtask AnimTask_TwinkleTackleLaunch, 0x2, 50
-	delay 50
-	playsewithpan SE_M_DETECT, SOUND_PAN_TARGET
-	createsprite gTwinkleTackleTwinkleSpriteTemplate, ANIM_TARGET, 13, 0x0, 0x0, ANIM_TARGET @detect star
-	waitforvisualfinish
-	blendoff
-	createsprite gSlideMonToOriginalPosSpriteTemplate, ANIM_ATTACKER, 2, ANIM_ATTACKER, 0x0, 0x6
 	restorebg
 	waitbgfadeout
 	visible ANIM_TARGET
@@ -16683,6 +16675,8 @@ loadspritegfx ANIM_TAG_ITEM_BAG
 Move_VOID_TOUCH:
 loadspritegfx ANIM_TAG_ROOTS
 	loadspritegfx ANIM_TAG_IMPACT
+	fadetobg BG_DARK
+	waitbgfadein
 	monbg ANIM_TARGET
 	splitbgprio ANIM_TARGET
 	setalpha 12, 8
@@ -16737,6 +16731,8 @@ loadspritegfx ANIM_TAG_ROOTS
 	createsprite gSimplePaletteBlendSpriteTemplate, ANIM_ATTACKER, 0, F_PAL_BG, 2, 5, 0, RGB_BLACK
 	waitforvisualfinish
 	clearmonbg ANIM_TARGET
+	restorebg
+	waitbgfadein
 	blendoff
 	end
 
@@ -20059,10 +20055,28 @@ Move_FLASH:
 	end
 
 Move_SPLASH:
+	loadspritegfx ANIM_TAG_WATER_IMPACT
+	loadspritegfx ANIM_TAG_SMALL_BUBBLES
+	loadspritegfx ANIM_TAG_ICE_CRYSTALS
+	loadspritegfx ANIM_TAG_IMPACT
 	createvisualtask AnimTask_Splash, 2, ANIM_ATTACKER, 3
 	delay 8
 	loopsewithpan SE_M_TAIL_WHIP, SOUND_PAN_ATTACKER, 38, 3
+	call WaterfallBubblesOnAttacker
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_TARGET
+	setalpha 12, 8
+	createsprite gHorizontalLungeSpriteTemplate, ANIM_ATTACKER, 2, 4, 4
+	delay 6
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_ATTACKER, 2, 0, 0, ANIM_TARGET, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 3, 0, 6, 1
+	playsewithpan SE_M_COMET_PUNCH, SOUND_PAN_TARGET
 	waitforvisualfinish
+	clearmonbg ANIM_TARGET
+	blendoff
+	waitforvisualfinish
+	
+	
 	end
 
 Move_ACID_ARMOR:

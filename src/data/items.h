@@ -1399,8 +1399,8 @@ const struct Item gItems[] =
     [ITEM_LURE] =
     {
         .name = _("Lure"),
-        .price = 300,
-        .holdEffectParam = 100,
+        .price = 2000,
+        .holdEffectParam = 200,
         .description = sLureDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -1412,7 +1412,7 @@ const struct Item gItems[] =
     [ITEM_SUPER_LURE] =
     {
         .name = _("Super Lure"),
-        .price = 350,
+        .price = 1500,
         .holdEffectParam = 175,
         .description = sSuperLureDesc,
         .pocket = POCKET_ITEMS,
@@ -1425,7 +1425,7 @@ const struct Item gItems[] =
     [ITEM_MAX_LURE] =
     {
         .name = _("Max Lure"),
-        .price = 400,
+        .price = 2000,
         .holdEffectParam = 250,
         .description = sMaxLureDesc,
         .pocket = POCKET_ITEMS,

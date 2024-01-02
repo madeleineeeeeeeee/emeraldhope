@@ -6,8 +6,8 @@ RustboroCity_Mart_EventScript_Clerk::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	goto_if_unset FLAG_MET_DEVON_EMPLOYEE, RustboroCity_Mart_EventScript_PokemartBasic
-	goto_if_set FLAG_MET_DEVON_EMPLOYEE, RustboroCity_Mart_EventScript_PokemartExpanded
+	goto_if_unset FLAG_RECEIVED_TM_ROCK_TOMB, RustboroCity_Mart_EventScript_PokemartBasic
+	goto_if_set FLAG_RECEIVED_TM_ROCK_TOMB, RustboroCity_Mart_EventScript_PokemartExpanded
 	end
 
 RustboroCity_Mart_EventScript_PokemartBasic::
@@ -33,6 +33,7 @@ RustboroCity_Mart_Pokemart_Basic:
 	.2byte ITEM_MYSTIC_WATER
 	.2byte ITEM_MIRACLE_SEED
 	.2byte ITEM_SILK_SCARF
+	.2byte ITEM_HARD_STONE
 	.2byte ITEM_NONE
 	release
 	end
@@ -63,6 +64,7 @@ RustboroCity_Mart_Pokemart_Expanded:
 	.2byte ITEM_MYSTIC_WATER
 	.2byte ITEM_MIRACLE_SEED
 	.2byte ITEM_SILK_SCARF
+	.2byte ITEM_HARD_STONE
 	.2byte ITEM_NONE
 	release
 	end

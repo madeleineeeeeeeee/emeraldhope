@@ -720,6 +720,7 @@ PetalburgCity_EventScript_MeadowMart::
 	.align 2
 PetalburgCity_MeadowMart:
 	.2byte ITEM_HONEY
+	.2byte ITEM_LURE
 	.2byte ITEM_ORAN_BERRY
 	.2byte ITEM_PECHA_BERRY
 	.2byte ITEM_CHESTO_BERRY

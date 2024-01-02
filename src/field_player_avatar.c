@@ -1736,9 +1736,9 @@ static bool8 Fishing_GetRodOut(struct Task *task)
         [SUPER_ROD] = 1
     };
     const s16 minRounds2[] = {
-        [OLD_ROD]   = 1,
-        [GOOD_ROD]  = 3,
-        [SUPER_ROD] = 6
+        [OLD_ROD]   = 3,
+        [GOOD_ROD]  = 4,
+        [SUPER_ROD] = 5
     };
 
     task->tRoundsPlayed = 0;
@@ -1842,7 +1842,7 @@ static bool8 Fishing_CheckForBite(struct Task *task)
 
         if (!bite)
         {
-            if (Random() & 1)
+            if (Random() % 101 < 25)
                 task->tStep = FISHING_NO_BITE;
             else
                 bite = TRUE;
@@ -1867,9 +1867,9 @@ static bool8 Fishing_GotBite(struct Task *task)
 static bool8 Fishing_WaitForA(struct Task *task)
 {
     const s16 reelTimeouts[3] = {
-        [OLD_ROD]   = 36,
-        [GOOD_ROD]  = 33,
-        [SUPER_ROD] = 30
+        [OLD_ROD]   = 66,
+        [GOOD_ROD]  = 77,
+        [SUPER_ROD] = 99
     };
 
     AlignFishingAnimationFrames();
@@ -1886,9 +1886,9 @@ static bool8 Fishing_CheckMoreDots(struct Task *task)
 {
     const s16 moreDotsChance[][2] =
     {
-        [OLD_ROD]   = {0, 0},
-        [GOOD_ROD]  = {40, 10},
-        [SUPER_ROD] = {70, 30}
+        [OLD_ROD]   = {20, 10},
+        [GOOD_ROD]  = {20, 10},
+        [SUPER_ROD] = {20, 10}
     };
 
     AlignFishingAnimationFrames();

@@ -282,7 +282,7 @@ static const u8 sDrillPeckDescription[] = _(
 
 static const u8 sSubmissionDescription[] = _(
     "A reckless body slam that\n"
-    "also hurts the user.");
+    "may drop the foe's Def.");
 
 static const u8 sLowKickDescription[] = _(
     "A kick that inflicts more\n"
@@ -421,8 +421,8 @@ static const u8 sTeleportDescription[] = _(
     "Makes user vulnerable.");
 
 static const u8 sNightShadeDescription[] = _(
-    "Inflicts damage identical\n"
-    "to the user's level.");
+    "Haunts a foe with an eerie\n"
+    "shade. Can drop Evasion.");
 
 static const u8 sMimicDescription[] = _(
     "Copies a move used by the\n"
@@ -449,7 +449,7 @@ static const u8 sMinimizeDescription[] = _(
     "to raise evasiveness.");
 
 static const u8 sSmokescreenDescription[] = _(
-    "Lowers the foe's accuracy\n"
+    "Lowers foe's Def and Atk\n"
     "using smoke, ink, etc.");
 
 static const u8 sConfuseRayDescription[] = _(
@@ -553,8 +553,8 @@ static const u8 sAmnesiaDescription[] = _(
     "and sharply raises Sp. Def.");
 
 static const u8 sKinesisDescription[] = _(
-    "Distracts the foe.\n"
-    "May lower accuracy.");
+    "Quickly distract a foe with\n"
+    "magic to drop Sp.Def.");
 
 static const u8 sSoftBoiledDescription[] = _(
     "Recovers up to half the\n"
@@ -610,15 +610,15 @@ static const u8 sSporeDescription[] = _(
 
 static const u8 sFlashDescription[] = _(
     "Looses a powerful blast of\n"
-    "light that cuts accuracy.");
+    "light that cuts Evasion.");
 
 static const u8 sPsywaveDescription[] = _(
     "Attacks with a psychic\n"
     "wave of varying intensity.");
 
 static const u8 sSplashDescription[] = _(
-    "It's just a splash...\n"
-    "Has no effect whatsoever.");
+    "Playfully bounce in water\n"
+    "to strike the target.");
 
 static const u8 sAcidArmorDescription[] = _(
     "Liquifies the user's body\n"
@@ -714,7 +714,7 @@ static const u8 sSnoreDescription[] = _(
 
 static const u8 sCurseDescription[] = _(
     "A move that functions\n"
-    "differently for GHOSTS.");
+    "differently for Ghosts.");
 
 static const u8 sFlailDescription[] = _(
     "Inflicts more damage when\n"
@@ -777,8 +777,8 @@ static const u8 sMudSlapDescription[] = _(
     "to paralyze them.");
 
 static const u8 sOctazookaDescription[] = _(
-    "Fires a lump of ink to\n"
-    "damage and cut accuracy.");
+    "Fires two ink projectiles\n"
+    "in a row. may drop Speed.");
 
 static const u8 sSpikesDescription[] = _(
     "Sets many spikes that hurt\n"
@@ -950,7 +950,7 @@ static const u8 sMetalClawDescription[] = _(
 
 static const u8 sVitalThrowDescription[] = _(
     "Makes the user's move last,\n"
-    "but it never misses.");
+    "but ignores protect.");
 
 static const u8 sMorningSunDescription[] = _(
     "Restores HP. The amount\n"
@@ -961,8 +961,8 @@ static const u8 sSynthesisDescription[] = _(
     "varies with the weather.");
 
 static const u8 sMoonlightDescription[] = _(
-    "Restores HP. The amount\n"
-    "varies with the weather.");
+    "Soothing moonlight cloaks\n"
+    "the user, restoring HP.");
 
 static const u8 sHiddenPowerDescription[] = _(
     "The effectiveness varies\n"
@@ -1726,7 +1726,7 @@ static const u8 sZenHeadbuttDescription[] = _(
 
 static const u8 sMirrorShotDescription[] = _(
     "Emits a flash of energy to\n"
-    "damage and cut accuracy.");
+    "damage and cut Sp.Def.");
 
 static const u8 sFlashCannonDescription[] = _(
     "Releases a blast of light\n"
@@ -2113,8 +2113,8 @@ static const u8 sRazorShellDescription[] = _(
     "shells. Lowers Defense.");
 
 static const u8 sLeafTornadoDescription[] = _(
-    "Circles the foe with leaves\n"
-    "to damage and cut accuracy.");
+    "Assaults foes with swirling\n"
+    "leaves. Drops Evasion.");
 
 static const u8 sSteamrollerDescription[] = _(
     "Crushes the foe with its\n"

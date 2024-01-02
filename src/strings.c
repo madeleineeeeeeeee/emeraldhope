@@ -637,7 +637,7 @@ const u8 gText_Par[] = _("Par");
 const u8 gText_Slp[] = _("Slp");
 const u8 gText_Brn[] = _("Brn");
 const u8 gText_Frz[] = _("Frz");
-const u8 gText_Cfn[] = _("CFN");
+const u8 gText_Cfn[] = _("Cfn");
 /*
 const u8 gText_Fairy[] = _("FRY");
 const u8 gText_Water[] = _("WTR");

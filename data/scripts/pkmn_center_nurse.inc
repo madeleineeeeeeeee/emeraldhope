@@ -84,8 +84,6 @@ EventScript_PkmnCenterNurse_ReturnPkmn::
 	return
 
 EventScript_PkmnCenterNurse_ReturnPkmn2::
-	message gText_ThankYouForWaiting
-	waitmessage
 	applymovement VAR_0x800B, Movement_PkmnCenterNurse_Bow
 	waitmovement 0
 	message gText_WeHopeToSeeYouAgain2
@@ -178,6 +176,7 @@ TrainerReset_OptionalTrainers:
 	cleartrainerflag TRAINER_RICK
 	cleartrainerflag TRAINER_SARAH
 	cleartrainerflag TRAINER_DAWSON
+	cleartrainerflag TRAINER_LYLE
 	cleartrainerflag TRAINER_JERRY_1
 	cleartrainerflag TRAINER_JANICE
 	cleartrainerflag TRAINER_CYNDY_1
@@ -212,7 +211,6 @@ TrainerReset_RustboroGym:
 TrainerReset_Route104_PetalburgWoods:
 	cleartrainerflag TRAINER_CINDY_1
 	cleartrainerflag TRAINER_BILLY
-	cleartrainerflag TRAINER_LYLE
 	cleartrainerflag TRAINER_JAMES_1
 	cleartrainerflag TRAINER_HALEY_1
 	return

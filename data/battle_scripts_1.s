@@ -4736,6 +4736,7 @@ BS_TripleAxel:
 
 BattleScript_EffectThief::
 	setmoveeffect MOVE_EFFECT_STEAL_ITEM
+	setmoveeffect MOVE_EFFECT_KNOCK_OFF
 	goto BattleScript_EffectHit
 
 BattleScript_EffectHitPreventEscape:

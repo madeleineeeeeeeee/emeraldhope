@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE104",
   "name": "Route104",
   "layout": "LAYOUT_ROUTE104",
-  "music": "MUS_ROUTE104",
+  "music": "MUS_ROUTE101",
   "region_map_section": "MAPSEC_ROUTE_104",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -345,7 +345,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
       "x": 18,
-      "y": 2,
+      "y": 1,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -562,7 +562,7 @@
     {
       "type": "trigger",
       "x": 14,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "var": "VAR_TEMP_MIXED_RECORDS",
       "var_value": "0",
@@ -571,7 +571,7 @@
     {
       "type": "trigger",
       "x": 15,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "var": "VAR_TEMP_MIXED_RECORDS",
       "var_value": "0",
@@ -580,7 +580,7 @@
     {
       "type": "trigger",
       "x": 16,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "var": "VAR_TEMP_MIXED_RECORDS",
       "var_value": "0",
@@ -589,7 +589,7 @@
     {
       "type": "trigger",
       "x": 17,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "var": "VAR_TEMP_MIXED_RECORDS",
       "var_value": "0",

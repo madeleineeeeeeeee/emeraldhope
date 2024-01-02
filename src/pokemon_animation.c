@@ -1115,6 +1115,12 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_RAYQUAZA_MEGA]                = BACK_ANIM_SHAKE_GLOW_GREEN,
     [SPECIES_KYOGRE_PRIMAL]                = BACK_ANIM_SHAKE_GLOW_BLUE,
     [SPECIES_GROUDON_PRIMAL]               = BACK_ANIM_SHAKE_GLOW_RED,
+
+    //maddie mons
+    [SPECIES_ZIGZAGOON_GALARIAN]           = BACK_ANIM_DIP_RIGHT_SIDE,
+    [SPECIES_LINOONE_GALARIAN]             = BACK_ANIM_JOLT_RIGHT,
+    [SPECIES_OBSTAGOON]                    = BACK_ANIM_SHRINK_GROW,
+    [SPECIES_PHEROMOSA]                    = BACK_ANIM_H_VIBRATE,
     
 };
 

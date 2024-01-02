@@ -2983,7 +2983,7 @@ const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_IMPIDIMP - 1]      = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_MORGREM - 1]       = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_GRIMMSNARL - 1]    = ANIM_V_SQUISH_AND_BOUNCE,
-    [SPECIES_OBSTAGOON - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_OBSTAGOON - 1]     = ANIM_SHRINK_GROW,
     [SPECIES_PERRSERKER - 1]    = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_CURSOLA - 1]       = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_SIRFETCHD - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
@@ -7768,6 +7768,8 @@ u16 GetBattleBGM(void)
             return MUS_RG_VS_GYM_LEADER;
         case TRAINER_CLASS_CHAMPION:
             return MUS_VS_CHAMPION;
+        case TRAINER_CLASS_GAUNTLET_ACE:
+            return MUS_RG_VS_TRAINER;    
         case TRAINER_CLASS_RIVAL:
             if (gBattleTypeFlags & BATTLE_TYPE_FRONTIER)
                 return MUS_VS_RIVAL;
@@ -8585,7 +8587,7 @@ u8 GetLevelCap(void)
     u16 currentBadge = getHighestBadge();
 
     
-    static const u8 levelCapsMore[] =     {19, 29, 39, 49,  59,  69,  79,  89,  99, 101};
+    static const u8 levelCapsMore[] = {20, 30, 40, 50, 60, 70,  80, 90, 99, 101};
     
 
 

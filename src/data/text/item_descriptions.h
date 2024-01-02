@@ -615,7 +615,7 @@ static const u8 sMaxRepelDesc[] = _(
 static const u8 sLureDesc[] = _(
     "Makes Pokémon more\n"
     "likely to appear\n"
-    "for 100 steps.");
+    "for 200 steps.");
 
 static const u8 sSuperLureDesc[] = _(
     "Makes Pokémon more\n"

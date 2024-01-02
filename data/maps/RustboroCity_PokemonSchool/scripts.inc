@@ -230,7 +230,7 @@ RustboroCity_PokemonSchool_Text_ExplainPoison:
 	.string "steadily lose HP.\p"
 	.string "The effects of poison remain after\n"
 	.string "a battle.\p"
-	.string "A poisoned Pokémon' recovers half\n"
+	.string "A poisoned Pokémon recovers half\n"
 	.string "the HP it normally would.$"
 
 RustboroCity_PokemonSchool_Text_ExplainParalysis:
@@ -284,7 +284,6 @@ RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
 	.string "every turn.\p"
 	.string "There are many other items that are\n"
 	.string "meant to be held by Pokémon.\p"
-	.string "meant to be held by Pokémon.\p"
 	.string "Just those alone will give you many\n"
 	.string "topics to study!$"
 
@@ -293,7 +292,7 @@ RustboroCity_PokemonSchool_Text_TradingRightNow:
 	.string "right now.$"
 
 RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot:
-	.string "I always wanted a SEEDOT, and\n"
+	.string "I always wanted a Seedot, and\n"
 	.string "I'm finally getting one!$"
 
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems:
@@ -310,7 +309,7 @@ RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
 	.string "Critical hits do extra damage, but\n"
 	.string "they seem to happen very rarely.\p"
 	.string "But some moves will always land a\n"
-	.string "critical hit!\l"
+	.string "critical hit!$"
 
 RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
 	.string "A Pokémon holding a Berry will heal\n"
