@@ -167,7 +167,7 @@
 #define EFFECT_MEMENTO                      163
 #define EFFECT_FACADE                       164
 #define EFFECT_FOCUS_PUNCH                  165
-#define EFFECT_SMELLINGSALT                 166
+#define EFFECT_SMELLING_SALTS               166
 #define EFFECT_FOLLOW_ME                    167
 #define EFFECT_NATURE_POWER                 168
 #define EFFECT_CHARGE                       169
@@ -412,25 +412,31 @@
 #define EFFECT_CORROSIVE_GAS                406
 #define EFFECT_POPULATION_BOMB              407
 #define EFFECT_MORTAL_SPIN                  408
-#define EFFECT_GIGATON_HAMMER               409
-#define EFFECT_SALT_CURE                    410
+#define EFFECT_SALT_CURE                    409
+#define EFFECT_CHILLY_RECEPTION             410
+#define EFFECT_MATCHA_GOTCHA                411
+#define EFFECT_SYRUP_BOMB                   412
+#define EFFECT_MAX_MOVE                     413
+#define EFFECT_GLAIVE_RUSH                  414
+#define EFFECT_RAGING_BULL                  415
+#define EFFECT_RAGE_FIST                    416
 
 //maddie moves
 
-#define EFFECT_MOLT                         411
-#define EFFECT_FURRET_WALK                  412
-#define EFFECT_DIRE_STING                   413
-#define EFFECT_SPD                          414
-#define EFFECT_LUCENT_BEAMS                 415
-#define EFFECT_HIT_ESCAPE_RECOIL            416
-#define EFFECT_RIBBON_DANCE                 417
-#define EFFECT_WAILING_ARROW                418
-#define EFFECT_WITHER                       419
-#define EFFECT_ATONEMENT                    420
-#define EFFECT_SPELLBREAKER                 421
-#define EFFECT_RECOIL_DROP_SPATK            422
-#define EFFECT_RECOIL_DROP_ATK              423
+#define EFFECT_MOLT                         417
+#define EFFECT_FURRET_WALK                  418
+#define EFFECT_DIRE_STING                   419
+#define EFFECT_SPD                          420
+#define EFFECT_LUCENT_BEAMS                 421
+#define EFFECT_HIT_ESCAPE_RECOIL            422
+#define EFFECT_RIBBON_DANCE                 423
+#define EFFECT_WAILING_ARROW                424
+#define EFFECT_WITHER                       425
+#define EFFECT_ATONEMENT                    426
+#define EFFECT_SPELLBREAKER                 427
+#define EFFECT_RECOIL_DROP_SPATK            428
+#define EFFECT_RECOIL_DROP_ATK              429
 
-#define NUM_BATTLE_MOVE_EFFECTS             424
+#define NUM_BATTLE_MOVE_EFFECTS             430
 
 #endif  // GUARD_CONSTANTS_BATTLE_MOVE_EFFECTS_H
