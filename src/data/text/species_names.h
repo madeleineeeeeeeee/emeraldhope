@@ -596,7 +596,7 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_AMOONGUSS] = _("Amoonguss"),
     [SPECIES_FRILLISH] = _("Frillish"),
     [SPECIES_JELLICENT] = _("Jellicent"),
-    [SPECIES_ALOMomOLA] = _("Alomomola"),
+    [SPECIES_ALOMOMOLA] = _("Alomomola"),
     [SPECIES_JOLTIK] = _("Joltik"),
     [SPECIES_GALVANTULA] = _("Galvantula"),
     [SPECIES_FERROSEED] = _("Ferroseed"),
@@ -1337,7 +1337,7 @@ const u8 gSpeciesNames[NUM_SPECIES][POKEMON_NAME_LENGTH + 1] = {
     // Urshifu
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = _("Urshifu"),
     // Zarude
-    [SPECIES_ZARUDE_DadA] = _("Zarude"),
+    [SPECIES_ZARUDE_DADA] = _("Zarude"),
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = _("Calyrex"),
     [SPECIES_CALYREX_SHADOW_RIDER] = _("Calyrex"),

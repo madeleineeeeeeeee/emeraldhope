@@ -11085,7 +11085,6 @@ BattleScript_IlluminateLoop:
 	jumpifbyteequal gBattlerTarget, gBattlerAttacker, BattleScript_IlluminateLoopIncrement
 	jumpiftargetally BattleScript_IlluminateLoopIncrement
 	jumpifabsent BS_TARGET, BattleScript_IlluminateLoopIncrement
-	jumpifstatus2 BS_TARGET, STATUS2_SUBSTITUTE, BattleScript_IlluminateLoopIncrement
 BattleScript_IlluminateEffect:
 	copybyte sBATTLER, gBattlerAttacker
 	setstatchanger STAT_EVASION, 1, TRUE
@@ -11093,7 +11092,7 @@ BattleScript_IlluminateEffect:
 	setgraphicalstatchangevalues
 	jumpifability BS_TARGET, ABILITY_CONTRARY, BattleScript_IlluminateContrary
 	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
-	printstring STRINGID_DROPSEVA
+	printstring STRINGID_PKMNCUTSATTACKWITH
 BattleScript_IlluminateEffect_WaitString:
 	waitmessage B_WAIT_TIME_LONG
 	copybyte sBATTLER, gBattlerTarget
@@ -11116,18 +11115,9 @@ BattleScript_IlluminateContrary_WontIncrease:
 	printstring STRINGID_TARGETSTATWONTGOHIGHER
 	goto BattleScript_IlluminateEffect_WaitString
 
-BattleScript_IlluminatePrevented:
-	call BattleScript_AbilityPopUp
-	pause B_WAIT_TIME_LONG
-	setbyte gBattleCommunication STAT_ATK
-	stattextbuffer BS_TARGET
-	printstring STRINGID_STATWASNOTLOWERED
-	waitmessage B_WAIT_TIME_LONG
-	goto BattleScript_IlluminateLoopIncrement
-
 BattleScript_IlluminateInReverse:
 	copybyte sBATTLER, gBattlerTarget
 	call BattleScript_AbilityPopUpTarget
 	pause B_WAIT_TIME_SHORT
-	modifybattlerstatstage BS_TARGET, STAT_ATK, INCREASE, 1, BattleScript_IlluminateLoopIncrement, ANIM_ON
-	goto BattleScript_IntimidateLoopIncrement
+	modifybattlerstatstage BS_TARGET, STAT_EVASION, INCREASE, 1, BattleScript_IlluminateLoopIncrement, ANIM_ON
+	goto BattleScript_IlluminateLoopIncrement

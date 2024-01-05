@@ -609,7 +609,7 @@
 #define SPECIES_AMOONGUSS                               591
 #define SPECIES_FRILLISH                                592
 #define SPECIES_JELLICENT                               593
-#define SPECIES_ALOMomOLA                               594
+#define SPECIES_ALOMOMOLA                               594
 #define SPECIES_JOLTIK                                  595
 #define SPECIES_GALVANTULA                              596
 #define SPECIES_FERROSEED                               597

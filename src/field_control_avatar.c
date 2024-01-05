@@ -72,8 +72,9 @@ static bool8 TryStartStepCountScript(u16);
 static void UpdateFriendshipStepCounter(void);
 #if OW_POISON_DAMAGE < GEN_5
 static bool8 UpdatePoisonStepCounter(void);
-static bool8 EnableAutoRun(void);
 #endif // OW_POISON_DAMAGE
+static bool8 EnableAutoRun(void);
+
 
 void FieldClearPlayerInput(struct FieldInput *input)
 {

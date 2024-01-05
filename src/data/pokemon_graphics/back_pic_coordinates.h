@@ -625,7 +625,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES + 1] =
     [SPECIES_AMOONGUSS]                    = { .size = MON_COORDS_SIZE(64, 48), .y_offset = 12 },
     [SPECIES_FRILLISH]                     = { .size = MON_COORDS_SIZE(40, 56), .y_offset =  7 },
     [SPECIES_JELLICENT]                    = { .size = MON_COORDS_SIZE(64, 48), .y_offset = 10 },
-    [SPECIES_ALOMomOLA]                    = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },
+    [SPECIES_ALOMOMOLA]                    = { .size = MON_COORDS_SIZE(48, 64), .y_offset =  0 },
     [SPECIES_JOLTIK]                       = { .size = MON_COORDS_SIZE(48, 32), .y_offset = 19 },
     [SPECIES_GALVANTULA]                   = { .size = MON_COORDS_SIZE(64, 40), .y_offset = 18 },
     [SPECIES_FERROSEED]                    = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 15 },
@@ -1355,7 +1355,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES + 1] =
     // Urshifu
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE]   = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  4 },
     // Zarude
-    [SPECIES_ZARUDE_DadA]                  = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },
+    [SPECIES_ZARUDE_DADA]                  = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER]            = { .size = MON_COORDS_SIZE(64, 64), .y_offset =  7 },
     [SPECIES_CALYREX_SHADOW_RIDER]         = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  7 },

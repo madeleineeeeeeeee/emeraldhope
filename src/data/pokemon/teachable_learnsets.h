@@ -4,7 +4,7 @@ static const u16 sNoneTeachableLearnset[] = {
 
 #if P_FAMILY_BULBASAUR
 static const u16 sBulbasaurTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -12,7 +12,7 @@ static const u16 sBulbasaurTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -32,17 +32,20 @@ static const u16 sBulbasaurTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ENERGY_BALL,
+    MOVE_KNOCK_OFF,
+    MOVE_WEATHER_BALL,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sIvysaurTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -50,7 +53,7 @@ static const u16 sIvysaurTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -70,17 +73,20 @@ static const u16 sIvysaurTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ENERGY_BALL,
+    MOVE_KNOCK_OFF,
+    MOVE_WEATHER_BALL,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sVenusaurTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -89,7 +95,7 @@ static const u16 sVenusaurTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -111,12 +117,16 @@ static const u16 sVenusaurTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_WEATHER_BALL,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BULBASAUR
@@ -124,7 +134,7 @@ static const u16 sVenusaurTeachableLearnset[] = {
 #if P_FAMILY_CHARMANDER
 static const u16 sCharmanderTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -135,7 +145,7 @@ static const u16 sCharmanderTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -159,7 +169,7 @@ static const u16 sCharmanderTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -168,13 +178,22 @@ static const u16 sCharmanderTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_FIRE_FANG,
+    MOVE_HEAT_WAVE,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_TAIL_WHIP,
+    MOVE_WEATHER_BALL,
+    MOVE_WORK_UP,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCharmeleonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -185,7 +204,7 @@ static const u16 sCharmeleonTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -209,7 +228,7 @@ static const u16 sCharmeleonTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -218,13 +237,22 @@ static const u16 sCharmeleonTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_FIRE_FANG,
+    MOVE_HEAT_WAVE,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_TAIL_WHIP,
+    MOVE_WEATHER_BALL,
+    MOVE_WORK_UP,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCharizardTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -237,7 +265,7 @@ static const u16 sCharizardTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -266,7 +294,7 @@ static const u16 sCharizardTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -275,15 +303,28 @@ static const u16 sCharizardTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_FIRE_FANG,
+    MOVE_HEAT_WAVE,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_TAIL_WHIP,
+    MOVE_WEATHER_BALL,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_WHIRLWIND,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CHARMANDER
 
 #if P_FAMILY_SQUIRTLE
 static const u16 sSquirtleTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DIVE,
@@ -292,8 +333,8 @@ static const u16 sSquirtleTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -305,7 +346,7 @@ static const u16 sSquirtleTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -314,24 +355,30 @@ static const u16 sSquirtleTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROLLOUT,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_LIQUIDATION,
+    MOVE_ROCK_SLIDE,
+    MOVE_WORK_UP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_SPIKES,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sWartortleTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DIVE,
@@ -340,8 +387,8 @@ static const u16 sWartortleTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -353,7 +400,7 @@ static const u16 sWartortleTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -362,24 +409,30 @@ static const u16 sWartortleTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROLLOUT,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_LIQUIDATION,
+    MOVE_ROCK_SLIDE,
+    MOVE_WORK_UP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_SPIKES,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBlastoiseTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DIVE,
@@ -389,9 +442,9 @@ static const u16 sBlastoiseTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -404,7 +457,7 @@ static const u16 sBlastoiseTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -413,12 +466,12 @@ static const u16 sBlastoiseTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_ROLLOUT,
     MOVE_SEISMIC_TOSS,
@@ -426,6 +479,16 @@ static const u16 sBlastoiseTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_LIQUIDATION,
+    
+    MOVE_WORK_UP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_GIGA_IMPACT,
+    MOVE_DRAGON_PULSE,
+    MOVE_DARK_PULSE,
+    MOVE_AURA_SPHERE,
+    MOVE_SPIKES,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SQUIRTLE
@@ -480,16 +543,30 @@ static const u16 sButterfreeTeachableLearnset[] = {
 
 #if P_FAMILY_WEEDLE
 static const u16 sWeedleTeachableLearnset[] = {
+    
+    MOVE_SUBSTITUTE,
+    MOVE_SLEEP_TALK,
+    MOVE_SPIKES,
+    MOVE_POISON_JAB,
+    MOVE_U_TURN,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sKakunaTeachableLearnset[] = {
+    
+    MOVE_SUBSTITUTE,
+    MOVE_SLEEP_TALK,
+    MOVE_SPIKES,
+    MOVE_POISON_JAB,
+    MOVE_U_TURN,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBeedrillTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -497,7 +574,7 @@ static const u16 sBeedrillTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -508,7 +585,7 @@ static const u16 sBeedrillTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    //MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -520,6 +597,16 @@ static const u16 sBeedrillTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_NIGHT_SLASH,
+    MOVE_ACROBATICS,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_WEEDLE
@@ -527,12 +614,12 @@ static const u16 sBeedrillTeachableLearnset[] = {
 #if P_FAMILY_PIDGEY
 static const u16 sPidgeyTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -541,8 +628,7 @@ static const u16 sPidgeyTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
@@ -552,17 +638,30 @@ static const u16 sPidgeyTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BULK_UP,
+    MOVE_CALM_MIND,
+    MOVE_CUT,
+    MOVE_ACROBATICS,
+    MOVE_FIRE_FANG,
+    MOVE_AIR_SLASH,
+    MOVE_HEAT_WAVE,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
+    MOVE_WHIRLWIND,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sPidgeottoTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -571,8 +670,7 @@ static const u16 sPidgeottoTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
@@ -582,17 +680,30 @@ static const u16 sPidgeottoTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BULK_UP,
+    MOVE_CALM_MIND,
+    MOVE_CUT,
+    MOVE_ACROBATICS,
+    MOVE_FIRE_FANG,
+    MOVE_AIR_SLASH,
+    MOVE_HEAT_WAVE,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
+    MOVE_WHIRLWIND,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sPidgeotTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -602,8 +713,7 @@ static const u16 sPidgeotTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
@@ -613,6 +723,19 @@ static const u16 sPidgeotTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BULK_UP,
+    MOVE_CALM_MIND,
+    MOVE_CUT,
+    MOVE_ACROBATICS,
+    MOVE_FIRE_FANG,
+    MOVE_AIR_SLASH,
+    MOVE_HEAT_WAVE,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
+    MOVE_WHIRLWIND,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PIDGEY
@@ -809,14 +932,14 @@ static const u16 sFearowTeachableLearnset[] = {
 
 #if P_FAMILY_EKANS
 static const u16 sEkansTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -828,7 +951,7 @@ static const u16 sEkansTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
@@ -840,18 +963,27 @@ static const u16 sEkansTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_CUT,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_POISON_JAB,
+    
+    MOVE_THUNDER_FANG,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sArbokTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -864,7 +996,7 @@ static const u16 sArbokTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
@@ -876,6 +1008,16 @@ static const u16 sArbokTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_CUT,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_POISON_JAB,
+    
+    MOVE_THUNDER_FANG,
+    MOVE_DRAGON_TAIL,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_EKANS
@@ -883,12 +1025,12 @@ static const u16 sArbokTeachableLearnset[] = {
 #if P_FAMILY_PIKACHU
 #if P_GEN_2_CROSS_EVOS
 static const u16 sPichuTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -900,7 +1042,7 @@ static const u16 sPichuTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+   
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -909,7 +1051,7 @@ static const u16 sPichuTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROLLOUT,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -919,12 +1061,16 @@ static const u16 sPichuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_NASTY_PLOT,
+    MOVE_WILD_CHARGE,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
 
 static const u16 sPikachuTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -933,7 +1079,7 @@ static const u16 sPikachuTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -948,7 +1094,7 @@ static const u16 sPikachuTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -958,7 +1104,7 @@ static const u16 sPikachuTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROLLOUT,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -968,11 +1114,15 @@ static const u16 sPikachuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_NASTY_PLOT,
+    MOVE_WILD_CHARGE,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sRaichuTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -980,7 +1130,7 @@ static const u16 sRaichuTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -993,10 +1143,10 @@ static const u16 sRaichuTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
-    MOVE_THIEF,
+    
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -1006,7 +1156,7 @@ static const u16 sRaichuTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROLLOUT,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -1016,6 +1166,10 @@ static const u16 sRaichuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_NASTY_PLOT,
+    MOVE_WILD_CHARGE,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 
@@ -1045,8 +1199,8 @@ static const u16 sRaichuAlolanTeachableLearnset[] = {
 
 #if P_FAMILY_SANDSHREW
 static const u16 sSandshrewTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -1055,7 +1209,7 @@ static const u16 sSandshrewTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -1067,7 +1221,7 @@ static const u16 sSandshrewTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
@@ -1087,12 +1241,20 @@ static const u16 sSandshrewTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_GIGA_IMPACT,
+    MOVE_STEALTH_ROCK,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSandslashTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -1101,7 +1263,7 @@ static const u16 sSandslashTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -1114,7 +1276,7 @@ static const u16 sSandslashTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
@@ -1134,6 +1296,14 @@ static const u16 sSandslashTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_GIGA_IMPACT,
+    MOVE_STEALTH_ROCK,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
@@ -1152,6 +1322,14 @@ static const u16 sSandshrewAlolanTeachableLearnset[] = {
     MOVE_ROCK_SMASH,
     MOVE_STRENGTH,
     MOVE_TOXIC,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_ROCK_SLIDE,
+    MOVE_STEALTH_ROCK,
+    MOVE_SHADOW_CLAW,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
@@ -1170,6 +1348,14 @@ static const u16 sSandslashAlolanTeachableLearnset[] = {
     MOVE_ROCK_SMASH,
     MOVE_STRENGTH,
     MOVE_TOXIC,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_ROCK_SLIDE,
+    MOVE_STEALTH_ROCK,
+    MOVE_SHADOW_CLAW,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_ALOLAN_FORMS
@@ -1326,15 +1512,15 @@ static const u16 sNidoqueenTeachableLearnset[] = {
 };
 
 static const u16 sNidoranMTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -1347,7 +1533,6 @@ static const u16 sNidoranMTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TOXIC,
@@ -1363,19 +1548,28 @@ static const u16 sNidoranMTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_POISON_JAB,
+    MOVE_ROCK_SLIDE,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sNidorinoTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -1388,7 +1582,6 @@ static const u16 sNidorinoTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TOXIC,
@@ -1404,12 +1597,20 @@ static const u16 sNidorinoTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_POISON_JAB,
+    MOVE_ROCK_SLIDE,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sNidokingTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -1420,9 +1621,9 @@ static const u16 sNidokingTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -1441,7 +1642,7 @@ static const u16 sNidokingTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_SURF,
     MOVE_TAUNT,
-    MOVE_THIEF,
+    
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
@@ -1453,9 +1654,8 @@ static const u16 sNidokingTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
+   
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
@@ -1467,7 +1667,17 @@ static const u16 sNidokingTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_FIRE_PUNCH,
+    MOVE_GIGA_IMPACT,
+    MOVE_POISON_JAB,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_THUNDER_PUNCH,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_NIDORAN
@@ -1657,14 +1867,14 @@ static const u16 sClefableTeachableLearnset[] = {
 
 #if P_FAMILY_VULPIX
 static const u16 sVulpixTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -1686,11 +1896,19 @@ static const u16 sVulpixTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_WILL_O_WISP,
+    MOVE_PSYSHOCK,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sNinetalesTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -1698,7 +1916,7 @@ static const u16 sNinetalesTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -1723,6 +1941,14 @@ static const u16 sNinetalesTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_WILL_O_WISP,
+    MOVE_PSYSHOCK,
     MOVE_UNAVAILABLE,
 };
 
@@ -1736,7 +1962,11 @@ static const u16 sVulpixAlolanTeachableLearnset[] = {
     MOVE_PROTECT,
     MOVE_REFLECT,
     MOVE_REST,
-    MOVE_TOXIC,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
@@ -1751,7 +1981,11 @@ static const u16 sNinetalesAlolanTeachableLearnset[] = {
     MOVE_PROTECT,
     MOVE_REFLECT,
     MOVE_REST,
-    MOVE_TOXIC,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_ALOLAN_FORMS
@@ -1808,8 +2042,8 @@ static const u16 sIgglybuffTeachableLearnset[] = {
 #endif //P_GEN_2_CROSS_EVOS
 
 static const u16 sJigglypuffTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -1819,8 +2053,8 @@ static const u16 sJigglypuffTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -1838,7 +2072,7 @@ static const u16 sJigglypuffTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
@@ -1930,13 +2164,13 @@ static const u16 sWigglytuffTeachableLearnset[] = {
 #if P_FAMILY_ZUBAT
 static const u16 sZubatTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -1959,6 +2193,20 @@ static const u16 sZubatTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_DEFOG,
+    MOVE_HEAT_WAVE,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WHIRLWIND,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
@@ -2000,13 +2248,13 @@ static const u16 sGolbatTeachableLearnset[] = {
 #if P_GEN_2_CROSS_EVOS
 static const u16 sCrobatTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -2030,6 +2278,20 @@ static const u16 sCrobatTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_DEFOG,
+    MOVE_HEAT_WAVE,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WHIRLWIND,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -2413,14 +2675,14 @@ static const u16 sDugtrioAlolanTeachableLearnset[] = {
 #if P_FAMILY_MEOWTH
 static const u16 sMeowthTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -2433,11 +2695,10 @@ static const u16 sMeowthTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
+    
     MOVE_TORMENT,
-    MOVE_TOXIC,
-    MOVE_WATER_PULSE,
+    
+   
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -2452,19 +2713,32 @@ static const u16 sMeowthTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_FIRE_FANG,
+    MOVE_ACROBATICS,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_PLAY_ROUGH,
+    MOVE_POWER_GEM,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_HYPER_VOICE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sPersianTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -2479,11 +2753,10 @@ static const u16 sPersianTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
+    
     MOVE_TORMENT,
-    MOVE_TOXIC,
-    MOVE_WATER_PULSE,
+    
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -2498,6 +2771,19 @@ static const u16 sPersianTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_FIRE_FANG,
+    MOVE_ACROBATICS,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_PLAY_ROUGH,
+    MOVE_POWER_GEM,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_HYPER_VOICE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
@@ -2864,14 +3150,14 @@ static const u16 sAnnihilapeTeachableLearnset[] = {
 #if P_FAMILY_GROWLITHE
 static const u16 sGrowlitheTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -2884,31 +3170,39 @@ static const u16 sGrowlitheTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_IRON_HEAD,
+    MOVE_THUNDER_FANG,
+    MOVE_WILD_CHARGE,
+    MOVE_WILL_O_WISP,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sArcanineTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -2923,18 +3217,26 @@ static const u16 sArcanineTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_IRON_HEAD,
+    MOVE_THUNDER_FANG,
+    MOVE_WILD_CHARGE,
+    MOVE_WILL_O_WISP,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
@@ -3537,8 +3839,8 @@ static const u16 sVictreebelTeachableLearnset[] = {
 
 #if P_FAMILY_TENTACOOL
 static const u16 sTentacoolTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -3546,8 +3848,8 @@ static const u16 sTentacoolTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -3557,7 +3859,7 @@ static const u16 sTentacoolTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SLUDGE_BOMB,
     MOVE_SURF,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
@@ -3570,12 +3872,16 @@ static const u16 sTentacoolTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTentacruelTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -3583,9 +3889,9 @@ static const u16 sTentacruelTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -3595,7 +3901,7 @@ static const u16 sTentacruelTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SLUDGE_BOMB,
     MOVE_SURF,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
@@ -3608,6 +3914,10 @@ static const u16 sTentacruelTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TENTACOOL
@@ -3809,13 +4119,14 @@ static const u16 sGolemAlolanTeachableLearnset[] = {
 
 #if P_FAMILY_PONYTA
 static const u16 sPonytaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    MOVE_BULK_UP,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -3826,7 +4137,7 @@ static const u16 sPonytaTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -3836,17 +4147,23 @@ static const u16 sPonytaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_WILD_CHARGE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sRapidashTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    MOVE_BULK_UP,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -3858,7 +4175,7 @@ static const u16 sRapidashTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -3868,12 +4185,17 @@ static const u16 sRapidashTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_WILD_CHARGE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GALARIAN_FORMS
 static const u16 sPonytaGalarianTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_FACADE,
     MOVE_IRON_TAIL,
@@ -3887,11 +4209,16 @@ static const u16 sPonytaGalarianTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
+    MOVE_STRENGTH,
+    MOVE_GIGA_IMPACT,
+    MOVE_WILD_CHARGE,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_PLAY_ROUGH,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sRapidashGalarianTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
@@ -3905,7 +4232,11 @@ static const u16 sRapidashGalarianTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
-    MOVE_SWORDS_DANCE,
+    MOVE_STRENGTH,
+    MOVE_GIGA_IMPACT,
+    MOVE_WILD_CHARGE,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_PLAY_ROUGH,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GALARIAN_FORMS
@@ -4218,7 +4549,7 @@ static const u16 sMagnemiteTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -4230,7 +4561,6 @@ static const u16 sMagnemiteTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_EXPLOSION,
@@ -4243,6 +4573,10 @@ static const u16 sMagnemiteTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_FLASH_CANNON,
+    MOVE_GYRO_BALL,
+    MOVE_IRON_HEAD,
+    MOVE_OVERHEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -4251,7 +4585,7 @@ static const u16 sMagnetonTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -4264,7 +4598,6 @@ static const u16 sMagnetonTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_EXPLOSION,
@@ -4277,6 +4610,10 @@ static const u16 sMagnetonTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_FLASH_CANNON,
+    MOVE_GYRO_BALL,
+    MOVE_IRON_HEAD,
+    MOVE_OVERHEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -4286,7 +4623,7 @@ static const u16 sMagnezoneTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -4299,7 +4636,6 @@ static const u16 sMagnezoneTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_EXPLOSION,
     MOVE_PSYCH_UP,
@@ -4310,6 +4646,10 @@ static const u16 sMagnezoneTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_FLASH_CANNON,
+    MOVE_GYRO_BALL,
+    MOVE_IRON_HEAD,
+    MOVE_OVERHEAT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -4463,14 +4803,14 @@ static const u16 sDodrioTeachableLearnset[] = {
 
 #if P_FAMILY_SEEL
 static const u16 sSeelTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -4481,8 +4821,7 @@ static const u16 sSeelTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -4494,18 +4833,19 @@ static const u16 sSeelTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_CALM_MIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDewgongTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -4517,8 +4857,7 @@ static const u16 sDewgongTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -4530,6 +4869,7 @@ static const u16 sDewgongTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_CALM_MIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SEEL
@@ -4733,12 +5073,12 @@ static const u16 sCloysterTeachableLearnset[] = {
 
 #if P_FAMILY_GASTLY
 static const u16 sGastlyTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -4752,15 +5092,13 @@ static const u16 sGastlyTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
+    
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_EXPLOSION,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MIMIC,
     MOVE_PSYCH_UP,
@@ -4768,17 +5106,20 @@ static const u16 sGastlyTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    MOVE_ENERGY_BALL,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sHaunterTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -4792,15 +5133,13 @@ static const u16 sHaunterTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
+    
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_EXPLOSION,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MIMIC,
     MOVE_PSYCH_UP,
@@ -4808,19 +5147,23 @@ static const u16 sHaunterTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    
+    MOVE_ENERGY_BALL,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_KNOCK_OFF,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGengarTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -4837,19 +5180,17 @@ static const u16 sGengarTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
+    
     MOVE_TORMENT,
     MOVE_TOXIC,
-    MOVE_BODY_SLAM,
+    
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_DREAM_EATER,
-    MOVE_DYNAMIC_PUNCH,
+    
     MOVE_ENDURE,
     MOVE_EXPLOSION,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
@@ -4861,20 +5202,23 @@ static const u16 sGengarTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    MOVE_ENERGY_BALL,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_KNOCK_OFF,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GASTLY
 
 #if P_FAMILY_ONIX
 static const u16 sOnixTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -4888,7 +5232,7 @@ static const u16 sOnixTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -4903,19 +5247,29 @@ static const u16 sOnixTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_U_TURN,
+    MOVE_BULLDOZE,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_2_CROSS_EVOS
 static const u16 sSteelixTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -4930,7 +5284,7 @@ static const u16 sSteelixTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -4945,6 +5299,15 @@ static const u16 sSteelixTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_U_TURN,
+    MOVE_BULLDOZE,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -5321,19 +5684,18 @@ static const u16 sExeggutorAlolanTeachableLearnset[] = {
 #if P_FAMILY_CUBONE
 static const u16 sCuboneTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    MOVE_BULK_UP,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
+    
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -5344,14 +5706,14 @@ static const u16 sCuboneTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+   
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
+    
     MOVE_FURY_CUTTER,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
@@ -5365,26 +5727,34 @@ static const u16 sCuboneTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_BULK_UP,
+    MOVE_WORK_UP,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMarowakTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    MOVE_BULK_UP,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
+    
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -5395,14 +5765,14 @@ static const u16 sMarowakTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
+    
     MOVE_FURY_CUTTER,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
@@ -5416,13 +5786,22 @@ static const u16 sMarowakTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_BULK_UP,
+    MOVE_WORK_UP,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_DRAGON_TAIL,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 #if P_ALOLAN_FORMS
 static const u16 sMarowakAlolanTeachableLearnset[] = {
-    MOVE_BLIZZARD,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_EARTHQUAKE,
@@ -5430,16 +5809,25 @@ static const u16 sMarowakAlolanTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_ROCK_SMASH,
     MOVE_SHADOW_BALL,
     MOVE_STRENGTH,
-    MOVE_THUNDERBOLT,
-    MOVE_THUNDER,
+    
     MOVE_TOXIC,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_FIRE_PUNCH,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_ROCK_SLIDE,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_WILL_O_WISP,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_ALOLAN_FORMS
@@ -5737,14 +6125,14 @@ static const u16 sLickilickyTeachableLearnset[] = {
 
 #if P_FAMILY_KOFFING
 static const u16 sKoffingTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -5755,9 +6143,6 @@ static const u16 sKoffingTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_ENDURE,
@@ -5768,18 +6153,22 @@ static const u16 sKoffingTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sWeezingTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -5791,9 +6180,7 @@ static const u16 sWeezingTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
+    
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_ENDURE,
@@ -5804,6 +6191,10 @@ static const u16 sWeezingTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
@@ -5838,8 +6229,8 @@ static const u16 sWeezingGalarianTeachableLearnset[] = {
 
 #if P_FAMILY_RHYHORN
 static const u16 sRhyhornTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -5847,8 +6238,8 @@ static const u16 sRhyhornTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -5862,15 +6253,10 @@ static const u16 sRhyhornTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
-    MOVE_ICY_WIND,
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
@@ -5880,12 +6266,23 @@ static const u16 sRhyhornTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sRhydonTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -5896,9 +6293,9 @@ static const u16 sRhydonTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -5912,20 +6309,12 @@ static const u16 sRhydonTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_SURF,
-    MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
-    MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
@@ -5938,14 +6327,24 @@ static const u16 sRhydonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sRhyperiorTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -5956,9 +6355,9 @@ static const u16 sRhyperiorTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -5972,16 +6371,8 @@ static const u16 sRhyperiorTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_SURF,
-    MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
-    MOVE_ICY_WIND,
     MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
     MOVE_ROLLOUT,
@@ -5990,7 +6381,18 @@ static const u16 sRhyperiorTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FIRE_FANG,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -6183,7 +6585,7 @@ static const u16 sBlisseyTeachableLearnset[] = {
 
 #if P_FAMILY_TANGELA
 static const u16 sTangelaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -6191,7 +6593,7 @@ static const u16 sTangelaTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -6221,7 +6623,7 @@ static const u16 sTangelaTeachableLearnset[] = {
 #if P_GEN_4_CROSS_EVOS
 static const u16 sTangrowthTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -6231,7 +6633,7 @@ static const u16 sTangrowthTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -6328,15 +6730,15 @@ static const u16 sKangaskhanTeachableLearnset[] = {
 
 #if P_FAMILY_HORSEA
 static const u16 sHorseaTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -6355,20 +6757,24 @@ static const u16 sHorseaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WORK_UP,
+    MOVE_DRAGON_PULSE,
+    MOVE_FLASH_CANNON,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSeadraTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -6387,21 +6793,26 @@ static const u16 sSeadraTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WORK_UP,
+    MOVE_DRAGON_PULSE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_2_CROSS_EVOS
 static const u16 sKingdraTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -6421,6 +6832,11 @@ static const u16 sKingdraTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WORK_UP,
+    MOVE_DRAGON_PULSE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -6429,21 +6845,21 @@ static const u16 sKingdraTeachableLearnset[] = {
 #if P_FAMILY_GOLDEEN
 static const u16 sGoldeenTeachableLearnset[] = {
     MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
     MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -6463,7 +6879,7 @@ static const u16 sGoldeenTeachableLearnset[] = {
 
 static const u16 sSeakingTeachableLearnset[] = {
     MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -6471,14 +6887,14 @@ static const u16 sSeakingTeachableLearnset[] = {
     MOVE_HAIL,
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_DOUBLE_EDGE,
@@ -6771,13 +7187,13 @@ static const u16 sMrRimeTeachableLearnset[] = {
 #if P_FAMILY_SCYTHER
 static const u16 sScytherTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -6789,8 +7205,8 @@ static const u16 sScytherTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
+    
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -6802,19 +7218,30 @@ static const u16 sScytherTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_FIRE_FANG,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_BUG_BUZZ,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_TAILWIND,
+    MOVE_BUG_BITE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_2_CROSS_EVOS
 static const u16 sScizorTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -6841,6 +7268,21 @@ static const u16 sScizorTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_THUNDER_PUNCH,
+    MOVE_FIRE_FANG,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_BUG_BUZZ,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_IRON_HEAD,
+    MOVE_BUG_BITE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_TAILWIND,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -6956,14 +7398,14 @@ static const u16 sJynxTeachableLearnset[] = {
 #if P_FAMILY_ELECTABUZZ
 #if P_GEN_2_CROSS_EVOS
 static const u16 sElekidTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -6973,10 +7415,8 @@ static const u16 sElekidTeachableLearnset[] = {
     MOVE_ROCK_SMASH,
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -7001,14 +7441,14 @@ static const u16 sElekidTeachableLearnset[] = {
 #endif //P_GEN_2_CROSS_EVOS
 
 static const u16 sElectabuzzTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -7022,10 +7462,9 @@ static const u16 sElectabuzzTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -7051,17 +7490,16 @@ static const u16 sElectabuzzTeachableLearnset[] = {
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sElectivireTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
-    MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -7076,11 +7514,9 @@ static const u16 sElectivireTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
     MOVE_TAUNT,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,
@@ -7093,6 +7529,7 @@ static const u16 sElectivireTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_BULLDOZE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -7101,7 +7538,7 @@ static const u16 sElectivireTeachableLearnset[] = {
 #if P_FAMILY_MAGMAR
 #if P_GEN_2_CROSS_EVOS
 static const u16 sMagbyTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -7109,7 +7546,7 @@ static const u16 sMagbyTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -7119,7 +7556,6 @@ static const u16 sMagbyTeachableLearnset[] = {
     MOVE_ROCK_SMASH,
     MOVE_SECRET_POWER,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
@@ -7130,7 +7566,6 @@ static const u16 sMagbyTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -7142,7 +7577,7 @@ static const u16 sMagbyTeachableLearnset[] = {
 #endif //P_GEN_2_CROSS_EVOS
 
 static const u16 sMagmarTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -7150,7 +7585,7 @@ static const u16 sMagmarTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -7162,8 +7597,7 @@ static const u16 sMagmarTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -7186,7 +7620,7 @@ static const u16 sMagmarTeachableLearnset[] = {
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sMagmortarTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -7195,7 +7629,7 @@ static const u16 sMagmortarTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -7210,7 +7644,6 @@ static const u16 sMagmortarTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
@@ -7223,6 +7656,9 @@ static const u16 sMagmortarTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -7478,8 +7914,8 @@ static const u16 sMagikarpTeachableLearnset[] = {
 };
 
 static const u16 sGyaradosTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -7488,9 +7924,9 @@ static const u16 sGyaradosTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -7507,7 +7943,7 @@ static const u16 sGyaradosTeachableLearnset[] = {
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -7519,23 +7955,31 @@ static const u16 sGyaradosTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MAGIKARP
 
 #if P_FAMILY_LAPRAS
 static const u16 sLaprasTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
+    
+    MOVE_HYPER_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -7547,13 +7991,11 @@ static const u16 sLaprasTeachableLearnset[] = {
     MOVE_ROCK_SMASH,
     MOVE_SAFEGUARD,
     MOVE_SECRET_POWER,
-    MOVE_SHOCK_WAVE,
-    MOVE_SOLAR_BEAM,
+    
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -7566,6 +8008,15 @@ static const u16 sLaprasTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_CALM_MIND,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_LIQUIDATION,
+    MOVE_WEATHER_BALL,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_HYPER_VOICE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LAPRAS
@@ -7578,12 +8029,12 @@ static const u16 sDittoTeachableLearnset[] = {
 
 #if P_FAMILY_EEVEE
 static const u16 sEeveeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -7593,7 +8044,7 @@ static const u16 sEeveeTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHADOW_BALL,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -7604,21 +8055,26 @@ static const u16 sEeveeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WEATHER_BALL,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_VOICE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sVaporeonTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    MOVE_CALM_MIND,
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -7632,7 +8088,7 @@ static const u16 sVaporeonTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -7646,17 +8102,25 @@ static const u16 sVaporeonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WEATHER_BALL,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sJolteonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    MOVE_U_TURN,
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -7674,7 +8138,7 @@ static const u16 sJolteonTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -7686,18 +8150,27 @@ static const u16 sJolteonTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_WEATHER_BALL,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFlareonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    MOVE_U_TURN,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -7712,7 +8185,7 @@ static const u16 sFlareonTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -7723,12 +8196,21 @@ static const u16 sFlareonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WEATHER_BALL,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
+    MOVE_HEAT_WAVE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_2_CROSS_EVOS
 static const u16 sEspeonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIG,
@@ -7736,7 +8218,7 @@ static const u16 sEspeonTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -7750,31 +8232,42 @@ static const u16 sEspeonTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_SKILL_SWAP,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WEATHER_BALL,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GRASS_KNOT,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_PSYSHOCK,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sUmbreonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -7794,13 +8287,33 @@ static const u16 sUmbreonTeachableLearnset[] = {
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    MOVE_NASTY_PLOT,
+    MOVE_PLAY_ROUGH,
+    MOVE_SWORDS_DANCE,
+    MOVE_SURF,
+    MOVE_ICY_WIND,
+    MOVE_SHADOW_CLAW,
+    MOVE_THIEF,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WEATHER_BALL,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
+    MOVE_NIGHT_SLASH,
+    MOVE_NASTY_PLOT,
+    MOVE_PLAY_ROUGH,
+    MOVE_SHADOW_CLAW,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -7808,7 +8321,7 @@ static const u16 sUmbreonTeachableLearnset[] = {
 #if P_GEN_4_CROSS_EVOS
 static const u16 sLeafeonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -7816,7 +8329,7 @@ static const u16 sLeafeonTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -7840,18 +8353,32 @@ static const u16 sLeafeonTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_WEATHER_BALL,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
+    MOVE_U_TURN,
+    MOVE_BULLET_SEED,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_SWORDS_DANCE,
+    MOVE_STRENGTH,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGlaceonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -7875,13 +8402,20 @@ static const u16 sGlaceonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WEATHER_BALL,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
 
 #if P_GEN_6_CROSS_EVOS
 static const u16 sSylveonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIG,
@@ -7889,7 +8423,7 @@ static const u16 sSylveonTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -7910,6 +8444,14 @@ static const u16 sSylveonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_WEATHER_BALL,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
+    MOVE_DAZZLING_GLEAM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_6_CROSS_EVOS
@@ -7918,12 +8460,12 @@ static const u16 sSylveonTeachableLearnset[] = {
 #if P_FAMILY_PORYGON
 static const u16 sPorygonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_BLIZZARD,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -7938,15 +8480,12 @@ static const u16 sPorygonTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
-    MOVE_DREAM_EATER,
     MOVE_ENDURE,
-    MOVE_ICY_WIND,
     MOVE_MIMIC,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
@@ -7955,18 +8494,22 @@ static const u16 sPorygonTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_NASTY_PLOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_2_CROSS_EVOS
 static const u16 sPorygon2TeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_BLIZZARD,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -7980,15 +8523,11 @@ static const u16 sPorygon2TeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
-    MOVE_DREAM_EATER,
     MOVE_ENDURE,
-    MOVE_ICY_WIND,
     MOVE_MIMIC,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
@@ -7997,18 +8536,22 @@ static const u16 sPorygon2TeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_NASTY_PLOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sPorygonZTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_BLIZZARD,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -8022,13 +8565,9 @@ static const u16 sPorygonZTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
-    MOVE_DREAM_EATER,
     MOVE_ENDURE,
-    MOVE_ICY_WIND,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -8036,6 +8575,10 @@ static const u16 sPorygonZTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_NASTY_PLOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -8044,15 +8587,15 @@ static const u16 sPorygonZTeachableLearnset[] = {
 
 #if P_FAMILY_OMANYTE
 static const u16 sOmanyteTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -8063,7 +8606,7 @@ static const u16 sOmanyteTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
@@ -8078,20 +8621,30 @@ static const u16 sOmanyteTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SPIKES,
+    MOVE_KNOCK_OFF,
+    MOVE_DEFOG,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    
+    MOVE_POWER_GEM,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sOmastarTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -8102,7 +8655,7 @@ static const u16 sOmastarTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
@@ -8118,6 +8671,16 @@ static const u16 sOmastarTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SPIKES,
+    MOVE_KNOCK_OFF,
+    MOVE_DEFOG,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    
+    MOVE_POWER_GEM,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_OMANYTE
@@ -8125,16 +8688,16 @@ static const u16 sOmastarTeachableLearnset[] = {
 #if P_FAMILY_KABUTO
 static const u16 sKabutoTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -8145,8 +8708,8 @@ static const u16 sKabutoTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -8161,13 +8724,22 @@ static const u16 sKabutoTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_KNOCK_OFF,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_LIQUIDATION,
+    MOVE_NIGHT_SLASH,
+    
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sKabutopsTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -8177,9 +8749,9 @@ static const u16 sKabutopsTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -8190,8 +8762,7 @@ static const u16 sKabutopsTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -8210,6 +8781,15 @@ static const u16 sKabutopsTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_KNOCK_OFF,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_LIQUIDATION,
+    MOVE_NIGHT_SLASH,
+    
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_KABUTO
@@ -8217,7 +8797,7 @@ static const u16 sKabutopsTeachableLearnset[] = {
 #if P_FAMILY_AERODACTYL
 static const u16 sAerodactylTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_DRAGON_CLAW,
     MOVE_EARTHQUAKE,
@@ -8226,7 +8806,7 @@ static const u16 sAerodactylTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -8245,7 +8825,7 @@ static const u16 sAerodactylTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
@@ -8255,6 +8835,20 @@ static const u16 sAerodactylTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_EARTH_POWER,
+    MOVE_FIRE_FANG,
+    MOVE_HEAT_WAVE,
+    MOVE_IRON_HEAD,
+    
+    MOVE_ROOST,
+    MOVE_STEALTH_ROCK,
+    MOVE_TAILWIND,
+    MOVE_THUNDER_FANG,
+    MOVE_WHIRLWIND,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_AERODACTYL
@@ -8262,18 +8856,17 @@ static const u16 sAerodactylTeachableLearnset[] = {
 #if P_FAMILY_SNORLAX
 #if P_GEN_4_CROSS_EVOS
 static const u16 sMunchlaxTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
+    
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -8289,46 +8882,46 @@ static const u16 sMunchlaxTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_SURF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_METRONOME,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_ROLLOUT,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    MOVE_KNOCK_OFF,
+    MOVE_BULLDOZE,
+    MOVE_IRON_HEAD,
+    MOVE_WORK_UP,
+    MOVE_ZEN_HEADBUTT,
+    
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
 
 static const u16 sSnorlaxTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
+    
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -8345,10 +8938,9 @@ static const u16 sSnorlaxTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_SURF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
+    
+    
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
@@ -8356,14 +8948,13 @@ static const u16 sSnorlaxTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
+   
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_METRONOME,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_ROLLOUT,
@@ -8372,7 +8963,11 @@ static const u16 sSnorlaxTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    MOVE_KNOCK_OFF,
+    MOVE_BULLDOZE,
+    MOVE_IRON_HEAD,
+    MOVE_WORK_UP,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SNORLAX
@@ -8382,11 +8977,13 @@ static const u16 sArticunoTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
     MOVE_BLIZZARD,
     MOVE_DOUBLE_TEAM,
+    MOVE_CALM_MIND,
+    MOVE_SURF,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
@@ -8400,18 +8997,26 @@ static const u16 sArticunoTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_WATER_PULSE,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+   
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_WEATHER_BALL,
+    MOVE_TAILWIND,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 
@@ -8432,9 +9037,16 @@ static const u16 sArticunoGalarianTeachableLearnset[] = {
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_SLEEP_TALK,
+    MOVE_ICY_WIND,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
+    MOVE_AIR_SLASH,
+    MOVE_GIGA_IMPACT,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_ROOST,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GALARIAN_FORMS
@@ -8448,7 +9060,7 @@ static const u16 sZapdosTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -8465,17 +9077,26 @@ static const u16 sZapdosTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_WORK_UP,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_HEAT_WAVE,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WEATHER_BALL,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 
@@ -8499,6 +9120,10 @@ static const u16 sZapdosGalarianTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_GIGA_IMPACT,
+    MOVE_ROOST,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GALARIAN_FORMS
@@ -8513,7 +9138,7 @@ static const u16 sMoltresTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -8529,16 +9154,24 @@ static const u16 sMoltresTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    MOVE_WORK_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_AIR_SLASH,
+    MOVE_GIGA_IMPACT,
+    MOVE_DEFOG,
+    MOVE_HEAT_WAVE,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
+    MOVE_WEATHER_BALL,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 
@@ -8558,6 +9191,13 @@ static const u16 sMoltresGalarianTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
+    MOVE_ROOST,
+    MOVE_DARK_PULSE,
+    MOVE_AIR_SLASH,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_NASTY_PLOT,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GALARIAN_FORMS
@@ -8565,17 +9205,17 @@ static const u16 sMoltresGalarianTeachableLearnset[] = {
 
 #if P_FAMILY_DRATINI
 static const u16 sDratiniTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -8590,7 +9230,7 @@ static const u16 sDratiniTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -8603,22 +9243,24 @@ static const u16 sDratiniTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_DRAGON_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDragonairTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -8633,7 +9275,7 @@ static const u16 sDragonairTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -8646,14 +9288,16 @@ static const u16 sDragonairTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_DRAGON_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDragoniteTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIVE,
@@ -8667,9 +9311,9 @@ static const u16 sDragoniteTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -8690,7 +9334,7 @@ static const u16 sDragoniteTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -8699,18 +9343,27 @@ static const u16 sDragoniteTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_DRAGON_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_AIR_SLASH,
+    MOVE_BULLDOZE,
+    MOVE_HEAT_WAVE,
+    MOVE_IRON_HEAD,
+    
+    MOVE_STONE_EDGE,
+    MOVE_TAILWIND,
+    MOVE_DRAGON_TAIL,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DRATINI
@@ -8732,7 +9385,7 @@ static const u16 sMewtwoTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -8785,6 +9438,19 @@ static const u16 sMewtwoTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_AURA_SPHERE,
+    MOVE_BULLDOZE,
+    MOVE_BULK_UP,
+    MOVE_DRAIN_PUNCH,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    
+    MOVE_STONE_EDGE,
+    MOVE_WILL_O_WISP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_PSYSHOCK,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MEWTWO
@@ -8798,7 +9464,7 @@ static const u16 sMewTeachableLearnset[] = {
 
 #if P_FAMILY_CHIKORITA
 static const u16 sChikoritaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -8806,7 +9472,7 @@ static const u16 sChikoritaTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    MOVE_CALM_MIND,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -8830,11 +9496,16 @@ static const u16 sChikoritaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PLAY_ROUGH,
+    MOVE_BULLDOZE,
+    MOVE_ENERGY_BALL,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBayleefTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -8842,7 +9513,7 @@ static const u16 sBayleefTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    MOVE_CALM_MIND,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -8868,11 +9539,16 @@ static const u16 sBayleefTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PLAY_ROUGH,
+    MOVE_BULLDOZE,
+    MOVE_ENERGY_BALL,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMeganiumTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -8881,7 +9557,7 @@ static const u16 sMeganiumTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    MOVE_CALM_MIND,
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -8908,6 +9584,11 @@ static const u16 sMeganiumTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PLAY_ROUGH,
+    MOVE_BULLDOZE,
+    MOVE_ENERGY_BALL,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CHIKORITA
@@ -8915,7 +9596,7 @@ static const u16 sMeganiumTeachableLearnset[] = {
 #if P_FAMILY_CYNDAQUIL
 static const u16 sCyndaquilTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -8923,7 +9604,7 @@ static const u16 sCyndaquilTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -8931,25 +9612,33 @@ static const u16 sCyndaquilTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROLLOUT,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_ROCK_SLIDE,
+    MOVE_SHADOW_CLAW,
+    MOVE_WILD_CHARGE,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
+    MOVE_EARTH_POWER,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sQuilavaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -8959,7 +9648,7 @@ static const u16 sQuilavaTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -8970,26 +9659,34 @@ static const u16 sQuilavaTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROLLOUT,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_ROCK_SLIDE,
+    MOVE_SHADOW_CLAW,
+    MOVE_WILD_CHARGE,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
+    MOVE_EARTH_POWER,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTyphlosionTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -9000,7 +9697,7 @@ static const u16 sTyphlosionTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -9014,7 +9711,7 @@ static const u16 sTyphlosionTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -9026,7 +9723,7 @@ static const u16 sTyphlosionTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_ROLLOUT,
     MOVE_SEISMIC_TOSS,
@@ -9035,7 +9732,14 @@ static const u16 sTyphlosionTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_WILD_CHARGE,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
+    MOVE_EARTH_POWER,
     MOVE_UNAVAILABLE,
 };
 
@@ -9049,8 +9753,8 @@ static const u16 sTyphlosionHisuianTeachableLearnset[] = {
 #if P_FAMILY_TOTODILE
 static const u16 sTotodileTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -9061,8 +9765,8 @@ static const u16 sTotodileTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -9079,12 +9783,12 @@ static const u16 sTotodileTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -9092,13 +9796,23 @@ static const u16 sTotodileTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_FIRE_FANG,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_LIQUIDATION,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_WORK_UP,
+    MOVE_ROAR,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCroconawTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -9109,8 +9823,8 @@ static const u16 sCroconawTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -9131,12 +9845,12 @@ static const u16 sCroconawTeachableLearnset[] = {
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -9144,13 +9858,23 @@ static const u16 sCroconawTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_FIRE_FANG,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_LIQUIDATION,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_WORK_UP,
+    MOVE_ROAR,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFeraligatrTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -9162,9 +9886,9 @@ static const u16 sFeraligatrTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -9185,12 +9909,12 @@ static const u16 sFeraligatrTeachableLearnset[] = {
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -9198,23 +9922,33 @@ static const u16 sFeraligatrTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_FIRE_FANG,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_LIQUIDATION,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_WORK_UP,
+    MOVE_ROAR,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TOTODILE
 
 #if P_FAMILY_SENTRET
 static const u16 sSentretTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
-    MOVE_FLAMETHROWER,
+    
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -9223,21 +9957,20 @@ static const u16 sSentretTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHADOW_BALL,
     MOVE_SHOCK_WAVE,
-    MOVE_SOLAR_BEAM,
+    
     MOVE_SUNNY_DAY,
-    MOVE_SURF,
+    
     MOVE_THIEF,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
+    
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
+    
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
     MOVE_ROLLOUT,
@@ -9246,24 +9979,31 @@ static const u16 sSentretTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_PUNCH,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_KNOCK_OFF,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFurretTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
-    MOVE_FLAMETHROWER,
+    
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -9273,23 +10013,21 @@ static const u16 sFurretTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHADOW_BALL,
     MOVE_SHOCK_WAVE,
-    MOVE_SOLAR_BEAM,
+    
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_SURF,
+    
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
+    
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
+    
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
     MOVE_ROLLOUT,
@@ -9298,7 +10036,15 @@ static const u16 sFurretTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_PUNCH,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_KNOCK_OFF,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
+    MOVE_PURSUIT,
+    
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SENTRET
@@ -9379,7 +10125,7 @@ static const u16 sNoctowlTeachableLearnset[] = {
 #if P_FAMILY_LEDYBA
 static const u16 sLedybaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -9388,7 +10134,7 @@ static const u16 sLedybaTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -9420,7 +10166,7 @@ static const u16 sLedybaTeachableLearnset[] = {
 
 static const u16 sLedianTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -9429,7 +10175,7 @@ static const u16 sLedianTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -9464,14 +10210,14 @@ static const u16 sLedianTeachableLearnset[] = {
 
 #if P_FAMILY_SPINARAK
 static const u16 sSpinarakTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_REST,
@@ -9480,7 +10226,7 @@ static const u16 sSpinarakTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
@@ -9490,18 +10236,25 @@ static const u16 sSpinarakTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_FIRE_FANG,
+    MOVE_U_TURN,
+    MOVE_BUG_BITE,
+    MOVE_GIGA_IMPACT,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sAriadosTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -9511,7 +10264,7 @@ static const u16 sAriadosTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
@@ -9522,22 +10275,29 @@ static const u16 sAriadosTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_FIRE_FANG,
+    MOVE_U_TURN,
+    MOVE_BUG_BITE,
+    MOVE_GIGA_IMPACT,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SPINARAK
 
 #if P_FAMILY_CHINCHOU
 static const u16 sChinchouTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -9547,7 +10307,7 @@ static const u16 sChinchouTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_DOUBLE_EDGE,
@@ -9559,21 +10319,23 @@ static const u16 sChinchouTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLanturnTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -9583,7 +10345,7 @@ static const u16 sLanturnTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_DOUBLE_EDGE,
@@ -9595,20 +10357,20 @@ static const u16 sLanturnTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CHINCHOU
 
 #if P_FAMILY_TOGEPI
 static const u16 sTogepiTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -9623,19 +10385,15 @@ static const u16 sTogepiTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
-    MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
-    MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_METRONOME,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROLLOUT,
     MOVE_SEISMIC_TOSS,
@@ -9645,23 +10403,20 @@ static const u16 sTogepiTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTogeticTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FLY,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -9678,19 +10433,15 @@ static const u16 sTogeticTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
-    MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
-    MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_METRONOME,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROLLOUT,
     MOVE_SEISMIC_TOSS,
@@ -9700,24 +10451,31 @@ static const u16 sTogeticTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_AIR_SLASH,
+    MOVE_AURA_SPHERE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_GRASS_KNOT,
+    MOVE_HEAT_WAVE,
+    MOVE_HYPER_VOICE,
+    MOVE_PSYSHOCK,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sTogekissTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FLY,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -9734,11 +10492,8 @@ static const u16 sTogekissTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
-    MOVE_DREAM_EATER,
     MOVE_ENDURE,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROLLOUT,
     MOVE_SLEEP_TALK,
@@ -9746,7 +10501,16 @@ static const u16 sTogekissTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_AIR_SLASH,
+    MOVE_AURA_SPHERE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_GRASS_KNOT,
+    MOVE_HEAT_WAVE,
+    MOVE_HYPER_VOICE,
+    MOVE_PSYSHOCK,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -9836,12 +10600,12 @@ static const u16 sXatuTeachableLearnset[] = {
 
 #if P_FAMILY_MAREEP
 static const u16 sMareepTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -9854,7 +10618,7 @@ static const u16 sMareepTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -9866,18 +10630,20 @@ static const u16 sMareepTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_POWER_GEM,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFlaaffyTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -9891,7 +10657,7 @@ static const u16 sFlaaffyTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -9910,18 +10676,20 @@ static const u16 sFlaaffyTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_POWER_GEM,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sAmpharosTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -9936,7 +10704,7 @@ static const u16 sAmpharosTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -9955,6 +10723,10 @@ static const u16 sAmpharosTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_POWER_GEM,
+    MOVE_WILD_CHARGE,
+    MOVE_GIGA_IMPACT,
+    MOVE_DRAGON_PULSE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MAREEP
@@ -10386,7 +11158,7 @@ static const u16 sAmbipomTeachableLearnset[] = {
 
 #if P_FAMILY_SUNKERN
 static const u16 sSunkernTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -10394,7 +11166,7 @@ static const u16 sSunkernTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REST,
@@ -10404,7 +11176,7 @@ static const u16 sSunkernTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
@@ -10413,11 +11185,13 @@ static const u16 sSunkernTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSunfloraTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -10425,7 +11199,7 @@ static const u16 sSunfloraTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -10436,7 +11210,8 @@ static const u16 sSunfloraTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    MOVE_FLAMETHROWER,
+    MOVE_FIRE_BLAST,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
@@ -10445,6 +11220,10 @@ static const u16 sSunfloraTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_EARTH_POWER,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SUNKERN
@@ -10452,13 +11231,13 @@ static const u16 sSunfloraTeachableLearnset[] = {
 #if P_FAMILY_YANMA
 static const u16 sYanmaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_REST,
@@ -10468,10 +11247,8 @@ static const u16 sYanmaTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
-    MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_MIMIC,
     MOVE_SLEEP_TALK,
@@ -10479,19 +11256,31 @@ static const u16 sYanmaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_DRAGON_PULSE,
+    MOVE_FIRE_FANG,
+    MOVE_SLUDGE_BOMB,
+    MOVE_BUG_BUZZ,
+    MOVE_U_TURN,
+    MOVE_PURSUIT,
+    MOVE_WHIRLWIND,
+    MOVE_DEFOG,
+    MOVE_NIGHT_SLASH,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sYanmegaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -10502,17 +11291,27 @@ static const u16 sYanmegaTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_DRAGON_PULSE,
+    MOVE_FIRE_FANG,
+    MOVE_SLUDGE_BOMB,
+    MOVE_BUG_BUZZ,
+    MOVE_U_TURN,
+    MOVE_PURSUIT,
+    MOVE_WHIRLWIND,
+    MOVE_DEFOG,
+    MOVE_NIGHT_SLASH,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -10520,8 +11319,8 @@ static const u16 sYanmegaTeachableLearnset[] = {
 
 #if P_FAMILY_WOOPER
 static const u16 sWooperTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -10530,8 +11329,8 @@ static const u16 sWooperTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -10550,9 +11349,9 @@ static const u16 sWooperTeachableLearnset[] = {
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
-    MOVE_DYNAMIC_PUNCH,
+    
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
@@ -10561,12 +11360,16 @@ static const u16 sWooperTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_SPIKES,
+    MOVE_EARTH_POWER,
+    MOVE_ROCK_SLIDE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sQuagsireTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DIVE,
@@ -10577,9 +11380,9 @@ static const u16 sQuagsireTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -10603,7 +11406,7 @@ static const u16 sQuagsireTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
@@ -10616,6 +11419,12 @@ static const u16 sQuagsireTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_SPIKES,
+    MOVE_EARTH_POWER,
+    
+    MOVE_GIGA_IMPACT,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
@@ -10725,13 +11534,13 @@ static const u16 sClodsireTeachableLearnset[] = {
 #if P_FAMILY_MURKROW
 static const u16 sMurkrowTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -10758,20 +11567,26 @@ static const u16 sMurkrowTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_WHIRLWIND,
+    MOVE_ROOST,
+    MOVE_DARK_PULSE,
+    MOVE_HEAT_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_NIGHT_SLASH,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sHonchkrowTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -10797,7 +11612,14 @@ static const u16 sHonchkrowTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_WHIRLWIND,
+    MOVE_ROOST,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_NIGHT_SLASH,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -10806,13 +11628,13 @@ static const u16 sHonchkrowTeachableLearnset[] = {
 #if P_FAMILY_MISDREAVUS
 static const u16 sMisdreavusTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -10826,7 +11648,6 @@ static const u16 sMisdreavusTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
@@ -10843,19 +11664,28 @@ static const u16 sMisdreavusTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_NASTY_PLOT,
+    MOVE_POWER_GEM,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sMismagiusTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -10870,7 +11700,6 @@ static const u16 sMismagiusTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
@@ -10884,6 +11713,15 @@ static const u16 sMismagiusTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_NASTY_PLOT,
+    MOVE_POWER_GEM,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -11019,14 +11857,14 @@ static const u16 sFarigirafTeachableLearnset[] = {
 
 #if P_FAMILY_PINECO
 static const u16 sPinecoTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -11054,18 +11892,22 @@ static const u16 sPinecoTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BUG_BUZZ,
+    MOVE_SPIKES,
+    MOVE_STEALTH_ROCK,
+    MOVE_BUG_BITE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sForretressTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -11093,14 +11935,25 @@ static const u16 sForretressTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_FLAMETHROWER,
+    MOVE_FIRE_BLAST,
+    MOVE_WATER_PULSE,
+    MOVE_DARK_PULSE,
+    MOVE_BUG_BUZZ,
+    MOVE_SPIKES,
+    MOVE_STEALTH_ROCK,
+    MOVE_BUG_BITE,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PINECO
 
 #if P_FAMILY_DUNSPARCE
 static const u16 sDunsparceTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CALM_MIND,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -11109,8 +11962,8 @@ static const u16 sDunsparceTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -11150,65 +12003,50 @@ static const u16 sDunsparceTeachableLearnset[] = {
 
 #if P_GEN_9_CROSS_EVOS
 static const u16 sDudunsparceTeachableLearnset[] = {
-    MOVE_AGILITY,
-    MOVE_AIR_SLASH,
-    MOVE_AMNESIA,
-    MOVE_BATON_PASS,
-    MOVE_BLIZZARD,
-    MOVE_BODY_PRESS,
-    MOVE_BODY_SLAM,
-    MOVE_BULLDOZE,
     MOVE_CALM_MIND,
-    MOVE_CHILLING_WATER,
     MOVE_DIG,
-    MOVE_DRAGON_TAIL,
-    MOVE_DRILL_RUN,
+    MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
-    MOVE_EARTH_POWER,
-    MOVE_ENDURE,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
-    MOVE_GIGA_IMPACT,
-    MOVE_HEAVY_SLAM,
-    MOVE_HELPING_HAND,
-    MOVE_HEX,
-    MOVE_HURRICANE,
-    MOVE_HYPER_BEAM,
-    MOVE_HYPER_VOICE,
-    MOVE_ICE_BEAM,
-    MOVE_ICE_SPINNER,
-    MOVE_MUD_SHOT,
-    MOVE_MUD_SLAP,
-    MOVE_OUTRAGE,
-    MOVE_POISON_JAB,
-    MOVE_POISON_TAIL,
-    MOVE_POUNCE,
+    MOVE_FRUSTRATION,
+    
+    
+    MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
-    MOVE_ROCK_SLIDE,
+    MOVE_RETURN,
+    MOVE_ROCK_SMASH,
     MOVE_ROCK_TOMB,
-    MOVE_SANDSTORM,
-    MOVE_SCARY_FACE,
+    MOVE_SECRET_POWER,
     MOVE_SHADOW_BALL,
-    MOVE_SLEEP_TALK,
-    MOVE_SMART_STRIKE,
+    MOVE_SHOCK_WAVE,
     MOVE_SOLAR_BEAM,
-    MOVE_STEALTH_ROCK,
-    MOVE_STOMPING_TANTRUM,
-    MOVE_STONE_EDGE,
-    MOVE_STORED_POWER,
-    MOVE_SUBSTITUTE,
+    MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TAILWIND,
-    MOVE_TAKE_DOWN,
-    MOVE_TERA_BLAST,
     MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_WILD_CHARGE,
-    MOVE_ZEN_HEADBUTT,
+    MOVE_TOXIC,
+    MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_DEFENSE_CURL,
+    MOVE_DOUBLE_EDGE,
+    MOVE_DREAM_EATER,
+    MOVE_ENDURE,
+    MOVE_MIMIC,
+    MOVE_MUD_SLAP,
+    MOVE_PSYCH_UP,
+    MOVE_ROCK_SLIDE,
+    MOVE_ROLLOUT,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_THUNDER_WAVE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_9_CROSS_EVOS
@@ -11217,7 +12055,7 @@ static const u16 sDudunsparceTeachableLearnset[] = {
 #if P_FAMILY_GLIGAR
 static const u16 sGligarTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -11225,7 +12063,7 @@ static const u16 sGligarTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -11256,13 +12094,23 @@ static const u16 sGligarTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_DEFOG,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_FIRE_FANG,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_NIGHT_SLASH,
+    MOVE_ROOST,
+    MOVE_STONE_EDGE,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sGliscorTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -11270,7 +12118,7 @@ static const u16 sGliscorTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -11299,6 +12147,16 @@ static const u16 sGliscorTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_DEFOG,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_FIRE_FANG,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_NIGHT_SLASH,
+    MOVE_ROOST,
+    MOVE_STONE_EDGE,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -11519,7 +12377,7 @@ static const u16 sShuckleTeachableLearnset[] = {
 #if P_FAMILY_HERACROSS
 static const u16 sHeracrossTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_BULLET_SEED,
@@ -11530,7 +12388,7 @@ static const u16 sHeracrossTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -11541,7 +12399,7 @@ static const u16 sHeracrossTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
@@ -11556,6 +12414,18 @@ static const u16 sHeracrossTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_FIRE_PUNCH,
+    MOVE_ICE_PUNCH,
+    MOVE_THUNDER_PUNCH,
+    MOVE_BUG_BITE,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HERACROSS
@@ -11563,10 +12433,9 @@ static const u16 sHeracrossTeachableLearnset[] = {
 #if P_FAMILY_SNEASEL
 static const u16 sSneaselTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_BRICK_BREAK,
-    MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -11574,9 +12443,8 @@ static const u16 sSneaselTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
-    MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -11596,31 +12464,34 @@ static const u16 sSneaselTeachableLearnset[] = {
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
-    MOVE_DREAM_EATER,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
-    MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_PURSUIT,
+    MOVE_AVALANCHE,
+    MOVE_DARK_PULSE,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_SHADOW_CLAW,
+
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sWeavileTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_BRICK_BREAK,
-    MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -11628,7 +12499,7 @@ static const u16 sWeavileTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -11643,24 +12514,25 @@ static const u16 sWeavileTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_SURF,
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
     MOVE_TOXIC,
-    MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
-    MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_AVALANCHE,
+    MOVE_DARK_PULSE,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -11679,17 +12551,17 @@ static const u16 sSneaslerTeachableLearnset[] = {
 #if P_FAMILY_TEDDIURSA
 static const u16 sTeddiursaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
-    MOVE_EARTHQUAKE,
+    
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -11701,18 +12573,18 @@ static const u16 sTeddiursaTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
+    
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
+    
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
+    
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_METRONOME,
@@ -11727,23 +12599,30 @@ static const u16 sTeddiursaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_GIGA_IMPACT,
+    MOVE_PLAY_ROUGH,
+    MOVE_BULLDOZE,
+    MOVE_NIGHT_SLASH,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sUrsaringTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
-    MOVE_EARTHQUAKE,
+    
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -11756,18 +12635,18 @@ static const u16 sUrsaringTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
+    
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
+    
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
+    
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_METRONOME,
@@ -11782,12 +12661,77 @@ static const u16 sUrsaringTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_GIGA_IMPACT,
+    MOVE_PLAY_ROUGH,
+    MOVE_BULLDOZE,
+    MOVE_NIGHT_SLASH,
+    
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_8_CROSS_EVOS
 static const u16 sUrsalunaTeachableLearnset[] = {
+    MOVE_AERIAL_ACE,
+    
+    MOVE_BRICK_BREAK,
+    MOVE_BULK_UP,
+    MOVE_CUT,
+    MOVE_DIG,
+    MOVE_DOUBLE_TEAM,
+    
+    MOVE_FACADE,
+    MOVE_FOCUS_PUNCH,
+    MOVE_FRUSTRATION,
+    
+    MOVE_HYPER_BEAM,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_ROAR,
+    MOVE_ROCK_SMASH,
+    MOVE_ROCK_TOMB,
+    MOVE_SECRET_POWER,
+    MOVE_STRENGTH,
+    MOVE_SUNNY_DAY,
+    MOVE_TAUNT,
+    
+    MOVE_TORMENT,
+    
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_DEFENSE_CURL,
+    MOVE_DOUBLE_EDGE,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_ENDURE,
+    
+    MOVE_FURY_CUTTER,
+    
+    MOVE_MEGA_KICK,
+    MOVE_MEGA_PUNCH,
+    MOVE_METRONOME,
+    MOVE_MIMIC,
+    MOVE_MUD_SLAP,
+    MOVE_ROCK_SLIDE,
+    MOVE_ROLLOUT,
+    MOVE_SEISMIC_TOSS,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
+    MOVE_SWORDS_DANCE,
+    MOVE_GIGA_IMPACT,
+    MOVE_PLAY_ROUGH,
+    MOVE_BULLDOZE,
+    MOVE_NIGHT_SLASH,
+    MOVE_ROCK_SLIDE,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
@@ -11799,13 +12743,13 @@ static const u16 sUrsalunaBloodmoonTeachableLearnset[] = {
 
 #if P_FAMILY_SLUGMA
 static const u16 sSlugmaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -11816,7 +12760,7 @@ static const u16 sSlugmaTeachableLearnset[] = {
     MOVE_ROCK_TOMB,
     MOVE_SECRET_POWER,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -11829,18 +12773,25 @@ static const u16 sSlugmaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_POWER_GEM,
+    
+    MOVE_STONE_EDGE,
+    MOVE_STEALTH_ROCK,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMagcargoTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
@@ -11855,7 +12806,7 @@ static const u16 sMagcargoTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -11869,13 +12820,20 @@ static const u16 sMagcargoTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_POWER_GEM,
+    
+    MOVE_STONE_EDGE,
+    MOVE_STEALTH_ROCK,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SLUGMA
 
 #if P_FAMILY_SWINUB
 static const u16 sSwinubTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -11883,7 +12841,7 @@ static const u16 sSwinubTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -11897,7 +12855,6 @@ static const u16 sSwinubTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -11910,11 +12867,19 @@ static const u16 sSwinubTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ICE_FANG,
+    MOVE_AVALANCHE,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_STRENGTH,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sPiloswineTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -11922,7 +12887,7 @@ static const u16 sPiloswineTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -11937,7 +12902,6 @@ static const u16 sPiloswineTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -11950,12 +12914,21 @@ static const u16 sPiloswineTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULK_UP,
+    MOVE_ICE_FANG,
+    MOVE_AVALANCHE,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_STRENGTH,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sMamoswineTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -11963,7 +12936,7 @@ static const u16 sMamoswineTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -11987,6 +12960,15 @@ static const u16 sMamoswineTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULK_UP,
+    MOVE_ICE_FANG,
+    MOVE_AVALANCHE,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_STRENGTH,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -12240,16 +13222,15 @@ static const u16 sDelibirdTeachableLearnset[] = {
 #if P_GEN_4_CROSS_EVOS
 static const u16 sMantykeTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
-    MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -12268,24 +13249,33 @@ static const u16 sMantykeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_POISON_JAB,
+    MOVE_SWORDS_DANCE,
+    MOVE_U_TURN,
+    MOVE_TAILWIND,
+    MOVE_ACROBATICS,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_LIQUIDATION,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
 
 static const u16 sMantineTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BULLET_SEED,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
-    MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -12308,6 +13298,17 @@ static const u16 sMantineTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_POISON_JAB,
+    MOVE_SWORDS_DANCE,
+    MOVE_U_TURN,
+    MOVE_TAILWIND,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_LIQUIDATION,
+    MOVE_ROOST,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MANTINE
@@ -12315,14 +13316,14 @@ static const u16 sMantineTeachableLearnset[] = {
 #if P_FAMILY_SKARMORY
 static const u16 sSkarmoryTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -12334,16 +13335,16 @@ static const u16 sSkarmoryTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
+    
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -12351,19 +13352,29 @@ static const u16 sSkarmoryTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_TAILWIND,
+    MOVE_ACROBATICS,
+    MOVE_U_TURN,
+    MOVE_SPIKES,
+    MOVE_AIR_SLASH,
+    MOVE_NIGHT_SLASH,
+    
+    MOVE_STEALTH_ROCK,
+    MOVE_WHIRLWIND,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SKARMORY
 
 #if P_FAMILY_HOUNDOUR
 static const u16 sHoundourTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -12387,23 +13398,31 @@ static const u16 sHoundourTeachableLearnset[] = {
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_PLAY_ROUGH,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_WILL_O_WISP,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sHoundoomTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -12429,24 +13448,32 @@ static const u16 sHoundoomTeachableLearnset[] = {
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_PLAY_ROUGH,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_WILL_O_WISP,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HOUNDOUR
 
 #if P_FAMILY_PHANPY
 static const u16 sPhanpyTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -12458,7 +13485,6 @@ static const u16 sPhanpyTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -12476,12 +13502,12 @@ static const u16 sPhanpyTeachableLearnset[] = {
 };
 
 static const u16 sDonphanTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -12494,7 +13520,6 @@ static const u16 sDonphanTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -12642,7 +13667,7 @@ static const u16 sRaikouTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -12661,12 +13686,12 @@ static const u16 sRaikouTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -12674,6 +13699,10 @@ static const u16 sRaikouTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_AURA_SPHERE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_RAIKOU
@@ -12689,7 +13718,7 @@ static const u16 sEnteiTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -12706,7 +13735,7 @@ static const u16 sEnteiTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -12718,13 +13747,20 @@ static const u16 sEnteiTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BULLDOZE,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ENTEI
 
 #if P_FAMILY_SUICUNE
 static const u16 sSuicuneTeachableLearnset[] = {
-    MOVE_BLIZZARD,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIG,
@@ -12733,9 +13769,9 @@ static const u16 sSuicuneTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -12764,20 +13800,27 @@ static const u16 sSuicuneTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SUICUNE
 
 #if P_FAMILY_LARVITAR
 static const u16 sLarvitarTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -12796,24 +13839,36 @@ static const u16 sLarvitarTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_THIEF,
+    MOVE_GIGA_IMPACT,
+    MOVE_DARK_PULSE,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_CLAW,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_SHADOW_CLAW,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sPupitarTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -12832,19 +13887,31 @@ static const u16 sPupitarTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_THIEF,
+    MOVE_GIGA_IMPACT,
+    MOVE_DARK_PULSE,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_CLAW,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_SHADOW_CLAW,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTyranitarTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -12856,9 +13923,9 @@ static const u16 sTyranitarTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -12886,19 +13953,28 @@ static const u16 sTyranitarTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
+    
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_THIEF,
+    MOVE_GIGA_IMPACT,
+    MOVE_DARK_PULSE,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_SHADOW_CLAW,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LARVITAR
@@ -12906,7 +13982,7 @@ static const u16 sTyranitarTeachableLearnset[] = {
 #if P_FAMILY_LUGIA
 static const u16 sLugiaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_BLIZZARD,
+    
     MOVE_CALM_MIND,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -12917,9 +13993,9 @@ static const u16 sLugiaTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -12940,9 +14016,7 @@ static const u16 sLugiaTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -12958,7 +14032,19 @@ static const u16 sLugiaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_WHIRLWIND,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_PSYSHOCK,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LUGIA
@@ -12976,7 +14062,7 @@ static const u16 sHoOhTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
@@ -12997,9 +14083,7 @@ static const u16 sHoOhTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
+    
     MOVE_DOUBLE_EDGE,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
@@ -13011,7 +14095,18 @@ static const u16 sHoOhTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_AIR_SLASH,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_WHIRLWIND,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HO_OH
@@ -13026,7 +14121,7 @@ static const u16 sCelebiTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -13059,7 +14154,16 @@ static const u16 sCelebiTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_EARTH_POWER,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_STEALTH_ROCK,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_PSYSHOCK,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CELEBI
@@ -13067,7 +14171,7 @@ static const u16 sCelebiTeachableLearnset[] = {
 #if P_FAMILY_TREECKO
 static const u16 sTreeckoTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -13078,7 +14182,7 @@ static const u16 sTreeckoTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -13100,7 +14204,7 @@ static const u16 sTreeckoTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -13110,12 +14214,22 @@ static const u16 sTreeckoTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_POISON_JAB,
+    MOVE_DRAGON_CLAW,
+    MOVE_SPIKES,
+    MOVE_ACROBATICS,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_NIGHT_SLASH,
+    MOVE_WORK_UP,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGrovyleTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -13126,7 +14240,7 @@ static const u16 sGrovyleTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -13148,7 +14262,7 @@ static const u16 sGrovyleTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -13158,12 +14272,22 @@ static const u16 sGrovyleTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_POISON_JAB,
+    MOVE_DRAGON_CLAW,
+    MOVE_SPIKES,
+    MOVE_ACROBATICS,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_NIGHT_SLASH,
+    MOVE_WORK_UP,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSceptileTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -13176,7 +14300,7 @@ static const u16 sSceptileTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -13200,7 +14324,7 @@ static const u16 sSceptileTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -13210,6 +14334,16 @@ static const u16 sSceptileTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_POISON_JAB,
+    MOVE_SPIKES,
+    MOVE_ACROBATICS,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_NIGHT_SLASH,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TREECKO
@@ -13217,7 +14351,7 @@ static const u16 sSceptileTeachableLearnset[] = {
 #if P_FAMILY_TORCHIC
 static const u16 sTorchicTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -13225,7 +14359,7 @@ static const u16 sTorchicTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_REST,
@@ -13235,7 +14369,7 @@ static const u16 sTorchicTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -13243,7 +14377,7 @@ static const u16 sTorchicTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -13252,12 +14386,24 @@ static const u16 sTorchicTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_NASTY_PLOT,
+    MOVE_AURA_SPHERE,
+    MOVE_ACROBATICS,
+    MOVE_BULLDOZE,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCombuskenTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -13268,7 +14414,7 @@ static const u16 sCombuskenTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_REST,
@@ -13278,7 +14424,7 @@ static const u16 sCombuskenTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -13289,7 +14435,7 @@ static const u16 sCombuskenTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -13299,12 +14445,24 @@ static const u16 sCombuskenTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_NASTY_PLOT,
+    MOVE_AURA_SPHERE,
+    MOVE_ACROBATICS,
+    MOVE_BULLDOZE,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBlazikenTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -13316,7 +14474,7 @@ static const u16 sBlazikenTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -13329,7 +14487,7 @@ static const u16 sBlazikenTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -13340,7 +14498,7 @@ static const u16 sBlazikenTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -13350,22 +14508,35 @@ static const u16 sBlazikenTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_NASTY_PLOT,
+    MOVE_AURA_SPHERE,
+    MOVE_ACROBATICS,
+    MOVE_BULLDOZE,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TORCHIC
 
 #if P_FAMILY_MUDKIP
 static const u16 sMudkipTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13376,7 +14547,7 @@ static const u16 sMudkipTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -13393,12 +14564,17 @@ static const u16 sMudkipTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LIQUIDATION,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_STEALTH_ROCK,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMarshtompTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DIVE,
@@ -13407,8 +14583,8 @@ static const u16 sMarshtompTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13419,7 +14595,7 @@ static const u16 sMarshtompTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -13428,8 +14604,7 @@ static const u16 sMarshtompTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
-    MOVE_ICY_WIND,
+    
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
@@ -13441,12 +14616,17 @@ static const u16 sMarshtompTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LIQUIDATION,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_STEALTH_ROCK,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSwampertTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DIVE,
@@ -13456,9 +14636,9 @@ static const u16 sSwampertTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13470,7 +14650,7 @@ static const u16 sSwampertTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
+    
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -13479,8 +14659,7 @@ static const u16 sSwampertTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
-    MOVE_ICY_WIND,
+    
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
@@ -13492,18 +14671,25 @@ static const u16 sSwampertTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LIQUIDATION,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_STEALTH_ROCK,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
+    
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MUDKIP
 
 #if P_FAMILY_POOCHYENA
 static const u16 sPoochyenaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13518,28 +14704,36 @@ static const u16 sPoochyenaTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_PLAY_ROUGH,
+    MOVE_BULK_UP,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMightyenaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -13556,33 +14750,41 @@ static const u16 sMightyenaTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_PLAY_ROUGH,
+    MOVE_BULK_UP,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_POOCHYENA
 
 #if P_FAMILY_ZIGZAGOON
 static const u16 sZigzagoonTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13618,16 +14820,16 @@ static const u16 sZigzagoonTeachableLearnset[] = {
 };
 
 static const u16 sLinooneTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13666,11 +14868,11 @@ static const u16 sLinooneTeachableLearnset[] = {
 
 #if P_GALARIAN_FORMS
 static const u16 sZigzagoonGalarianTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_FACADE,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13680,8 +14882,6 @@ static const u16 sZigzagoonGalarianTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -13691,17 +14891,22 @@ static const u16 sZigzagoonGalarianTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_TOXIC,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_SHADOW_CLAW,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLinooneGalarianTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13711,8 +14916,6 @@ static const u16 sLinooneGalarianTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -13722,19 +14925,24 @@ static const u16 sLinooneGalarianTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_TOXIC,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_SHADOW_CLAW,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sObstagoonTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DIG,
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13744,14 +14952,11 @@ static const u16 sObstagoonTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
@@ -13760,7 +14965,14 @@ static const u16 sObstagoonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_STRENGTH,
+    MOVE_TOXIC,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_SHADOW_CLAW,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GALARIAN_FORMS
@@ -13769,22 +14981,26 @@ static const u16 sObstagoonTeachableLearnset[] = {
 #if P_FAMILY_WURMPLE
 static const u16 sWurmpleTeachableLearnset[] = {
     MOVE_SNORE,
+    MOVE_SPIKES,
+    MOVE_BUG_BUZZ,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSilcoonTeachableLearnset[] = {
+    MOVE_SPIKES,
+    MOVE_BUG_BUZZ,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBeautiflyTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -13795,7 +15011,7 @@ static const u16 sBeautiflyTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -13805,22 +15021,34 @@ static const u16 sBeautiflyTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DEFOG,
+    MOVE_SPIKES,
+    MOVE_BUG_BUZZ,
+    MOVE_AIR_SLASH,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCascoonTeachableLearnset[] = {
+    MOVE_SPIKES,
+    MOVE_BUG_BUZZ,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDustoxTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -13832,7 +15060,7 @@ static const u16 sDustoxTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -13842,14 +15070,23 @@ static const u16 sDustoxTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_SPIKES,
+    MOVE_DEFOG,
+    MOVE_BUG_BUZZ,
+    MOVE_AIR_SLASH,
+    MOVE_GIGA_IMPACT,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_WHIRLWIND,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_WURMPLE
 
 #if P_FAMILY_LOTAD
 static const u16 sLotadTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -13857,8 +15094,8 @@ static const u16 sLotadTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -13867,7 +15104,7 @@ static const u16 sLotadTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -13881,12 +15118,17 @@ static const u16 sLotadTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_LIQUIDATION,
+    MOVE_DEFOG,
+    MOVE_WORK_UP,
+    MOVE_ENERGY_BALL,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLombreTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_DIVE,
@@ -13896,8 +15138,8 @@ static const u16 sLombreTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -13908,7 +15150,7 @@ static const u16 sLombreTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
@@ -13916,8 +15158,7 @@ static const u16 sLombreTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
@@ -13926,13 +15167,18 @@ static const u16 sLombreTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_LIQUIDATION,
+    MOVE_DEFOG,
+    MOVE_WORK_UP,
+    MOVE_ENERGY_BALL,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_KNOCK_OFF,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLudicoloTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_DIVE,
@@ -13943,9 +15189,9 @@ static const u16 sLudicoloTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -13956,7 +15202,7 @@ static const u16 sLudicoloTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
-    MOVE_THIEF,
+    
     MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
@@ -13965,8 +15211,7 @@ static const u16 sLudicoloTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
+    
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
@@ -13979,14 +15224,20 @@ static const u16 sLudicoloTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_LIQUIDATION,
+    MOVE_DEFOG,
+    MOVE_WORK_UP,
+    MOVE_ENERGY_BALL,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_KNOCK_OFF,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LOTAD
 
 #if P_FAMILY_SEEDOT
 static const u16 sSeedotTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -13994,7 +15245,7 @@ static const u16 sSeedotTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -14020,7 +15271,7 @@ static const u16 sSeedotTeachableLearnset[] = {
 };
 
 static const u16 sNuzleafTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -14030,7 +15281,7 @@ static const u16 sNuzleafTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -14068,7 +15319,7 @@ static const u16 sNuzleafTeachableLearnset[] = {
 
 static const u16 sShiftryTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -14078,7 +15329,7 @@ static const u16 sShiftryTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -14119,12 +15370,12 @@ static const u16 sShiftryTeachableLearnset[] = {
 #if P_FAMILY_TAILLOW
 static const u16 sTaillowTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -14132,29 +15383,40 @@ static const u16 sTaillowTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_SWORDS_DANCE,
+    MOVE_DEFOG,
+    MOVE_ROOST,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_STRENGTH,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_HEAT_WAVE,
+    MOVE_U_TURN,
+    MOVE_WHIRLWIND,
+    MOVE_TAILWIND,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSwellowTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -14163,18 +15425,28 @@ static const u16 sSwellowTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_SWORDS_DANCE,
+    MOVE_DEFOG,
+    MOVE_ROOST,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_STRENGTH,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_HEAT_WAVE,
+    MOVE_U_TURN,
+    MOVE_WHIRLWIND,
+    MOVE_TAILWIND,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TAILLOW
@@ -14253,13 +15525,13 @@ static const u16 sPelipperTeachableLearnset[] = {
 
 #if P_FAMILY_RALTS
 static const u16 sRaltsTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -14275,10 +15547,10 @@ static const u16 sRaltsTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
+    
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -14288,7 +15560,7 @@ static const u16 sRaltsTeachableLearnset[] = {
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -14296,18 +15568,23 @@ static const u16 sRaltsTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_HYPER_VOICE,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sKirliaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -14323,10 +15600,10 @@ static const u16 sKirliaTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
+    
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -14336,7 +15613,7 @@ static const u16 sKirliaTeachableLearnset[] = {
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -14344,18 +15621,24 @@ static const u16 sKirliaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_HYPER_VOICE,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGardevoirTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -14372,10 +15655,10 @@ static const u16 sGardevoirTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
+    
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
+    
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -14385,7 +15668,7 @@ static const u16 sGardevoirTeachableLearnset[] = {
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
+    
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -14393,14 +15676,21 @@ static const u16 sGardevoirTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+   
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_HYPER_VOICE,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sGalladeTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CALM_MIND,
@@ -14411,7 +15701,7 @@ static const u16 sGalladeTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -14431,18 +15721,14 @@ static const u16 sGalladeTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
     MOVE_ICE_PUNCH,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
-    MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
@@ -14450,7 +15736,14 @@ static const u16 sGalladeTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_BULLDOZE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_PSYSHOCK,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -14458,15 +15751,15 @@ static const u16 sGalladeTeachableLearnset[] = {
 
 #if P_FAMILY_SURSKIT
 static const u16 sSurskitTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -14475,7 +15768,6 @@ static const u16 sSurskitTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DOUBLE_EDGE,
@@ -14489,21 +15781,27 @@ static const u16 sSurskitTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_SURF,
+    MOVE_BUG_BUZZ,
+    MOVE_BUG_BITE,
+    MOVE_ENERGY_BALL,
+    MOVE_LIQUIDATION,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMasquerainTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -14512,7 +15810,6 @@ static const u16 sMasquerainTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DOUBLE_EDGE,
@@ -14526,13 +15823,23 @@ static const u16 sMasquerainTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_SURF,
+    MOVE_AIR_SLASH,
+    MOVE_BUG_BUZZ,
+    MOVE_BUG_BITE,
+    MOVE_ENERGY_BALL,
+    MOVE_LIQUIDATION,
+    MOVE_U_TURN,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SURSKIT
 
 #if P_FAMILY_SHROOMISH
 static const u16 sShroomishTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -14540,7 +15847,7 @@ static const u16 sShroomishTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -14560,11 +15867,14 @@ static const u16 sShroomishTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBreloomTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_BULLET_SEED,
@@ -14575,7 +15885,7 @@ static const u16 sBreloomTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -14600,7 +15910,6 @@ static const u16 sBreloomTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
@@ -14609,26 +15918,25 @@ static const u16 sBreloomTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_POISON_JAB,
+    MOVE_SPIKES,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SHROOMISH
 
 #if P_FAMILY_SLAKOTH
 static const u16 sSlakothTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -14638,21 +15946,15 @@ static const u16 sSlakothTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHADOW_BALL,
     MOVE_SHOCK_WAVE,
-    MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
@@ -14664,26 +15966,28 @@ static const u16 sSlakothTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    MOVE_KNOCK_OFF,
+    MOVE_BULLDOZE,
+    MOVE_NIGHT_SLASH,
+    MOVE_PLAY_ROUGH,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sVigorothTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -14694,13 +15998,9 @@ static const u16 sVigorothTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHADOW_BALL,
     MOVE_SHOCK_WAVE,
-    MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
@@ -14722,26 +16022,31 @@ static const u16 sVigorothTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
+    MOVE_SWORDS_DANCE,
+    MOVE_U_TURN,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_BULLDOZE,
+    MOVE_NIGHT_SLASH,
+    MOVE_PLAY_ROUGH,
+    MOVE_SHADOW_CLAW,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSlakingTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -14752,22 +16057,16 @@ static const u16 sSlakingTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHADOW_BALL,
     MOVE_SHOCK_WAVE,
-    MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
@@ -14779,7 +16078,12 @@ static const u16 sSlakingTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_BULLDOZE,
+    MOVE_NIGHT_SLASH,
+    MOVE_PLAY_ROUGH,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SLAKOTH
@@ -14794,7 +16098,7 @@ static const u16 sNincadaTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -14813,12 +16117,18 @@ static const u16 sNincadaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ACROBATICS,
+    MOVE_BUG_BITE,
+    MOVE_BUG_BUZZ,
+    MOVE_NIGHT_SLASH,
+    MOVE_U_TURN,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sNinjaskTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -14826,7 +16136,7 @@ static const u16 sNinjaskTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -14836,7 +16146,6 @@ static const u16 sNinjaskTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -14849,6 +16158,14 @@ static const u16 sNinjaskTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_POISON_JAB,
+    MOVE_ACROBATICS,
+    MOVE_BUG_BITE,
+    MOVE_BUG_BUZZ,
+    MOVE_GIGA_IMPACT,
+    MOVE_NIGHT_SLASH,
+    MOVE_U_TURN,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
@@ -14860,8 +16177,7 @@ static const u16 sShedinjaTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -14871,10 +16187,8 @@ static const u16 sShedinjaTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
-    MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_MIMIC,
@@ -14884,6 +16198,14 @@ static const u16 sShedinjaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ICE_FANG,
+    MOVE_ICY_WIND,
+    MOVE_BUG_BITE,
+    MOVE_BUG_BUZZ,
+    MOVE_GIGA_IMPACT,
+    MOVE_NIGHT_SLASH,
+    MOVE_U_TURN,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_NINCADA
@@ -15323,7 +16645,7 @@ static const u16 sDelcattyTeachableLearnset[] = {
 #if P_FAMILY_SABLEYE
 static const u16 sSableyeTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CALM_MIND,
     MOVE_CUT,
@@ -15333,7 +16655,7 @@ static const u16 sSableyeTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -15357,22 +16679,28 @@ static const u16 sSableyeTeachableLearnset[] = {
     MOVE_DREAM_EATER,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_METRONOME,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    MOVE_SWORDS_DANCE,
+    MOVE_NASTY_PLOT,
+    MOVE_PURSUIT,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_KNOCK_OFF,
+    MOVE_POWER_GEM,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SABLEYE
@@ -15434,14 +16762,14 @@ static const u16 sMawileTeachableLearnset[] = {
 #if P_FAMILY_ARON
 static const u16 sAronTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -15455,7 +16783,6 @@ static const u16 sAronTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
@@ -15470,19 +16797,29 @@ static const u16 sAronTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_STONE_EDGE,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLaironTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -15496,7 +16833,6 @@ static const u16 sLaironTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
@@ -15511,13 +16847,23 @@ static const u16 sLaironTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_STONE_EDGE,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sAggronTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -15529,9 +16875,9 @@ static const u16 sAggronTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -15543,14 +16889,10 @@ static const u16 sAggronTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
-    MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
     MOVE_TAUNT,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
@@ -15558,9 +16900,7 @@ static const u16 sAggronTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
@@ -15573,8 +16913,16 @@ static const u16 sAggronTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_STONE_EDGE,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ARON
@@ -15896,7 +17244,7 @@ static const u16 sVolbeatTeachableLearnset[] = {
 
 static const u16 sIllumiseTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -15904,7 +17252,7 @@ static const u16 sIllumiseTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -15915,7 +17263,6 @@ static const u16 sIllumiseTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TOXIC,
@@ -15925,7 +17272,6 @@ static const u16 sIllumiseTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_METRONOME,
@@ -15940,6 +17286,17 @@ static const u16 sIllumiseTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_BUG_BUZZ,
+    MOVE_AIR_SLASH,
+    MOVE_ACROBATICS,
+    MOVE_BUG_BITE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PLAY_ROUGH,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_VOLBEAT_ILLUMISE
@@ -15947,7 +17304,7 @@ static const u16 sIllumiseTeachableLearnset[] = {
 #if P_FAMILY_ROSELIA
 #if P_GEN_4_CROSS_EVOS
 static const u16 sBudewTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -15955,7 +17312,7 @@ static const u16 sBudewTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -15975,12 +17332,17 @@ static const u16 sBudewTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_POISON_JAB,
+    MOVE_SPIKES,
+    MOVE_ENERGY_BALL,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
 
 static const u16 sRoseliaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -15988,7 +17350,7 @@ static const u16 sRoseliaTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -16012,12 +17374,17 @@ static const u16 sRoseliaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_POISON_JAB,
+    MOVE_SPIKES,
+    MOVE_ENERGY_BALL,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sRoseradeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -16025,7 +17392,7 @@ static const u16 sRoseradeTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -16047,6 +17414,12 @@ static const u16 sRoseradeTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_POISON_JAB,
+    MOVE_SPIKES,
+    MOVE_ENERGY_BALL,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -16148,15 +17521,15 @@ static const u16 sSwalotTeachableLearnset[] = {
 
 #if P_FAMILY_CARVANHA
 static const u16 sCarvanhaTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -16174,27 +17547,33 @@ static const u16 sCarvanhaTeachableLearnset[] = {
     MOVE_FURY_CUTTER,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSharpedoTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -16216,28 +17595,34 @@ static const u16 sSharpedoTeachableLearnset[] = {
     MOVE_FURY_CUTTER,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CARVANHA
 
 #if P_FAMILY_WAILMER
 static const u16 sWailmerTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -16248,7 +17633,6 @@ static const u16 sWailmerTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -16262,21 +17646,28 @@ static const u16 sWailmerTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DEFOG,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_LIQUIDATION,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sWailordTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -16287,7 +17678,6 @@ static const u16 sWailordTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -16301,13 +17691,20 @@ static const u16 sWailordTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DEFOG,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_LIQUIDATION,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_WAILMER
 
 #if P_FAMILY_NUMEL
 static const u16 sNumelTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -16315,7 +17712,7 @@ static const u16 sNumelTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_REST,
@@ -16326,7 +17723,6 @@ static const u16 sNumelTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -16339,11 +17735,19 @@ static const u16 sNumelTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_WATER_PULSE,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCameruptTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -16351,7 +17755,7 @@ static const u16 sCameruptTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -16365,7 +17769,6 @@ static const u16 sCameruptTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -16379,6 +17782,14 @@ static const u16 sCameruptTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_WATER_PULSE,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_NUMEL
@@ -16582,14 +17993,14 @@ static const u16 sSpindaTeachableLearnset[] = {
 
 #if P_FAMILY_TRAPINCH
 static const u16 sTrapinchTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -16613,11 +18024,21 @@ static const u16 sTrapinchTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_SPIKES,
+    MOVE_BUG_BITE,
+    MOVE_BUG_BUZZ,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_STONE_EDGE,
+    MOVE_U_TURN,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sVibravaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -16625,7 +18046,7 @@ static const u16 sVibravaTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -16651,12 +18072,25 @@ static const u16 sVibravaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_SPIKES,
+    MOVE_BUG_BITE,
+    MOVE_BUG_BUZZ,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_HEAT_WAVE,
+    MOVE_STONE_EDGE,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFlygonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_DRAGON_CLAW,
@@ -16667,7 +18101,7 @@ static const u16 sFlygonTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -16685,7 +18119,6 @@ static const u16 sFlygonTeachableLearnset[] = {
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
@@ -16695,14 +18128,26 @@ static const u16 sFlygonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_PUNCH,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_SPIKES,
+    MOVE_BUG_BITE,
+    MOVE_BUG_BUZZ,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_HEAT_WAVE,
+    MOVE_STONE_EDGE,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TRAPINCH
 
 #if P_FAMILY_CACNEA
 static const u16 sCacneaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -16712,7 +18157,7 @@ static const u16 sCacneaTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -16721,6 +18166,7 @@ static const u16 sCacneaTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
     MOVE_TOXIC,
+    MOVE_THIEF,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -16736,12 +18182,18 @@ static const u16 sCacneaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCacturneTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_CUT,
@@ -16751,7 +18203,7 @@ static const u16 sCacturneTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -16762,6 +18214,7 @@ static const u16 sCacturneTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TOXIC,
+    MOVE_THIEF,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -16778,7 +18231,13 @@ static const u16 sCacturneTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CACNEA
@@ -16786,13 +18245,13 @@ static const u16 sCacturneTeachableLearnset[] = {
 #if P_FAMILY_SWABLU
 static const u16 sSwabluTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -16802,26 +18261,32 @@ static const u16 sSwabluTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ROOST,
+    MOVE_CALM_MIND,
+    MOVE_THUNDER,
+    MOVE_AIR_SLASH,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DRAGON_PULSE,
+    MOVE_HEAT_WAVE,
+    MOVE_PLAY_ROUGH,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sAltariaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_DRAGON_CLAW,
     MOVE_EARTHQUAKE,
@@ -16830,9 +18295,9 @@ static const u16 sAltariaTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -16845,20 +18310,26 @@ static const u16 sAltariaTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
-    MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ROOST,
+    MOVE_CALM_MIND,
+    MOVE_THUNDER,
+    MOVE_AIR_SLASH,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DRAGON_PULSE,
+    MOVE_HEAT_WAVE,
+    MOVE_PLAY_ROUGH,
+    MOVE_TAILWIND,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SWABLU
@@ -16866,19 +18337,17 @@ static const u16 sAltariaTeachableLearnset[] = {
 #if P_FAMILY_ZANGOOSE
 static const u16 sZangooseTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -16895,8 +18364,6 @@ static const u16 sZangooseTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -16905,10 +18372,7 @@ static const u16 sZangooseTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
-    MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
@@ -16922,23 +18386,27 @@ static const u16 sZangooseTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ZANGOOSE
 
 #if P_FAMILY_SEVIPER
 static const u16 sSeviperTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
-    MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -16965,6 +18433,12 @@ static const u16 sSeviperTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_FIRE_FANG,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SEVIPER
@@ -17139,8 +18613,8 @@ static const u16 sWhiscashTeachableLearnset[] = {
 #if P_FAMILY_CORPHISH
 static const u16 sCorphishTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -17148,8 +18622,8 @@ static const u16 sCorphishTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -17161,7 +18635,6 @@ static const u16 sCorphishTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SURF,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -17178,13 +18651,17 @@ static const u16 sCorphishTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DARK_PULSE,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_LIQUIDATION,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCrawdauntTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -17193,9 +18670,9 @@ static const u16 sCrawdauntTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -17207,7 +18684,6 @@ static const u16 sCrawdauntTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SURF,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -17225,6 +18701,11 @@ static const u16 sCrawdauntTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_DARK_PULSE,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_LIQUIDATION,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CORPHISH
@@ -17238,8 +18719,8 @@ static const u16 sBaltoyTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -17279,9 +18760,9 @@ static const u16 sClaydolTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -17393,14 +18874,14 @@ static const u16 sCradilyTeachableLearnset[] = {
 #if P_FAMILY_ANORITH
 static const u16 sAnorithTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -17423,12 +18904,20 @@ static const u16 sAnorithTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BUG_BITE,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_KNOCK_OFF,
+    MOVE_LIQUIDATION,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sArmaldoTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -17436,7 +18925,7 @@ static const u16 sArmaldoTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -17463,21 +18952,30 @@ static const u16 sArmaldoTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BUG_BITE,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_KNOCK_OFF,
+    MOVE_LIQUIDATION,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ANORITH
 
 #if P_FAMILY_FEEBAS
 static const u16 sFeebasTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -17486,7 +18984,6 @@ static const u16 sFeebasTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_DOUBLE_EDGE,
@@ -17502,16 +18999,16 @@ static const u16 sFeebasTeachableLearnset[] = {
 };
 
 static const u16 sMiloticTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -17521,7 +19018,6 @@ static const u16 sMiloticTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -17529,20 +19025,23 @@ static const u16 sMiloticTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FEEBAS
 
 #if P_FAMILY_CASTFORM
 static const u16 sCastformTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -17551,7 +19050,7 @@ static const u16 sCastformTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -17563,10 +19062,8 @@ static const u16 sCastformTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
@@ -17581,6 +19078,13 @@ static const u16 sCastformTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_ROOST,
+    MOVE_WEATHER_BALL,
+    MOVE_NASTY_PLOT,
+    MOVE_AVALANCHE,
+    MOVE_ENERGY_BALL,
+    MOVE_ENERGY_BALL,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CASTFORM
@@ -17588,20 +19092,18 @@ static const u16 sCastformTeachableLearnset[] = {
 #if P_FAMILY_KECLEON
 static const u16 sKecleonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
-    MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -17618,8 +19120,6 @@ static const u16 sKecleonTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -17628,9 +19128,7 @@ static const u16 sKecleonTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
@@ -17646,21 +19144,29 @@ static const u16 sKecleonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_SWORDS_DANCE,
+    MOVE_U_TURN,
+    MOVE_SPIKES,
+    MOVE_DRAIN_PUNCH,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NASTY_PLOT,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_KECLEON
 
 #if P_FAMILY_SHUPPET
 static const u16 sShuppetTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_CALM_MIND,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -17674,8 +19180,6 @@ static const u16 sShuppetTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
@@ -17689,18 +19193,28 @@ static const u16 sShuppetTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_PURSUIT,
+    MOVE_DISABLE,
+    MOVE_IMPRISON,
+    MOVE_WORK_UP,
+    MOVE_PLAY_ROUGH,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
+    MOVE_WILL_O_WISP,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBanetteTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_CALM_MIND,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -17715,8 +19229,6 @@ static const u16 sBanetteTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_BODY_SLAM,
@@ -17726,28 +19238,39 @@ static const u16 sBanetteTeachableLearnset[] = {
     MOVE_ICY_WIND,
     MOVE_METRONOME,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_PURSUIT,
+    MOVE_DISABLE,
+    MOVE_IMPRISON,
+    MOVE_WORK_UP,
+    MOVE_PLAY_ROUGH,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
+    MOVE_WILL_O_WISP,
+    MOVE_TRICK_ROOM,
+    MOVE_KNOCK_OFF,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SHUPPET
 
 #if P_FAMILY_DUSKULL
 static const u16 sDuskullTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -17773,12 +19296,16 @@ static const u16 sDuskullTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_PURSUIT,
+    MOVE_WILL_O_WISP,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDusclopsTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
@@ -17787,9 +19314,9 @@ static const u16 sDusclopsTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -17813,7 +19340,6 @@ static const u16 sDusclopsTeachableLearnset[] = {
     MOVE_DREAM_EATER,
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
@@ -17822,20 +19348,24 @@ static const u16 sDusclopsTeachableLearnset[] = {
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
-    MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    MOVE_BULK_UP,
+    MOVE_DARK_PULSE,
+    MOVE_BULLDOZE,
+    MOVE_PURSUIT,
+    MOVE_WILL_O_WISP,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sDusknoirTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
@@ -17844,9 +19374,9 @@ static const u16 sDusknoirTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -17866,7 +19396,6 @@ static const u16 sDusknoirTeachableLearnset[] = {
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MUD_SLAP,
@@ -17876,7 +19405,12 @@ static const u16 sDusknoirTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
+    MOVE_DARK_PULSE,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
+    MOVE_WILL_O_WISP,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -17885,7 +19419,7 @@ static const u16 sDusknoirTeachableLearnset[] = {
 #if P_FAMILY_TROPIUS
 static const u16 sTropiusTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -17895,7 +19429,7 @@ static const u16 sTropiusTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -17920,6 +19454,20 @@ static const u16 sTropiusTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_EARTH_POWER,
+    MOVE_BULK_UP,
+    MOVE_ROOST,
+    MOVE_EARTH_POWER,
+    MOVE_CALM_MIND,
+    MOVE_AIR_SLASH,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_TAILWIND,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TROPIUS
@@ -18011,20 +19559,19 @@ static const u16 sChimechoTeachableLearnset[] = {
 #if P_FAMILY_ABSOL
 static const u16 sAbsolTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -18041,7 +19588,6 @@ static const u16 sAbsolTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
@@ -18054,7 +19600,6 @@ static const u16 sAbsolTeachableLearnset[] = {
     MOVE_FURY_CUTTER,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -18063,21 +19608,32 @@ static const u16 sAbsolTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_ICE_FANG,
+    MOVE_ACROBATICS,
+    MOVE_PLAY_ROUGH,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_CALM_MIND,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ABSOL
 
 #if P_FAMILY_SNORUNT
 static const u16 sSnoruntTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -18143,14 +19699,14 @@ static const u16 sGlalieTeachableLearnset[] = {
 
 #if P_GEN_4_CROSS_EVOS
 static const u16 sFroslassTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -18165,8 +19721,6 @@ static const u16 sFroslassTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SNATCH,
     MOVE_TAUNT,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_WATER_PULSE,
@@ -18174,14 +19728,18 @@ static const u16 sFroslassTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROLLOUT,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_HYPER_VOICE,
+    MOVE_DEFOG,
+    MOVE_WEATHER_BALL,
+    MOVE_WILL_O_WISP,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -18189,7 +19747,7 @@ static const u16 sFroslassTeachableLearnset[] = {
 
 #if P_FAMILY_SPHEAL
 static const u16 sSphealTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -18197,7 +19755,7 @@ static const u16 sSphealTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -18209,7 +19767,6 @@ static const u16 sSphealTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -18225,11 +19782,18 @@ static const u16 sSphealTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_STEALTH_ROCK,
+    MOVE_DEFOG,
+    MOVE_ICE_FANG,
+    MOVE_AVALANCHE,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSealeoTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -18237,7 +19801,7 @@ static const u16 sSealeoTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -18250,7 +19814,6 @@ static const u16 sSealeoTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -18266,11 +19829,18 @@ static const u16 sSealeoTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_STEALTH_ROCK,
+    MOVE_DEFOG,
+    MOVE_ICE_FANG,
+    MOVE_AVALANCHE,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sWalreinTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -18278,7 +19848,7 @@ static const u16 sWalreinTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -18292,7 +19862,6 @@ static const u16 sWalreinTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -18309,6 +19878,13 @@ static const u16 sWalreinTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_STEALTH_ROCK,
+    MOVE_DEFOG,
+    MOVE_ICE_FANG,
+    MOVE_AVALANCHE,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SPHEAL
@@ -18422,8 +19998,8 @@ static const u16 sGorebyssTeachableLearnset[] = {
 
 #if P_FAMILY_RELICANTH
 static const u16 sRelicanthTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CALM_MIND,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -18431,9 +20007,9 @@ static const u16 sRelicanthTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -18444,7 +20020,6 @@ static const u16 sRelicanthTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -18459,6 +20034,12 @@ static const u16 sRelicanthTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_RELICANTH
@@ -18501,7 +20082,7 @@ static const u16 sLuvdiscTeachableLearnset[] = {
 #if P_FAMILY_BAGON
 static const u16 sBagonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -18510,7 +20091,7 @@ static const u16 sBagonTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -18534,12 +20115,20 @@ static const u16 sBagonTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_GIGA_IMPACT,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sShelgonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -18548,7 +20137,7 @@ static const u16 sShelgonTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -18573,12 +20162,20 @@ static const u16 sShelgonTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_GIGA_IMPACT,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSalamenceTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -18589,7 +20186,7 @@ static const u16 sSalamenceTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -18618,12 +20215,32 @@ static const u16 sSalamenceTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BAGON
 
 #if P_FAMILY_BELDUM
 static const u16 sBeldumTeachableLearnset[] = {
+    MOVE_BULLDOZE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 
@@ -18636,7 +20253,7 @@ static const u16 sMetangTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -18653,7 +20270,6 @@ static const u16 sMetangTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -18661,7 +20277,6 @@ static const u16 sMetangTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_EXPLOSION,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
@@ -18674,6 +20289,14 @@ static const u16 sMetangTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_PSYSHOCK,
+    MOVE_PURSUIT,
+    MOVE_STEALTH_ROCK,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 
@@ -18686,7 +20309,7 @@ static const u16 sMetagrossTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -18703,7 +20326,6 @@ static const u16 sMetagrossTeachableLearnset[] = {
     MOVE_SLUDGE_BOMB,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
@@ -18711,7 +20333,6 @@ static const u16 sMetagrossTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_EXPLOSION,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
@@ -18724,6 +20345,14 @@ static const u16 sMetagrossTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_PSYSHOCK,
+    MOVE_PURSUIT,
+    MOVE_STEALTH_ROCK,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BELDUM
@@ -18737,7 +20366,7 @@ static const u16 sRegirockTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -18752,7 +20381,6 @@ static const u16 sRegirockTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -18761,7 +20389,6 @@ static const u16 sRegirockTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_EXPLOSION,
     MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
@@ -18776,6 +20403,16 @@ static const u16 sRegirockTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_STEALTH_ROCK,
+    MOVE_SPIKES,
+    MOVE_PSYCHIC,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_BULLDOZE,
+    MOVE_DRAIN_PUNCH,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_REGIROCK
@@ -18790,7 +20427,7 @@ static const u16 sRegiceTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
@@ -18805,7 +20442,6 @@ static const u16 sRegiceTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -18813,12 +20449,10 @@ static const u16 sRegiceTeachableLearnset[] = {
     MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
     MOVE_EXPLOSION,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_ROLLOUT,
@@ -18829,20 +20463,26 @@ static const u16 sRegiceTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_PSYCHIC,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_AVALANCHE,
+    MOVE_BULLDOZE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_REGICE
 
 #if P_FAMILY_REGISTEEL
 static const u16 sRegisteelTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -18858,7 +20498,6 @@ static const u16 sRegisteelTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
@@ -18870,7 +20509,6 @@ static const u16 sRegisteelTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_ROLLOUT,
@@ -18881,6 +20519,15 @@ static const u16 sRegisteelTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_PSYCHIC,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_SPIKES,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_FLASH_CANNON,
+    MOVE_IRON_HEAD,
+    MOVE_SHADOW_CLAW,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_REGISTEEL
@@ -18888,7 +20535,7 @@ static const u16 sRegisteelTeachableLearnset[] = {
 #if P_FAMILY_LATIAS
 static const u16 sLatiasTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIVE,
@@ -18899,9 +20546,9 @@ static const u16 sLatiasTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -18921,7 +20568,6 @@ static const u16 sLatiasTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -18939,6 +20585,15 @@ static const u16 sLatiasTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_ROOST,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_PSYSHOCK,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LATIAS
@@ -18946,7 +20601,7 @@ static const u16 sLatiasTeachableLearnset[] = {
 #if P_FAMILY_LATIOS
 static const u16 sLatiosTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIVE,
@@ -18957,9 +20612,9 @@ static const u16 sLatiosTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -18979,7 +20634,6 @@ static const u16 sLatiosTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -18997,13 +20651,22 @@ static const u16 sLatiosTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_ROOST,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_PSYSHOCK,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LATIOS
 
 #if P_FAMILY_KYOGRE
 static const u16 sKyogreTeachableLearnset[] = {
-    MOVE_BLIZZARD,
+    
     MOVE_BRICK_BREAK,
     MOVE_CALM_MIND,
     MOVE_DIVE,
@@ -19012,9 +20675,9 @@ static const u16 sKyogreTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -19029,7 +20692,6 @@ static const u16 sKyogreTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -19038,7 +20700,6 @@ static const u16 sKyogreTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_ICY_WIND,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -19046,14 +20707,17 @@ static const u16 sKyogreTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_DEFOG,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_LIQUIDATION,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_KYOGRE
 
 #if P_FAMILY_GROUDON
 static const u16 sGroudonTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -19065,7 +20729,7 @@ static const u16 sGroudonTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -19108,7 +20772,13 @@ static const u16 sGroudonTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GROUDON
@@ -19116,7 +20786,7 @@ static const u16 sGroudonTeachableLearnset[] = {
 #if P_FAMILY_RAYQUAZA
 static const u16 sRayquazaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_BLIZZARD,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DIVE,
@@ -19128,9 +20798,9 @@ static const u16 sRayquazaTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -19167,20 +20837,33 @@ static const u16 sRayquazaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_ICE_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_U_TURN,
+    MOVE_ACROBATICS,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_ENERGY_BALL,
+    MOVE_HYPER_VOICE,
+    MOVE_SHADOW_CLAW,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_RAYQUAZA
 
 #if P_FAMILY_JIRACHI
 static const u16 sJirachiTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -19196,9 +20879,7 @@ static const u16 sJirachiTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SKILL_SWAP,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_DEFENSE_CURL,
@@ -19219,7 +20900,17 @@ static const u16 sJirachiTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_PLAY_ROUGH,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_IRON_HEAD,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_JIRACHI
@@ -19235,7 +20926,7 @@ static const u16 sDeoxysNormalTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -19260,7 +20951,6 @@ static const u16 sDeoxysNormalTeachableLearnset[] = {
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
@@ -19274,7 +20964,6 @@ static const u16 sDeoxysNormalTeachableLearnset[] = {
     MOVE_MEGA_KICK,
     MOVE_MEGA_PUNCH,
     MOVE_MIMIC,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_SEISMIC_TOSS,
@@ -19285,6 +20974,16 @@ static const u16 sDeoxysNormalTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
@@ -19298,7 +20997,7 @@ static const u16 sDeoxysAttackTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -19323,8 +21022,39 @@ static const u16 sDeoxysAttackTeachableLearnset[] = {
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_DOUBLE_EDGE,
+    MOVE_DREAM_EATER,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_ENDURE,
+    MOVE_FIRE_PUNCH,
+    MOVE_ICE_PUNCH,
+    MOVE_ICY_WIND,
+    MOVE_MEGA_KICK,
+    MOVE_MEGA_PUNCH,
+    MOVE_MIMIC,
+    MOVE_PSYCH_UP,
+    MOVE_ROCK_SLIDE,
+    MOVE_SEISMIC_TOSS,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
+    MOVE_THUNDER_PUNCH,
+    MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
@@ -19338,7 +21068,7 @@ static const u16 sDeoxysDefenseTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -19363,8 +21093,39 @@ static const u16 sDeoxysDefenseTeachableLearnset[] = {
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_DOUBLE_EDGE,
+    MOVE_DREAM_EATER,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_ENDURE,
+    MOVE_FIRE_PUNCH,
+    MOVE_ICE_PUNCH,
+    MOVE_ICY_WIND,
+    MOVE_MEGA_KICK,
+    MOVE_MEGA_PUNCH,
+    MOVE_MIMIC,
+    MOVE_PSYCH_UP,
+    MOVE_ROCK_SLIDE,
+    MOVE_SEISMIC_TOSS,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
+    MOVE_THUNDER_PUNCH,
+    MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
@@ -19378,7 +21139,7 @@ static const u16 sDeoxysSpeedTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -19403,15 +21164,46 @@ static const u16 sDeoxysSpeedTeachableLearnset[] = {
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_DOUBLE_EDGE,
+    MOVE_DREAM_EATER,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_ENDURE,
+    MOVE_FIRE_PUNCH,
+    MOVE_ICE_PUNCH,
+    MOVE_ICY_WIND,
+    MOVE_MEGA_KICK,
+    MOVE_MEGA_PUNCH,
+    MOVE_MIMIC,
+    MOVE_PSYCH_UP,
+    MOVE_ROCK_SLIDE,
+    MOVE_SEISMIC_TOSS,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
+    MOVE_THUNDER_PUNCH,
+    MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DEOXYS
 
 #if P_FAMILY_TURTWIG
 static const u16 sTurtwigTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -19419,7 +21211,7 @@ static const u16 sTurtwigTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -19442,11 +21234,21 @@ static const u16 sTurtwigTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_WORK_UP,
+    MOVE_ENERGY_BALL,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_STONE_EDGE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_ROCK_SLIDE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGrotleTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -19454,7 +21256,7 @@ static const u16 sGrotleTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -19475,11 +21277,21 @@ static const u16 sGrotleTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_WORK_UP,
+    MOVE_ENERGY_BALL,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_STONE_EDGE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_ROCK_SLIDE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTorterraTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -19488,7 +21300,7 @@ static const u16 sTorterraTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -19514,6 +21326,16 @@ static const u16 sTorterraTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_WORK_UP,
+    MOVE_ENERGY_BALL,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_STONE_EDGE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_ROCK_SLIDE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TURTWIG
@@ -19521,7 +21343,7 @@ static const u16 sTorterraTeachableLearnset[] = {
 #if P_FAMILY_CHIMCHAR
 static const u16 sChimcharTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -19532,7 +21354,7 @@ static const u16 sChimcharTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -19544,7 +21366,6 @@ static const u16 sChimcharTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_COUNTER,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
@@ -19558,11 +21379,29 @@ static const u16 sChimcharTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
     MOVE_UNAVAILABLE,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ACROBATICS,
+    MOVE_DRAIN_PUNCH,
+    MOVE_POISON_JAB,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_KNOCK_OFF,
+    MOVE_HEAT_WAVE,
+    MOVE_STEALTH_ROCK,
+    MOVE_SLEEP_TALK,
+    MOVE_BULLDOZE,
+    MOVE_GRASS_KNOT,
+    MOVE_NASTY_PLOT,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
+    MOVE_UNAVAILABLE,
 };
 
 static const u16 sMonfernoTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -19573,7 +21412,7 @@ static const u16 sMonfernoTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -19586,7 +21425,6 @@ static const u16 sMonfernoTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_MUD_SLAP,
@@ -19599,12 +21437,29 @@ static const u16 sMonfernoTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ACROBATICS,
+    MOVE_DRAIN_PUNCH,
+    MOVE_POISON_JAB,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_KNOCK_OFF,
+    MOVE_HEAT_WAVE,
+    MOVE_SLEEP_TALK,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_GRASS_KNOT,
+    MOVE_NASTY_PLOT,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sInfernapeTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CALM_MIND,
@@ -19617,7 +21472,7 @@ static const u16 sInfernapeTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
@@ -19633,7 +21488,6 @@ static const u16 sInfernapeTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_MUD_SLAP,
@@ -19646,6 +21500,24 @@ static const u16 sInfernapeTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ACROBATICS,
+    MOVE_DRAIN_PUNCH,
+    MOVE_POISON_JAB,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_KNOCK_OFF,
+    MOVE_HEAT_WAVE,
+    MOVE_SLEEP_TALK,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CHIMCHAR
@@ -19653,8 +21525,8 @@ static const u16 sInfernapeTeachableLearnset[] = {
 #if P_FAMILY_PIPLUP
 static const u16 sPiplupTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -19663,8 +21535,8 @@ static const u16 sPiplupTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -19672,23 +21544,31 @@ static const u16 sPiplupTeachableLearnset[] = {
     MOVE_ROCK_TOMB,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ICE_FANG,
+    MOVE_ROOST,
+    MOVE_LIQUIDATION,
+    MOVE_FLASH_CANNON,
+    MOVE_KNOCK_OFF,
+    MOVE_SHADOW_CLAW,
+    MOVE_AIR_SLASH,
+    MOVE_WEATHER_BALL,
+    MOVE_DEFOG,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sPrinplupTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -19697,8 +21577,8 @@ static const u16 sPrinplupTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -19708,23 +21588,31 @@ static const u16 sPrinplupTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ICE_FANG,
+    MOVE_ROOST,
+    MOVE_LIQUIDATION,
+    MOVE_FLASH_CANNON,
+    MOVE_KNOCK_OFF,
+    MOVE_SHADOW_CLAW,
+    MOVE_AIR_SLASH,
+    MOVE_WEATHER_BALL,
+    MOVE_DEFOG,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sEmpoleonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -19734,9 +21622,9 @@ static const u16 sEmpoleonTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -19748,19 +21636,29 @@ static const u16 sEmpoleonTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ICE_FANG,
+    MOVE_ROOST,
+    MOVE_LIQUIDATION,
+    MOVE_FLASH_CANNON,
+    MOVE_KNOCK_OFF,
+    MOVE_SHADOW_CLAW,
+    MOVE_AIR_SLASH,
+    MOVE_WEATHER_BALL,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PIPLUP
@@ -19768,12 +21666,12 @@ static const u16 sEmpoleonTeachableLearnset[] = {
 #if P_FAMILY_STARLY
 static const u16 sStarlyTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -19781,27 +21679,36 @@ static const u16 sStarlyTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_FIRE_FANG,
+    MOVE_KNOCK_OFF,
+    MOVE_ROOST,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_PURSUIT,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sStaraviaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -19809,26 +21716,35 @@ static const u16 sStaraviaTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_ENDURE,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_FIRE_FANG,
+    MOVE_KNOCK_OFF,
+    MOVE_ROOST,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_PURSUIT,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sStaraptorTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -19837,30 +21753,39 @@ static const u16 sStaraptorTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_ENDURE,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_FIRE_FANG,
+    MOVE_KNOCK_OFF,
+    MOVE_ROOST,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_PURSUIT,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_STARLY
 
 #if P_FAMILY_BIDOOF
 static const u16 sBidoofTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -19894,8 +21819,8 @@ static const u16 sBidoofTeachableLearnset[] = {
 };
 
 static const u16 sBibarelTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DIVE,
@@ -19903,9 +21828,9 @@ static const u16 sBibarelTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -19984,12 +21909,12 @@ static const u16 sKricketuneTeachableLearnset[] = {
 
 #if P_FAMILY_SHINX
 static const u16 sShinxTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -20006,23 +21931,29 @@ static const u16 sShinxTeachableLearnset[] = {
     MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_WILD_CHARGE,
+    MOVE_SHADOW_CLAW,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_NIGHT_SLASH,
+    MOVE_PURSUIT,
+    MOVE_SWORDS_DANCE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLuxioTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -20039,23 +21970,29 @@ static const u16 sLuxioTeachableLearnset[] = {
     MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_WILD_CHARGE,
+    MOVE_SHADOW_CLAW,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_NIGHT_SLASH,
+    MOVE_PURSUIT,
+    MOVE_SWORDS_DANCE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLuxrayTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -20073,21 +22010,29 @@ static const u16 sLuxrayTeachableLearnset[] = {
     MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_WILD_CHARGE,
+    MOVE_SHADOW_CLAW,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_NIGHT_SLASH,
+    MOVE_PURSUIT,
+    MOVE_SWORDS_DANCE,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
+
 #endif //P_FAMILY_SHINX
 
 #if P_FAMILY_CRANIDOS
 static const u16 sCranidosTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -20095,8 +22040,8 @@ static const u16 sCranidosTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -20110,13 +22055,9 @@ static const u16 sCranidosTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
+    MOVE_FIRE_FANG,
     MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -20124,13 +22065,21 @@ static const u16 sCranidosTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_THUNDER_FANG,
+    MOVE_IRON_HEAD,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_STONE_EDGE,
+    MOVE_STEALTH_ROCK,
+    MOVE_GIGA_IMPACT,
+    MOVE_BULLDOZE,
+    MOVE_PURSUIT,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sRampardosTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -20141,9 +22090,9 @@ static const u16 sRampardosTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -20158,12 +22107,8 @@ static const u16 sRampardosTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
-    MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
+    MOVE_FIRE_FANG,
     MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -20171,15 +22116,23 @@ static const u16 sRampardosTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_PUNCH,
+    MOVE_THUNDER_FANG,
+    MOVE_IRON_HEAD,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_STONE_EDGE,
+    MOVE_STEALTH_ROCK,
+    MOVE_GIGA_IMPACT,
+    MOVE_BULLDOZE,
+    MOVE_PURSUIT,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CRANIDOS
 
 #if P_FAMILY_SHIELDON
 static const u16 sShieldonTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -20187,8 +22140,8 @@ static const u16 sShieldonTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -20203,10 +22156,7 @@ static const u16 sShieldonTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
@@ -20217,12 +22167,18 @@ static const u16 sShieldonTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_ROCK_SLIDE,
+    MOVE_GIGA_IMPACT,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBastiodonTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -20230,9 +22186,9 @@ static const u16 sBastiodonTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -20247,17 +22203,18 @@ static const u16 sBastiodonTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_MUD_SLAP,
-    MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_ROCK_SLIDE,
+    MOVE_GIGA_IMPACT,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SHIELDON
@@ -20407,21 +22364,26 @@ static const u16 sMothimTeachableLearnset[] = {
 
 #if P_FAMILY_COMBEE
 static const u16 sCombeeTeachableLearnset[] = {
-    MOVE_MUD_SLAP,
     MOVE_SNORE,
     MOVE_SWIFT,
+    MOVE_SPIKES,
+    MOVE_BUG_BUZZ,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_ROOST,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sVespiquenTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -20430,30 +22392,39 @@ static const u16 sVespiquenTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SLUDGE_BOMB,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_PSYCHIC,
+    MOVE_SPIKES,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_BUG_BUZZ,
+    MOVE_AIR_SLASH,
+    MOVE_ACROBATICS,
+    MOVE_GIGA_IMPACT,
+    MOVE_POWER_GEM,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_COMBEE
 
 #if P_FAMILY_PACHIRISU
 static const u16 sPachirisuTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -20464,7 +22435,6 @@ static const u16 sPachirisuTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DEFENSE_CURL,
     MOVE_ENDURE,
     MOVE_MUD_SLAP,
@@ -20476,14 +22446,20 @@ static const u16 sPachirisuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PLAY_ROUGH,
+    MOVE_WILD_CHARGE,
+    MOVE_THIEF,
+    MOVE_GRASS_KNOT,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PACHIRISU
 
 #if P_FAMILY_BUIZEL
 static const u16 sBuizelTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DIG,
@@ -20493,8 +22469,8 @@ static const u16 sBuizelTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -20505,12 +22481,10 @@ static const u16 sBuizelTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
@@ -20518,12 +22492,17 @@ static const u16 sBuizelTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_STEALTH_ROCK,
+    MOVE_THIEF,
+    MOVE_LIQUIDATION,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFloatzelTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DIG,
@@ -20533,9 +22512,9 @@ static const u16 sFloatzelTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -20549,11 +22528,9 @@ static const u16 sFloatzelTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
-    MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
     MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
@@ -20561,20 +22538,27 @@ static const u16 sFloatzelTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ACROBATICS,
+    MOVE_STEALTH_ROCK,
+    MOVE_THIEF,
+    MOVE_LIQUIDATION,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
+
 #endif //P_FAMILY_BUIZEL
 
 #if P_FAMILY_CHERUBI
 static const u16 sCherubiTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -20591,18 +22575,23 @@ static const u16 sCherubiTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_GRASS_KNOT,
+    MOVE_ENERGY_BALL,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_EARTH_POWER,
+    MOVE_WEATHER_BALL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCherrimTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -20619,21 +22608,26 @@ static const u16 sCherrimTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_GRASS_KNOT,
+    MOVE_ENERGY_BALL,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_EARTH_POWER,
+    MOVE_WEATHER_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CHERUBI
 
 #if P_FAMILY_SHELLOS
 static const u16 sShellosTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -20651,12 +22645,16 @@ static const u16 sShellosTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_ROCK_SLIDE,
+    MOVE_SLUDGE_BOMB,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGastrodonTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -20665,9 +22663,9 @@ static const u16 sGastrodonTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -20691,20 +22689,22 @@ static const u16 sGastrodonTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SHELLOS
 
 #if P_FAMILY_DRIFLOON
 static const u16 sDrifloonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -20737,7 +22737,7 @@ static const u16 sDrifloonTeachableLearnset[] = {
 };
 
 static const u16 sDrifblimTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -20745,7 +22745,7 @@ static const u16 sDrifblimTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -20776,19 +22776,20 @@ static const u16 sDrifblimTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_UNAVAILABLE,
 };
+
 #endif //P_FAMILY_DRIFLOON
 
 #if P_FAMILY_BUNEARY
 static const u16 sBunearyTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -20800,36 +22801,40 @@ static const u16 sBunearyTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DEFENSE_CURL,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
     MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_ACROBATICS,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_KNOCK_OFF,
+    MOVE_SWORDS_DANCE,
+    MOVE_DRAIN_PUNCH,
+    MOVE_GRASS_KNOT,
+    MOVE_HYPER_VOICE,
+    MOVE_LOW_SWEEP,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLopunnyTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -20842,23 +22847,26 @@ static const u16 sLopunnyTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DEFENSE_CURL,
     MOVE_ENDURE,
-    MOVE_FIRE_PUNCH,
     MOVE_FURY_CUTTER,
-    MOVE_ICE_PUNCH,
     MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_ACROBATICS,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_KNOCK_OFF,
+    MOVE_SWORDS_DANCE,
+    MOVE_DRAIN_PUNCH,
+    MOVE_GRASS_KNOT,
+    MOVE_HYPER_VOICE,
+    MOVE_LOW_SWEEP,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BUNEARY
@@ -21038,7 +23046,7 @@ static const u16 sBronzorTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -21054,7 +23062,6 @@ static const u16 sBronzorTeachableLearnset[] = {
     MOVE_SKILL_SWAP,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_PSYCH_UP,
@@ -21064,6 +23071,16 @@ static const u16 sBronzorTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_FLASH_CANNON,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_GYRO_BALL,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_SPIKES,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
@@ -21074,7 +23091,7 @@ static const u16 sBronzongTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -21093,7 +23110,6 @@ static const u16 sBronzongTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_EXPLOSION,
@@ -21104,8 +23120,19 @@ static const u16 sBronzongTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_FLASH_CANNON,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_GYRO_BALL,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_SPIKES,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
+
 #endif //P_FAMILY_BRONZOR
 
 #if P_FAMILY_CHATOT
@@ -21142,13 +23169,13 @@ static const u16 sChatotTeachableLearnset[] = {
 
 #if P_FAMILY_SPIRITOMB
 static const u16 sSpiritombTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -21164,7 +23191,6 @@ static const u16 sSpiritombTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
@@ -21174,6 +23200,16 @@ static const u16 sSpiritombTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_WORK_UP,
+    MOVE_SHADOW_CLAW,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DISABLE,
+    MOVE_IMPRISON,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_PURSUIT,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SPIRITOMB
@@ -21181,7 +23217,7 @@ static const u16 sSpiritombTeachableLearnset[] = {
 #if P_FAMILY_GIBLE
 static const u16 sGibleTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -21191,7 +23227,7 @@ static const u16 sGibleTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -21204,7 +23240,6 @@ static const u16 sGibleTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -21216,12 +23251,20 @@ static const u16 sGibleTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_STEALTH_ROCK,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGabiteTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -21231,7 +23274,7 @@ static const u16 sGabiteTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -21244,7 +23287,6 @@ static const u16 sGabiteTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_MUD_SLAP,
@@ -21254,12 +23296,20 @@ static const u16 sGabiteTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_STEALTH_ROCK,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGarchompTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -21270,7 +23320,7 @@ static const u16 sGarchompTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -21285,7 +23335,6 @@ static const u16 sGarchompTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_MUD_SLAP,
@@ -21296,13 +23345,21 @@ static const u16 sGarchompTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_STEALTH_ROCK,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GIBLE
 
 #if P_FAMILY_RIOLU
 static const u16 sRioluTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DIG,
@@ -21311,7 +23368,7 @@ static const u16 sRioluTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -21323,7 +23380,6 @@ static const u16 sRioluTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_COUNTER,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
@@ -21337,11 +23393,22 @@ static const u16 sRioluTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_AURA_SPHERE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_LOW_SWEEP,
+    MOVE_NASTY_PLOT,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLucarioTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CALM_MIND,
@@ -21351,7 +23418,7 @@ static const u16 sLucarioTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -21366,7 +23433,6 @@ static const u16 sLucarioTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_COUNTER,
     MOVE_ENDURE,
@@ -21381,19 +23447,30 @@ static const u16 sLucarioTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_AURA_SPHERE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_LOW_SWEEP,
+    MOVE_NASTY_PLOT,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_RIOLU
 
 #if P_FAMILY_HIPPOPOTAS
 static const u16 sHippopotasTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -21405,7 +23482,6 @@ static const u16 sHippopotasTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
@@ -21416,17 +23492,22 @@ static const u16 sHippopotasTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sHippowdonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -21439,7 +23520,6 @@ static const u16 sHippowdonTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -21449,6 +23529,11 @@ static const u16 sHippowdonTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_STONE_EDGE,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HIPPOPOTAS
@@ -21456,7 +23541,7 @@ static const u16 sHippowdonTeachableLearnset[] = {
 #if P_FAMILY_SKORUPI
 static const u16 sSkorupiTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -21464,7 +23549,7 @@ static const u16 sSkorupiTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -21489,12 +23574,20 @@ static const u16 sSkorupiTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_NIGHT_SLASH,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDrapionTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -21503,7 +23596,7 @@ static const u16 sDrapionTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -21531,13 +23624,21 @@ static const u16 sDrapionTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_NIGHT_SLASH,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_WHIRLWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SKORUPI
 
 #if P_FAMILY_CROAGUNK
 static const u16 sCroagunkTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DIG,
@@ -21546,7 +23647,7 @@ static const u16 sCroagunkTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -21575,12 +23676,23 @@ static const u16 sCroagunkTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_AERIAL_ACE,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAIN_PUNCH,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_LOW_SWEEP,
+    MOVE_POISON_JAB,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sToxicroakTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -21590,7 +23702,7 @@ static const u16 sToxicroakTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -21620,6 +23732,16 @@ static const u16 sToxicroakTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_AERIAL_ACE,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAIN_PUNCH,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_LOW_SWEEP,
+    MOVE_POISON_JAB,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CROAGUNK
@@ -21659,16 +23781,16 @@ static const u16 sCarnivineTeachableLearnset[] = {
 
 #if P_FAMILY_FINNEON
 static const u16 sFinneonTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -21676,7 +23798,6 @@ static const u16 sFinneonTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
@@ -21687,21 +23808,30 @@ static const u16 sFinneonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MUD_SLAP,
+    MOVE_PSYCHIC,
+    MOVE_PSYSHOCK,
+    MOVE_CALM_MIND,
+    MOVE_LIGHT_SCREEN,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLumineonTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -21709,7 +23839,6 @@ static const u16 sLumineonTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
@@ -21720,13 +23849,22 @@ static const u16 sLumineonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MUD_SLAP,
+    MOVE_PSYCHIC,
+    MOVE_PSYSHOCK,
+    MOVE_CALM_MIND,
+    MOVE_LIGHT_SCREEN,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FINNEON
 
 #if P_FAMILY_SNOVER
 static const u16 sSnoverTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
@@ -21735,7 +23873,7 @@ static const u16 sSnoverTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -21753,17 +23891,19 @@ static const u16 sSnoverTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_ENERGY_BALL,
+    MOVE_SPIKES,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sAbomasnowTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
@@ -21775,7 +23915,7 @@ static const u16 sAbomasnowTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -21796,13 +23936,16 @@ static const u16 sAbomasnowTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_ICE_PUNCH,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_ENERGY_BALL,
+    MOVE_SPIKES,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SNOVER
@@ -21813,7 +23956,7 @@ static const u16 sRotomTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -21831,7 +23974,6 @@ static const u16 sRotomTeachableLearnset[] = {
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -21839,6 +23981,9 @@ static const u16 sRotomTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_WEATHER_BALL,
+    MOVE_DARK_PULSE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ROTOM
@@ -21851,7 +23996,7 @@ static const u16 sUxieTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -21871,13 +24016,11 @@ static const u16 sUxieTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -21886,21 +24029,29 @@ static const u16 sUxieTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_STEALTH_ROCK,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_UXIE
 
 #if P_FAMILY_MESPRIT
 static const u16 sMespritTeachableLearnset[] = {
-    MOVE_BLIZZARD,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -21918,13 +24069,11 @@ static const u16 sMespritTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -21933,6 +24082,16 @@ static const u16 sMespritTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_STEALTH_ROCK,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TRICK_ROOM,
+    MOVE_THIEF,
+
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MESPRIT
@@ -21946,7 +24105,7 @@ static const u16 sAzelfTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -21967,7 +24126,6 @@ static const u16 sAzelfTeachableLearnset[] = {
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
@@ -21983,14 +24141,22 @@ static const u16 sAzelfTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_STEALTH_ROCK,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TRICK_ROOM,
+    MOVE_THIEF,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_AZELF
 
 #if P_FAMILY_DIALGA
 static const u16 sDialgaTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_BLIZZARD,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -22002,9 +24168,9 @@ static const u16 sDialgaTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -22022,10 +24188,8 @@ static const u16 sDialgaTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -22033,7 +24197,21 @@ static const u16 sDialgaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_DRAGON_PULSE,
+    MOVE_STEALTH_ROCK,
+    MOVE_AURA_SPHERE,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_HYPER_VOICE,
+    MOVE_POWER_GEM,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_TRICK_ROOM,
+    MOVE_DRACO_METEOR,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DIALGA
@@ -22041,7 +24219,7 @@ static const u16 sDialgaTeachableLearnset[] = {
 #if P_FAMILY_PALKIA
 static const u16 sPalkiaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_BLIZZARD,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -22055,9 +24233,9 @@ static const u16 sPalkiaTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -22074,11 +24252,9 @@ static const u16 sPalkiaTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -22086,14 +24262,23 @@ static const u16 sPalkiaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_AURA_SPHERE,
+    MOVE_EARTH_POWER,
+    MOVE_DRAGON_TAIL,
+    MOVE_GIGA_IMPACT,
+    MOVE_POWER_GEM,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PALKIA
 
 #if P_FAMILY_HEATRAN
 static const u16 sHeatranTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
@@ -22101,7 +24286,7 @@ static const u16 sHeatranTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -22116,29 +24301,35 @@ static const u16 sHeatranTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_EXPLOSION,
-    MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HEATRAN
 
 #if P_FAMILY_REGIGIGAS
 static const u16 sRegigigasTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_RAIN_DANCE,
     MOVE_RETURN,
@@ -22151,7 +24342,6 @@ static const u16 sRegigigasTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,
@@ -22166,6 +24356,16 @@ static const u16 sRegigigasTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_BULK_UP,
+    MOVE_GIGA_IMPACT,
+    MOVE_PSYCH_UP,
+    MOVE_WILD_CHARGE,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_KNOCK_OFF,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_REGIGIGAS
@@ -22181,7 +24381,7 @@ static const u16 sGiratinaTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -22205,29 +24405,51 @@ static const u16 sGiratinaTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_SWORDS_DANCE,
+    MOVE_NIGHT_SLASH,
+    MOVE_PURSUIT,
+    MOVE_FLAMETHROWER,
+    MOVE_FIRE_BLAST,
+    MOVE_TAUNT,
+    MOVE_ICE_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_THIEF,
+    MOVE_WATER_PULSE,
+    MOVE_ROOST,
+    MOVE_AURA_SPHERE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_WILL_O_WISP,
+    MOVE_TORMENT,
+    MOVE_GIGA_IMPACT,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GIRATINA
 
 #if P_FAMILY_CRESSELIA
 static const u16 sCresseliaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -22241,33 +24463,36 @@ static const u16 sCresseliaTeachableLearnset[] = {
     MOVE_SKILL_SWAP,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_FURY_CUTTER,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_WILL_O_WISP,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CRESSELIA
 
 #if P_FAMILY_MANAPHY
 static const u16 sPhioneTeachableLearnset[] = {
-    MOVE_BLIZZARD,
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -22275,7 +24500,6 @@ static const u16 sPhioneTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_SECRET_POWER,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
@@ -22287,11 +24511,18 @@ static const u16 sPhioneTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_HYPER_VOICE,
+    MOVE_DEFOG,
+    MOVE_CALM_MIND,
+    MOVE_WEATHER_BALL,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sManaphyTeachableLearnset[] = {
-    MOVE_BLIZZARD,
+    
     MOVE_CALM_MIND,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
@@ -22299,9 +24530,9 @@ static const u16 sManaphyTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -22314,7 +24545,6 @@ static const u16 sManaphyTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_SKILL_SWAP,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
@@ -22326,58 +24556,55 @@ static const u16 sManaphyTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MANAPHY
 
 #if P_FAMILY_DARKRAI
 static const u16 sDarkraiTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_BLIZZARD,
-    MOVE_BRICK_BREAK,
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
-    MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
-    MOVE_ROCK_SMASH,
-    MOVE_ROCK_TOMB,
     MOVE_SECRET_POWER,
     MOVE_SHADOW_BALL,
     MOVE_SHOCK_WAVE,
     MOVE_SLUDGE_BOMB,
     MOVE_SNATCH,
-    MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_ICY_WIND,
-    MOVE_MUD_SLAP,
     MOVE_PSYCH_UP,
-    MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DARKRAI
@@ -22390,7 +24617,7 @@ static const u16 sShayminLandTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -22411,6 +24638,16 @@ static const u16 sShayminLandTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_U_TURN,
+    MOVE_CALM_MIND,
+    MOVE_DEFOG,
+    MOVE_AIR_SLASH,
+    MOVE_EARTH_POWER,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_TAILWIND,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
@@ -22421,7 +24658,7 @@ static const u16 sShayminSkyTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -22432,6 +24669,26 @@ static const u16 sShayminSkyTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
     MOVE_TOXIC,
+    MOVE_DEFENSE_CURL,
+    MOVE_ENDURE,
+    MOVE_MUD_SLAP,
+    MOVE_PSYCH_UP,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
+    MOVE_SWORDS_DANCE,
+    MOVE_U_TURN,
+    MOVE_CALM_MIND,
+    MOVE_DEFOG,
+    MOVE_AIR_SLASH,
+    MOVE_EARTH_POWER,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_TAILWIND,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SHAYMIN
@@ -22456,7 +24713,7 @@ static const u16 sArceusTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -22501,6 +24758,23 @@ static const u16 sArceusTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_WAVE,
+    MOVE_POWER_GEM,
+    MOVE_AVALANCHE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_IRON_HEAD,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_TAILWIND,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ARCEUS
@@ -22514,7 +24788,7 @@ static const u16 sVictiniTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
@@ -22533,7 +24807,6 @@ static const u16 sVictiniTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
@@ -22543,7 +24816,17 @@ static const u16 sVictiniTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_HEAT_WAVE,
+    MOVE_TRICK_ROOM,
+    MOVE_WILD_CHARGE,
+    MOVE_WILL_O_WISP,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_MUD_SLAP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_VICTINI
@@ -22551,7 +24834,7 @@ static const u16 sVictiniTeachableLearnset[] = {
 #if P_FAMILY_SNIVY
 static const u16 sSnivyTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -22559,7 +24842,7 @@ static const u16 sSnivyTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -22579,12 +24862,17 @@ static const u16 sSnivyTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sServineTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -22592,7 +24880,7 @@ static const u16 sServineTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -22612,12 +24900,17 @@ static const u16 sServineTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSerperiorTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -22625,7 +24918,7 @@ static const u16 sSerperiorTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -22648,6 +24941,11 @@ static const u16 sSerperiorTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SNIVY
@@ -22764,8 +25062,8 @@ static const u16 sEmboarTeachableLearnset[] = {
 #if P_FAMILY_OSHAWOTT
 static const u16 sOshawottTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DIVE,
@@ -22773,8 +25071,8 @@ static const u16 sOshawottTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -22784,7 +25082,6 @@ static const u16 sOshawottTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SURF,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_FURY_CUTTER,
@@ -22794,13 +25091,19 @@ static const u16 sOshawottTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_THIEF,
+    MOVE_DEFOG,
+    MOVE_MUD_SLAP,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDewottTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DIVE,
@@ -22808,8 +25111,8 @@ static const u16 sDewottTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -22819,7 +25122,6 @@ static const u16 sDewottTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SURF,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_FURY_CUTTER,
@@ -22829,13 +25131,19 @@ static const u16 sDewottTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_THIEF,
+    MOVE_DEFOG,
+    MOVE_MUD_SLAP,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSamurottTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DIVE,
@@ -22843,9 +25151,9 @@ static const u16 sSamurottTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -22856,7 +25164,6 @@ static const u16 sSamurottTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SURF,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_FURY_CUTTER,
@@ -22866,6 +25173,13 @@ static const u16 sSamurottTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_THIEF,
+    MOVE_DEFOG,
+    MOVE_MUD_SLAP,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 
@@ -22950,12 +25264,12 @@ static const u16 sWatchogTeachableLearnset[] = {
 #if P_FAMILY_LILLIPUP
 static const u16 sLillipupTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -22967,7 +25281,6 @@ static const u16 sLillipupTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_SHOCK_WAVE,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_MUD_SLAP,
@@ -22975,18 +25288,26 @@ static const u16 sLillipupTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_U_TURN,
+    MOVE_GIGA_IMPACT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_IRON_HEAD,
+    MOVE_PLAY_ROUGH,
+    MOVE_PURSUIT,
+    MOVE_WILD_CHARGE,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sHerdierTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -23000,24 +25321,31 @@ static const u16 sHerdierTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
-    MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_U_TURN,
+    MOVE_GIGA_IMPACT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_IRON_HEAD,
+    MOVE_PLAY_ROUGH,
+    MOVE_PURSUIT,
+    MOVE_WILD_CHARGE,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sStoutlandTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -23032,14 +25360,20 @@ static const u16 sStoutlandTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_SURF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_U_TURN,
+    MOVE_GIGA_IMPACT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_IRON_HEAD,
+    MOVE_PLAY_ROUGH,
+    MOVE_PURSUIT,
+    MOVE_WILD_CHARGE,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LILLIPUP
@@ -23047,12 +25381,12 @@ static const u16 sStoutlandTeachableLearnset[] = {
 #if P_FAMILY_PURRLOIN
 static const u16 sPurrloinTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -23072,18 +25406,26 @@ static const u16 sPurrloinTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_PLAY_ROUGH,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLiepardTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -23105,7 +25447,15 @@ static const u16 sLiepardTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_PLAY_ROUGH,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PURRLOIN
@@ -23330,13 +25680,13 @@ static const u16 sSimipourTeachableLearnset[] = {
 
 #if P_FAMILY_MUNNA
 static const u16 sMunnaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -23351,7 +25701,6 @@ static const u16 sMunnaTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SKILL_SWAP,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_DEFENSE_CURL,
     MOVE_DREAM_EATER,
     MOVE_PSYCH_UP,
@@ -23361,18 +25710,23 @@ static const u16 sMunnaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GYRO_BALL,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMusharnaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -23388,7 +25742,6 @@ static const u16 sMusharnaTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SKILL_SWAP,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_DEFENSE_CURL,
     MOVE_DREAM_EATER,
     MOVE_PSYCH_UP,
@@ -23397,9 +25750,15 @@ static const u16 sMusharnaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GYRO_BALL,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
+
 #endif //P_FAMILY_MUNNA
 
 #if P_FAMILY_PIDOVE
@@ -23480,12 +25839,12 @@ static const u16 sUnfezantTeachableLearnset[] = {
 
 #if P_FAMILY_BLITZLE
 static const u16 sBlitzleTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -23496,7 +25855,6 @@ static const u16 sBlitzleTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_SLEEP_TALK,
@@ -23504,16 +25862,22 @@ static const u16 sBlitzleTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_AERIAL_ACE,
+    MOVE_STRENGTH,
+    MOVE_BULK_UP,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sZebstrikaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
@@ -23527,24 +25891,29 @@ static const u16 sZebstrikaTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_AERIAL_ACE,
+    MOVE_STRENGTH,
+    MOVE_BULK_UP,
+    MOVE_GIGA_IMPACT,
+    MOVE_PURSUIT,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BLITZLE
 
 #if P_FAMILY_ROGGENROLA
 static const u16 sRoggenrolaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -23553,7 +25922,6 @@ static const u16 sRoggenrolaTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
-    MOVE_TOXIC,
     MOVE_EXPLOSION,
     MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
@@ -23561,16 +25929,24 @@ static const u16 sRoggenrolaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POWER_GEM,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBoldoreTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -23579,7 +25955,6 @@ static const u16 sBoldoreTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
-    MOVE_TOXIC,
     MOVE_EXPLOSION,
     MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
@@ -23587,16 +25962,24 @@ static const u16 sBoldoreTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POWER_GEM,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGigalithTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -23607,7 +25990,6 @@ static const u16 sGigalithTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
-    MOVE_TOXIC,
     MOVE_EXPLOSION,
     MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
@@ -23615,6 +25997,14 @@ static const u16 sGigalithTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POWER_GEM,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ROGGENROLA
@@ -24082,7 +26472,7 @@ static const u16 sSawkTeachableLearnset[] = {
 
 #if P_FAMILY_SEWADDLE
 static const u16 sSewaddleTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -24090,7 +26480,7 @@ static const u16 sSewaddleTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REST,
@@ -24106,11 +26496,13 @@ static const u16 sSewaddleTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLET_SEED,
+    MOVE_ENERGY_BALL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSwadloonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -24118,7 +26510,7 @@ static const u16 sSwadloonTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REST,
@@ -24133,12 +26525,14 @@ static const u16 sSwadloonTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLET_SEED,
+    MOVE_ENERGY_BALL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLeavannyTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -24146,7 +26540,7 @@ static const u16 sLeavannyTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -24165,17 +26559,24 @@ static const u16 sLeavannyTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLET_SEED,
+    MOVE_NIGHT_SLASH,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SEWADDLE
 
 #if P_FAMILY_VENIPEDE
 static const u16 sVenipedeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -24192,15 +26593,19 @@ static const u16 sVenipedeTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_GYRO_BALL,
+    MOVE_POISON_JAB,
+    MOVE_PURSUIT,
+    MOVE_SPIKES,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sWhirlipedeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -24217,18 +26622,23 @@ static const u16 sWhirlipedeTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_GYRO_BALL,
+    MOVE_POISON_JAB,
+    MOVE_PURSUIT,
+    MOVE_SPIKES,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sScolipedeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -24252,6 +26662,12 @@ static const u16 sScolipedeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_GYRO_BALL,
+    MOVE_POISON_JAB,
+    MOVE_PURSUIT,
+    MOVE_SPIKES,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_VENIPEDE
@@ -24315,14 +26731,14 @@ static const u16 sWhimsicottTeachableLearnset[] = {
 
 #if P_FAMILY_PETILIL
 static const u16 sPetililTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -24337,18 +26753,25 @@ static const u16 sPetililTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLET_SEED,
+    MOVE_PLAY_ROUGH,
+    MOVE_KNOCK_OFF,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_WEATHER_BALL,
+    MOVE_DEFOG,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLilligantTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -24370,6 +26793,41 @@ static const u16 sLilligantTeachableLearnset[] = {
 
 #if P_HISUIAN_FORMS
 static const u16 sLilligantHisuianTeachableLearnset[] = {
+    MOVE_CUT,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FLASH,
+    MOVE_FRUSTRATION,
+    MOVE_GIGA_DRAIN,
+    
+    MOVE_HYPER_BEAM,
+    MOVE_LIGHT_SCREEN,
+    MOVE_PROTECT,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_SAFEGUARD,
+    MOVE_SECRET_POWER,
+    MOVE_SOLAR_BEAM,
+    MOVE_SUNNY_DAY,
+    MOVE_TOXIC,
+    MOVE_DREAM_EATER,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWORDS_DANCE,
+    MOVE_BULLET_SEED,
+    MOVE_PLAY_ROUGH,
+    MOVE_KNOCK_OFF,
+    MOVE_AERIAL_ACE,
+    MOVE_ACROBATICS,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_LOW_SWEEP,
+    MOVE_POISON_JAB,
+    MOVE_WEATHER_BALL,
+    MOVE_DEFOG,
+    MOVE_BRICK_BREAK,
     MOVE_UNAVAILABLE,
 };
 #endif //P_HISUIAN_FORMS
@@ -24418,14 +26876,14 @@ static const u16 sBasculegionTeachableLearnset[] = {
 
 #if P_FAMILY_SANDILE
 static const u16 sSandileTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -24439,7 +26897,6 @@ static const u16 sSandileTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_COUNTER,
     MOVE_DOUBLE_EDGE,
     MOVE_MUD_SLAP,
@@ -24448,11 +26905,23 @@ static const u16 sSandileTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_FIRE_FANG,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sKrokorokTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -24461,7 +26930,7 @@ static const u16 sKrokorokTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -24477,19 +26946,30 @@ static const u16 sKrokorokTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_FIRE_FANG,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sKrookodileTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -24500,7 +26980,7 @@ static const u16 sKrookodileTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -24517,7 +26997,6 @@ static const u16 sKrookodileTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_COUNTER,
     MOVE_MUD_SLAP,
     MOVE_ROCK_SLIDE,
@@ -24525,6 +27004,19 @@ static const u16 sKrookodileTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SANDILE
@@ -24678,13 +27170,13 @@ static const u16 sDarmanitanGalarianTeachableLearnset[] = {
 #if P_FAMILY_MARACTUS
 static const u16 sMaractusTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -24697,6 +27189,16 @@ static const u16 sMaractusTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LIQUIDATION,
+    MOVE_DEFOG,
+    MOVE_SPIKES,
+    MOVE_WATER_PULSE,
+    MOVE_MUD_SLAP,
+    MOVE_GRASS_KNOT,
+    MOVE_ENERGY_BALL,
+    MOVE_HYPER_VOICE,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MARACTUS
@@ -24850,16 +27352,16 @@ static const u16 sScraftyTeachableLearnset[] = {
 #if P_FAMILY_SIGILYPH
 static const u16 sSigilyphTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -24874,8 +27376,6 @@ static const u16 sSigilyphTeachableLearnset[] = {
     MOVE_SKILL_SWAP,
     MOVE_SOLAR_BEAM,
     MOVE_STEEL_WING,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ICY_WIND,
     MOVE_PSYCH_UP,
@@ -24883,20 +27383,35 @@ static const u16 sSigilyphTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_U_TURN,
+    MOVE_AIR_SLASH,
+    MOVE_POWER_GEM,
+    MOVE_MUD_SLAP,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_HEAT_WAVE,
+    MOVE_PSYSHOCK,
+    MOVE_ROOST,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_WHIRLWIND,
+    MOVE_TRICK_ROOM,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SIGILYPH
 
 #if P_FAMILY_YAMASK
 static const u16 sYamaskTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -24917,17 +27432,26 @@ static const u16 sYamaskTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SPIKES,
+    MOVE_NASTY_PLOT,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCofagrigusTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -24948,6 +27472,15 @@ static const u16 sCofagrigusTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SPIKES,
+    MOVE_NASTY_PLOT,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
@@ -25004,16 +27537,16 @@ static const u16 sRunerigusTeachableLearnset[] = {
 
 #if P_FAMILY_TIRTOUGA
 static const u16 sTirtougaTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -25025,7 +27558,6 @@ static const u16 sTirtougaTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
@@ -25036,21 +27568,30 @@ static const u16 sTirtougaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_KNOCK_OFF,
+    MOVE_LIQUIDATION,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCarracostaTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -25062,7 +27603,6 @@ static const u16 sCarracostaTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ICY_WIND,
@@ -25072,6 +27612,15 @@ static const u16 sCarracostaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_KNOCK_OFF,
+    MOVE_LIQUIDATION,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TIRTOUGA
@@ -25079,7 +27628,7 @@ static const u16 sCarracostaTeachableLearnset[] = {
 #if P_FAMILY_ARCHEN
 static const u16 sArchenTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -25087,7 +27636,7 @@ static const u16 sArchenTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -25100,18 +27649,34 @@ static const u16 sArchenTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_POWER_GEM,
+    MOVE_FIRE_FANG,
+    MOVE_ACROBATICS,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_STEALTH_ROCK,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sArcheopsTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -25120,7 +27685,7 @@ static const u16 sArcheopsTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -25134,12 +27699,28 @@ static const u16 sArcheopsTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_POWER_GEM,
+    MOVE_FIRE_FANG,
+    MOVE_ACROBATICS,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_STEALTH_ROCK,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ARCHEN
@@ -25203,14 +27784,14 @@ static const u16 sGarbodorTeachableLearnset[] = {
 #if P_FAMILY_ZORUA
 static const u16 sZoruaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -25231,12 +27812,20 @@ static const u16 sZoruaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_NASTY_PLOT,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sZoroarkTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIG,
@@ -25244,7 +27833,7 @@ static const u16 sZoroarkTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -25267,6 +27856,16 @@ static const u16 sZoroarkTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_GIGA_IMPACT,
+    MOVE_NIGHT_SLASH,
+    MOVE_NASTY_PLOT,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_LOW_SWEEP,
     MOVE_UNAVAILABLE,
 };
 
@@ -25283,13 +27882,13 @@ static const u16 sZoroarkHisuianTeachableLearnset[] = {
 
 #if P_FAMILY_MINCCINO
 static const u16 sMinccinoTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -25299,9 +27898,6 @@ static const u16 sMinccinoTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
@@ -25309,19 +27905,22 @@ static const u16 sMinccinoTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GRASS_KNOT,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCinccinoTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_CALM_MIND,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -25333,28 +27932,29 @@ static const u16 sCinccinoTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_MUD_SLAP,
+    MOVE_KNOCK_OFF,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MINCCINO
 
 #if P_FAMILY_GOTHITA
 static const u16 sGothitaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -25371,8 +27971,6 @@ static const u16 sGothitaTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDERBOLT,
-    MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_PSYCH_UP,
@@ -25381,18 +27979,24 @@ static const u16 sGothitaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGothoritaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -25409,7 +28013,6 @@ static const u16 sGothoritaTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
@@ -25419,19 +28022,25 @@ static const u16 sGothoritaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGothitelleTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -25449,7 +28058,6 @@ static const u16 sGothitelleTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
@@ -25459,20 +28067,26 @@ static const u16 sGothitelleTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GOTHITA
 
 #if P_FAMILY_SOLOSIS
 static const u16 sSolosisTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -25487,8 +28101,6 @@ static const u16 sSolosisTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SKILL_SWAP,
     MOVE_SNATCH,
-    MOVE_THUNDER,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_EXPLOSION,
     MOVE_PSYCH_UP,
@@ -25498,18 +28110,24 @@ static const u16 sSolosisTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GRASS_KNOT,
+    MOVE_GYRO_BALL,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDuosionTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -25524,8 +28142,6 @@ static const u16 sDuosionTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SKILL_SWAP,
     MOVE_SNATCH,
-    MOVE_THUNDER,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_EXPLOSION,
     MOVE_PSYCH_UP,
@@ -25535,19 +28151,25 @@ static const u16 sDuosionTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GRASS_KNOT,
+    MOVE_GYRO_BALL,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sReuniclusTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -25565,12 +28187,8 @@ static const u16 sReuniclusTeachableLearnset[] = {
     MOVE_SKILL_SWAP,
     MOVE_SNATCH,
     MOVE_STRENGTH,
-    MOVE_THUNDER,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_EXPLOSION,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_ROLLOUT,
@@ -25578,8 +28196,14 @@ static const u16 sReuniclusTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GRASS_KNOT,
+    MOVE_GYRO_BALL,
+    MOVE_KNOCK_OFF,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SOLOSIS
@@ -25645,13 +28269,13 @@ static const u16 sSwannaTeachableLearnset[] = {
 
 #if P_FAMILY_VANILLITE
 static const u16 sVanilliteTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -25660,7 +28284,6 @@ static const u16 sVanilliteTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_EXPLOSION,
     MOVE_ICY_WIND,
@@ -25668,17 +28291,21 @@ static const u16 sVanilliteTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SURF,
+    MOVE_FLASH_CANNON,
+    MOVE_WEATHER_BALL,
+    MOVE_CALM_MIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sVanillishTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -25687,7 +28314,6 @@ static const u16 sVanillishTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_EXPLOSION,
     MOVE_ICY_WIND,
@@ -25695,17 +28321,21 @@ static const u16 sVanillishTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SURF,
+    MOVE_FLASH_CANNON,
+    MOVE_WEATHER_BALL,
+    MOVE_CALM_MIND,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sVanilluxeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -25715,7 +28345,6 @@ static const u16 sVanilluxeTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_EXPLOSION,
     MOVE_ICY_WIND,
@@ -25723,19 +28352,23 @@ static const u16 sVanilluxeTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SURF,
+    MOVE_FLASH_CANNON,
+    MOVE_WEATHER_BALL,
+    MOVE_CALM_MIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_VANILLITE
 
 #if P_FAMILY_DEERLING
 static const u16 sDeerlingTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -25752,19 +28385,27 @@ static const u16 sDeerlingTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_BULK_UP,
+    MOVE_MUD_SLAP,
+    MOVE_PLAY_ROUGH,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_BODY_SLAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_WILD_CHARGE,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSawsbuckTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -25784,7 +28425,16 @@ static const u16 sSawsbuckTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_BULK_UP,
+    MOVE_MUD_SLAP,
+    MOVE_PLAY_ROUGH,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_BODY_SLAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_WILD_CHARGE,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DEERLING
@@ -25792,13 +28442,13 @@ static const u16 sSawsbuckTeachableLearnset[] = {
 #if P_FAMILY_EMOLGA
 static const u16 sEmolgaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -25807,7 +28457,6 @@ static const u16 sEmolgaTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
-    MOVE_TAUNT,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TOXIC,
@@ -25816,6 +28465,19 @@ static const u16 sEmolgaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_THIEF,
+    MOVE_WORK_UP,
+    MOVE_PLAY_ROUGH,
+    MOVE_BULLET_SEED,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_KNOCK_OFF,
+    MOVE_PURSUIT,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_EMOLGA
@@ -25849,14 +28511,13 @@ static const u16 sKarrablastTeachableLearnset[] = {
 };
 
 static const u16 sEscavalierTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -25871,6 +28532,13 @@ static const u16 sEscavalierTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_BODY_SLAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_KNOCK_OFF,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_KARRABLAST
@@ -25932,8 +28600,8 @@ static const u16 sAmoongussTeachableLearnset[] = {
 
 #if P_FAMILY_FRILLISH
 static const u16 sFrillishTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -25941,8 +28609,8 @@ static const u16 sFrillishTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -25965,6 +28633,14 @@ static const u16 sFrillishTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DEFOG,
+    MOVE_CALM_MIND,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_DRAIN,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
@@ -26045,14 +28721,14 @@ static const u16 sAlomomolaTeachableLearnset[] = {
 
 #if P_FAMILY_JOLTIK
 static const u16 sJoltikTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -26060,7 +28736,6 @@ static const u16 sJoltikTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
-    MOVE_THIEF,
     MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_FURY_CUTTER,
@@ -26069,18 +28744,25 @@ static const u16 sJoltikTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_SWORDS_DANCE,
+    MOVE_U_TURN,
+    MOVE_SPIKES,
+    MOVE_ENERGY_BALL,
+    MOVE_PURSUIT,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGalvantulaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -26089,7 +28771,6 @@ static const u16 sGalvantulaTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
-    MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TOXIC,
@@ -26099,6 +28780,13 @@ static const u16 sGalvantulaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_SWORDS_DANCE,
+    MOVE_U_TURN,
+    MOVE_SPIKES,
+    MOVE_ENERGY_BALL,
+    MOVE_PURSUIT,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_JOLTIK
@@ -26170,7 +28858,7 @@ static const u16 sKlinkTeachableLearnset[] = {
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -26180,12 +28868,17 @@ static const u16 sKlinkTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_TRICK_ROOM,
+    MOVE_WILD_CHARGE,
+    MOVE_SPIKES,
+    MOVE_OVERHEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -26193,7 +28886,7 @@ static const u16 sKlangTeachableLearnset[] = {
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -26203,12 +28896,17 @@ static const u16 sKlangTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_TRICK_ROOM,
+    MOVE_WILD_CHARGE,
+    MOVE_SPIKES,
+    MOVE_OVERHEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -26216,7 +28914,7 @@ static const u16 sKlinklangTeachableLearnset[] = {
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -26227,12 +28925,17 @@ static const u16 sKlinklangTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_TRICK_ROOM,
+    MOVE_WILD_CHARGE,
+    MOVE_SPIKES,
+    MOVE_OVERHEAT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_KLINK
@@ -26313,13 +29016,13 @@ static const u16 sEelektrossTeachableLearnset[] = {
 
 #if P_FAMILY_ELGYEM
 static const u16 sElgyemTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -26335,9 +29038,7 @@ static const u16 sElgyemTeachableLearnset[] = {
     MOVE_SKILL_SWAP,
     MOVE_SNATCH,
     MOVE_STEEL_WING,
-    MOVE_THIEF,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
@@ -26346,17 +29047,25 @@ static const u16 sElgyemTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_POWER_GEM,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_NASTY_PLOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBeheeyemTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -26373,9 +29082,7 @@ static const u16 sBeheeyemTeachableLearnset[] = {
     MOVE_SKILL_SWAP,
     MOVE_SNATCH,
     MOVE_STEEL_WING,
-    MOVE_THIEF,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
@@ -26384,13 +29091,21 @@ static const u16 sBeheeyemTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_POWER_GEM,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_NASTY_PLOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ELGYEM
 
 #if P_FAMILY_LITWICK
 static const u16 sLitwickTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -26398,7 +29113,7 @@ static const u16 sLitwickTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -26411,8 +29126,6 @@ static const u16 sLitwickTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_PSYCH_UP,
@@ -26420,11 +29133,16 @@ static const u16 sLitwickTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_HEAT_WAVE,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLampentTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -26432,7 +29150,7 @@ static const u16 sLampentTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -26445,19 +29163,22 @@ static const u16 sLampentTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_HEAT_WAVE,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sChandelureTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -26465,7 +29186,7 @@ static const u16 sChandelureTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -26479,14 +29200,17 @@ static const u16 sChandelureTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_HEAT_WAVE,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LITWICK
@@ -26494,14 +29218,14 @@ static const u16 sChandelureTeachableLearnset[] = {
 #if P_FAMILY_AXEW
 static const u16 sAxewTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_DRAGON_CLAW,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -26523,19 +29247,27 @@ static const u16 sAxewTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFraxureTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_DRAGON_CLAW,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -26555,12 +29287,20 @@ static const u16 sFraxureTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sHaxorusTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
@@ -26569,7 +29309,7 @@ static const u16 sHaxorusTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -26592,6 +29332,14 @@ static const u16 sHaxorusTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_AXEW
@@ -26599,7 +29347,7 @@ static const u16 sHaxorusTeachableLearnset[] = {
 #if P_FAMILY_CUBCHOO
 static const u16 sCubchooTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_CUT,
     MOVE_DIG,
@@ -26608,7 +29356,7 @@ static const u16 sCubchooTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -26619,7 +29367,6 @@ static const u16 sCubchooTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
     MOVE_ICE_PUNCH,
@@ -26628,12 +29375,17 @@ static const u16 sCubchooTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_KNOCK_OFF,
+    MOVE_GRASS_KNOT,
+    MOVE_NIGHT_SLASH,
+    MOVE_PLAY_ROUGH,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBearticTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
@@ -26645,7 +29397,7 @@ static const u16 sBearticTeachableLearnset[] = {
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
@@ -26659,7 +29411,6 @@ static const u16 sBearticTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SURF,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_ENDURE,
     MOVE_ICE_PUNCH,
@@ -26670,6 +29421,14 @@ static const u16 sBearticTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_PURSUIT,
+    MOVE_KNOCK_OFF,
+    MOVE_GIGA_IMPACT,
+    MOVE_BULLDOZE,
+    MOVE_GRASS_KNOT,
+    MOVE_NIGHT_SLASH,
+    MOVE_PLAY_ROUGH,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CUBCHOO
@@ -26707,12 +29466,12 @@ static const u16 sCryogonalTeachableLearnset[] = {
 
 #if P_FAMILY_SHELMET
 static const u16 sShelmetTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -26732,12 +29491,12 @@ static const u16 sShelmetTeachableLearnset[] = {
 };
 
 static const u16 sAccelgorTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -26820,7 +29579,7 @@ static const u16 sStunfiskGalarianTeachableLearnset[] = {
 #if P_FAMILY_MIENFOO
 static const u16 sMienfooTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CALM_MIND,
@@ -26829,7 +29588,7 @@ static const u16 sMienfooTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -26841,7 +29600,6 @@ static const u16 sMienfooTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_ENDURE,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
@@ -26851,12 +29609,19 @@ static const u16 sMienfooTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_ACROBATICS,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_LOW_SWEEP,
+    MOVE_POISON_JAB,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMienshaoTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CALM_MIND,
@@ -26865,7 +29630,7 @@ static const u16 sMienshaoTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -26878,7 +29643,6 @@ static const u16 sMienshaoTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -26887,8 +29651,19 @@ static const u16 sMienshaoTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_PSYCHIC,
+    MOVE_PSYSHOCK,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_ACROBATICS,
+    MOVE_AURA_SPHERE,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_LOW_SWEEP,
+    MOVE_POISON_JAB,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
+
 #endif //P_FAMILY_MIENFOO
 
 #if P_FAMILY_DRUDDIGON
@@ -26943,8 +29718,8 @@ static const u16 sGolettTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -26973,6 +29748,17 @@ static const u16 sGolettTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_FLASH_CANNON,
+    MOVE_GRASS_KNOT,
+    MOVE_GYRO_BALL,
+    MOVE_LOW_SWEEP,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
@@ -26985,9 +29771,9 @@ static const u16 sGolurkTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -27018,6 +29804,17 @@ static const u16 sGolurkTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_FLASH_CANNON,
+    MOVE_GRASS_KNOT,
+    MOVE_GYRO_BALL,
+    MOVE_LOW_SWEEP,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GOLETT
@@ -27025,14 +29822,14 @@ static const u16 sGolurkTeachableLearnset[] = {
 #if P_FAMILY_PAWNIARD
 static const u16 sPawniardTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -27045,27 +29842,34 @@ static const u16 sPawniardTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_FURY_CUTTER,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_PURSUIT,
+    MOVE_DARK_PULSE,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBisharpTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -27079,14 +29883,21 @@ static const u16 sBisharpTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_FURY_CUTTER,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_PURSUIT,
+    MOVE_DARK_PULSE,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
@@ -27349,13 +30160,13 @@ static const u16 sHeatmorTeachableLearnset[] = {
 #if P_FAMILY_DURANT
 static const u16 sDurantTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -27372,18 +30183,27 @@ static const u16 sDurantTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_SPIKES,
+    MOVE_SWORDS_DANCE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_SHADOW_CLAW,
+    MOVE_THUNDER_FANG,
+    MOVE_STONE_EDGE,
+    MOVE_PURSUIT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DURANT
 
 #if P_FAMILY_DEINO
 static const u16 sDeinoTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -27404,16 +30224,23 @@ static const u16 sDeinoTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sZweilousTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -27434,12 +30261,19 @@ static const u16 sZweilousTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_DRAGON_TAIL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sHydreigonTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
@@ -27447,7 +30281,7 @@ static const u16 sHydreigonTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -27475,7 +30309,22 @@ static const u16 sHydreigonTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_THUNDER_FANG,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_U_TURN,
+    MOVE_ACROBATICS,
+    MOVE_ROOST,
+    MOVE_HYPER_VOICE,
+    MOVE_HEAT_WAVE,
+    MOVE_DRAGON_TAIL,
+    MOVE_FLASH_CANNON,
+    MOVE_DEFOG,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DEINO
@@ -27488,8 +30337,7 @@ static const u16 sLarvestaTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -27507,6 +30355,17 @@ static const u16 sLarvestaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_HEAT_WAVE,
+    MOVE_POISON_JAB,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
+    MOVE_WHIRLWIND,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_BUG_BUZZ,
     MOVE_UNAVAILABLE,
 };
 
@@ -27519,8 +30378,7 @@ static const u16 sVolcaronaTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
@@ -27537,6 +30395,18 @@ static const u16 sVolcaronaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_POISON_JAB,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
+    MOVE_WHIRLWIND,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_BUG_BUZZ,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LARVESTA
@@ -27549,7 +30419,7 @@ static const u16 sCobalionTeachableLearnset[] = {
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -27562,14 +30432,20 @@ static const u16 sCobalionTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_PURSUIT,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_COBALION
@@ -27583,7 +30459,7 @@ static const u16 sTerrakionTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -27597,7 +30473,6 @@ static const u16 sTerrakionTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -27605,6 +30480,15 @@ static const u16 sTerrakionTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_PURSUIT,
+    MOVE_BULLDOZE,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TERRAKION
@@ -27619,7 +30503,7 @@ static const u16 sVirizionTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -27641,6 +30525,15 @@ static const u16 sVirizionTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_AURA_SPHERE,
+    MOVE_PURSUIT,
+    MOVE_ACROBATICS,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_DRAIN,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_VIRIZION
@@ -27648,14 +30541,14 @@ static const u16 sVirizionTeachableLearnset[] = {
 #if P_FAMILY_TORNADUS
 static const u16 sTornadusTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -27670,26 +30563,36 @@ static const u16 sTornadusTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_ICY_WIND,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DARK_PULSE,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_HEAT_WAVE,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TORNADUS
 
 #if P_FAMILY_THUNDURUS
 static const u16 sThundurusTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -27707,13 +30610,22 @@ static const u16 sThundurusTeachableLearnset[] = {
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_DEFOG,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NASTY_PLOT,
+    MOVE_U_TURN,
+    MOVE_WILD_CHARGE,
+    MOVE_ROOST,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_THUNDURUS
@@ -27728,7 +30640,7 @@ static const u16 sReshiramTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
@@ -27746,12 +30658,25 @@ static const u16 sReshiramTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_CALM_MIND,
+    MOVE_DRAGON_PULSE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_TAIL,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_HYPER_VOICE,
+    MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_TAILWIND,
+    MOVE_WILL_O_WISP,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_RESHIRAM
@@ -27765,7 +30690,7 @@ static const u16 sZekromTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -27784,7 +30709,6 @@ static const u16 sZekromTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
@@ -27792,13 +30716,26 @@ static const u16 sZekromTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_WILD_CHARGE,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TAILWIND,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ZEKROM
 
 #if P_FAMILY_LANDORUS
 static const u16 sLandorusTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CALM_MIND,
@@ -27808,7 +30745,7 @@ static const u16 sLandorusTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -27821,7 +30758,6 @@ static const u16 sLandorusTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SLUDGE_BOMB,
     MOVE_STRENGTH,
-    MOVE_TOXIC,
     MOVE_EXPLOSION,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -27829,6 +30765,14 @@ static const u16 sLandorusTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LANDORUS
@@ -27843,7 +30787,7 @@ static const u16 sKyuremTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -27868,6 +30812,17 @@ static const u16 sKyuremTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_KYUREM
@@ -27881,7 +30836,7 @@ static const u16 sKeldeoTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -27895,7 +30850,6 @@ static const u16 sKeldeoTeachableLearnset[] = {
     MOVE_STRENGTH,
     MOVE_SURF,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_ICY_WIND,
     MOVE_PSYCH_UP,
@@ -27904,6 +30858,10 @@ static const u16 sKeldeoTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_GIGA_IMPACT,
+    MOVE_POISON_JAB,
+    MOVE_LIQUIDATION,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_KELDEO
@@ -27917,7 +30875,7 @@ static const u16 sMeloettaTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -27934,19 +30892,26 @@ static const u16 sMeloettaTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
-    MOVE_FIRE_PUNCH,
-    MOVE_ICE_PUNCH,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_AERIAL_ACE,
+    MOVE_AURA_SPHERE,
+    MOVE_SWORDS_DANCE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_HYPER_VOICE,
+    MOVE_KNOCK_OFF,
+    MOVE_LOW_SWEEP,
+    MOVE_PSYSHOCK,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MELOETTA
@@ -27954,7 +30919,7 @@ static const u16 sMeloettaTeachableLearnset[] = {
 #if P_FAMILY_GENESECT
 static const u16 sGenesectTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_BLIZZARD,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLAMETHROWER,
@@ -27962,9 +30927,9 @@ static const u16 sGenesectTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -27984,6 +30949,17 @@ static const u16 sGenesectTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_PURSUIT,
+    MOVE_SPIKES,
+    MOVE_BUG_BUZZ,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GENESECT
@@ -28119,14 +31095,14 @@ static const u16 sChesnaughtTeachableLearnset[] = {
 
 #if P_FAMILY_FENNEKIN
 static const u16 sFennekinTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
@@ -28140,25 +31116,31 @@ static const u16 sFennekinTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
     MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_PSYCH_UP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GRASS_KNOT,
+    MOVE_HEAT_WAVE,
+    MOVE_PSYSHOCK,
+    MOVE_WILL_O_WISP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBraixenTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
@@ -28175,7 +31157,6 @@ static const u16 sBraixenTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
     MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_FIRE_PUNCH,
     MOVE_PSYCH_UP,
@@ -28184,11 +31165,18 @@ static const u16 sBraixenTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GRASS_KNOT,
+    MOVE_HEAT_WAVE,
+    MOVE_PSYSHOCK,
+    MOVE_WILL_O_WISP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDelphoxTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -28196,7 +31184,7 @@ static const u16 sDelphoxTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -28215,7 +31203,6 @@ static const u16 sDelphoxTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
     MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_FIRE_PUNCH,
     MOVE_PSYCH_UP,
@@ -28224,6 +31211,14 @@ static const u16 sDelphoxTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_HEAT_WAVE,
+    MOVE_PSYSHOCK,
+    MOVE_WILL_O_WISP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FENNEKIN
@@ -28231,16 +31226,16 @@ static const u16 sDelphoxTeachableLearnset[] = {
 #if P_FAMILY_FROAKIE
 static const u16 sFroakieTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -28267,16 +31262,16 @@ static const u16 sFroakieTeachableLearnset[] = {
 
 static const u16 sFrogadierTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -28304,17 +31299,17 @@ static const u16 sFrogadierTeachableLearnset[] = {
 
 static const u16 sGreninjaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -28423,12 +31418,12 @@ static const u16 sDiggersbyTeachableLearnset[] = {
 #if P_FAMILY_FLETCHLING
 static const u16 sFletchlingTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_REST,
@@ -28438,26 +31433,32 @@ static const u16 sFletchlingTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFletchinderTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_REST,
@@ -28467,19 +31468,25 @@ static const u16 sFletchinderTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTalonflameTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -28487,7 +31494,7 @@ static const u16 sTalonflameTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -28499,19 +31506,52 @@ static const u16 sTalonflameTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FLETCHLING
 
 #if P_FAMILY_SCATTERBUG
 static const u16 sScatterbugTeachableLearnset[] = {
+    MOVE_AERIAL_ACE,
+    
+    MOVE_CALM_MIND,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FLASH,
+    MOVE_FRUSTRATION,
+    MOVE_GIGA_DRAIN,
+    
+    MOVE_LIGHT_SCREEN,
+    MOVE_PROTECT,
+    MOVE_PSYCHIC,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_SAFEGUARD,
+    MOVE_SECRET_POWER,
+    MOVE_SOLAR_BEAM,
+    MOVE_SUNNY_DAY,
+    MOVE_TOXIC,
+    MOVE_PSYCH_UP,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_BUG_BUZZ,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
@@ -28522,14 +31562,14 @@ static const u16 sSpewpaTeachableLearnset[] = {
 
 static const u16 sVivillonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -28541,7 +31581,6 @@ static const u16 sVivillonTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_PSYCH_UP,
@@ -28549,6 +31588,16 @@ static const u16 sVivillonTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_AIR_SLASH,
+    MOVE_HYPER_VOICE,
+    MOVE_ACROBATICS,
+    MOVE_BUG_BUZZ,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SCATTERBUG
@@ -28622,14 +31671,14 @@ static const u16 sPyroarTeachableLearnset[] = {
 
 #if P_FAMILY_FLABEBE
 static const u16 sFlabebeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -28648,14 +31697,14 @@ static const u16 sFlabebeTeachableLearnset[] = {
 };
 
 static const u16 sFloetteTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
@@ -28665,45 +31714,26 @@ static const u16 sFloetteTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFloetteEternalFlowerTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
-    MOVE_PROTECT,
-    MOVE_PSYCHIC,
-    MOVE_RAIN_DANCE,
-    MOVE_REST,
-    MOVE_RETURN,
-    MOVE_SAFEGUARD,
-    MOVE_SECRET_POWER,
-    MOVE_SOLAR_BEAM,
-    MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
-    MOVE_UNAVAILABLE,
-};
-
-static const u16 sFlorgesTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_CALM_MIND,
-    MOVE_DOUBLE_TEAM,
-    MOVE_FACADE,
-    MOVE_FLASH,
-    MOVE_FRUSTRATION,
-    MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -28715,11 +31745,45 @@ static const u16 sFlorgesTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sFlorgesTeachableLearnset[] = {
+    
+    MOVE_CALM_MIND,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FLASH,
+    MOVE_FRUSTRATION,
+    MOVE_GIGA_DRAIN,
+    
+    MOVE_HYPER_BEAM,
+    MOVE_LIGHT_SCREEN,
+    MOVE_PROTECT,
+    MOVE_PSYCHIC,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_SAFEGUARD,
+    MOVE_SECRET_POWER,
+    MOVE_SOLAR_BEAM,
+    MOVE_SUNNY_DAY,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FLABEBE
@@ -28798,7 +31862,7 @@ static const u16 sGogoatTeachableLearnset[] = {
 #if P_FAMILY_PANCHAM
 static const u16 sPanchamTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -28807,7 +31871,7 @@ static const u16 sPanchamTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -28822,7 +31886,6 @@ static const u16 sPanchamTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_SURF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,
@@ -28833,12 +31896,23 @@ static const u16 sPanchamTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_KNOCK_OFF,
+    MOVE_LOW_SWEEP,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sPangoroTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -28849,7 +31923,7 @@ static const u16 sPangoroTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -28867,7 +31941,6 @@ static const u16 sPangoroTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
     MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,
@@ -28878,6 +31951,17 @@ static const u16 sPangoroTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_GRASS_KNOT,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_KNOCK_OFF,
+    MOVE_LOW_SWEEP,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PANCHAM
@@ -29031,13 +32115,13 @@ static const u16 sMeowsticFemaleTeachableLearnset[] = {
 #if P_FAMILY_HONEDGE
 static const u16 sHonedgeTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -29046,7 +32130,6 @@ static const u16 sHonedgeTeachableLearnset[] = {
     MOVE_ROCK_SMASH,
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
-    MOVE_TOXIC,
     MOVE_FURY_CUTTER,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -29054,18 +32137,24 @@ static const u16 sHonedgeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_FLASH_CANNON,
+    MOVE_GYRO_BALL,
+    MOVE_IRON_HEAD,
+    MOVE_NIGHT_SLASH,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDoubladeTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -29074,7 +32163,6 @@ static const u16 sDoubladeTeachableLearnset[] = {
     MOVE_ROCK_SMASH,
     MOVE_SECRET_POWER,
     MOVE_SHOCK_WAVE,
-    MOVE_TOXIC,
     MOVE_FURY_CUTTER,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -29082,18 +32170,24 @@ static const u16 sDoubladeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_FLASH_CANNON,
+    MOVE_GYRO_BALL,
+    MOVE_IRON_HEAD,
+    MOVE_NIGHT_SLASH,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sAegislashTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -29105,7 +32199,6 @@ static const u16 sAegislashTeachableLearnset[] = {
     MOVE_SHADOW_BALL,
     MOVE_SHOCK_WAVE,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_FURY_CUTTER,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -29113,19 +32206,26 @@ static const u16 sAegislashTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GYRO_BALL,
+    MOVE_IRON_HEAD,
+    MOVE_NIGHT_SLASH,
+    MOVE_PURSUIT,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HONEDGE
 
 #if P_FAMILY_SPRITZEE
 static const u16 sSpritzeeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -29136,7 +32236,7 @@ static const u16 sSpritzeeTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SKILL_SWAP,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDERBOLT,
+    
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
@@ -29145,6 +32245,13 @@ static const u16 sSpritzeeTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_U_TURN,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GYRO_BALL,
+    MOVE_NASTY_PLOT,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
@@ -29410,13 +32517,13 @@ static const u16 sBarbaracleTeachableLearnset[] = {
 
 #if P_FAMILY_SKRELP
 static const u16 sSkrelpTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -29436,17 +32543,20 @@ static const u16 sSkrelpTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_GIGA_DRAIN,
+    MOVE_DRAGON_PULSE,
+    MOVE_PLAY_ROUGH,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDragalgeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -29468,6 +32578,10 @@ static const u16 sDragalgeTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_GIGA_DRAIN,
+    MOVE_DRAGON_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_PLAY_ROUGH,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SKRELP
@@ -29612,7 +32726,7 @@ static const u16 sHelioliskTeachableLearnset[] = {
 #if P_FAMILY_TYRUNT
 static const u16 sTyruntTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -29620,7 +32734,7 @@ static const u16 sTyruntTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -29632,18 +32746,30 @@ static const u16 sTyruntTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FIRE_FANG,
+    MOVE_ICE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTyrantrumTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
@@ -29651,7 +32777,7 @@ static const u16 sTyrantrumTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -29664,19 +32790,31 @@ static const u16 sTyrantrumTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FIRE_FANG,
+    MOVE_ICE_FANG,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_THUNDER_FANG,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TYRUNT
 
 #if P_FAMILY_AMAURA
 static const u16 sAmauraTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
@@ -29684,7 +32822,7 @@ static const u16 sAmauraTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -29700,8 +32838,6 @@ static const u16 sAmauraTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DREAM_EATER,
     MOVE_ICY_WIND,
@@ -29711,12 +32847,23 @@ static const u16 sAmauraTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DRAGON_PULSE,
+    MOVE_POWER_GEM,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sAurorusTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
@@ -29725,7 +32872,7 @@ static const u16 sAurorusTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
@@ -29742,9 +32889,6 @@ static const u16 sAurorusTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_SANDSTORM,
     MOVE_SECRET_POWER,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_DREAM_EATER,
     MOVE_ICY_WIND,
@@ -29754,7 +32898,19 @@ static const u16 sAurorusTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DRAGON_PULSE,
+    MOVE_POWER_GEM,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_AMAURA
@@ -29762,7 +32918,7 @@ static const u16 sAurorusTeachableLearnset[] = {
 #if P_FAMILY_HAWLUCHA
 static const u16 sHawluchaTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_CUT,
@@ -29772,7 +32928,7 @@ static const u16 sHawluchaTeachableLearnset[] = {
     MOVE_FLY,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -29785,7 +32941,6 @@ static const u16 sHawluchaTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_TORMENT,
-    MOVE_TOXIC,
     MOVE_FIRE_PUNCH,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -29794,6 +32949,19 @@ static const u16 sHawluchaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_KNOCK_OFF,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_IRON_HEAD,
+    MOVE_LOW_SWEEP,
+    MOVE_POISON_JAB,
+    MOVE_ROOST,
+    MOVE_STONE_EDGE,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HAWLUCHA
@@ -29839,7 +33007,7 @@ static const u16 sCarbinkTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -29852,7 +33020,6 @@ static const u16 sCarbinkTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SKILL_SWAP,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_EXPLOSION,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
@@ -29860,17 +33027,26 @@ static const u16 sCarbinkTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_EARTH_POWER,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_GYRO_BALL,
+    MOVE_POWER_GEM,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CARBINK
 
 #if P_FAMILY_GOOMY
 static const u16 sGoomyTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -29891,17 +33067,19 @@ static const u16 sGoomyTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSliggooTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -29920,23 +33098,24 @@ static const u16 sSliggooTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGoodraTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -29960,15 +33139,85 @@ static const u16 sGoodraTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 
 #if P_HISUIAN_FORMS
 static const u16 sSliggooHisuianTeachableLearnset[] = {
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FRUSTRATION,
+    
+    
+    MOVE_IRON_TAIL,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_SECRET_POWER,
+    MOVE_SHOCK_WAVE,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SUNNY_DAY,
+    MOVE_THUNDERBOLT,
+    MOVE_TOXIC,
+    MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_ROCK_SLIDE,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_FLASH_CANNON,
+    MOVE_WATERFALL,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGoodraHisuianTeachableLearnset[] = {
+    MOVE_DOUBLE_TEAM,
+    MOVE_EARTHQUAKE,
+    MOVE_FACADE,
+    MOVE_FLAMETHROWER,
+    MOVE_FOCUS_PUNCH,
+    MOVE_FRUSTRATION,
+    MOVE_HAIL,
+    
+    MOVE_HYPER_BEAM,
+    
+    MOVE_IRON_TAIL,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_ROCK_SMASH,
+    MOVE_SECRET_POWER,
+    MOVE_SHOCK_WAVE,
+    MOVE_SLUDGE_BOMB,
+    MOVE_STRENGTH,
+    MOVE_SUNNY_DAY,
+    MOVE_THUNDER,
+    MOVE_THUNDERBOLT,
+    MOVE_TOXIC,
+    MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_FIRE_PUNCH,
+    MOVE_ROCK_SLIDE,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_FLASH_CANNON,
+    MOVE_WATERFALL,
+    MOVE_IRON_HEAD,
     MOVE_UNAVAILABLE,
 };
 #endif //P_HISUIAN_FORMS
@@ -30009,14 +33258,14 @@ static const u16 sKlefkiTeachableLearnset[] = {
 
 #if P_FAMILY_PHANTUMP
 static const u16 sPhantumpTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_REFLECT,
@@ -30038,11 +33287,17 @@ static const u16 sPhantumpTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_SHADOW_CLAW,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTrevenantTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_CUT,
     MOVE_DIG,
@@ -30051,7 +33306,7 @@ static const u16 sTrevenantTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -30074,13 +33329,22 @@ static const u16 sTrevenantTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PHANTUMP
 
 #if P_FAMILY_PUMPKABOO
 static const u16 sPumpkabooTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -30089,7 +33353,7 @@ static const u16 sPumpkabooTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -30111,11 +33375,17 @@ static const u16 sPumpkabooTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_GYRO_BALL,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGourgeistTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
@@ -30124,7 +33394,7 @@ static const u16 sGourgeistTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -30147,6 +33417,13 @@ static const u16 sGourgeistTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_GYRO_BALL,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PUMPKABOO
@@ -30230,14 +33507,14 @@ static const u16 sAvaluggHisuianTeachableLearnset[] = {
 #if P_FAMILY_NOIBAT
 static const u16 sNoibatTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -30250,7 +33527,6 @@ static const u16 sNoibatTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_WATER_PULSE,
@@ -30259,12 +33535,22 @@ static const u16 sNoibatTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DARK_PULSE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_HEAT_WAVE,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sNoivernTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_CUT,
     MOVE_DOUBLE_TEAM,
@@ -30273,7 +33559,7 @@ static const u16 sNoivernTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -30287,7 +33573,6 @@ static const u16 sNoivernTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
-    MOVE_THIEF,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_WATER_PULSE,
@@ -30296,6 +33581,17 @@ static const u16 sNoivernTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DARK_PULSE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_HEAT_WAVE,
+    MOVE_GIGA_IMPACT,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_NOIBAT
@@ -30309,7 +33605,7 @@ static const u16 sXerneasTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -30321,16 +33617,24 @@ static const u16 sXerneasTeachableLearnset[] = {
     MOVE_ROAR,
     MOVE_SECRET_POWER,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_SURF,
+    MOVE_WATER_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_DEFOG,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_HYPER_VOICE,
+    MOVE_NIGHT_SLASH,
+    MOVE_PSYSHOCK,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_XERNEAS
@@ -30344,7 +33648,7 @@ static const u16 sYveltalTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -30365,6 +33669,24 @@ static const u16 sYveltalTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_NIGHT_SLASH,
+    MOVE_POISON_JAB,
+    MOVE_SLUDGE_BOMB,
+    MOVE_NASTY_PLOT,
+    MOVE_ICE_FANG,
+    MOVE_ICY_WIND,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_YVELTAL
@@ -30373,15 +33695,13 @@ static const u16 sYveltalTeachableLearnset[] = {
 static const u16 sZygardeTeachableLearnset[] = {
     MOVE_BRICK_BREAK,
     MOVE_DIG,
-    MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
     MOVE_SAFEGUARD,
@@ -30390,12 +33710,20 @@ static const u16 sZygardeTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_EARTH_POWER,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_HYPER_VOICE,
+    MOVE_STONE_EDGE,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ZYGARDE
@@ -30408,7 +33736,7 @@ static const u16 sDiancieTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -30422,7 +33750,6 @@ static const u16 sDiancieTeachableLearnset[] = {
     MOVE_SECRET_POWER,
     MOVE_SKILL_SWAP,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_EXPLOSION,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
@@ -30430,6 +33757,15 @@ static const u16 sDiancieTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_EARTH_POWER,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_GIGA_IMPACT,
+    MOVE_GYRO_BALL,
+    MOVE_POWER_GEM,
+    MOVE_PSYSHOCK,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DIANCIE
@@ -30443,7 +33779,7 @@ static const u16 sHoopaConfinedTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -30461,7 +33797,6 @@ static const u16 sHoopaConfinedTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
@@ -30472,8 +33807,16 @@ static const u16 sHoopaConfinedTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_PUNCH,
-    MOVE_THUNDER_WAVE,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NASTY_PLOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 
@@ -30485,7 +33828,7 @@ static const u16 sHoopaUnboundTeachableLearnset[] = {
     MOVE_FLASH,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -30503,9 +33846,18 @@ static const u16 sHoopaUnboundTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDERBOLT,
     MOVE_TORMENT,
     MOVE_TOXIC,
+    MOVE_SPIKES,
+    MOVE_DARK_PULSE,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NASTY_PLOT,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HOOPA
@@ -30520,7 +33872,7 @@ static const u16 sVolcanionTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -30534,7 +33886,6 @@ static const u16 sVolcanionTeachableLearnset[] = {
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
     MOVE_SUNNY_DAY,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_BODY_SLAM,
     MOVE_EXPLOSION,
@@ -30543,18 +33894,29 @@ static const u16 sVolcanionTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GYRO_BALL,
+    MOVE_HEAT_WAVE,
+    MOVE_LIQUIDATION,
+    MOVE_STONE_EDGE,
+    MOVE_WEATHER_BALL,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_VOLCANION
 
 #if P_FAMILY_ROWLET
 static const u16 sRowletTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REST,
@@ -30569,16 +33931,28 @@ static const u16 sRowletTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_NIGHT_SLASH,
+    MOVE_AERIAL_ACE,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_NASTY_PLOT,
+    MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDartrixTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REST,
@@ -30593,16 +33967,29 @@ static const u16 sDartrixTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_NIGHT_SLASH,
+    MOVE_AERIAL_ACE,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDecidueyeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REST,
@@ -30618,9 +34005,21 @@ static const u16 sDecidueyeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_NIGHT_SLASH,
+    MOVE_AERIAL_ACE,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ACROBATICS,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_NASTY_PLOT,
+    MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
-
 #if P_HISUIAN_FORMS
 static const u16 sDecidueyeHisuianTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
@@ -30630,14 +34029,14 @@ static const u16 sDecidueyeHisuianTeachableLearnset[] = {
 
 #if P_FAMILY_LITTEN
 static const u16 sLittenTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_REST,
@@ -30653,18 +34052,26 @@ static const u16 sLittenTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ACROBATICS,
+    MOVE_FIRE_FANG,
+    MOVE_HEAT_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTorracatTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_REST,
@@ -30679,11 +34086,20 @@ static const u16 sTorracatTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_ACROBATICS,
+    MOVE_BODY_SLAM,
+    MOVE_FIRE_FANG,
+    MOVE_HEAT_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_SHADOW_CLAW,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sIncineroarTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
@@ -30693,7 +34109,7 @@ static const u16 sIncineroarTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -30718,21 +34134,20 @@ static const u16 sIncineroarTeachableLearnset[] = {
 
 #if P_FAMILY_POPPLIO
 static const u16 sPopplioTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ICY_WIND,
@@ -30740,25 +34155,28 @@ static const u16 sPopplioTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ACROBATICS,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBrionneTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ICY_WIND,
@@ -30766,18 +34184,22 @@ static const u16 sBrionneTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ACROBATICS,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sPrimarinaTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -30788,7 +34210,6 @@ static const u16 sPrimarinaTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SHADOW_BALL,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_ICY_WIND,
@@ -30797,6 +34218,11 @@ static const u16 sPrimarinaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_ACROBATICS,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_POPPLIO
@@ -30804,63 +34230,76 @@ static const u16 sPrimarinaTeachableLearnset[] = {
 #if P_FAMILY_PIKIPEK
 static const u16 sPikipekTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DEFOG,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sTrumbeakTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DEFOG,
+    MOVE_FLASH_CANNON,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sToucannonTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULLET_SEED,
     MOVE_DOUBLE_TEAM,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_REST,
@@ -30868,13 +34307,21 @@ static const u16 sToucannonTeachableLearnset[] = {
     MOVE_ROCK_SMASH,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
-    MOVE_THIEF,
-    MOVE_TOXIC,
+    
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_DEFOG,
+    MOVE_FLASH_CANNON,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WORK_UP,
+    MOVE_GIGA_IMPACT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PIKIPEK
@@ -30939,12 +34386,12 @@ static const u16 sGumshoosTeachableLearnset[] = {
 
 #if P_FAMILY_GRUBBIN
 static const u16 sGrubbinTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -30954,22 +34401,26 @@ static const u16 sGrubbinTeachableLearnset[] = {
     MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_ENDURE,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_BUG_BUZZ,
+    MOVE_FLASH_CANNON,
+    MOVE_POISON_JAB,
+    MOVE_WILD_CHARGE,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCharjabugTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -30978,22 +34429,26 @@ static const u16 sCharjabugTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_THUNDERBOLT,
     MOVE_TOXIC,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_BUG_BUZZ,
+    MOVE_FLASH_CANNON,
+    MOVE_POISON_JAB,
+    MOVE_WILD_CHARGE,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sVikavoltTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -31005,12 +34460,20 @@ static const u16 sVikavoltTeachableLearnset[] = {
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_TOXIC,
-    MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_BUG_BUZZ,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_POISON_JAB,
+    MOVE_ROOST,
+    MOVE_WILD_CHARGE,
+    MOVE_DEFOG,
+    MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GRUBBIN
@@ -31084,13 +34547,13 @@ static const u16 sCrabominableTeachableLearnset[] = {
 #if P_FAMILY_ORICORIO
 static const u16 sOricorioTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -31112,12 +34575,12 @@ static const u16 sOricorioTeachableLearnset[] = {
 #if P_FAMILY_CUTIEFLY
 static const u16 sCutieflyTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -31140,12 +34603,12 @@ static const u16 sCutieflyTeachableLearnset[] = {
 
 static const u16 sRibombeeTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -31170,11 +34633,11 @@ static const u16 sRibombeeTeachableLearnset[] = {
 
 #if P_FAMILY_ROCKRUFF
 static const u16 sRockruffTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -31188,17 +34651,30 @@ static const u16 sRockruffTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_PURSUIT,
+    MOVE_AERIAL_ACE,
+    MOVE_U_TURN,
+    MOVE_STRENGTH,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLycanrocMiddayTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -31213,17 +34689,30 @@ static const u16 sLycanrocMiddayTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_PURSUIT,
+    MOVE_AERIAL_ACE,
+    MOVE_U_TURN,
+    MOVE_STRENGTH,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLycanrocMidnightTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -31231,18 +34720,30 @@ static const u16 sLycanrocMidnightTeachableLearnset[] = {
     MOVE_ROAR,
     MOVE_ROCK_TOMB,
     MOVE_TAUNT,
-    MOVE_TOXIC,
+    MOVE_PURSUIT,
+    MOVE_AERIAL_ACE,
+    MOVE_U_TURN,
+    MOVE_STRENGTH,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLycanrocDuskTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -31250,29 +34751,40 @@ static const u16 sLycanrocDuskTeachableLearnset[] = {
     MOVE_ROAR,
     MOVE_ROCK_TOMB,
     MOVE_TAUNT,
-    MOVE_TOXIC,
+    MOVE_PURSUIT,
+    MOVE_AERIAL_ACE,
+    MOVE_U_TURN,
+    MOVE_STRENGTH,
+    MOVE_SPIKES,
+    MOVE_THIEF,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_FIRE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_EARTH_POWER,
+    MOVE_IRON_HEAD,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ROCKRUFF
 
 #if P_FAMILY_WISHIWASHI
 static const u16 sWishiwashiTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SURF,
-    MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_DOUBLE_EDGE,
@@ -31397,14 +34909,14 @@ static const u16 sMudsdaleTeachableLearnset[] = {
 
 #if P_FAMILY_DEWPIDER
 static const u16 sDewpiderTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -31418,18 +34930,21 @@ static const u16 sDewpiderTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DEFOG,
+    MOVE_LIQUIDATION,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sAraquanidTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
@@ -31445,18 +34960,22 @@ static const u16 sAraquanidTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_DEFOG,
+    MOVE_LIQUIDATION,
+    MOVE_POISON_JAB,
+
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DEWPIDER
 
 #if P_FAMILY_FOMANTIS
 static const u16 sFomantisTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -31470,18 +34989,28 @@ static const u16 sFomantisTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_AERIAL_ACE,
+    MOVE_CUT,
+    MOVE_SPIKES,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_WEATHER_BALL,
+    MOVE_PLAY_ROUGH,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sLurantisTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -31496,6 +35025,15 @@ static const u16 sLurantisTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_CUT,
+    MOVE_SPIKES,
+    MOVE_DEFOG,
+    MOVE_ENERGY_BALL,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_WEATHER_BALL,
+    MOVE_PLAY_ROUGH,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FOMANTIS
@@ -31554,14 +35092,14 @@ static const u16 sShiinoticTeachableLearnset[] = {
 
 #if P_FAMILY_SALANDIT
 static const u16 sSalanditTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_DRAGON_CLAW,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -31577,18 +35115,28 @@ static const u16 sSalanditTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_U_TURN,
+    MOVE_ACROBATICS,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_NASTY_PLOT,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sSalazzleTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_DRAGON_CLAW,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -31604,6 +35152,16 @@ static const u16 sSalazzleTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_U_TURN,
+    MOVE_ACROBATICS,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_NASTY_PLOT,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SALANDIT
@@ -31611,7 +35169,7 @@ static const u16 sSalazzleTeachableLearnset[] = {
 #if P_FAMILY_STUFFUL
 static const u16 sStuffulTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
@@ -31619,14 +35177,13 @@ static const u16 sStuffulTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROAR,
     MOVE_ROCK_TOMB,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
     MOVE_ICE_PUNCH,
@@ -31638,12 +35195,17 @@ static const u16 sStuffulTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_IRON_HEAD,
+    MOVE_LOW_SWEEP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_WORK_UP,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBewearTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
@@ -31652,7 +35214,7 @@ static const u16 sBewearTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_REST,
@@ -31660,7 +35222,6 @@ static const u16 sBewearTeachableLearnset[] = {
     MOVE_ROAR,
     MOVE_ROCK_TOMB,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_DOUBLE_EDGE,
     MOVE_ICE_PUNCH,
     MOVE_ROCK_SLIDE,
@@ -31670,18 +35231,25 @@ static const u16 sBewearTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_BULLDOZE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_LOW_SWEEP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_WORK_UP,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_STUFFUL
 
 #if P_FAMILY_BOUNSWEET
 static const u16 sBounsweetTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -31699,12 +35267,12 @@ static const u16 sBounsweetTeachableLearnset[] = {
 };
 
 static const u16 sSteeneeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -31722,12 +35290,12 @@ static const u16 sSteeneeTeachableLearnset[] = {
 };
 
 static const u16 sTsareenaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_REFLECT,
@@ -31850,39 +35418,40 @@ static const u16 sPassimianTeachableLearnset[] = {
 
 #if P_FAMILY_WIMPOD
 static const u16 sWimpodTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
-    MOVE_SURF,
     MOVE_TAUNT,
     MOVE_TOXIC,
-    MOVE_WATERFALL,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_SPIKES,
+    MOVE_U_TURN,
+    MOVE_LIQUIDATION,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sGolisopodTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
-    MOVE_ICE_BEAM,
+    
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -31904,19 +35473,29 @@ static const u16 sGolisopodTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_U_TURN,
+    MOVE_LIQUIDATION,
+    MOVE_DARK_PULSE,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_KNOCK_OFF,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_WIMPOD
 
 #if P_FAMILY_SANDYGAST
 static const u16 sSandygastTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_REST,
@@ -31931,17 +35510,25 @@ static const u16 sSandygastTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LIQUIDATION,
+    MOVE_SURF,
+    MOVE_MUD_SLAP,
+    MOVE_EARTH_POWER,
+    MOVE_BULLDOZE,
+    MOVE_ENERGY_BALL,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sPalossandTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_REST,
@@ -31957,6 +35544,14 @@ static const u16 sPalossandTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LIQUIDATION,
+    MOVE_SURF,
+    MOVE_MUD_SLAP,
+    MOVE_EARTH_POWER,
+    MOVE_BULLDOZE,
+    MOVE_ENERGY_BALL,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SANDYGAST
@@ -31992,7 +35587,7 @@ static const u16 sTypeNullTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
     MOVE_REST,
@@ -32021,7 +35616,7 @@ static const u16 sSilvallyTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
     MOVE_HAIL,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
@@ -32046,6 +35641,79 @@ static const u16 sSilvallyTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_WAVE,
+    MOVE_FOCUS_PUNCH,
+    MOVE_WATER_PULSE,
+    MOVE_CALM_MIND,
+    MOVE_BULLET_SEED,
+    MOVE_U_TURN,
+    MOVE_TAUNT,
+    MOVE_BLIZZARD,
+    MOVE_LIGHT_SCREEN,
+    MOVE_REFLECT,
+    MOVE_SAFEGUARD,
+    MOVE_KNOCK_OFF,
+    MOVE_GIGA_DRAIN,
+    MOVE_SOLAR_BEAM,
+    MOVE_WORK_UP,
+    MOVE_THUNDER,
+    MOVE_EARTH_POWER,
+    MOVE_EARTHQUAKE,
+    MOVE_DARK_PULSE,
+    MOVE_PSYCHIC,
+    MOVE_BRICK_BREAK,
+    MOVE_SLUDGE_BOMB,
+    MOVE_TORMENT,
+    MOVE_FLASH_CANNON,
+    MOVE_SHADOW_CLAW,
+    MOVE_THIEF,
+    MOVE_POISON_JAB,
+    MOVE_SPIKES,
+    MOVE_STEALTH_ROCK,
+    MOVE_OVERHEAT,
+    MOVE_GIGA_IMPACT,
+    MOVE_WEATHER_BALL,
+    MOVE_DRAIN_PUNCH,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_STONE_EDGE,
+    MOVE_WILD_CHARGE,
+    MOVE_LIQUIDATION,
+    MOVE_NASTY_PLOT,
+    MOVE_DRAGON_PULSE,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_BUG_BUZZ,
+    MOVE_ENERGY_BALL,
+    MOVE_PLAY_ROUGH,
+    MOVE_AURA_SPHERE,
+    MOVE_IRON_HEAD,
+    MOVE_POWER_GEM,
+    MOVE_AVALANCHE,
+    MOVE_WILL_O_WISP,
+    MOVE_FIRE_PLEDGE,
+    MOVE_ICE_PUNCH,
+    MOVE_THUNDER_PUNCH,
+    MOVE_FIRE_FANG,
+    MOVE_ICE_FANG,
+    MOVE_THUNDER_FANG,
+    MOVE_TRICK_ROOM,
+    MOVE_TAILWIND,
+    MOVE_DEFOG,
+    MOVE_ROOST,
+    MOVE_HYPER_VOICE,
+    MOVE_DISABLE,
+    MOVE_IMPRISON,
+    MOVE_NIGHT_SLASH,
+    MOVE_HEAT_WAVE,
+    MOVE_PURSUIT,
+    MOVE_BODY_SLAM,
+    MOVE_GRASS_KNOT,
+    MOVE_PSYSHOCK,
+    MOVE_WHIRLWIND,
+    MOVE_DRAGON_TAIL,
+    MOVE_GYRO_BALL,
+    MOVE_LOW_SWEEP,
+    MOVE_SNARL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TYPE_NULL
@@ -32180,13 +35848,13 @@ static const u16 sTogedemaruTeachableLearnset[] = {
 
 #if P_FAMILY_MIMIKYU
 static const u16 sMimikyuTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -32198,8 +35866,6 @@ static const u16 sMimikyuTeachableLearnset[] = {
     MOVE_SNATCH,
     MOVE_TAUNT,
     MOVE_THIEF,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_MIMIC,
@@ -32209,7 +35875,14 @@ static const u16 sMimikyuTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_SPIKES,
+    MOVE_PLAY_ROUGH,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_SHADOW_CLAW,
+    MOVE_WILL_O_WISP,
+    MOVE_TRICK_ROOM,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MIMIKYU
@@ -32254,8 +35927,8 @@ static const u16 sBruxishTeachableLearnset[] = {
 
 #if P_FAMILY_DRAMPA
 static const u16 sDrampaTeachableLearnset[] = {
-    MOVE_ATTRACT,
-    MOVE_BLIZZARD,
+    
+    
     MOVE_CALM_MIND,
     MOVE_DOUBLE_TEAM,
     MOVE_DRAGON_CLAW,
@@ -32265,9 +35938,9 @@ static const u16 sDrampaTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -32283,7 +35956,6 @@ static const u16 sDrampaTeachableLearnset[] = {
     MOVE_SURF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_ICY_WIND,
     MOVE_PSYCH_UP,
@@ -32292,21 +35964,35 @@ static const u16 sDrampaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_THUNDER_WAVE,
+    MOVE_STEALTH_ROCK,
+    MOVE_BULLDOZE,
+    MOVE_DEFOG,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_ENERGY_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_GRASS_KNOT,
+    MOVE_HYPER_VOICE,
+    MOVE_PLAY_ROUGH,
+    MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
+    MOVE_TAILWIND,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DRAMPA
 
 #if P_FAMILY_DHELMISE
 static const u16 sDhelmiseTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
     MOVE_GIGA_DRAIN,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -32324,6 +36010,15 @@ static const u16 sDhelmiseTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_ENERGY_BALL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GYRO_BALL,
+    MOVE_KNOCK_OFF,
+    MOVE_IRON_HEAD,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DHELMISE
@@ -32331,7 +36026,7 @@ static const u16 sDhelmiseTeachableLearnset[] = {
 #if P_FAMILY_JANGMO_O
 static const u16 sJangmoOTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
@@ -32339,7 +36034,7 @@ static const u16 sJangmoOTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -32349,7 +36044,6 @@ static const u16 sJangmoOTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_SANDSTORM,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_COUNTER,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -32357,12 +36051,22 @@ static const u16 sJangmoOTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sHakamoOTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
@@ -32370,7 +36074,7 @@ static const u16 sHakamoOTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -32380,19 +36084,28 @@ static const u16 sHakamoOTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_SANDSTORM,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sKommoOTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
+    
     MOVE_BRICK_BREAK,
     MOVE_BULK_UP,
     MOVE_DOUBLE_TEAM,
@@ -32402,7 +36115,7 @@ static const u16 sKommoOTeachableLearnset[] = {
     MOVE_FLAMETHROWER,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
@@ -32414,7 +36127,6 @@ static const u16 sKommoOTeachableLearnset[] = {
     MOVE_SANDSTORM,
     MOVE_SHOCK_WAVE,
     MOVE_TAUNT,
-    MOVE_TOXIC,
     MOVE_WATER_PULSE,
     MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,
@@ -32425,6 +36137,16 @@ static const u16 sKommoOTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_SPIKES,
+    MOVE_BULLDOZE,
+    MOVE_DRAGON_PULSE,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_POISON_JAB,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_JANGMO_O
@@ -32567,10 +36289,12 @@ static const u16 sTapuFiniTeachableLearnset[] = {
 
 #if P_FAMILY_COSMOG
 static const u16 sCosmogTeachableLearnset[] = {
+    MOVE_SHADOW_BALL,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCosmoemTeachableLearnset[] = {
+    MOVE_SHADOW_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -32582,7 +36306,7 @@ static const u16 sSolgaleoTeachableLearnset[] = {
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
@@ -32599,7 +36323,6 @@ static const u16 sSolgaleoTeachableLearnset[] = {
     MOVE_SUNNY_DAY,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_PSYCH_UP,
     MOVE_ROCK_SLIDE,
     MOVE_SLEEP_TALK,
@@ -32607,6 +36330,19 @@ static const u16 sSolgaleoTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
+    MOVE_BULLDOZE,
+    MOVE_FLASH_CANNON,
+    MOVE_GYRO_BALL,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_KNOCK_OFF,
+    MOVE_PSYSHOCK,
+    MOVE_STONE_EDGE,
+    MOVE_TRICK_ROOM,
+    MOVE_WILD_CHARGE,
+    MOVE_WORK_UP,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_SPIKES,
     MOVE_UNAVAILABLE,
 };
 
@@ -32618,7 +36354,7 @@ static const u16 sLunalaTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -32633,8 +36369,6 @@ static const u16 sLunalaTeachableLearnset[] = {
     MOVE_SHOCK_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SUNNY_DAY,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_DREAM_EATER,
     MOVE_ICY_WIND,
@@ -32643,7 +36377,19 @@ static const u16 sLunalaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_SPIKES,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_PSYSHOCK,
+    MOVE_SHADOW_CLAW,
+    MOVE_TAILWIND,
+    MOVE_TRICK_ROOM,
+    MOVE_WILL_O_WISP,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_COSMOG
@@ -32653,7 +36399,7 @@ static const u16 sNihilegoTeachableLearnset[] = {
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
@@ -32662,15 +36408,19 @@ static const u16 sNihilegoTeachableLearnset[] = {
     MOVE_RETURN,
     MOVE_SAFEGUARD,
     MOVE_SANDSTORM,
-    MOVE_SLUDGE_BOMB,
-    MOVE_THUNDER,
-    MOVE_THUNDERBOLT,
     MOVE_TOXIC,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_KNOCK_OFF,
+    MOVE_IRON_HEAD,
+    MOVE_POWER_GEM,
+    MOVE_PSYSHOCK,
+    MOVE_POISON_JAB,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_NIHILEGO
@@ -32708,14 +36458,14 @@ static const u16 sBuzzwoleTeachableLearnset[] = {
 
 #if P_FAMILY_PHEROMOSA
 static const u16 sPheromosaTeachableLearnset[] = {
-    MOVE_BLIZZARD,
+    
     MOVE_BRICK_BREAK,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
-    MOVE_ICE_BEAM,
+    
     MOVE_PROTECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -32730,6 +36480,14 @@ static const u16 sPheromosaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_GIGA_IMPACT,
+    MOVE_LOW_SWEEP,
+    MOVE_POISON_JAB,
+    MOVE_ROOST,
+    MOVE_U_TURN,
+    MOVE_SPIKES,
+    MOVE_ACROBATICS,
+    MOVE_LIQUIDATION,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PHEROMOSA
@@ -32855,7 +36613,7 @@ static const u16 sNecrozmaTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -32874,7 +36632,26 @@ static const u16 sNecrozmaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_NASTY_PLOT,
+    MOVE_GIGA_DRAIN,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_EARTH_POWER,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_GYRO_BALL,
+    MOVE_HEAT_WAVE,
+    MOVE_HYPER_VOICE,
+    MOVE_IRON_HEAD,
+    MOVE_KNOCK_OFF,
+    MOVE_NIGHT_SLASH,
+    MOVE_PSYSHOCK,
+    MOVE_SHADOW_CLAW,
+    MOVE_STEALTH_ROCK,
+    MOVE_STONE_EDGE,
+    MOVE_POWER_GEM,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_NECROZMA
@@ -33050,7 +36827,7 @@ static const u16 sZeraoraTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FOCUS_PUNCH,
     MOVE_FRUSTRATION,
-    MOVE_HIDDEN_POWER,
+    
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
     MOVE_REST,
@@ -33060,13 +36837,20 @@ static const u16 sZeraoraTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_FIRE_PUNCH,
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_AURA_SPHERE,
+    MOVE_ACROBATICS,
+    MOVE_GIGA_IMPACT,
+    MOVE_GRASS_KNOT,
+    MOVE_KNOCK_OFF,
+    MOVE_LOW_SWEEP,
+    MOVE_WILD_CHARGE,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ZERAORA
@@ -33394,7 +37178,7 @@ static const u16 sGreedentTeachableLearnset[] = {
 
 #if P_FAMILY_ROOKIDEE
 static const u16 sRookideeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_PROTECT,
@@ -33408,11 +37192,17 @@ static const u16 sRookideeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_AERIAL_ACE,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCorvisquireTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_PROTECT,
@@ -33425,11 +37215,17 @@ static const u16 sCorvisquireTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_AERIAL_ACE,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCorviknightTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULK_UP,
     MOVE_FACADE,
     MOVE_FLY,
@@ -33448,6 +37244,17 @@ static const u16 sCorviknightTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_AERIAL_ACE,
+    MOVE_BULLDOZE,
+    MOVE_EARTHQUAKE,
+    MOVE_AIR_SLASH,
+    MOVE_DEFOG,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_IRON_HEAD,
+    MOVE_ROOST,
+    MOVE_TAILWIND,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ROOKIDEE
@@ -33577,11 +37384,10 @@ static const u16 sEldegossTeachableLearnset[] = {
 
 #if P_FAMILY_WOOLOO
 static const u16 sWoolooTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_PROTECT,
     MOVE_REST,
-    MOVE_COUNTER,
     MOVE_DEFENSE_CURL,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -33589,7 +37395,12 @@ static const u16 sWoolooTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_STRENGTH,
+    MOVE_BULLDOZE,
+    MOVE_MUD_SLAP,
+    MOVE_IRON_HEAD,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 
@@ -33662,7 +37473,7 @@ static const u16 sDrednawTeachableLearnset[] = {
 
 #if P_FAMILY_YAMPER
 static const u16 sYamperTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIG,
     MOVE_FACADE,
     MOVE_PROTECT,
@@ -33677,11 +37488,22 @@ static const u16 sYamperTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_ENERGY_BALL,
+    MOVE_GYRO_BALL,
+    MOVE_SHADOW_BALL,
+    MOVE_WEATHER_BALL,
+    MOVE_U_TURN,
+    MOVE_PURSUIT,
+    MOVE_RETURN,
+    MOVE_FIRE_FANG,
+    MOVE_PLAY_ROUGH,
+    MOVE_THUNDER_FANG,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sBoltundTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BULK_UP,
     MOVE_DIG,
     MOVE_FACADE,
@@ -33697,6 +37519,14 @@ static const u16 sBoltundTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_PURSUIT,
+    MOVE_PLAY_ROUGH,
+    MOVE_U_TURN,
+    MOVE_HYPER_VOICE,
+    MOVE_WORK_UP,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_WILD_CHARGE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_YAMPER
@@ -33927,7 +37757,7 @@ static const u16 sBarraskewdaTeachableLearnset[] = {
 
 #if P_FAMILY_TOXEL
 static const u16 sToxelTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_PROTECT,
     MOVE_REST,
@@ -33935,11 +37765,19 @@ static const u16 sToxelTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
+    MOVE_THUNDERBOLT,
+    MOVE_TOXIC,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SHOCK_WAVE,
+    MOVE_THUNDER_WAVE,
+    MOVE_HYPER_VOICE,
+    MOVE_THIEF,
+    MOVE_DARK_PULSE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sToxtricityAmpedTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
@@ -33961,11 +37799,17 @@ static const u16 sToxtricityAmpedTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_POISON_JAB,
+    MOVE_WILD_CHARGE,
+    MOVE_THIEF,
+    MOVE_DARK_PULSE,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sToxtricityLowKeyTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
@@ -33987,13 +37831,19 @@ static const u16 sToxtricityLowKeyTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_POISON_JAB,
+    MOVE_WILD_CHARGE,
+    MOVE_THIEF,
+    MOVE_DARK_PULSE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TOXEL
 
 #if P_FAMILY_SIZZLIPEDE
 static const u16 sSizzlipedeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_PROTECT,
     MOVE_REST,
@@ -34004,11 +37854,20 @@ static const u16 sSizzlipedeTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
+    MOVE_U_TURN,
+    MOVE_TOXIC,
+    MOVE_SPIKES,
+    MOVE_BUG_BUZZ,
+    MOVE_FIRE_FANG,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_THUNDER_FANG,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCentiskorchTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
@@ -34022,6 +37881,16 @@ static const u16 sCentiskorchTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
+    MOVE_U_TURN,
+    MOVE_TOXIC,
+    MOVE_SPIKES,
+    MOVE_BUG_BUZZ,
+    MOVE_FIRE_FANG,
+    MOVE_GIGA_IMPACT,
+    MOVE_HEAT_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_THUNDER_FANG,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SIZZLIPEDE
@@ -34111,7 +37980,7 @@ static const u16 sPolteageistTeachableLearnset[] = {
 
 #if P_FAMILY_HATENNA
 static const u16 sHatennaTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_FACADE,
     MOVE_GIGA_DRAIN,
@@ -34125,12 +37994,16 @@ static const u16 sHatennaTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
-    MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PLAY_ROUGH,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sHattremTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_FACADE,
     MOVE_GIGA_DRAIN,
@@ -34144,12 +38017,16 @@ static const u16 sHattremTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
-    MOVE_THUNDER_WAVE,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PLAY_ROUGH,
+    MOVE_PSYSHOCK,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sHattereneTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_CALM_MIND,
     MOVE_FACADE,
     MOVE_GIGA_DRAIN,
@@ -34166,14 +38043,21 @@ static const u16 sHattereneTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWORDS_DANCE,
-    MOVE_THUNDER_WAVE,
+    MOVE_KNOCK_OFF,
+    MOVE_THIEF,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_PLAY_ROUGH,
+    MOVE_PSYSHOCK,
+    MOVE_SHADOW_CLAW,
+    MOVE_TRICK_ROOM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HATENNA
 
 #if P_FAMILY_IMPIDIMP
 static const u16 sImpidimpTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_PROTECT,
     MOVE_REST,
@@ -34188,12 +38072,20 @@ static const u16 sImpidimpTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_PURSUIT,
+    MOVE_U_TURN,
+    MOVE_SPIKES,
+    MOVE_TOXIC,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_NASTY_PLOT,
+    MOVE_PLAY_ROUGH,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMorgremTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -34210,7 +38102,15 @@ static const u16 sMorgremTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
-    MOVE_THUNDER_WAVE,
+    MOVE_PURSUIT,
+    MOVE_U_TURN,
+    MOVE_SPIKES,
+    MOVE_TOXIC,
+    MOVE_DARK_PULSE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_NASTY_PLOT,
+    MOVE_PLAY_ROUGH,
+    MOVE_SHADOW_CLAW,
     MOVE_UNAVAILABLE,
 };
 
@@ -34320,7 +38220,7 @@ static const u16 sPincurchinTeachableLearnset[] = {
 
 #if P_FAMILY_SNOM
 static const u16 sSnomTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_FACADE,
     MOVE_PROTECT,
     MOVE_REST,
@@ -34329,11 +38229,13 @@ static const u16 sSnomTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
+    MOVE_TOXIC,
+    MOVE_BUG_BUZZ,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sFrosmothTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_BLIZZARD,
     MOVE_CALM_MIND,
     MOVE_FACADE,
@@ -34351,6 +38253,17 @@ static const u16 sFrosmothTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
+    MOVE_TOXIC,
+    MOVE_ROOST,
+    MOVE_ACROBATICS,
+    MOVE_AIR_SLASH,
+    MOVE_BUG_BUZZ,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_DEFOG,
+    MOVE_PLAY_ROUGH,
+    MOVE_TAILWIND,
+    MOVE_U_TURN,
+    MOVE_WEATHER_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SNOM
@@ -34658,7 +38571,7 @@ static const u16 sDuraludonTeachableLearnset[] = {
 
 #if P_FAMILY_DREEPY
 static const u16 sDreepyTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_PROTECT,
@@ -34668,15 +38581,19 @@ static const u16 sDreepyTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_SHADOW_CLAW,
+    MOVE_ROOST,
+    MOVE_ACROBATICS,
+    MOVE_DRAGON_TAIL,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDrakloakTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIVE,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_PROTECT,
     MOVE_REST,
@@ -34684,7 +38601,6 @@ static const u16 sDrakloakTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_SURF,
     MOVE_THIEF,
-    MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
@@ -34692,16 +38608,21 @@ static const u16 sDrakloakTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_SHADOW_CLAW,
+    MOVE_ROOST,
+    MOVE_ACROBATICS,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sDragapultTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    
     MOVE_DIVE,
     MOVE_DRAGON_CLAW,
     MOVE_FACADE,
-    MOVE_FIRE_BLAST,
     MOVE_FLAMETHROWER,
     MOVE_FLY,
     MOVE_HYPER_BEAM,
@@ -34714,7 +38635,6 @@ static const u16 sDragapultTeachableLearnset[] = {
     MOVE_STEEL_WING,
     MOVE_SURF,
     MOVE_THIEF,
-    MOVE_THUNDER,
     MOVE_THUNDERBOLT,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
@@ -34723,7 +38643,13 @@ static const u16 sDragapultTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
-    MOVE_THUNDER_WAVE,
+    MOVE_SHADOW_CLAW,
+    MOVE_ROOST,
+    MOVE_ACROBATICS,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_U_TURN,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DREEPY
@@ -34764,6 +38690,18 @@ static const u16 sZamazentaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
+    MOVE_PURSUIT,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_FIRE_FANG,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_HYPER_VOICE,
+    MOVE_ICE_FANG,
+    MOVE_IRON_HEAD,
+    MOVE_PLAY_ROUGH,
+    MOVE_THUNDER_FANG,
+    MOVE_WILD_CHARGE,
+    MOVE_WORK_UP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ZAMAZENTA
@@ -34786,6 +38724,11 @@ static const u16 sEternatusTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
+    MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_TAIL,
+    MOVE_FLASH_CANNON,
+    MOVE_GIGA_IMPACT,
+    MOVE_POISON_JAB,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ETERNATUS
@@ -39114,3 +43057,42 @@ static const u16 sOgerponTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_OGERPON
+
+//maddie mons
+
+static const u16 sGalladinTeachableLearnset[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_CALM_MIND,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FLASH,
+    MOVE_FRUSTRATION,
+    MOVE_HYPER_BEAM,
+    MOVE_LIGHT_SCREEN,
+    MOVE_PROTECT,
+    MOVE_PSYCHIC,
+    MOVE_REFLECT,
+    MOVE_REST,
+    MOVE_RETURN,
+    MOVE_SHADOW_BALL,
+    MOVE_SHOCK_WAVE,
+    MOVE_THUNDERBOLT,
+    MOVE_ENDURE,
+    MOVE_FIRE_PUNCH,
+    MOVE_SUBSTITUTE,
+    MOVE_THUNDER_PUNCH,
+    MOVE_THUNDER_WAVE,
+    MOVE_TAUNT,
+    MOVE_KNOCK_OFF,
+    MOVE_BRICK_BREAK,
+    MOVE_NIGHT_SLASH,
+    MOVE_CUT,
+    MOVE_AURA_SPHERE,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_FIRE_PUNCH,
+    MOVE_KNOCK_OFF,
+    MOVE_SHADOW_CLAW,
+    MOVE_TRICK_ROOM,
+    MOVE_ZEN_HEADBUTT,
+    MOVE_UNAVAILABLE,
+};

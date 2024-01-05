@@ -7817,9 +7817,6 @@ void UsePokevial(u8 taskId)
 
     sPartyMenuInternal->tUsedOnSlot = TRUE;
     sPartyMenuInternal->tHadEffect = TRUE;
-    
-    gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
-    gSideTimers[gBattlerAttacker].sleepClause = 0;
 }
 
 static void Task_PokevialLoop(u8 taskId)

@@ -970,7 +970,7 @@
 #define ITEM_LINKING_CORD 796
 #define ITEM_PEAT_BLOCK 797
 #define ITEM_BERSERK_GENE 798
-#define ITEM_POKEVIAL 799 // Pokevial Branch
+
 
 #define ITEM_FAIRY_FEATHER 799
 #define ITEM_SYRUPY_APPLE 800
@@ -990,11 +990,13 @@
 #define ITEM_814 814 // TWV0YWwgQWxsb3k=
 #define ITEM_815 815 // U3RlbGxhciBUZXJhIFNoYXJk
 
+#define ITEM_POKEVIAL 816 // Pokevial Branch
+
 //MADDIE ITEMS
-#define ITEM_FALLEN_WINGS 816
+#define ITEM_FALLEN_WINGS 817
 
 
-#define ITEMS_COUNT 817
+#define ITEMS_COUNT 818
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

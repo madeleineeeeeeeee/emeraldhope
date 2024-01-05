@@ -190,8 +190,8 @@ static const struct FormChange sHeracrossFormChangeTable[] = {
 
 #if P_FAMILY_HOUNDOUR
 static const struct FormChange sHoundoomFormChangeTable[] = {
-    {FORM_CHANGE_BATTLE_STATUS,    SPECIES_HOUNDOOM,      STATUS1_NONE},
-    {FORM_CHANGE_BATTLE_STATUS,    SPECIES_HOUNDOOM_MEGA, STATUS1_BURN},
+    {FORM_CHANGE_STATUS,    SPECIES_HOUNDOOM,      STATUS1_NONE},
+    {FORM_CHANGE_STATUS,    SPECIES_HOUNDOOM_MEGA, STATUS1_BURN},
     {FORM_CHANGE_TERMINATOR},
 };
 #endif //P_FAMILY_HOUNDOUR

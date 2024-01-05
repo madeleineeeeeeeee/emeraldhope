@@ -336,6 +336,7 @@ static const u8 sSinbearerDescription[] = _("Bearer of the tablets.");
 static const u8 sGrapplerDescription[] = _("Fighting moves ignore protect.");
 static const u8 sDancingMasksDescription[] = _("Levitate + intimidate.");
 static const u8 sStilettoDescription[] = _("Sniper + kick boost.");
+static const u8 sBastionDescription[] = _("Supereffective maxes at 2x.");
 
 //note to self: can't go longer than 26 characters on ability descriptions
 
@@ -689,6 +690,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_GRAPPLER] = _("Grappler"),
     [ABILITY_DANCING_MASKS] = _("Dancing Masks"),
     [ABILITY_STILETTO] = _("Stiletto"),
+    [ABILITY_BASTION] = _("Bastion"),
     
 };
 #else   // 12 characters
@@ -1353,4 +1355,5 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_GRAPPLER] = sGrapplerDescription,
     [ABILITY_DANCING_MASKS] = sDancingMasksDescription,
     [ABILITY_STILETTO] = sStilettoDescription,
+    [ABILITY_BASTION] = sBastionDescription,
 };

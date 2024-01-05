@@ -2754,11 +2754,6 @@ u8 DoBattlerEndTurnEffects(void)
             gBattleStruct->turnEffectsTracker++;
             break;
         case ENDTURN_BURN:  // burn
-            if (TryBattleFormChange(battler, FORM_CHANGE_BATTLE_STATUS))
-            {
-                BattleScriptPushCursorAndCallback(BattleScript_AttackerFormChangeEnd3);
-            }
-            
             
             if ((gBattleMons[battler].status1 & STATUS1_BURN && !(gBattleMons[battler].ability == ABILITY_THICK_FAT) && !(gBattleMons[battler].ability == ABILITY_INFERNAL))
                 && gBattleMons[battler].hp != 0)
@@ -2881,8 +2876,6 @@ u8 DoBattlerEndTurnEffects(void)
                     {
                         gBattleMons[gBattlerAttacker].status1 &= ~STATUS1_SLEEP;
                         gBattleMons[gBattlerAttacker].status2 &= ~STATUS2_NIGHTMARE;
-                        gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
-                        gSideTimers[gBattlerAttacker].sleepClause = 0;
                         gBattleCommunication[MULTISTRING_CHOOSER] = 1;
                         BattleScriptExecute(BattleScript_MonWokeUpInUproar);
                         BtlController_EmitSetMonData(gBattlerAttacker, BUFFER_A, REQUEST_STATUS_BATTLE, 0, 4, &gBattleMons[gBattlerAttacker].status1);
@@ -3474,9 +3467,6 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
             {
                 if (UproarWakeUpCheck(gBattlerAttacker))
                 {
-                    
-                    gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
-                    gSideTimers[gBattlerAttacker].sleepClause = 0;
                     gBattleMons[gBattlerAttacker].status1 &= ~STATUS1_SLEEP;
                     gBattleMons[gBattlerAttacker].status2 &= ~STATUS2_NIGHTMARE;
                     BattleScriptPushCursor();
@@ -3494,8 +3484,7 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
                     if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_SLEEP) < toSub)
                     {
                         gBattleMons[gBattlerAttacker].status1 &= ~STATUS1_SLEEP;
-                        gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
-                        gSideTimers[gBattlerAttacker].sleepClause = 0;
+
                     }
                     else
                         gBattleMons[gBattlerAttacker].status1 -= toSub;
@@ -3510,8 +3499,6 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
                     }
                     else
                     {
-                        gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
-                        gSideTimers[gBattlerAttacker].sleepClause = 0;
                         gBattleMons[gBattlerAttacker].status2 &= ~STATUS2_NIGHTMARE;
                         BattleScriptPushCursor();
                         gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_WOKE_UP;
@@ -4994,8 +4981,6 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                         StringCopy(gBattleTextBuff1, gStatusConditionString_PoisonJpn);
                     if (gBattleMons[battler].status1 & STATUS1_SLEEP)
                         StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
-                        gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-                        gSideTimers[battler].sleepClause = 0;
                     if (gBattleMons[battler].status1 & STATUS1_PARALYSIS)
                         StringCopy(gBattleTextBuff1, gStatusConditionString_ParalysisJpn);
                     if (gBattleMons[battler].status1 & STATUS1_BURN)
@@ -5117,7 +5102,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 }
                 break;
             case ABILITY_INFERNAL:
-            if (TryBattleFormChange(battler, FORM_CHANGE_BATTLE_STATUS))
+            if (TryBattleFormChange(battler, FORM_CHANGE_STATUS))
             {
                 BattleScriptPushCursorAndCallback(BattleScript_AttackerFormChangeEnd3);
                 effect++;
@@ -6031,8 +6016,6 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 {
                     gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                     StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
-                    gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-                    gSideTimers[battler].sleepClause = 0;
                     effect = 1;
                 }
                 break;
@@ -6531,12 +6514,17 @@ bool32 CanSleep(u32 battler)
       || ability == ABILITY_PURIFYING_SALT
       || ability == ABILITY_SINBEARER
       || gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_SAFEGUARD
-      || gSideTimers[GetBattlerSide(battler)].sleepClause >= 1
       || gBattleMons[battler].status1 & STATUS1_ANY
       || IsAbilityOnSide(battler, ABILITY_SWEET_VEIL)
       || IsAbilityStatusProtected(battler)
       || IsBattlerTerrainAffected(battler, STATUS_FIELD_ELECTRIC_TERRAIN | STATUS_FIELD_MISTY_TERRAIN))
         return FALSE;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (GetMonData(&party[i], MON_DATA_STATUS) & (STATUS1_SLEEP))
+            return FALSE;
+    }
 
     return TRUE;
 }
@@ -7157,8 +7145,6 @@ static u8 ItemEffectMoveEnd(u32 battler, u16 holdEffect)
             gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
             BattleScriptPushCursor();
             gBattlescriptCurrInstr = BattleScript_BerryCureSlpRet;
-            gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-            gSideTimers[battler].sleepClause = 0;
 
             effect = ITEM_STATUS_CHANGE;
         }
@@ -7192,8 +7178,6 @@ static u8 ItemEffectMoveEnd(u32 battler, u16 holdEffect)
             {
                 gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                 StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
-                gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-                gSideTimers[battler].sleepClause = 0;
             }
 
             if (gBattleMons[battler].status1 & STATUS1_PARALYSIS)
@@ -7428,8 +7412,6 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
                 {
                     gBattleMons[battler].status1 &= ~STATUS1_SLEEP;
                     gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
-                    gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-                    gSideTimers[battler].sleepClause = 0;
                     BattleScriptExecute(BattleScript_BerryCureSlpEnd2);
                     effect = ITEM_STATUS_CHANGE;
                 }
@@ -7449,8 +7431,6 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
                     {
                         gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                         StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
-                        gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-                        gSideTimers[battler].sleepClause = 0;
                         i++;
                     }
                     if (gBattleMons[battler].status1 & STATUS1_PARALYSIS)
@@ -7743,8 +7723,6 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
                     gBattleMons[battler].status1 &= ~STATUS1_SLEEP;
                     gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                     BattleScriptExecute(BattleScript_BerryCureSlpEnd2);
-                    gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-                    gSideTimers[battler].sleepClause = 0;
                     effect = ITEM_STATUS_CHANGE;
                 }
                 break;
@@ -7769,8 +7747,6 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
                     {
                         gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
                         StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
-                        gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-                        gSideTimers[battler].sleepClause = 0;
                         i++;
                     }
                     if (gBattleMons[battler].status1 & STATUS1_PARALYSIS)
@@ -8151,11 +8127,11 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
                 gBattleMons[battler].status1 = STATUS1_BURN;
                 BattleScriptExecute(BattleScript_FlameOrb);
                 RecordItemEffectBattle(battler, battlerHoldEffect);
-
-                if (TryBattleFormChange(battler, FORM_CHANGE_BATTLE_STATUS))
+/*
+                if (TryBattleFormChange(battler, FORM_CHANGE_STATUS))
             {
                 BattleScriptPushCursorAndCallback(BattleScript_AttackerFormChangeEnd3);
-            }
+            }*/
             }
             break;
         case HOLD_EFFECT_STICKY_BARB:   // Not an orb per se, but similar effect, and needs to NOT activate with pickpocket
@@ -9646,7 +9622,7 @@ static inline u32 CalcAttackStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 m
         if (moveType == TYPE_GRASS && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12((1.0 * (1 + (0.4 * (1 - (gBattleMons[battlerAtk].hp / gBattleMons[battlerAtk].maxHP)))))));
         break;*/
-    #if B_PLUS_MINUS_INTERACTION >= GEN_5
+    
     case ABILITY_PLUS:
         if (IS_MOVE_SPECIAL(move) && IsBattlerAlive(BATTLE_PARTNER(battlerAtk)))
         {
@@ -10218,6 +10194,9 @@ static inline uq4_12_t GetDefenderAbilitiesModifier(u32 move, u32 moveType, u32 
         if (moveType == TYPE_ROCK || moveType == TYPE_GROUND || moveType == TYPE_FIRE)
             return UQ_4_12(0.5);
         break;
+    case ABILITY_BASTION:
+        if (typeEffectivenessModifier > UQ_4_12(2.0))
+            return UQ_4_12(0.5);
     }
     return UQ_4_12(1.0);
 }
@@ -10911,10 +10890,6 @@ u16 GetBattleFormChangeTargetSpecies(u32 battler, u16 method)
             {
                 switch (method)
                 {
-                case FORM_CHANGE_BATTLE_STATUS: 
-                    if (formChanges[i].param1 == gBattleMons[battler].status1)
-                        targetSpecies = formChanges[i].targetSpecies;
-                    break;
                 case FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM:
                 case FORM_CHANGE_BATTLE_PRIMAL_REVERSION:
                 case FORM_CHANGE_BATTLE_ULTRA_BURST:

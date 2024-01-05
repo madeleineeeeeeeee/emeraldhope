@@ -3814,11 +3814,6 @@ static void Cmd_tryfaintmon(void)
         if (gHitMarker & HITMARKER_FAINTED(battler))
         {
             BattleScriptPop();
-            if (gBattleMons[battler].status1 == STATUS1_SLEEP)
-            {
-                gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-                gSideTimers[battler].sleepClause = 0;
-            }
             gBattlescriptCurrInstr = cmd->instr;
         }
         else
@@ -3842,12 +3837,6 @@ static void Cmd_tryfaintmon(void)
          && gBattleMons[battler].hp == 0)
         {
             gHitMarker |= HITMARKER_FAINTED(battler);
-
-            if (gBattleMons[battler].status1 == STATUS1_SLEEP)
-            {
-                gSideStatuses[battler] |= SIDE_STATUS_SLEEP_CLAUSE;
-                gSideTimers[battler].sleepClause = 0;
-            }
 
             BattleScriptPush(cmd->nextInstr);
             gBattlescriptCurrInstr = faintScript;
@@ -5671,8 +5660,6 @@ static void Cmd_moveend(void)
                         gBattlescriptCurrInstr = BattleScript_TargetPRLZHeal;
                         break;
                     case STATUS1_SLEEP:
-                        gSideStatuses[gBattlerTarget] |= SIDE_STATUS_SLEEP_CLAUSE;
-                        gSideTimers[gBattlerTarget].sleepClause = 0;
                         gBattlescriptCurrInstr = BattleScript_TargetWokeUp;
                         break;
                     case STATUS1_BURN:
@@ -8582,8 +8569,6 @@ static void HandleScriptMegaPrimalBurst(u32 caseId, u32 battler, u32 type)
             TryBattleFormChange(battler, FORM_CHANGE_BATTLE_PRIMAL_REVERSION);
         else if (type == HANDLE_TYPE_ULTRA_BURST)
             TryBattleFormChange(battler, FORM_CHANGE_BATTLE_ULTRA_BURST);
-        else
-            TryBattleFormChange(battler, FORM_CHANGE_BATTLE_STATUS);
         PREPARE_SPECIES_BUFFER(gBattleTextBuff1, gBattleMons[battler].species);
 
         BtlController_EmitSetMonData(battler, BUFFER_A, REQUEST_SPECIES_BATTLE, gBitTable[gBattlerPartyIndexes[battler]], sizeof(gBattleMons[battler].species), &gBattleMons[battler].species);
@@ -13354,8 +13339,7 @@ static void Cmd_setsafeguard(void)
     CMD_ARGS(const u8 *failInstr);
     u8 targetSide = BATTLE_OPPOSITE(GetBattlerSide(gBattlerAttacker));
 
-    if (gBattleMoves[gBattlerAttacker] == MOVE_SAFEGUARD)
-    {
+    
         if (gSideStatuses[GetBattlerSide(gBattlerAttacker)] & SIDE_STATUS_SAFEGUARD)
         {
         gMoveResultFlags |= MOVE_RESULT_MISSED;
@@ -13368,7 +13352,8 @@ static void Cmd_setsafeguard(void)
             gSideTimers[GetBattlerSide(gBattlerAttacker)].safeguardBattlerId = gBattlerAttacker;
             gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SET_SAFEGUARD;
         }
-    }
+    
+    /*
     else
     {
         if (gSideTimers[targetSide].sleepClause >= 1)
@@ -13382,7 +13367,7 @@ static void Cmd_setsafeguard(void)
             gSideTimers[targetSide].sleepClause = 1;
             gBattlescriptCurrInstr = BattleScript_MoveEnd;
         }
-    }
+    }*/
 
     gBattlescriptCurrInstr = cmd->nextInstr;
 }
@@ -16134,9 +16119,6 @@ void BS_ItemCureStatus(void)
 
     // Heal Status1 conditions.
     HealStatusConditions(&party[gBattleStruct->itemPartyIndex[gBattlerAttacker]], gBattleStruct->itemPartyIndex[gBattlerAttacker], GetItemStatus1Mask(gLastUsedItem), gBattlerAttacker);
-    
-    gSideStatuses[gBattlerAttacker] |= SIDE_STATUS_SLEEP_CLAUSE;
-    gSideTimers[gBattlerAttacker].sleepClause = 0;
 
     // Heal Status2 conditions if battler is active.
     if (gBattleStruct->itemPartyIndex[gBattlerAttacker] == gBattlerPartyIndexes[gBattlerAttacker])

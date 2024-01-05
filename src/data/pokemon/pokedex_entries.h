@@ -7131,7 +7131,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_ALOMomOLA] =
+    [NATIONAL_DEX_ALOMOMOLA] =
     {
         .categoryName = _("Caring"),
         .height = 12,

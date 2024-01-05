@@ -640,16 +640,16 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseSpeed     = 57,
         .baseSpAttack  = 33,
         .baseSpDefense = 35,
-        .types = { TYPE_FLYING, TYPE_FLYING },
+        .types = { TYPE_NORMAL, TYPE_FLYING},
         .catchRate = 255,
         .expYield = 49,
-        .evYield_Speed = 1,
+        .evYield_Speed     = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_FLYING },
-        .abilities = { ABILITY_KEEN_EYE, ABILITY_UNNERVE, ABILITY_BIG_PECKS },
+        .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_FLYING},
+        .abilities = {ABILITY_PRANKSTER, ABILITY_NONE, ABILITY_BIG_PECKS},
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Rookidee"),
         .cryId = CRY_ROOKIDEE,
@@ -672,12 +672,12 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .frontAnimId = ANIM_H_VIBRATE,
         BACK_PIC(Rookidee, 64, 32),
         .backPicYOffset = 17,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_H_SPRING,
         PALETTES(Rookidee),
         ICON(Rookidee, 0),
         .footprint = gMonFootprint_Rookidee,
         LEARNSETS(Rookidee),
-        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_CORVISQUIRE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_CORVISQUIRE}),
     },
 
     [SPECIES_CORVISQUIRE] =
@@ -688,18 +688,18 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseSpeed     = 77,
         .baseSpAttack  = 43,
         .baseSpDefense = 55,
-        .types = { TYPE_FLYING, TYPE_FLYING },
+        .types = { TYPE_NORMAL, TYPE_FLYING},
         .catchRate = 120,
         .expYield = 128,
-        .evYield_Speed = 2,
+        .evYield_Speed     = 2,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_FLYING },
-        .abilities = { ABILITY_KEEN_EYE, ABILITY_UNNERVE, ABILITY_BIG_PECKS },
+        .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_FLYING},
+        .abilities = {ABILITY_PRANKSTER, ABILITY_NONE, ABILITY_BIG_PECKS},
         .bodyColor = BODY_COLOR_BLUE,
-        .speciesName = _("Corvisquir"),
+        .speciesName = _("Corvsquire"),
         .cryId = CRY_CORVISQUIRE,
         .natDexNum = NATIONAL_DEX_CORVISQUIRE,
         .categoryName = _("Raven"),
@@ -721,7 +721,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .enemyMonElevation = 10,
         BACK_PIC(Corvisquire, 56, 48),
         .backPicYOffset = 9,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_GROW,
         PALETTES(Corvisquire),
         ICON(Corvisquire, 0),
         .footprint = gMonFootprint_Corvisquire,
@@ -730,9 +730,9 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     },
 
 #define CORVIKNIGHT_MISC_INFO                                                       \
-        .baseHP        = 98,                                                        \
-        .baseAttack    = 87,                                                        \
-        .baseDefense   = 105,                                                       \
+        .baseHP        = 90,                                                        \
+        .baseAttack    = 107,                                                        \
+        .baseDefense   = 128,                                                       \
         .baseSpeed     = 67,                                                        \
         .baseSpAttack  = 53,                                                        \
         .baseSpDefense = 85,                                                        \
@@ -745,9 +745,9 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,                                          \
         .growthRate = GROWTH_MEDIUM_SLOW,                                           \
         .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_FLYING },                        \
-        .abilities = { ABILITY_PRESSURE, ABILITY_UNNERVE, ABILITY_MIRROR_ARMOR },   \
+        .abilities = { ABILITY_PRANKSTER, ABILITY_NONE, ABILITY_MIRROR_ARMOR },   \
         .bodyColor = BODY_COLOR_PURPLE,                                             \
-        .speciesName = _("Corviknigh"),                                             \
+        .speciesName = _("Corvknight"),                                             \
         .cryId = CRY_CORVIKNIGHT,                                                   \
         .natDexNum = NATIONAL_DEX_CORVIKNIGHT,                                      \
         .categoryName = _("Raven"),                                                 \
@@ -776,7 +776,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .frontAnimId = ANIM_H_VIBRATE,
         BACK_PIC(Corviknight, 64, 64),
         .backPicYOffset = 3,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_SHAKE_GLOW_RED,
         PALETTES(Corviknight),
         ICON(Corviknight, 0),
     },
@@ -1187,22 +1187,22 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 #if P_FAMILY_WOOLOO
     [SPECIES_WOOLOO] =
     {
-        .baseHP        = 42,
-        .baseAttack    = 40,
-        .baseDefense   = 55,
-        .baseSpeed     = 48,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 45,
-        .types = { TYPE_NORMAL, TYPE_NORMAL },
-        .catchRate = 255,
+        .baseHP        = 80,
+        .baseAttack    = 100,
+        .baseDefense   = 135,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 135,
+        .types = { TYPE_NORMAL, TYPE_NORMAL},
+        .catchRate = 75,
         .expYield = 122,
-        .evYield_Defense = 1,
+        .evYield_Defense   = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_FLUFFY, ABILITY_RUN_AWAY, ABILITY_BULLETPROOF },
+        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_FLUFFY, ABILITY_NONE},
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Wooloo"),
         .cryId = CRY_WOOLOO,
@@ -1222,15 +1222,16 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Wooloo, 40, 40),
         .frontPicYOffset = 12,
         .frontAnimFrames = sAnims_Wooloo,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         BACK_PIC(Wooloo, 56, 32),
         .backPicYOffset = 18,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_SHRINK_GROW,
         PALETTES(Wooloo),
         ICON(Wooloo, 0),
         .footprint = gMonFootprint_Wooloo,
         LEARNSETS(Wooloo),
-        .evolutions = EVOLUTION({EVO_LEVEL, 24, SPECIES_DUBWOOL}),
+        .isMythical = TRUE,
+        //.evolutions = EVOLUTION({EVO_LEVEL, 24, SPECIES_DUBWOOL}),
     },
 
     [SPECIES_DUBWOOL] =
@@ -1412,22 +1413,22 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 #if P_FAMILY_YAMPER
     [SPECIES_YAMPER] =
     {
-        .baseHP        = 59,
-        .baseAttack    = 45,
-        .baseDefense   = 50,
-        .baseSpeed     = 26,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 50,
-        .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
-        .catchRate = 255,
+        .baseHP        = 86,
+        .baseAttack    = 120,
+        .baseDefense   = 66,
+        .baseSpeed     = 122,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 91,
+        .types = { TYPE_ELECTRIC, TYPE_NORMAL},
+        .catchRate = 45,
         .expYield = 54,
-        .evYield_HP = 1,
+        .evYield_HP        = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_FAST,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_BALL_FETCH, ABILITY_NONE, ABILITY_RATTLED },
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_BALL_FETCH, ABILITY_NONE},
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Yamper"),
         .cryId = CRY_YAMPER,
@@ -1447,35 +1448,36 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Yamper, 40, 48),
         .frontPicYOffset = 10,
         .frontAnimFrames = sAnims_Yamper,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         BACK_PIC(Yamper, 48, 48),
         .backPicYOffset = 13,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_H_SPRING_REPEATED,
         PALETTES(Yamper),
         ICON(Yamper, 1),
         .footprint = gMonFootprint_Yamper,
         LEARNSETS(Yamper),
-        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_BOLTUND}),
+        .isMythical = TRUE,
+        //.evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_BOLTUND}),
     },
 
     [SPECIES_BOLTUND] =
     {
-        .baseHP        = 69,
-        .baseAttack    = 90,
-        .baseDefense   = 60,
+        .baseHP        = 80,
+        .baseAttack    = 100,
+        .baseDefense   = 79,
         .baseSpeed     = 121,
         .baseSpAttack  = 90,
         .baseSpDefense = 60,
-        .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
-        .catchRate = 45,
+        .types = { TYPE_ELECTRIC, TYPE_NORMAL},
+        .catchRate = 100,
         .expYield = 172,
-        .evYield_Speed = 2,
+        .evYield_Speed     = 2,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_FAST,
-        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_STRONG_JAW, ABILITY_NONE, ABILITY_COMPETITIVE },
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
+        .abilities = {ABILITY_SCRAPPY, ABILITY_NONE, ABILITY_SIMPLE},
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Boltund"),
         .cryId = CRY_BOLTUND,
@@ -1495,10 +1497,10 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Boltund, 48, 56),
         .frontPicYOffset = 5,
         .frontAnimFrames = sAnims_Boltund,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_V_SPRING,
         BACK_PIC(Boltund, 64, 56),
         .backPicYOffset = 5,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_JOLT_RIGHT,
         PALETTES(Boltund),
         ICON(Boltund, 1),
         .footprint = gMonFootprint_Boltund,
@@ -2260,22 +2262,22 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 #if P_FAMILY_TOXEL
     [SPECIES_TOXEL] =
     {
-        .baseHP        = 40,
+        .baseHP        = 50,
         .baseAttack    = 38,
-        .baseDefense   = 35,
+        .baseDefense   = 45,
         .baseSpeed     = 40,
-        .baseSpAttack  = 54,
-        .baseSpDefense = 35,
-        .types = { TYPE_ELECTRIC, TYPE_POISON },
+        .baseSpAttack  = 64,
+        .baseSpDefense = 65,
+        .types = { TYPE_ELECTRIC, TYPE_POISON},
         .catchRate = 75,
         .expYield = 48,
-        .evYield_SpAttack = 1,
+        .evYield_SpAttack  = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
-        .abilities = { ABILITY_RATTLED, ABILITY_STATIC, ABILITY_KLUTZ },
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED},
+        .abilities = {ABILITY_RATTLED, ABILITY_PRANKSTER, ABILITY_KLUTZ},
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Toxel"),
         .cryId = CRY_TOXEL,
@@ -2295,25 +2297,19 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Toxel, 40, 48),
         .frontPicYOffset = 11,
         .frontAnimFrames = sAnims_Toxel,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         BACK_PIC(Toxel, 48, 56),
         .backPicYOffset = 8,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_V_SHAKE_LOW,
         PALETTES(Toxel),
         ICON(Toxel, 2),
         .footprint = gMonFootprint_Toxel,
         LEARNSETS(Toxel),
-        .evolutions = EVOLUTION({EVO_LEVEL_NATURE_AMPED, 30, SPECIES_TOXTRICITY_AMPED},
-                                {EVO_LEVEL_NATURE_LOW_KEY, 30, SPECIES_TOXTRICITY_LOW_KEY}),
+        .evolutions = EVOLUTION({EVO_MOVE, MOVE_UPROAR, SPECIES_TOXTRICITY_AMPED},
+                                {EVO_MOVE, MOVE_SING, SPECIES_TOXTRICITY_LOW_KEY}),
     },
 
 #define TOXTRICITY_MISC_INFO                                            \
-        .baseHP        = 75,                                            \
-        .baseAttack    = 98,                                            \
-        .baseDefense   = 70,                                            \
-        .baseSpeed     = 75,                                            \
-        .baseSpAttack  = 114,                                           \
-        .baseSpDefense = 70,                                            \
         .types = { TYPE_ELECTRIC, TYPE_POISON },                        \
         .catchRate = 45,                                                \
         .expYield = 176,                                                \
@@ -2333,7 +2329,13 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     [SPECIES_TOXTRICITY_AMPED] =
     {
         TOXTRICITY_MISC_INFO,
-        .abilities = { ABILITY_PUNK_ROCK, ABILITY_PLUS, ABILITY_TECHNICIAN },
+        .baseHP        = 75,
+        .baseAttack    = 100,
+        .baseDefense   = 60,
+        .baseSpeed     = 116,
+        .baseSpAttack  = 119,
+        .baseSpDefense = 100,
+        .abilities = { ABILITY_PUNK_ROCK, ABILITY_PRANKSTER, ABILITY_INSOMNIA },
         .cryId = CRY_TOXTRICITY_AMPED,
         .height = 16,
         .weight = 400,
@@ -2349,10 +2351,10 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(ToxtricityAmped, 48, 64),
         .frontPicYOffset = 1,
         .frontAnimFrames = sAnims_Toxtricity,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_SHAKE_FLASH_YELLOW_FAST,
         BACK_PIC(ToxtricityAmped, 56, 64),
         .backPicYOffset = 0,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_SHAKE_FLASH_YELLOW,
         PALETTES(ToxtricityAmped),
         ICON(ToxtricityAmped, 2),
         .footprint = gMonFootprint_Toxtricity,
@@ -2391,7 +2393,13 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     [SPECIES_TOXTRICITY_LOW_KEY] =
     {
         TOXTRICITY_MISC_INFO,
-        .abilities = { ABILITY_PUNK_ROCK, ABILITY_MINUS, ABILITY_TECHNICIAN },
+        .baseHP        = 75,
+        .baseAttack    = 70,
+        .baseDefense   = 85,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 100,
+        .baseSpDefense = 160,
+        .abilities = { ABILITY_PUNK_ROCK, ABILITY_PRANKSTER, ABILITY_INSOMNIA },
         .cryId = CRY_TOXTRICITY_LOW_KEY,
         .height = 16,
         .weight = 400,
@@ -2406,10 +2414,10 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(ToxtricityLowKey, 48, 64),
         .frontPicYOffset = 2,
         .frontAnimFrames = sAnims_Toxtricity,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_SHRINK_GROW,
         BACK_PIC(ToxtricityLowKey, 48, 64),
         .backPicYOffset = 0,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_SHRINK_GROW,
         PALETTES(ToxtricityLowKey),
         ICON(ToxtricityLowKey, 2),
         .footprint = gMonFootprint_Toxtricity,
@@ -2450,20 +2458,20 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     {
         .baseHP        = 50,
         .baseAttack    = 65,
-        .baseDefense   = 45,
-        .baseSpeed     = 45,
+        .baseDefense   = 55,
+        .baseSpeed     = 55,
         .baseSpAttack  = 50,
-        .baseSpDefense = 50,
-        .types = { TYPE_FIRE, TYPE_BUG },
+        .baseSpDefense = 60,
+        .types = { TYPE_FIRE, TYPE_BUG},
         .catchRate = 190,
         .expYield = 61,
-        .evYield_Attack = 1,
+        .evYield_Attack    = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_FLASH_FIRE, ABILITY_WHITE_SMOKE, ABILITY_FLAME_BODY },
+        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG},
+        .abilities = {ABILITY_FLASH_FIRE, ABILITY_SAND_RUSH, ABILITY_GALVANIZE},
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Sizzlipede"),
         .cryId = CRY_SIZZLIPEDE,
@@ -2485,7 +2493,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .frontAnimId = ANIM_H_VIBRATE,
         BACK_PIC(Sizzlipede, 40, 32),
         .backPicYOffset = 16,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_SHAKE_GLOW_RED,
         PALETTES(Sizzlipede),
         ICON(Sizzlipede, 0),
         .footprint = gMonFootprint_Sizzlipede,
@@ -2494,12 +2502,12 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     },
 
 #define CENTISKORCH_MISC_INFO                                                           \
-        .baseHP        = 100,                                                           \
-        .baseAttack    = 115,                                                           \
-        .baseDefense   = 65,                                                            \
-        .baseSpeed     = 65,                                                            \
-        .baseSpAttack  = 90,                                                            \
-        .baseSpDefense = 90,                                                            \
+        .baseHP        = 80,                                                           \
+        .baseAttack    = 117,                                                           \
+        .baseDefense   = 80,                                                            \
+        .baseSpeed     = 93,                                                            \
+        .baseSpAttack  = 63,                                                            \
+        .baseSpDefense = 97,                                                            \
         .types = { TYPE_FIRE, TYPE_BUG },                                               \
         .catchRate = 75,                                                                \
         .expYield = 184,                                                                \
@@ -2509,9 +2517,9 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,                                              \
         .growthRate = GROWTH_MEDIUM_FAST,                                               \
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },                                  \
-        .abilities = { ABILITY_FLASH_FIRE, ABILITY_WHITE_SMOKE, ABILITY_FLAME_BODY },   \
+        .abilities = { ABILITY_FLASH_FIRE, ABILITY_SAND_RUSH, ABILITY_GALVANIZE },   \
         .bodyColor = BODY_COLOR_RED,                                                    \
-        .speciesName = _("Centiskorc"),                                                 \
+        .speciesName = _("Centskorch"),                                                 \
         .cryId = CRY_CENTISKORCH,                                                       \
         .natDexNum = NATIONAL_DEX_CENTISKORCH,                                          \
         .categoryName = _("Radiator"),                                                  \
@@ -2537,10 +2545,10 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Centiskorch, 64, 56),
         .frontPicYOffset = 7,
         .frontAnimFrames = sAnims_Centiskorch,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_SHAKE_GLOW_RED_SLOW,
         BACK_PIC(Centiskorch, 56, 64),
         .backPicYOffset = 2,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_SHAKE_GLOW_RED,
         PALETTES(Centiskorch),
         ICON(Centiskorch, 0),
     },
@@ -2805,18 +2813,18 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseAttack    = 30,
         .baseDefense   = 45,
         .baseSpeed     = 39,
-        .baseSpAttack  = 56,
-        .baseSpDefense = 53,
-        .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+        .baseSpAttack  = 66,
+        .baseSpDefense = 63,
+        .types = { TYPE_PSYCHIC, TYPE_FAIRY},
         .catchRate = 235,
         .expYield = 53,
-        .evYield_SpAttack = 1,
-        .genderRatio = MON_FEMALE,
+        .evYield_SpAttack  = 1,
+        .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_FAIRY },
-        .abilities = { ABILITY_HEALER, ABILITY_ANTICIPATION, ABILITY_MAGIC_BOUNCE },
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_FAIRY},
+        .abilities = {ABILITY_MAGIC_BOUNCE, ABILITY_SERENE_GRACE, ABILITY_PRANKSTER},
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Hatenna"),
         .cryId = CRY_HATENNA,
@@ -2836,15 +2844,15 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Hatenna, 48, 48),
         .frontPicYOffset = 12,
         .frontAnimFrames = sAnims_Hatenna,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         BACK_PIC(Hatenna, 40, 40),
         .backPicYOffset = 12,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_H_VIBRATE,
         PALETTES(Hatenna),
         ICON(Hatenna, 0),
         .footprint = gMonFootprint_Hatenna,
         LEARNSETS(Hatenna),
-        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_HATTREM}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_HATTREM}),
     },
 
     [SPECIES_HATTREM] =
@@ -2853,18 +2861,18 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseAttack    = 40,
         .baseDefense   = 65,
         .baseSpeed     = 49,
-        .baseSpAttack  = 86,
-        .baseSpDefense = 73,
-        .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+        .baseSpAttack  = 96,
+        .baseSpDefense = 83,
+        .types = { TYPE_PSYCHIC, TYPE_FAIRY},
         .catchRate = 120,
         .expYield = 130,
-        .evYield_SpAttack = 2,
-        .genderRatio = MON_FEMALE,
+        .evYield_SpAttack  = 2,
+        .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_FAIRY },
-        .abilities = { ABILITY_HEALER, ABILITY_ANTICIPATION, ABILITY_MAGIC_BOUNCE },
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_FAIRY},
+        .abilities = {ABILITY_MAGIC_BOUNCE, ABILITY_SERENE_GRACE, ABILITY_PRANKSTER},
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Hattrem"),
         .cryId = CRY_HATTREM,
@@ -2883,34 +2891,34 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Hattrem, 56, 48),
         .frontPicYOffset = 8,
         .frontAnimFrames = sAnims_Hattrem,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_FLICKER,
         BACK_PIC(Hattrem, 56, 48),
         .backPicYOffset = 8,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
         PALETTES(Hattrem),
         ICON(Hattrem, 0),
         .footprint = gMonFootprint_Hattrem,
         LEARNSETS(Hattrem),
-        .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_HATTERENE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 45, SPECIES_HATTERENE}),
     },
 
 #define HATTERENE_MISC_INFO                                                             \
-        .baseHP        = 57,                                                            \
+        .baseHP        = 71,                                                            \
         .baseAttack    = 90,                                                            \
-        .baseDefense   = 95,                                                            \
+        .baseDefense   = 90,                                                            \
         .baseSpeed     = 29,                                                            \
-        .baseSpAttack  = 136,                                                           \
-        .baseSpDefense = 103,                                                           \
+        .baseSpAttack  = 130,                                                           \
+        .baseSpDefense = 120,                                                           \
         .types = { TYPE_PSYCHIC, TYPE_FAIRY },                                          \
         .catchRate = 45,                                                                \
         .expYield = 255,                                                                \
         .evYield_SpAttack = 3,                                                          \
-        .genderRatio = MON_FEMALE,                                                      \
+        .genderRatio = PERCENT_FEMALE(50),                                                      \
         .eggCycles = 20,                                                                \
         .friendship = STANDARD_FRIENDSHIP,                                              \
         .growthRate = GROWTH_SLOW,                                                      \
         .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_FAIRY },                              \
-        .abilities = { ABILITY_HEALER, ABILITY_ANTICIPATION, ABILITY_MAGIC_BOUNCE },    \
+        .abilities = { ABILITY_MAGIC_BOUNCE, ABILITY_SERENE_GRACE, ABILITY_PRANKSTER },    \
         .bodyColor = BODY_COLOR_PINK,                                                   \
         .speciesName = _("Hatterene"),                                                  \
         .cryId = CRY_HATTERENE,                                                         \
@@ -2937,10 +2945,10 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Hatterene, 48, 64),
         .frontPicYOffset = 0,
         .frontAnimFrames = sAnims_Hatterene,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_SHAKE_GLOW_PURPLE_SLOW,
         BACK_PIC(Hatterene, 56, 64),
         .backPicYOffset = 3,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_GROW_STUTTER,
         PALETTES(Hatterene),
         ICON(Hatterene, 0),
     },
@@ -2977,22 +2985,22 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 #if P_FAMILY_IMPIDIMP
     [SPECIES_IMPIDIMP] =
     {
-        .baseHP        = 45,
-        .baseAttack    = 45,
-        .baseDefense   = 30,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 55,
-        .baseSpDefense = 40,
-        .types = { TYPE_DARK, TYPE_FAIRY },
+        .baseHP        = 55,
+        .baseAttack    = 75,
+        .baseDefense   = 50,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 45,
+        .baseSpDefense = 70,
+        .types = { TYPE_DARK, TYPE_FAIRY},
         .catchRate = 255,
         .expYield = 53,
-        .evYield_SpAttack = 1,
-        .genderRatio = MON_MALE,
+        .evYield_SpAttack  = 1,
+        .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_PRANKSTER, ABILITY_FRISK, ABILITY_PICKPOCKET },
+        .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE},
+        .abilities = {ABILITY_NASTY_TRICKS, ABILITY_LONG_REACH, ABILITY_POISON_TOUCH},
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Impidimp"),
         .cryId = CRY_IMPIDIMP,
@@ -3012,7 +3020,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Impidimp, 48, 40),
         .frontPicYOffset = 12,
         .frontAnimFrames = sAnims_Impidimp,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         BACK_PIC(Impidimp, 48, 40),
         .backPicYOffset = 13,
         //.backAnimId = BACK_ANIM_NONE,
@@ -3020,27 +3028,27 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         ICON(Impidimp, 0),
         .footprint = gMonFootprint_Impidimp,
         LEARNSETS(Impidimp),
-        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_MORGREM}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_MORGREM}),
     },
 
     [SPECIES_MORGREM] =
     {
-        .baseHP        = 65,
-        .baseAttack    = 60,
-        .baseDefense   = 45,
-        .baseSpeed     = 70,
-        .baseSpAttack  = 75,
-        .baseSpDefense = 55,
-        .types = { TYPE_DARK, TYPE_FAIRY },
+        .baseHP        = 75,
+        .baseAttack    = 117,
+        .baseDefense   = 75,
+        .baseSpeed     = 118,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 95,
+        .types = { TYPE_DARK, TYPE_FAIRY},
         .catchRate = 120,
         .expYield = 130,
-        .evYield_SpAttack = 2,
-        .genderRatio = MON_MALE,
+        .evYield_SpAttack  = 2,
+        .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_PRANKSTER, ABILITY_FRISK, ABILITY_PICKPOCKET },
+        .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE},
+        .abilities = {ABILITY_NASTY_TRICKS, ABILITY_LONG_REACH, ABILITY_POISON_TOUCH},
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Morgrem"),
         .cryId = CRY_MORGREM,
@@ -3060,15 +3068,15 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Morgrem, 48, 56),
         .frontPicYOffset = 6,
         .frontAnimFrames = sAnims_Morgrem,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_SHAKE_GLOW_BLACK_SLOW,
         BACK_PIC(Morgrem, 56, 48),
         .backPicYOffset = 11,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_H_VIBRATE,
         PALETTES(Morgrem),
         ICON(Morgrem, 0),
         .footprint = gMonFootprint_Morgrem,
         LEARNSETS(Morgrem),
-        .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_GRIMMSNARL}),
+        //.evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_GRIMMSNARL}),
     },
 
 #define GRIMMSNARL_MISC_INFO                                                    \
@@ -3457,23 +3465,23 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 #if P_FAMILY_SNOM
     [SPECIES_SNOM] =
     {
-        .baseHP        = 30,
-        .baseAttack    = 25,
-        .baseDefense   = 35,
+        .baseHP        = 40,
+        .baseAttack    = 35,
+        .baseDefense   = 55,
         .baseSpeed     = 20,
         .baseSpAttack  = 45,
-        .baseSpDefense = 30,
-        .types = { TYPE_ICE, TYPE_BUG },
+        .baseSpDefense = 100,
+        .types = { TYPE_ICE, TYPE_BUG},
         .catchRate = 190,
         .expYield = 37,
-        .evYield_SpAttack = 1,
+        .evYield_SpAttack  = 1,
         .itemRare = ITEM_SNOWBALL,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_SHIELD_DUST, ABILITY_NONE, ABILITY_ICE_SCALES },
+        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG},
+        .abilities = {ABILITY_SHIELD_DUST, ABILITY_NONE, ABILITY_ICE_SCALES},
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Snom"),
         .cryId = CRY_SNOM,
@@ -3493,35 +3501,35 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Snom, 40, 32),
         .frontPicYOffset = 20,
         .frontAnimFrames = sAnims_Snom,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         BACK_PIC(Snom, 48, 32),
         .backPicYOffset = 17,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_DIP_RIGHT_SIDE,
         PALETTES(Snom),
         ICON(Snom, 0),
         .footprint = gMonFootprint_Snom,
         LEARNSETS(Snom),
-        .evolutions = EVOLUTION({EVO_FRIENDSHIP_NIGHT, 0, SPECIES_FROSMOTH}),
+        .evolutions = EVOLUTION({EVO_LEVEL_DUSK, 40, SPECIES_FROSMOTH}),
     },
 
     [SPECIES_FROSMOTH] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 65,
-        .baseDefense   = 60,
-        .baseSpeed     = 65,
-        .baseSpAttack  = 125,
-        .baseSpDefense = 90,
-        .types = { TYPE_ICE, TYPE_BUG },
+        .baseHP        = 67,
+        .baseAttack    = 51,
+        .baseDefense   = 82,
+        .baseSpeed     = 92,
+        .baseSpAttack  = 108,
+        .baseSpDefense = 125,
+        .types = { TYPE_ICE, TYPE_BUG},
         .catchRate = 75,
         .expYield = 166,
-        .evYield_SpAttack = 2,
+        .evYield_SpAttack  = 2,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_SHIELD_DUST, ABILITY_NONE, ABILITY_ICE_SCALES },
+        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG},
+        .abilities = {ABILITY_SHIELD_DUST, ABILITY_NONE, ABILITY_ICE_SCALES},
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Frosmoth"),
         .cryId = CRY_FROSMOTH,
@@ -3541,11 +3549,11 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Frosmoth, 64, 56),
         .frontPicYOffset = 5,
         .frontAnimFrames = sAnims_Frosmoth,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_SHAKE_GLOW_BLUE_SLOW,
         .enemyMonElevation = 7,
         BACK_PIC(Frosmoth, 64, 64),
         .backPicYOffset = 3,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
         PALETTES(Frosmoth),
         ICON(Frosmoth, 0),
         .footprint = gMonFootprint_Frosmoth,
@@ -4251,20 +4259,20 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     {
         .baseHP        = 28,
         .baseAttack    = 60,
-        .baseDefense   = 30,
+        .baseDefense   = 50,
         .baseSpeed     = 82,
-        .baseSpAttack  = 40,
+        .baseSpAttack  = 60,
         .baseSpDefense = 30,
-        .types = { TYPE_DRAGON, TYPE_GHOST },
-        .catchRate = 45,
+        .types = { TYPE_DRAGON, TYPE_GHOST},
+        .catchRate = 100,
         .expYield = 54,
-        .evYield_Speed = 1,
+        .evYield_Speed     = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 40,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON },
-        .abilities = { ABILITY_CLEAR_BODY, ABILITY_INFILTRATOR, ABILITY_CURSED_BODY },
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON},
+        .abilities = {ABILITY_CLEAR_BODY, ABILITY_LEVITATE, ABILITY_UNNERVE},
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Dreepy"),
         .cryId = CRY_DREEPY,
@@ -4284,36 +4292,36 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Dreepy, 48, 40),
         .frontPicYOffset = 14,
         .frontAnimFrames = sAnims_Dreepy,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_RISING_WOBBLE,
         .enemyMonElevation = 5,
         BACK_PIC(Dreepy, 56, 40),
         .backPicYOffset = 15,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_H_VIBRATE,
         PALETTES(Dreepy),
         ICON(Dreepy, 0),
         .footprint = gMonFootprint_Dreepy,
         LEARNSETS(Dreepy),
-        .evolutions = EVOLUTION({EVO_LEVEL, 50, SPECIES_DRAKLOAK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_DRAKLOAK}),
     },
 
     [SPECIES_DRAKLOAK] =
     {
-        .baseHP        = 68,
+        .baseHP        = 48,
         .baseAttack    = 80,
-        .baseDefense   = 50,
+        .baseDefense   = 80,
         .baseSpeed     = 102,
-        .baseSpAttack  = 60,
+        .baseSpAttack  = 80,
         .baseSpDefense = 50,
-        .types = { TYPE_DRAGON, TYPE_GHOST },
-        .catchRate = 45,
+        .types = { TYPE_DRAGON, TYPE_GHOST},
+        .catchRate = 100,
         .expYield = 144,
-        .evYield_Speed = 2,
+        .evYield_Speed     = 2,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 40,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON },
-        .abilities = { ABILITY_CLEAR_BODY, ABILITY_INFILTRATOR, ABILITY_CURSED_BODY },
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON},
+        .abilities = {ABILITY_CLEAR_BODY, ABILITY_LEVITATE, ABILITY_UNNERVE},
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Drakloak"),
         .cryId = CRY_DRAKLOAK,
@@ -4332,36 +4340,36 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Drakloak, 64, 56),
         .frontPicYOffset = 7,
         .frontAnimFrames = sAnims_Drakloak,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_FLICKER,
         .enemyMonElevation = 5,
         BACK_PIC(Drakloak, 64, 48),
         .backPicYOffset = 11,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_H_VIBRATE,
         PALETTES(Drakloak),
         ICON(Drakloak, 0),
         .footprint = gMonFootprint_Drakloak,
         LEARNSETS(Drakloak),
-        .evolutions = EVOLUTION({EVO_LEVEL, 60, SPECIES_DRAGAPULT}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_DRAGAPULT}),
     },
 
     [SPECIES_DRAGAPULT] =
     {
-        .baseHP        = 88,
-        .baseAttack    = 120,
-        .baseDefense   = 75,
-        .baseSpeed     = 142,
-        .baseSpAttack  = 100,
+        .baseHP        = 70,
+        .baseAttack    = 102,
+        .baseDefense   = 127,
+        .baseSpeed     = 124,
+        .baseSpAttack  = 102,
         .baseSpDefense = 75,
-        .types = { TYPE_DRAGON, TYPE_GHOST },
+        .types = { TYPE_DRAGON, TYPE_GHOST},
         .catchRate = 45,
         .expYield = 300,
-        .evYield_Speed = 3,
+        .evYield_Speed     = 3,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 40,
         .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON },
-        .abilities = { ABILITY_CLEAR_BODY, ABILITY_INFILTRATOR, ABILITY_CURSED_BODY },
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON},
+        .abilities = {ABILITY_CLEAR_BODY, ABILITY_LEVITATE, ABILITY_UNNERVE},
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Dragapult"),
         .cryId = CRY_DRAGAPULT,
@@ -4381,11 +4389,11 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Dragapult, 64, 64),
         .frontPicYOffset = 2,
         .frontAnimFrames = sAnims_Dragapult,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_FLICKER_INCREASING,
         .enemyMonElevation = 3,
         BACK_PIC(Dragapult, 64, 56),
         .backPicYOffset = 4,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_H_VIBRATE,
         PALETTES(Dragapult),
         ICON(Dragapult, 0),
         .footprint = gMonFootprint_Dragapult,
@@ -4478,14 +4486,14 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 
 #if P_FAMILY_ZAMAZENTA
 #define ZAMAZENTA_MISC_INFO                                                             \
-        .catchRate = 10,                                                                \
+        .catchRate = 25,                                                                \
         .evYield_Speed = 3,                                                             \
         .genderRatio = MON_GENDERLESS,                                                  \
         .eggCycles = 120,                                                               \
         .friendship = 0,                                                                \
         .growthRate = GROWTH_SLOW,                                                      \
         .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },    \
-        .abilities = { ABILITY_DAUNTLESS_SHIELD, ABILITY_NONE },                        \
+        .abilities = { ABILITY_STEELY_SPIRIT, ABILITY_NONE },                        \
         .bodyColor = BODY_COLOR_RED,                                                    \
         .isLegendary = TRUE,                                                            \
         .speciesName = _("Zamazenta"),                                                  \
@@ -4504,12 +4512,12 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     [SPECIES_ZAMAZENTA_HERO_OF_MANY_BATTLES] =
     {
         ZAMAZENTA_MISC_INFO,
-        .baseHP        = 92,
-        .baseAttack    = P_UPDATED_STATS >= GEN_9 ? 120 : 130,
+        .baseHP        = 100,
+        .baseAttack    = 130,
         .baseDefense   = 115,
-        .baseSpeed     = 138,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 115,
+        .baseSpeed     = 114,
+        .baseSpAttack  = 81,
+        .baseSpDefense = 90,
         .types = { TYPE_FIGHTING, TYPE_FIGHTING },
         .expYield = 335,
         .cryId = CRY_ZAMAZENTA_HERO_OF_MANY_BATTLES,
@@ -4522,10 +4530,10 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(ZamazentaHeroOfManyBattles, 64, 64),
         .frontPicYOffset = 0,
         .frontAnimFrames = sAnims_Zamazenta,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_JOLT_RIGHT_FAST,
         BACK_PIC(ZamazentaHeroOfManyBattles, 64, 56),
         .backPicYOffset = 5,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_JOLT_RIGHT,
         PALETTES(ZamazentaHeroOfManyBattles),
         ICON(ZamazentaHeroOfManyBattles, 2),
     },
@@ -4563,19 +4571,19 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 #if P_FAMILY_ETERNATUS
 #define ETERNATUS_MISC_INFO                                                             \
         .types = { TYPE_POISON, TYPE_DRAGON },                                          \
-        .catchRate = 255,                                                               \
+        .catchRate = 25,                                                               \
         .evYield_HP = 3,                                                                \
         .genderRatio = MON_GENDERLESS,                                                  \
         .eggCycles = 120,                                                               \
         .friendship = 0,                                                                \
         .growthRate = GROWTH_SLOW,                                                      \
         .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },    \
-        .abilities = { ABILITY_PRESSURE, ABILITY_NONE },                                \
+        .abilities = { ABILITY_LEVITATE, ABILITY_NONE },                                \
         .bodyColor = BODY_COLOR_PURPLE,                                                 \
         .isLegendary = TRUE,                                                            \
         .speciesName = _("Eternatus"),                                                  \
         .natDexNum = NATIONAL_DEX_ETERNATUS,                                            \
-        .categoryName = _("Gigantic"),                                                  \
+        .categoryName = _("Inevitable"),                                                  \
         .footprint = gMonFootprint_Eternatus,                                           \
         LEARNSETS(Eternatus),                                                           \
         .formSpeciesIdTable = sEternatusFormSpeciesIdTable
@@ -4583,12 +4591,12 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     [SPECIES_ETERNATUS] =
     {
         ETERNATUS_MISC_INFO,
-        .baseHP        = 140,
+        .baseHP        = 110,
         .baseAttack    = 85,
-        .baseDefense   = 95,
-        .baseSpeed     = 130,
-        .baseSpAttack  = 145,
-        .baseSpDefense = 95,
+        .baseDefense   = 85,
+        .baseSpeed     = 95,
+        .baseSpAttack  = 135,
+        .baseSpDefense = 120,
         .expYield = 345,
         .cryId = CRY_ETERNATUS,
         .height = 200,
@@ -4605,11 +4613,11 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Eternatus, 64, 64),
         .frontPicYOffset = 1,
         .frontAnimFrames = sAnims_Eternatus,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimId = ANIM_SHAKE_GLOW_PURPLE_SLOW,
         .enemyMonElevation = 4,
         BACK_PIC(Eternatus, 64, 64),
         .backPicYOffset = 2,
-        //.backAnimId = BACK_ANIM_NONE,
+        .backAnimId = BACK_ANIM_GROW_STUTTER,
         PALETTES(Eternatus),
         ICON(Eternatus, 0),
     },

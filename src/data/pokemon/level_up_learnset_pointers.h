@@ -602,7 +602,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_AMOONGUSS] = sAmoongussLevelUpLearnset,
     [SPECIES_FRILLISH] = sFrillishLevelUpLearnset,
     [SPECIES_JELLICENT] = sJellicentLevelUpLearnset,
-    [SPECIES_ALOMomOLA] = sAlomomolaLevelUpLearnset,
+    [SPECIES_ALOMOMOLA] = sAlomomolaLevelUpLearnset,
     [SPECIES_JOLTIK] = sJoltikLevelUpLearnset,
     [SPECIES_GALVANTULA] = sGalvantulaLevelUpLearnset,
     [SPECIES_FERROSEED] = sFerroseedLevelUpLearnset,
@@ -1333,7 +1333,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     // Urshifu
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = sUrshifuRapidStrikeStyleLevelUpLearnset,
     // Zarude
-    [SPECIES_ZARUDE_DadA] = sZarudeLevelUpLearnset,
+    [SPECIES_ZARUDE_DADA] = sZarudeLevelUpLearnset,
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexIceRiderLevelUpLearnset,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexShadowRiderLevelUpLearnset,

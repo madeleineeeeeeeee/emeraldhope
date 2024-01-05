@@ -5773,13 +5773,16 @@ static const union AnimCmd sAnim_Chatot_1[] =
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
 };
+
+#endif //P_FAMILY_CHATOT
+
 static const union AnimCmd sAnim_Spiritomb_1[] =
 {
     ANIMCMD_FRAME(1, 20),
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
-#endif //P_FAMILY_CHATOT
+
 
 #if P_FAMILY_GIBLE
 static const union AnimCmd sAnim_Gible_1[] =

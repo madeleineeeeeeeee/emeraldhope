@@ -602,7 +602,7 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_AMOONGUSS] = sAmoongussTeachableLearnset,
     [SPECIES_FRILLISH] = sFrillishTeachableLearnset,
     [SPECIES_JELLICENT] = sJellicentTeachableLearnset,
-    [SPECIES_ALOMomOLA] = sAlomomolaTeachableLearnset,
+    [SPECIES_ALOMOMOLA] = sAlomomolaTeachableLearnset,
     [SPECIES_JOLTIK] = sJoltikTeachableLearnset,
     [SPECIES_GALVANTULA] = sGalvantulaTeachableLearnset,
     [SPECIES_FERROSEED] = sFerroseedTeachableLearnset,
@@ -1333,7 +1333,7 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     // Urshifu
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = sUrshifuRapidStrikeStyleTeachableLearnset,
     // Zarude
-    [SPECIES_ZARUDE_DadA] = sZarudeTeachableLearnset,
+    [SPECIES_ZARUDE_DADA] = sZarudeTeachableLearnset,
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexIceRiderTeachableLearnset,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexShadowRiderTeachableLearnset,

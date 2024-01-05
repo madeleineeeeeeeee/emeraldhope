@@ -585,7 +585,7 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     // Urshifu
     [SPECIES_URSHIFU_RAPID_STRIKE_STYLE] = sUrshifuFormSpeciesIdTable,
     // Zarude
-    [SPECIES_ZARUDE_DadA] = sZarudeFormSpeciesIdTable,
+    [SPECIES_ZARUDE_DADA] = sZarudeFormSpeciesIdTable,
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexFormSpeciesIdTable,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexFormSpeciesIdTable,

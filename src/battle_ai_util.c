@@ -297,6 +297,7 @@ static const s8 sAiAbilityRatings[ABILITIES_COUNT] =
     [ABILITY_PERISH_BODY] = -1,
     [ABILITY_WANDERING_SPIRIT] = 2,
     [ABILITY_GORILLA_TACTICS] = 4,
+    [ABILITY_BASTION] = 7,
 };
 
 static const u16 sEncouragedEncoreEffects[] =
@@ -981,11 +982,11 @@ static bool32 AI_IsMoveEffectInMinus(u32 battlerAtk, u32 battlerDef, u32 move, s
     case EFFECT_MIND_BLOWN:
     case EFFECT_STEEL_BEAM:
         return TRUE;
-    case EFFECT_RECOIL_25:
+    case EFFECT_RECOIL_20:
     case EFFECT_RECOIL_IF_MISS:
-    case EFFECT_RECOIL_50:
     case EFFECT_RECOIL_33:
-    case EFFECT_RECOIL_33_STATUS:
+    case EFFECT_RECOIL_25:
+    case EFFECT_RECOIL_25_STATUS:
         if (AI_IsDamagedByRecoil(battlerAtk))
             return TRUE;
         break;
@@ -2775,7 +2776,6 @@ bool32 AI_CanSleep(u32 battler, u32 ability)
       || ability == ABILITY_INFERNAL
       || gBattleMons[battler].status1 & STATUS1_ANY
       || gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_SAFEGUARD
-      || gSideTimers[GetBattlerSide(battler)].sleepClause >= 1
       || (gFieldStatuses & (STATUS_FIELD_MISTY_TERRAIN | STATUS_FIELD_ELECTRIC_TERRAIN))
       || IsAbilityStatusProtected(battler))
         return FALSE;
@@ -2796,7 +2796,7 @@ bool32 AI_CanPutToSleep(u32 battlerAtk, u32 battlerDef, u32 defAbility, u32 move
 
     for (i = 0; i < PARTY_SIZE; i++)
     {
-        if ((GetMonData(&party[i], MON_DATA_STATUS) == STATUS1_SLEEP)) //sleep clause
+        if (GetMonData(&party[i], MON_DATA_STATUS) & (STATUS1_SLEEP))
             return FALSE;
     }
     

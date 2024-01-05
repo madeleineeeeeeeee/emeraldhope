@@ -222,7 +222,7 @@ static u8 ChooseWildMonIndex_Land(void)
     return wildMonIndex;
 }
 
-// ROCK_WILD_COUNT / Water_WILD_COUNT
+// ROCK_WILD_COUNT / WATER_WILD_COUNT
 static u8 ChooseWildMonIndex_WaterRock(void)
 {
     u8 wildMonIndex = 0;
@@ -1069,7 +1069,7 @@ static u8 GetMaxLevelOfSpeciesInWildTable(const struct WildPokemon *wildMon, u16
         numMon = LAND_WILD_COUNT;
         break;
     case WILD_AREA_WATER:
-        numMon = Water_WILD_COUNT;
+        numMon = WATER_WILD_COUNT;
         break;
     case WILD_AREA_ROCKS:
         numMon = ROCK_WILD_COUNT;

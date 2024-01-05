@@ -2483,17 +2483,6 @@ const struct SpriteTemplate gTeapotSpriteTemplate =
         .callback = AnimMetronomeFinger,
 };
 
-const struct SpriteTemplate gArrowProjectileSpriteTemplate =
-{
-        .tileTag = ANIM_TAG_ARROW_PROJECTILE,
-        .paletteTag = ANIM_TAG_ARROW_PROJECTILE,
-        .oam = &gOamData_AffineDouble_ObjNormal_32x32,
-        .anims = gDummySpriteAnimTable,
-        .images = NULL,
-        .affineAnims = gTeaAffineAnimTable,
-        .callback = AnimAirCutterSlice,
-};
-
 const union AnimCmd gTauntFingerAnimCmds1[] =
 {
     ANIMCMD_FRAME(0, 1),

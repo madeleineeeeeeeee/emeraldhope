@@ -245,7 +245,6 @@ struct SideTimer
     u8 rainbowTimer;
     u8 seaOfFireTimer;
     u8 swampTimer;
-    u8 sleepClause;
 };
 
 struct FieldTimer

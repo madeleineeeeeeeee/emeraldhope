@@ -58,7 +58,6 @@ void HealPlayerParty(void)
         arg[2] = 0;
         arg[3] = 0;
         SetMonData(&gPlayerParty[i], MON_DATA_STATUS, arg);
-        gSideTimers[gBattlerAttacker].sleepClause = 0;
     }
 }
 
