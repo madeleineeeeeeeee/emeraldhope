@@ -8454,7 +8454,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .frontAnimFrames = sAnims_Rhyhorn,
         .frontAnimId = ANIM_V_SHAKE,
         BACK_PIC(Rhyhorn, 64, 48),
-        BACK_PIC_FEMALE(Rhyhorn, 64, 48),
+        //BACK_PIC_FEMALE(Rhyhorn, 64, 48),
         .backPicYOffset = 11,
         .backAnimId = BACK_ANIM_V_SHAKE_LOW,
         PALETTES(Rhyhorn),

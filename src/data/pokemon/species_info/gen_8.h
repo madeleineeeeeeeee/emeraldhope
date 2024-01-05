@@ -1497,7 +1497,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         FRONT_PIC(Boltund, 48, 56),
         .frontPicYOffset = 5,
         .frontAnimFrames = sAnims_Boltund,
-        .frontAnimId = ANIM_V_SPRING,
+        .frontAnimId = ANIM_TIP_MOVE_FORWARD,
         BACK_PIC(Boltund, 64, 56),
         .backPicYOffset = 5,
         .backAnimId = BACK_ANIM_JOLT_RIGHT,
